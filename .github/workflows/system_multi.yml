@@ -1,0 +1,130 @@
+name: Multi-Timeframe Analysis
+
+on:
+  schedule:
+    # 6h analysis: Every 6 hours + 1 minute offset
+    - cron: '1 */6 * * *'
+    # 8h analysis: Every 8 hours + 1 minute offset  
+    - cron: '1 */8 * * *'
+    # 12h analysis: Every 12 hours + 1 minute offset
+    - cron: '1 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      timeframe:
+        description: 'Timeframe to analyze'
+        required: true
+        default: '6h'
+        type: choice
+        options:
+        - '6h'
+        - '8h'
+        - '12h'
+
+jobs:
+  analysis_6h:
+    if: github.event.schedule == '1 */6 * * *' || github.event.inputs.timeframe == '6h'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run 6h Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_MULTI_CHAT_ID: ${{ secrets.TELEGRAM_MULTI_CHAT_ID }}
+        TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+      run: python src/analyzer_6h.py
+      
+    - name: Commit Cache Updates
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add cache/
+        git commit -m "Update 6h analysis cache [skip ci]" || echo "No changes"
+        git push || echo "Push failed"
+
+  analysis_8h:
+    if: github.event.schedule == '1 */8 * * *' || github.event.inputs.timeframe == '8h'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run 8h Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_MULTI_CHAT_ID: ${{ secrets.TELEGRAM_MULTI_CHAT_ID }}
+        TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+      run: python src/analyzer_8h.py
+      
+    - name: Commit Cache Updates
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add cache/
+        git commit -m "Update 8h analysis cache [skip ci]" || echo "No changes"  
+        git push || echo "Push failed"
+
+  analysis_12h:
+    if: github.event.schedule == '1 */12 * * *' || github.event.inputs.timeframe == '12h'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run 12h Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_MULTI_CHAT_ID: ${{ secrets.TELEGRAM_MULTI_CHAT_ID }}
+        TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+      run: python src/analyzer_12h.py
+      
+    - name: Commit Cache Updates
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add cache/
+        git commit -m "Update 12h analysis cache [skip ci]" || echo "No changes"
+        git push || echo "Push failed"
