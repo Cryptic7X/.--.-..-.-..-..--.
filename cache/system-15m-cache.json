@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-13T13:32:22.781377",
+  "analysis_duration": 72.83624315261841,
+  "total_analyzed": 94,
+  "signals_found": 7,
+  "signals": [
+    {
+      "symbol": "HYPE",
+      "type": "SELL",
+      "cto_score": 94.6969696969697,
+      "price": 56.727689389327395
+    },
+    {
+      "symbol": "WLFI",
+      "type": "SELL",
+      "cto_score": 98.48484848484848,
+      "price": 0.2225356444648538
+    },
+    {
+      "symbol": "PENGU",
+      "type": "SELL",
+      "cto_score": 97.72727272727273,
+      "price": 0.037607947415982924
+    },
+    {
+      "symbol": "FLR",
+      "type": "SELL",
+      "cto_score": 98.86363636363637,
+      "price": 0.023430353768648084
+    },
+    {
+      "symbol": "FARTCOIN",
+      "type": "SELL",
+      "cto_score": 98.1060606060606,
+      "price": 0.9675219077811065
+    },
+    {
+      "symbol": "VIRTUAL",
+      "type": "SELL",
+      "cto_score": 100.0,
+      "price": 1.4038973592120592
+    },
+    {
+      "symbol": "ZEC",
+      "type": "SELL",
+      "cto_score": 99.24242424242425,
+      "price": 50.91733296758974
+    }
+  ],
+  "system": "cipherb-cto-15m",
+  "version": "3.0"
+}
