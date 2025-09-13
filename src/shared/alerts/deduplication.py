@@ -110,128 +110,64 @@ class SignalDeduplicator:
 class MultiTimeframeSuppressionManager:
     """
     Advanced suppression for multi-timeframe system
-    Implements cascading logic: 6h → 8h → 12h
+    Ensures 12h alerts are always allowed, while 6h/8h follow cascade logic.
     """
-    
-    def __init__(self, state_file, cascade_order=['6h', '8h', '12h']):
+    def __init__(self, state_file, cascade_order=['6h','8h','12h']):
         self.state_file = state_file
         self.cascade_order = cascade_order
-        self.suppression_states = self.load_state()
-    
+        self.states = self.load_state()
+
     def load_state(self):
-        """Load suppression state from file"""
         try:
-            if os.path.exists(self.state_file):
-                with open(self.state_file, 'r') as f:
-                    return json.load(f)
+            with open(self.state_file,'r') as f:
+                return json.load(f)
+        except:
             return {}
-        except Exception as e:
-            print(f"⚠️ Error loading suppression state: {e}")
-            return {}
-    
+
     def save_state(self):
-        """Save suppression state to file"""
-        try:
-            os.makedirs(os.path.dirname(self.state_file), exist_ok=True)
-            with open(self.state_file, 'w') as f:
-                json.dump(self.suppression_states, f, indent=2)
-        except Exception as e:
-            print(f"⚠️ Error saving suppression state: {e}")
-    
-    def get_state_key(self, symbol, signal_type):
-        """Generate unique key for suppression state"""
-        return f"{symbol}_{signal_type}"
-    
+        os.makedirs(os.path.dirname(self.state_file),exist_ok=True)
+        with open(self.state_file,'w') as f:
+            json.dump(self.states,f,indent=2)
+
     def should_allow_signal(self, symbol, signal_type, timeframe, timestamp):
         """
-        Determine if signal should be allowed based on complex suppression logic
+        Allow all 12h signals.
+        For 6h and 8h: only allow if they escalate (later in cascade) or no prior alert.
         """
-        if not isinstance(timestamp, datetime):
-            timestamp = datetime.fromisoformat(str(timestamp))
+        key = f"{symbol}_{signal_type}"
+        ts = timestamp.timestamp()
+
+        # Always allow 12h
+        if timeframe == '12h':
+            return {'allowed': True, 'reason': '12h always allowed', 'action':'allow'}
+
+        # Load previous state if any
+        prev = self.states.get(key)
+        if not prev:
+            return {'allowed': True, 'reason': 'no previous alert', 'action':'allow'}
+
+        last_tf = prev['timeframe']
+        last_ts = prev['timestamp']
         
-        state_key = self.get_state_key(symbol, signal_type)
-        current_state = self.suppression_states.get(state_key, None)
-        current_timestamp = timestamp.timestamp()
-        
-        # No previous state - allow signal
-        if not current_state:
-            return {
-                'allowed': True,
-                'reason': 'No previous suppression state',
-                'action': 'allow_initial'
-            }
-        
-        last_timeframe = current_state['timeframe']
-        last_timestamp = current_state['timestamp']
-        
-        # Calculate time since last signal
-        time_diff = current_timestamp - last_timestamp
-        suppression_window = 72 * 3600  # 72 hours in seconds
-        
-        # If suppression window has expired, allow signal
-        if time_diff > suppression_window:
-            return {
-                'allowed': True,
-                'reason': f'Suppression window expired ({time_diff/3600:.1f}h > 72h)',
-                'action': 'allow_expired'
-            }
-        
-        # Get cascade positions
-        try:
-            current_tf_index = self.cascade_order.index(timeframe)
-            last_tf_index = self.cascade_order.index(last_timeframe)
-        except ValueError:
-            # Unknown timeframe, allow by default
-            return {
-                'allowed': True,
-                'reason': 'Unknown timeframe in cascade',
-                'action': 'allow_unknown'
-            }
-        
-        # Same timeframe - suppress if within window
-        if timeframe == last_timeframe:
-            return {
-                'allowed': False,
-                'reason': f'Same timeframe {timeframe} suppressed (within {time_diff/3600:.1f}h)',
-                'action': 'suppress_same_tf'
-            }
-        
-        # Lower timeframe trying to signal after higher timeframe
-        if current_tf_index < last_tf_index:
-            return {
-                'allowed': False,
-                'reason': f'Lower timeframe {timeframe} suppressed by active {last_timeframe}',
-                'action': 'suppress_lower_tf'
-            }
-        
-        # Higher timeframe - allow (this is escalation)
-        if current_tf_index > last_tf_index:
-            return {
-                'allowed': True,
-                'reason': f'Timeframe escalation: {last_timeframe} → {timeframe}',
-                'action': 'allow_escalation'
-            }
-        
-        # Default allow
-        return {
-            'allowed': True,
-            'reason': 'Default allow',
-            'action': 'allow_default'
-        }
-    
+        # If same timeframe (6h or 8h), suppress
+        if timeframe == last_tf:
+            return {'allowed': False, 'reason': f'same timeframe {timeframe} suppressed', 'action':'suppress'}
+
+        # If escalation (6h→8h or 8h→12h), allow
+        idx_now = self.cascade_order.index(timeframe)
+        idx_last = self.cascade_order.index(last_tf)
+        if idx_now > idx_last:
+            return {'allowed': True, 'reason': f'escalation from {last_tf} to {timeframe}', 'action':'allow'}
+
+        # Otherwise (lower timeframe after higher), suppress
+        return {'allowed': False, 'reason': f'lower timeframe {timeframe} suppressed by {last_tf}', 'action':'suppress'}
+
     def record_signal(self, symbol, signal_type, timeframe, timestamp):
-        """Record signal in suppression state"""
-        if not isinstance(timestamp, datetime):
-            timestamp = datetime.fromisoformat(str(timestamp))
-        
-        state_key = self.get_state_key(symbol, signal_type)
-        
-        self.suppression_states[state_key] = {
+        key = f"{symbol}_{signal_type}"
+        self.states[key] = {
             'timeframe': timeframe,
-            'timestamp': timestamp.timestamp(),
-            'recorded_at': datetime.utcnow().timestamp()
+            'timestamp': timestamp.timestamp()
         }
-        
         self.save_state()
         print(f"📝 Recorded {symbol} {signal_type} suppression state: {timeframe}")
         
