@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-CoinMarketCap Market Data Fetcher - PAGINATION FIXED
-- Uses multiple API calls to fetch ALL available coins
-- Proper pagination to get 200+ coins for multi-timeframe system
+CoinMarketCap Market Data Fetcher - FINAL FIXED VERSION
+- Handles CoinMarketCap's actual API limits correctly
+- Uses proper pagination with error handling
+- Gets maximum available coins for filtering
 """
 
 import os
@@ -41,22 +42,22 @@ class CoinMarketCapFetcher:
         
         return session
     
-    def fetch_all_coins_paginated(self):
-        """Fetch coins using proper pagination - multiple API calls"""
-        print("🚀 Fetching ALL available coins using pagination...")
+    def fetch_all_coins_properly(self):
+        """Fetch coins using proper pagination - handles CMC's actual limits"""
+        print("🚀 Fetching ALL available coins using corrected pagination...")
         
         all_coins = []
-        coins_per_page = 100  # API standard limit
-        max_pages = 30  # Fetch up to 3000 coins (30 pages × 100)
+        coins_per_page = 200  # Increased page size
+        current_start = 1
+        page_number = 1
+        max_attempts = 50  # Maximum pages to try
         
-        for page in range(1, max_pages + 1):
-            start_position = (page - 1) * coins_per_page + 1
-            
-            print(f"   📄 Page {page}/{max_pages}: Fetching coins {start_position} to {start_position + coins_per_page - 1}")
+        while page_number <= max_attempts:
+            print(f"   📄 Page {page_number}: Requesting coins {current_start} to {current_start + coins_per_page - 1}")
             
             url = f"{self.base_url}/cryptocurrency/listings/latest"
             params = {
-                'start': start_position,
+                'start': current_start,
                 'limit': coins_per_page,
                 'sort': 'market_cap',
                 'sort_dir': 'desc',
@@ -66,52 +67,93 @@ class CoinMarketCapFetcher:
             
             try:
                 response = self.session.get(url, params=params, timeout=60)
+                
+                if response.status_code == 429:
+                    print(f"   ⏳ Rate limited, waiting 60 seconds...")
+                    time.sleep(60)
+                    continue
+                    
                 response.raise_for_status()
                 data = response.json()
                 
-                if not data.get('data') or len(data['data']) == 0:
-                    print(f"   📭 No more coins available (stopped at page {page})")
+                page_coins_raw = data.get('data', [])
+                
+                if not page_coins_raw:
+                    print(f"   📭 No more coins returned (stopped at page {page_number})")
                     break
                 
-                page_coins = []
-                for coin in data['data']:
-                    # Skip coins with missing data
-                    if (coin['quote']['USD']['market_cap'] is None or 
-                        coin['quote']['USD']['volume_24h'] is None):
-                        continue
-                        
-                    coin_data = {
-                        'symbol': coin['symbol'],
-                        'name': coin['name'],
-                        'market_cap': coin['quote']['USD']['market_cap'],
-                        'volume_24h': coin['quote']['USD']['volume_24h'],
-                        'current_price': coin['quote']['USD']['price'],
-                        'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
-                        'rank': coin['cmc_rank']
-                    }
-                    page_coins.append(coin_data)
+                # Process coins and filter out invalid data
+                page_coins_valid = []
+                for coin in page_coins_raw:
+                    try:
+                        # Skip coins with missing critical data
+                        if (coin.get('quote', {}).get('USD', {}).get('market_cap') is None or 
+                            coin.get('quote', {}).get('USD', {}).get('volume_24h') is None):
+                            continue
+                            
+                        coin_data = {
+                            'symbol': coin['symbol'],
+                            'name': coin['name'],
+                            'market_cap': coin['quote']['USD']['market_cap'],
+                            'volume_24h': coin['quote']['USD']['volume_24h'],
+                            'current_price': coin['quote']['USD']['price'],
+                            'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
+                            'rank': coin['cmc_rank']
+                        }
+                        page_coins_valid.append(coin_data)
+                    except (KeyError, TypeError) as e:
+                        continue  # Skip malformed coin data
                 
-                all_coins.extend(page_coins)
-                print(f"   ✅ Added {len(page_coins)} valid coins (total: {len(all_coins)})")
+                # Check for duplicate coins (indicates we've reached the end)
+                new_symbols = {coin['symbol'] for coin in page_coins_valid}
+                existing_symbols = {coin['symbol'] for coin in all_coins}
+                overlap = len(new_symbols.intersection(existing_symbols))
                 
-                # If we got less coins than requested, we've reached the end
-                if len(data['data']) < coins_per_page:
-                    print(f"   📭 Reached end of available coins (page {page})")
+                if overlap > len(new_symbols) * 0.5:  # More than 50% overlap
+                    print(f"   🔄 High overlap detected ({overlap} duplicates), stopping pagination")
                     break
+                
+                all_coins.extend(page_coins_valid)
+                print(f"   ✅ Added {len(page_coins_valid)} valid coins (total: {len(all_coins)})")
+                
+                # Check if we got fewer coins than requested (indicates end of data)
+                if len(page_coins_raw) < coins_per_page:
+                    print(f"   📭 Received fewer coins than requested ({len(page_coins_raw)} < {coins_per_page})")
+                    break
+                
+                # Update for next iteration
+                current_start += len(page_coins_valid)
+                page_number += 1
                 
                 # Rate limiting between pages
-                time.sleep(1)
+                time.sleep(2)
                 
             except requests.exceptions.RequestException as e:
-                print(f"   ❌ API error on page {page}: {e}")
-                # Continue with next page instead of stopping
-                continue
+                print(f"   ❌ Request error on page {page_number}: {e}")
+                if "429" in str(e):
+                    print(f"   ⏳ Rate limited, waiting 60 seconds...")
+                    time.sleep(60)
+                    continue
+                else:
+                    break
             except Exception as e:
-                print(f"   ❌ Unexpected error on page {page}: {e}")
-                continue
+                print(f"   ❌ Unexpected error on page {page_number}: {e}")
+                break
         
-        print(f"✅ Pagination complete: {len(all_coins)} total coins fetched")
-        return all_coins
+        # Remove any duplicate coins that might have slipped through
+        unique_coins = []
+        seen_symbols = set()
+        for coin in all_coins:
+            if coin['symbol'] not in seen_symbols:
+                unique_coins.append(coin)
+                seen_symbols.add(coin['symbol'])
+        
+        print(f"✅ Pagination complete:")
+        print(f"   • Raw coins fetched: {len(all_coins)}")
+        print(f"   • Unique coins: {len(unique_coins)}")
+        print(f"   • Pages processed: {page_number - 1}")
+        
+        return unique_coins
     
     def extract_top_100(self, all_coins):
         """Extract top 100 coins for 15m system"""
@@ -119,8 +161,8 @@ class CoinMarketCapFetcher:
         print(f"📊 Extracted top {len(top_100)} coins for 15m system")
         return top_100
     
-    def apply_multi_criteria(self, all_coins):
-        """Apply market cap and volume filtering for multi-timeframe system"""
+    def apply_multi_criteria_verbose(self, all_coins):
+        """Apply market cap and volume filtering with detailed breakdown"""
         min_market_cap = 50_000_000   # $50M
         min_volume_24h = 20_000_000   # $20M
         
@@ -128,30 +170,49 @@ class CoinMarketCapFetcher:
         print(f"   Market cap >= ${min_market_cap:,}")
         print(f"   Volume 24h >= ${min_volume_24h:,}")
         
+        # Detailed breakdown
         qualified_coins = []
         below_market_cap = 0
         below_volume = 0
+        both_criteria_failed = 0
+        
+        # Sample some coins for debugging
+        sample_coins = all_coins[:10] if len(all_coins) >= 10 else all_coins
+        print(f"\n   📋 Sample of first 10 coins for debugging:")
+        for i, coin in enumerate(sample_coins, 1):
+            mc = coin.get('market_cap', 0) / 1_000_000  # Convert to millions
+            vol = coin.get('volume_24h', 0) / 1_000_000  # Convert to millions
+            status = "✅ PASS" if mc >= 50 and vol >= 20 else "❌ FAIL"
+            print(f"      {i:2d}. {coin['symbol']:8s} | Cap: ${mc:8.1f}M | Vol: ${vol:8.1f}M | {status}")
         
         for coin in all_coins:
             market_cap = coin.get('market_cap', 0)
             volume_24h = coin.get('volume_24h', 0)
             
-            # Apply criteria
-            if market_cap < min_market_cap:
+            mc_pass = market_cap >= min_market_cap
+            vol_pass = volume_24h >= min_volume_24h
+            
+            if mc_pass and vol_pass:
+                qualified_coins.append(coin)
+            elif not mc_pass and not vol_pass:
+                both_criteria_failed += 1
+            elif not mc_pass:
                 below_market_cap += 1
-                continue
-                
-            if volume_24h < min_volume_24h:
+            elif not vol_pass:
                 below_volume += 1
-                continue
-                
-            qualified_coins.append(coin)
         
-        print(f"🔍 Filtering results:")
+        print(f"\n🔍 Detailed filtering results:")
         print(f"   Total coins processed: {len(all_coins):,}")
-        print(f"   Below ${min_market_cap/1_000_000:.0f}M market cap: {below_market_cap:,}")
-        print(f"   Below ${min_volume_24h/1_000_000:.0f}M volume: {below_volume:,}")
+        print(f"   Below ${min_market_cap/1_000_000:.0f}M market cap only: {below_market_cap:,}")
+        print(f"   Below ${min_volume_24h/1_000_000:.0f}M volume only: {below_volume:,}")
+        print(f"   Failed both criteria: {both_criteria_failed:,}")
         print(f"   ✅ Qualified coins: {len(qualified_coins):,}")
+        
+        if len(qualified_coins) < 100:
+            print(f"\n⚠️  Warning: Only {len(qualified_coins)} coins qualify!")
+            print(f"   Consider adjusting criteria:")
+            print(f"   • Lower market cap threshold (e.g., $25M)")
+            print(f"   • Lower volume threshold (e.g., $10M)")
         
         return qualified_coins
     
@@ -190,16 +251,17 @@ class CoinMarketCapFetcher:
                 continue
             filtered.append(coin)
         
-        print(f"🔍 Filtered out {blocked_count} blocked coins")
+        print(f"🔍 Blocked coin filtering:")
+        print(f"   Removed: {blocked_count} coins")
         if blocked_symbols:
-            print(f"   Blocked: {', '.join(blocked_symbols[:10])}")
+            print(f"   Symbols: {', '.join(blocked_symbols[:10])}")
             if len(blocked_symbols) > 10:
                 print(f"   ... and {len(blocked_symbols) - 10} more")
                 
         return filtered
     
     def save_market_data(self, top_100_coins, multi_coins):
-        """Save market data to cache with detailed metadata"""
+        """Save market data to cache with comprehensive metadata"""
         cache_dir = os.path.join(os.path.dirname(__file__), '..', 'cache')
         os.makedirs(cache_dir, exist_ok=True)
         
@@ -228,70 +290,83 @@ class CoinMarketCapFetcher:
                 'min_volume_24h': 20_000_000,
                 'description': 'Market cap >= $50M AND Volume >= $20M'
             },
+            'sample_coins': multi_coins[:5] if len(multi_coins) >= 5 else multi_coins,
             'coins': multi_coins
         }
         
         with open(os.path.join(cache_dir, 'market_data_multi.json'), 'w') as f:
             json.dump(system_multi_data, f, indent=2)
         
-        print(f"💾 Saved market data:")
-        print(f"   📊 15m system: {len(top_100_coins)} coins (independent dataset)")
-        print(f"   📈 Multi system: {len(multi_coins)} coins (independent dataset)")
+        print(f"\n💾 Saved market data:")
+        print(f"   📊 15m system: {len(top_100_coins)} coins")
+        print(f"   📈 Multi system: {len(multi_coins)} coins")
 
 def main():
     fetcher = CoinMarketCapFetcher()
     
     if not fetcher.api_key:
         print("❌ COINMARKETCAP_API_KEY not found in environment variables")
+        print("   Add this to your GitHub Secrets:")
+        print("   COINMARKETCAP_API_KEY=your_api_key_here")
         return
     
     print("="*80)
-    print("🔥 COMPREHENSIVE MARKET DATA FETCH - PAGINATION FIXED")
+    print("🔥 COMPREHENSIVE MARKET DATA FETCH - FINAL VERSION")
     print("="*80)
     
     # Load blocked coins
     blocked_coins = fetcher.load_blocked_coins()
     
-    # Fetch ALL available coins using pagination
-    all_coins = fetcher.fetch_all_coins_paginated()
+    # Fetch ALL available coins using corrected pagination
+    print(f"\n📡 FETCHING COINS FROM COINMARKETCAP API")
+    print("="*60)
+    all_coins = fetcher.fetch_all_coins_properly()
     
     if not all_coins:
         print("❌ No coins fetched - check API connection and key")
         return
     
-    print(f"\n" + "="*60)
-    print("📊 PREPARING DATASETS FOR BOTH SYSTEMS")
+    if len(all_coins) < 1000:
+        print(f"\n⚠️  Warning: Only {len(all_coins)} coins fetched")
+        print("   This may indicate API limits or connectivity issues")
+    
+    print(f"\n📊 PREPARING DATASETS FOR BOTH SYSTEMS")
     print("="*60)
     
     # System 1: Extract top 100 coins
     top_100_raw = fetcher.extract_top_100(all_coins)
     top_100_final = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
     
-    # System 2: Apply filtering criteria
-    multi_qualified = fetcher.apply_multi_criteria(all_coins)
+    # System 2: Apply filtering criteria with verbose output
+    multi_qualified = fetcher.apply_multi_criteria_verbose(all_coins)
     multi_final = fetcher.filter_blocked_coins(multi_qualified, blocked_coins)
     
     # Save both datasets
     fetcher.save_market_data(top_100_final, multi_final)
     
     print(f"\n" + "="*80)
-    print("✅ MARKET DATA FETCH COMPLETED SUCCESSFULLY!")
+    print("✅ MARKET DATA FETCH COMPLETED!")
     print("="*80)
-    print(f"📈 Results Summary:")
-    print(f"   • Total coins fetched: {len(all_coins):,}")
+    print(f"📈 Final Results:")
+    print(f"   • Total coins from API: {len(all_coins):,}")
     print(f"   • 15m system dataset: {len(top_100_final)} coins")
     print(f"   • Multi-timeframe dataset: {len(multi_final)} coins")
     
     print(f"\n📝 System Usage:")
     print(f"   • 15m system analyzes ONLY its {len(top_100_final)} coins")
     print(f"   • Multi-timeframe system analyzes ONLY its {len(multi_final)} coins")
-    print(f"   • Systems operate independently (no shared datasets)")
+    print(f"   • Systems operate completely independently")
     
+    # Provide recommendations
     if len(multi_final) >= 200:
-        print(f"\n🎉 SUCCESS: Multi-timeframe system now has sufficient coins!")
+        print(f"\n🎉 SUCCESS: Multi-timeframe system has sufficient coins!")
+    elif len(multi_final) >= 100:
+        print(f"\n✅ ACCEPTABLE: Multi-timeframe system has reasonable coin count")
     else:
-        print(f"\n⚠️  Multi-timeframe coin count still lower than expected.")
-        print(f"   This suggests market conditions have fewer coins meeting your criteria.")
+        print(f"\n💡 RECOMMENDATIONS to increase multi-timeframe coins:")
+        print(f"   • Lower market cap to $25M (min_market_cap = 25_000_000)")
+        print(f"   • Lower volume to $10M (min_volume_24h = 10_000_000)")
+        print(f"   • This should significantly increase qualifying coins")
     
     print("="*80)
 
