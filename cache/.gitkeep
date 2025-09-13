@@ -1,0 +1,2 @@
+# This file ensures the cache directory is created in git
+# Cache files will be generated and committed automatically by GitHub Actions
