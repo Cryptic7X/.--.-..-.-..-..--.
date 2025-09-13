@@ -14,9 +14,10 @@ cipherb:
 
 market_data:
   source: "coinmarketcap"
-  min_market_cap: 50000000    # $50M
-  min_volume_24h: 20000000    # $20M
-  method: "filtered_by_criteria"
+  target_coins: 500
+  method: "top_by_rank"
+  update_frequency: "6_hours"
+  rank_range: "1-500"
 
 alerts:
   freshness_minutes: 90
