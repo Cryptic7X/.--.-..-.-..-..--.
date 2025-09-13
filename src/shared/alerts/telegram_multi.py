@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Multi-Timeframe Telegram Alerts - RESTORED to working version
+Multi-Timeframe Telegram Alerts - Fixed TradingView links, removed exchange names
 """
 
 import os
@@ -58,7 +58,7 @@ def send_multi_consolidated_alert(signals, timeframe):
     # Timeframe emojis
     tf_emoji = {'6h': '🕕', '8h': '🕗', '12h': '🕛'}.get(timeframe, '⏰')
     
-    # Build clean message with TradingView links
+    # Build clean message with WORKING TradingView links (NO exchange names)
     message = f"""*📈 MULTI-TIMEFRAME CIPHERB ALERTS*
 
 {tf_emoji} *{timeframe.upper()} Analysis | {len(signals)} Signals*
@@ -66,7 +66,7 @@ def send_multi_consolidated_alert(signals, timeframe):
 
 """
     
-    # Add BUY signals with TradingView links
+    # Add BUY signals with CORRECTED TradingView links
     if buy_signals:
         message += f"*🟢 {timeframe.upper()} BUY SIGNALS:*\n"
         for i, signal in enumerate(buy_signals, 1):
@@ -76,18 +76,17 @@ def send_multi_consolidated_alert(signals, timeframe):
             market_cap_m = signal.get('market_cap', 0) / 1_000_000
             wt1 = signal.get('wt1', 0)
             wt2 = signal.get('wt2', 0)
-            exchange = signal.get('exchange', 'Unknown')
             
-            # Clean TradingView link with correct timeframe
+            # CORRECTED TradingView link with BINANCE: prefix
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={timeframe}"
+            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval={timeframe}"
             
             message += f"""
-{i}. *{symbol}* ({timeframe.upper()}) | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f} | {exchange}
+{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
+   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
    [📈 Chart]({tv_link})"""
     
-    # Add SELL signals with TradingView links
+    # Add SELL signals with CORRECTED TradingView links  
     if sell_signals:
         message += f"\n\n*🔴 {timeframe.upper()} SELL SIGNALS:*\n"
         for i, signal in enumerate(sell_signals, 1):
@@ -97,18 +96,17 @@ def send_multi_consolidated_alert(signals, timeframe):
             market_cap_m = signal.get('market_cap', 0) / 1_000_000
             wt1 = signal.get('wt1', 0)
             wt2 = signal.get('wt2', 0)
-            exchange = signal.get('exchange', 'Unknown')
             
-            # Clean TradingView link with correct timeframe
+            # CORRECTED TradingView link with BINANCE: prefix
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={timeframe}"
+            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval={timeframe}"
             
             message += f"""
-{i}. *{symbol}* ({timeframe.upper()}) | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f} | {exchange}
+{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
+   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
    [📈 Chart]({tv_link})"""
     
-    # Footer
+    # Footer (NO exchange names)
     message += f"""
 
 📊 *{timeframe.upper()} Summary:* {len(signals)} pure CipherB signals
