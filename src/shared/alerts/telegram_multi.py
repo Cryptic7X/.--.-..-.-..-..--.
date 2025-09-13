@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Multi-Timeframe Telegram Alerts - Fixed TradingView links, removed exchange names
+Multi-Timeframe Alerts - RESTORED to your original working format
 """
 
 import os
@@ -11,10 +11,7 @@ def get_ist_time():
     return datetime.utcnow() + timedelta(hours=5, minutes=30)
 
 def send_telegram_message(bot_token, chat_id, message):
-    """Send message with proper error handling and fallback"""
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    
-    # Try with Markdown first
     payload = {
         'chat_id': chat_id,
         'text': message,
@@ -27,17 +24,14 @@ def send_telegram_message(bot_token, chat_id, message):
         response.raise_for_status()
         return True
     except Exception as e:
-        print(f"❌ Markdown failed: {e}")
-        
-        # Fallback to plain text
+        print(f"❌ Alert failed: {e}")
+        # Try without Markdown as fallback
         payload['parse_mode'] = None
         try:
             response = requests.post(url, json=payload, timeout=30)
             response.raise_for_status()
-            print("✅ Sent as plain text")
             return True
-        except Exception as e2:
-            print(f"❌ Plain text also failed: {e2}")
+        except:
             return False
 
 def send_multi_consolidated_alert(signals, timeframe):
@@ -48,72 +42,48 @@ def send_multi_consolidated_alert(signals, timeframe):
     chat_id = os.getenv('TELEGRAM_MULTI_CHAT_ID')
     
     if not bot_token or not chat_id:
-        print("❌ Missing Telegram credentials")
         return False
     
     ist_time = get_ist_time()
     buy_signals = [s for s in signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in signals if s['signal_type'] == 'SELL']
     
-    # Timeframe emojis
-    tf_emoji = {'6h': '🕕', '8h': '🕗', '12h': '🕛'}.get(timeframe, '⏰')
-    
-    # Build clean message with WORKING TradingView links (NO exchange names)
-    message = f"""*📈 MULTI-TIMEFRAME CIPHERB ALERTS*
+    # Simple, working message format (based on your original)
+    message = f"""*📈 {timeframe.upper()} CIPHERB SIGNALS*
 
-{tf_emoji} *{timeframe.upper()} Analysis | {len(signals)} Signals*
-⏰ *{ist_time.strftime('%H:%M:%S IST')}*
+⏰ *{ist_time.strftime('%H:%M:%S IST')} | {len(signals)} Signals*
 
 """
     
-    # Add BUY signals with CORRECTED TradingView links
+    # BUY signals (NO exchange names, simple TradingView links)
     if buy_signals:
-        message += f"*🟢 {timeframe.upper()} BUY SIGNALS:*\n"
+        message += f"*🟢 BUY SIGNALS:*\n"
         for i, signal in enumerate(buy_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
             change_24h = signal['change_24h']
-            market_cap_m = signal.get('market_cap', 0) / 1_000_000
-            wt1 = signal.get('wt1', 0)
-            wt2 = signal.get('wt2', 0)
             
-            # CORRECTED TradingView link with BINANCE: prefix
-            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval={timeframe}"
+            # SIMPLE TradingView link (your original working format)
+            tv_link = f"https://tradingview.com/chart/?symbol={symbol}&interval={timeframe}"
             
-            message += f"""
-{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
-   [📈 Chart]({tv_link})"""
+            message += f"\n{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%"
+            message += f"\n   [📊 Chart]({tv_link})"
     
-    # Add SELL signals with CORRECTED TradingView links  
+    # SELL signals
     if sell_signals:
-        message += f"\n\n*🔴 {timeframe.upper()} SELL SIGNALS:*\n"
+        message += f"\n\n*🔴 SELL SIGNALS:*\n"
         for i, signal in enumerate(sell_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
             change_24h = signal['change_24h']
-            market_cap_m = signal.get('market_cap', 0) / 1_000_000
-            wt1 = signal.get('wt1', 0)
-            wt2 = signal.get('wt2', 0)
             
-            # CORRECTED TradingView link with BINANCE: prefix
-            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval={timeframe}"
+            # SIMPLE TradingView link (your original working format)
+            tv_link = f"https://tradingview.com/chart/?symbol={symbol}&interval={timeframe}"
             
-            message += f"""
-{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
-   [📈 Chart]({tv_link})"""
+            message += f"\n{i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%"
+            message += f"\n   [📊 Chart]({tv_link})"
     
-    # Footer (NO exchange names)
-    message += f"""
-
-📊 *{timeframe.upper()} Summary:* {len(signals)} pure CipherB signals
-• Buy: {len(buy_signals)} | Sell: {len(sell_signals)}
-• System: Multi-Timeframe CipherB v3.0
-
-#Trading #Crypto"""
+    message += f"\n\n📊 *{timeframe.upper()} Summary:* {len(signals)} signals\n• Buy: {len(buy_signals)} | Sell: {len(sell_signals)}"
     
     return send_telegram_message(bot_token, chat_id, message)
 
@@ -124,10 +94,5 @@ def send_admin_alert(subject, error_message):
     if not bot_token or not admin_chat_id:
         return False
     
-    message = f"""*🚨 SYSTEM ALERT: {subject}*
-
-{error_message}
-
-Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"""
-    
+    message = f"*🚨 {subject}*\n\n{error_message}\n\nTime: {datetime.utcnow().strftime('%H:%M UTC')}"
     return send_telegram_message(bot_token, admin_chat_id, message)
