@@ -86,8 +86,10 @@ def send_multi_consolidated_alert(signals, timeframe):
                 price_fmt = f"${price:.3f}"
             
             # CORRECT TradingView link - EXACT from your working system
+            # Inside send_multi_consolidated_alert:
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={timeframe}"
+            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=12h"
+
             
             message += f"""
 {i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%
