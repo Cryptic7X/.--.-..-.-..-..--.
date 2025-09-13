@@ -2,7 +2,7 @@
 """
 CoinMarketCap Market Data Fetcher for Dual Systems
 - System 1: Top 100 coins by rank
-- System 2: Top 500 coins by rank (with proper handling of zero market cap)
+- System 2: Top 500 coins by rank (simplified approach)
 """
 
 import os
@@ -62,22 +62,13 @@ class CoinMarketCapFetcher:
             
             coins = []
             for coin in data['data']:
-                # Handle zero/null market cap properly - keep the coin but set to 0
-                market_cap = coin['quote']['USD'].get('market_cap') 
-                if market_cap is None:
-                    market_cap = 0
-                    
-                volume_24h = coin['quote']['USD'].get('volume_24h')
-                if volume_24h is None:
-                    volume_24h = 0
-                
                 coin_data = {
                     'symbol': coin['symbol'],
                     'name': coin['name'],
-                    'market_cap': market_cap,
-                    'volume_24h': volume_24h,
-                    'current_price': coin['quote']['USD'].get('price', 0),
-                    'price_change_percentage_24h': coin['quote']['USD'].get('percent_change_24h', 0),
+                    'market_cap': coin['quote']['USD']['market_cap'],
+                    'volume_24h': coin['quote']['USD']['volume_24h'],
+                    'current_price': coin['quote']['USD']['price'],
+                    'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
                     'rank': coin['cmc_rank']
                 }
                 coins.append(coin_data)
@@ -90,14 +81,13 @@ class CoinMarketCapFetcher:
             return []
     
     def fetch_top_500_coins(self):
-        """Fetch top 500 coins by rank for multi-timeframe system - PRESERVE ALL COINS"""
+        """Fetch top 500 coins by rank for multi-timeframe system"""
         print("🚀 Fetching top 500 coins by rank for multi-timeframe system...")
         
-        # Fetch more coins to ensure we get exactly 500 after filtering incomplete data
         url = f"{self.base_url}/cryptocurrency/listings/latest"
         params = {
             'start': 1,
-            'limit': 600,  # Fetch extra to account for incomplete data
+            'limit': 500,
             'sort': 'market_cap',
             'sort_dir': 'desc',
             'cryptocurrency_type': 'coins',
@@ -109,44 +99,23 @@ class CoinMarketCapFetcher:
             response.raise_for_status()
             data = response.json()
             
-            all_coins = []
-            zero_market_cap_count = 0
-            
+            coins = []
             for coin in data['data']:
-                # Handle zero/null market cap - but keep ALL coins with valid symbols
-                market_cap = coin['quote']['USD'].get('market_cap')
-                if market_cap is None or market_cap <= 0:
-                    market_cap = 1  # Set minimal positive value to keep coin in results
-                    zero_market_cap_count += 1
-                    
-                volume_24h = coin['quote']['USD'].get('volume_24h')
-                if volume_24h is None or volume_24h <= 0:
-                    volume_24h = 1  # Set minimal positive value
-                
-                # Only exclude coins with completely missing symbol or invalid data
-                if not coin.get('symbol') or not coin.get('name'):
-                    continue
-                
                 coin_data = {
                     'symbol': coin['symbol'],
                     'name': coin['name'],
-                    'market_cap': market_cap,
-                    'volume_24h': volume_24h,
-                    'current_price': coin['quote']['USD'].get('price', 0),
-                    'price_change_percentage_24h': coin['quote']['USD'].get('percent_change_24h', 0),
+                    'market_cap': coin['quote']['USD']['market_cap'],
+                    'volume_24h': coin['quote']['USD']['volume_24h'],
+                    'current_price': coin['quote']['USD']['price'],
+                    'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
                     'rank': coin['cmc_rank']
                 }
-                all_coins.append(coin_data)
+                coins.append(coin_data)
             
-            # Take exactly top 500 by rank (after handling incomplete data)
-            top_500_coins = sorted(all_coins, key=lambda x: x['rank'])[:500]
-            
-            print(f"✅ Fetched {len(all_coins)} total coins")
-            print(f"🔧 Fixed {zero_market_cap_count} coins with zero/null market cap")
-            print(f"📊 Returning top 500 by rank: {len(top_500_coins)} coins")
-            print(f"   Rank range: {top_500_coins[0]['rank']}-{top_500_coins[-1]['rank']}")
-            
-            return top_500_coins
+            print(f"✅ Fetched {len(coins)} top-ranked coins")
+            print(f"   Rank range: 1-500")
+            print(f"   Market cap range: ${coins[-1]['market_cap']:,.0f} - ${coins[0]['market_cap']:,.0f}")
+            return coins
             
         except Exception as e:
             print(f"❌ Error fetching top 500 coins: {e}")
@@ -182,7 +151,6 @@ class CoinMarketCapFetcher:
         for coin in coins:
             if coin['symbol'].upper() in blocked_coins:
                 blocked_count += 1
-                print(f"   🚫 Blocked: {coin['symbol']} (rank {coin['rank']})")
                 continue
             filtered.append(coin)
         
@@ -212,7 +180,7 @@ class CoinMarketCapFetcher:
             'system': 'multi',
             'method': 'top_500_by_rank',
             'total_coins': len(top_500_coins),
-            'rank_range': f"{top_500_coins[0]['rank']}-{top_500_coins[-1]['rank']}" if top_500_coins else "0-0",
+            'rank_range': f"1-{len(top_500_coins)}",
             'coins': top_500_coins
         }
         
@@ -223,36 +191,36 @@ class CoinMarketCapFetcher:
         print(f"   15m system: {len(top_100_coins)} coins (rank 1-100)")
         print(f"   Multi system: {len(top_500_coins)} coins (rank 1-500)")
 
-    def main():
-        fetcher = CoinMarketCapFetcher()
-        
-        if not fetcher.api_key:
-            print("❌ COINMARKETCAP_API_KEY not found in environment variables")
-            return
-        
-        # Load blocked coins
-        blocked_coins = fetcher.load_blocked_coins()
-        
-        # Fetch data for both systems
-        print("📊 Starting market data fetch for both systems...")
-        print("🕐 Update frequency: Every 6 hours")
-        
-        # System 1: Top 100 coins
-        top_100_raw = fetcher.fetch_top_100_coins()
-        top_100_filtered = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
-        
-        # System 2: Top 500 coins by rank
-        top_500_raw = fetcher.fetch_top_500_coins()
-        top_500_filtered = fetcher.filter_blocked_coins(top_500_raw, blocked_coins)
-        
-        # Save to cache
-        fetcher.save_market_data(top_100_filtered, top_500_filtered)
-        
-        print("✅ Market data fetch completed successfully!")
-        print(f"\n📈 Results summary:")
-        print(f"   15m system: ~{len(top_100_filtered)} coins (top 100 minus blocked)")
-        print(f"   Multi system: ~{len(top_500_filtered)} coins (top 500 minus blocked)")
-        print(f"   Next update: 6 hours")
+def main():
+    fetcher = CoinMarketCapFetcher()
+    
+    if not fetcher.api_key:
+        print("❌ COINMARKETCAP_API_KEY not found in environment variables")
+        return
+    
+    # Load blocked coins
+    blocked_coins = fetcher.load_blocked_coins()
+    
+    # Fetch data for both systems
+    print("📊 Starting market data fetch for both systems...")
+    print("🕐 Update frequency: Every 6 hours")
+    
+    # System 1: Top 100 coins
+    top_100_raw = fetcher.fetch_top_100_coins()
+    top_100_filtered = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
+    
+    # System 2: Top 500 coins by rank
+    top_500_raw = fetcher.fetch_top_500_coins()
+    top_500_filtered = fetcher.filter_blocked_coins(top_500_raw, blocked_coins)
+    
+    # Save to cache
+    fetcher.save_market_data(top_100_filtered, top_500_filtered)
+    
+    print("✅ Market data fetch completed successfully!")
+    print(f"\n📈 Results summary:")
+    print(f"   15m system: {len(top_100_filtered)} coins (top 100 minus blocked)")
+    print(f"   Multi system: {len(top_500_filtered)} coins (top 500 minus blocked)")
+    print(f"   Next update: 6 hours")
 
 if __name__ == '__main__':
     main()
