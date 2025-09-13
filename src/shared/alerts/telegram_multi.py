@@ -88,7 +88,7 @@ def send_multi_consolidated_alert(signals, timeframe):
             # CORRECT TradingView link - EXACT from your working system
             # Inside send_multi_consolidated_alert:
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=12h"
+            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval="
 
             
             message += f"""
