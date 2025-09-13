@@ -1,0 +1,61 @@
+name: Enhanced 15-Minute CipherB + CTO Analysis
+
+on:
+  schedule:
+    # Primary schedules (1 min after candle close)
+    - cron: '1,16,31,46 * * * *'   # Primary: :01, :16, :31, :46 UTC
+    # Backup schedules (in case primary fails)
+    - cron: '3,18,33,48 * * * *'   # Backup 1: 2 min delay
+    - cron: '6,21,36,51 * * * *'   # Backup 2: 5 min delay
+  workflow_dispatch:
+
+jobs:
+  cipherb-cto-15m-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run 15-Minute CipherB + CTO Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_15M_CHAT_ID: ${{ secrets.TELEGRAM_15M_CHAT_ID }}
+        TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+        GITHUB_RUN_NUMBER: ${{ github.run_number }}
+      run: python src/system-15m/analyzer_15m_cto.py
+      
+    - name: Commit Analysis Cache
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Commit 15m cache if it exists
+        if [ -f cache/system-15m-cache.json ]; then
+          git add cache/system-15m-cache.json
+        fi
+        
+        # Commit deduplication cache if it exists  
+        if [ -f cache/dedup-15m.json ]; then
+          git add cache/dedup-15m.json
+        fi
+        
+        # Only commit if there are changes
+        if ! git diff --staged --quiet; then
+          git commit -m "Update 15m analysis cache [skip ci]" || echo "No changes to commit"
+          git push || echo "Push failed, will retry next run"
+        fi
