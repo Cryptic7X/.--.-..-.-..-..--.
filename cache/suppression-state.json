@@ -133,5 +133,10 @@
     "timeframe": "8h",
     "timestamp": 1757770200.0,
     "recorded_at": 1757773506.496651
+  },
+  "PENDLE_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757775301.054358
   }
 }
