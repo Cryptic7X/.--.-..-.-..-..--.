@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-15-Minute Telegram Alerts - RESTORED to working version
+15-Minute Telegram Alerts - Fixed TradingView links, removed exchange names
 """
 
 import os
@@ -55,7 +55,7 @@ def send_15m_consolidated_alert(signals):
     buy_signals = [s for s in signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in signals if s['signal_type'] == 'SELL']
     
-    # Build clean message with TradingView links
+    # Build clean message with WORKING TradingView links (NO exchange names)
     message = f"""*🎯 15-MINUTE CIPHERB + CTO ALERTS*
 
 ⏰ *{ist_time.strftime('%H:%M:%S IST')} | {len(signals)} Signals*
@@ -63,7 +63,7 @@ def send_15m_consolidated_alert(signals):
 
 """
     
-    # Add BUY signals with TradingView links
+    # Add BUY signals with CORRECTED TradingView links
     if buy_signals:
         message += "*🟢 BUY SIGNALS:*\n"
         for i, signal in enumerate(buy_signals, 1):
@@ -72,18 +72,17 @@ def send_15m_consolidated_alert(signals):
             change_24h = signal['change_24h']
             cto_score = signal['cto_score']
             market_cap_m = signal.get('market_cap', 0) / 1_000_000
-            exchange = signal.get('exchange', 'Unknown')
             
-            # Clean TradingView link
+            # CORRECTED TradingView link with BINANCE: prefix
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=15"
+            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval=15"
             
             message += f"""
 {i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | CTO: {cto_score:.1f} | {exchange}
+   Cap: ${market_cap_m:.0f}M | CTO: {cto_score:.1f}
    [📈 Chart]({tv_link})"""
     
-    # Add SELL signals with TradingView links
+    # Add SELL signals with CORRECTED TradingView links
     if sell_signals:
         message += f"\n\n*🔴 SELL SIGNALS:*\n"
         for i, signal in enumerate(sell_signals, 1):
@@ -92,18 +91,17 @@ def send_15m_consolidated_alert(signals):
             change_24h = signal['change_24h']
             cto_score = signal['cto_score']
             market_cap_m = signal.get('market_cap', 0) / 1_000_000
-            exchange = signal.get('exchange', 'Unknown')
             
-            # Clean TradingView link
+            # CORRECTED TradingView link with BINANCE: prefix
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=15"
+            tv_link = f"https://www.tradingview.com/chart/?symbol=BINANCE:{clean_symbol}USDT&interval=15"
             
             message += f"""
 {i}. *{symbol}* | ${price:.4f} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | CTO: {cto_score:.1f} | {exchange}
+   Cap: ${market_cap_m:.0f}M | CTO: {cto_score:.1f}
    [📈 Chart]({tv_link})"""
     
-    # Footer
+    # Footer (NO exchange names)
     message += f"""
 
 📊 *Summary:* {len(signals)} confirmed signals
