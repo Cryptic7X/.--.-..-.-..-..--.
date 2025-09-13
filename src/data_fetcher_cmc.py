@@ -124,26 +124,31 @@ class CoinMarketCapFetcher:
             return []
     
     def apply_multi_criteria(self, coins):
-        """Apply market cap and volume filtering for multi-timeframe system"""
-        min_market_cap = 50_000_000   # $50M
-        min_volume_24h = 20_000_000   # $20M
+        min_market_cap = 50_000_000   
+        min_volume_24h = 20_000_000   
         
         filtered_coins = []
+        debug_stats = {'below_market_cap': 0, 'below_volume': 0, 'qualified': 0}
         
         for coin in coins:
             market_cap = coin.get('market_cap') or 0
             volume_24h = coin.get('volume_24h') or 0
             
-            # Apply your criteria
-            if market_cap >= min_market_cap and volume_24h >= min_volume_24h:
+            if market_cap < min_market_cap:
+                debug_stats['below_market_cap'] += 1
+            elif volume_24h < min_volume_24h:
+                debug_stats['below_volume'] += 1
+            else:
+                debug_stats['qualified'] += 1
                 filtered_coins.append(coin)
         
-        print(f"🔍 Applied filtering criteria:")
-        print(f"   Market cap >= ${min_market_cap:,}")
-        print(f"   Volume 24h >= ${min_volume_24h:,}")
-        print(f"   Result: {len(filtered_coins)} coins qualify")
+        print(f"🔍 Filtering breakdown:")
+        print(f"   Below $50M market cap: {debug_stats['below_market_cap']}")
+        print(f"   Below $20M volume: {debug_stats['below_volume']}")
+        print(f"   Qualified: {debug_stats['qualified']}")
         
         return filtered_coins
+
     
     def load_blocked_coins(self):
         """Load blocked coins list"""
