@@ -28,5 +28,105 @@
     "timeframe": "12h",
     "timestamp": 1757755800.0,
     "recorded_at": 1757770551.171798
+  },
+  "ETH_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772462.48485
+  },
+  "TRX_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772466.268313
+  },
+  "LINK_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772466.884458
+  },
+  "TON_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757784600.0,
+    "recorded_at": 1757772489.67415
+  },
+  "UNI_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772490.903756
+  },
+  "AAVE_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772494.250535
+  },
+  "ARB_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772500.356423
+  },
+  "SEI_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772505.399099
+  },
+  "IMX_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772511.593635
+  },
+  "CRV_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772512.823625
+  },
+  "LDO_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772513.474797
+  },
+  "AERO_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772514.106425
+  },
+  "ENS_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772519.130418
+  },
+  "XCN_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772540.420224
+  },
+  "VELO_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772549.114232
+  },
+  "SUSHI_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772550.951717
+  },
+  "ROSE_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757784600.0,
+    "recorded_at": 1757772554.642812
+  },
+  "BOME_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772558.762892
+  },
+  "ORCA_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772561.220757
+  },
+  "HIFI_SELL": {
+    "timeframe": "6h",
+    "timestamp": 1757777400.0,
+    "recorded_at": 1757772576.22854
   }
 }
