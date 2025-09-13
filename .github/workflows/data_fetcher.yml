@@ -1,0 +1,39 @@
+name: Market Data Fetcher
+
+on:
+  schedule:
+    # Every 12 hours: 5:30 AM & 5:30 PM IST = 00:00 & 12:00 UTC
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch_market_data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Fetch Market Data
+      env:
+        COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+      run: python src/data_fetcher_cmc.py
+      
+    - name: Commit Market Data
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add cache/
+        git commit -m "Update market data cache [skip ci]" || echo "No changes"
+        git push || echo "Push failed"
