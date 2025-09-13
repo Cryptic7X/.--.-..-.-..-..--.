@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 """
-CoinMarketCap Data Fetcher for Dual Trading Systems
-- System 1: Top 100 coins by market cap ranking
-- System 2: Filtered coins (Market cap ≥ $50M, Volume ≥ $20M)
-- Respects API rate limits (4 calls/day within 333 limit)
+CoinMarketCap Data Fetcher for Dual Trading Systems - CORRECTED
+Fixed endpoint: /v1/cryptocurrency/listings/latest
 """
 
 import os
 import json
 import time
 import requests
-import yaml
-from datetime import datetime, timedelta
+from datetime import datetime
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -52,12 +49,12 @@ class CoinMarketCapFetcher:
         """
         print("🚀 Fetching top 100 coins for 15-minute system...")
         
-        url = f"{self.base_url}/listings/latest"
+        # CORRECTED ENDPOINT - Added /cryptocurrency/
+        url = f"{self.base_url}/cryptocurrency/listings/latest"
         params = {
             'start': 1,
             'limit': 100,
             'sort': 'market_cap',
-            'cryptocurrency_type': 'coins',
             'convert': 'USD'
         }
         
@@ -82,12 +79,12 @@ class CoinMarketCapFetcher:
         """
         print("🚀 Fetching filtered coins for multi-timeframe system...")
         
-        url = f"{self.base_url}/listings/latest"
+        # CORRECTED ENDPOINT - Added /cryptocurrency/
+        url = f"{self.base_url}/cryptocurrency/listings/latest"
         params = {
             'start': 1,
-            'limit': 1000,  # Get more coins to filter
+            'limit': 1000,
             'sort': 'market_cap',
-            'cryptocurrency_type': 'coins',
             'convert': 'USD'
         }
         
@@ -102,8 +99,9 @@ class CoinMarketCapFetcher:
             filtered_coins = []
             for coin in all_coins:
                 try:
-                    market_cap = coin.get('quote', {}).get('USD', {}).get('market_cap', 0) or 0
-                    volume_24h = coin.get('quote', {}).get('USD', {}).get('volume_24h', 0) or 0
+                    quote_usd = coin.get('quote', {}).get('USD', {})
+                    market_cap = quote_usd.get('market_cap', 0) or 0
+                    volume_24h = quote_usd.get('volume_24h', 0) or 0
                     
                     if market_cap >= 50_000_000 and volume_24h >= 20_000_000:
                         filtered_coins.append(coin)
