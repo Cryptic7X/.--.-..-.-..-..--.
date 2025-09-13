@@ -1,50 +1,20 @@
 {
-  "timestamp": "2025-09-13T13:32:22.781377",
-  "analysis_duration": 72.83624315261841,
+  "timestamp": "2025-09-13T13:39:05.827660",
+  "analysis_duration": 75.80912470817566,
   "total_analyzed": 94,
-  "signals_found": 7,
+  "signals_found": 2,
   "signals": [
     {
-      "symbol": "HYPE",
-      "type": "SELL",
-      "cto_score": 94.6969696969697,
-      "price": 56.727689389327395
-    },
-    {
-      "symbol": "WLFI",
+      "symbol": "KAS",
       "type": "SELL",
       "cto_score": 98.48484848484848,
-      "price": 0.2225356444648538
+      "price": 0.09063307023922265
     },
     {
-      "symbol": "PENGU",
+      "symbol": "SKY",
       "type": "SELL",
-      "cto_score": 97.72727272727273,
-      "price": 0.037607947415982924
-    },
-    {
-      "symbol": "FLR",
-      "type": "SELL",
-      "cto_score": 98.86363636363637,
-      "price": 0.023430353768648084
-    },
-    {
-      "symbol": "FARTCOIN",
-      "type": "SELL",
-      "cto_score": 98.1060606060606,
-      "price": 0.9675219077811065
-    },
-    {
-      "symbol": "VIRTUAL",
-      "type": "SELL",
-      "cto_score": 100.0,
-      "price": 1.4038973592120592
-    },
-    {
-      "symbol": "ZEC",
-      "type": "SELL",
-      "cto_score": 99.24242424242425,
-      "price": 50.91733296758974
+      "cto_score": 96.21212121212122,
+      "price": 0.07617463689792518
     }
   ],
   "system": "cipherb-cto-15m",
