@@ -1,9 +1,22 @@
 {
-  "timestamp": "2025-09-13T14:29:32.840239",
-  "analysis_duration": 69.20225834846497,
+  "timestamp": "2025-09-13T14:36:45.326886",
+  "analysis_duration": 76.23474311828613,
   "total_analyzed": 94,
-  "signals_found": 0,
-  "signals": [],
+  "signals_found": 2,
+  "signals": [
+    {
+      "symbol": "IMX",
+      "type": "BUY",
+      "cto_score": -86.74242424242425,
+      "price": 0.6587485507022862
+    },
+    {
+      "symbol": "RAY",
+      "type": "BUY",
+      "cto_score": -89.39393939393939,
+      "price": 3.613457948054229
+    }
+  ],
   "system": "cipherb-cto-15m",
   "version": "3.0"
 }
