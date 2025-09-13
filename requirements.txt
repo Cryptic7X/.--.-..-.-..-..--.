@@ -1,15 +1,15 @@
 # Enhanced Dual Trading System Dependencies
 # Updated with latest stable versions for GitHub Actions
 
+# Enhanced Dual CipherB Trading Systems 
+# Updated with latest stable versions
 requests>=2.31.0
 pandas>=2.0.0
 numpy>=1.24.0
+TA-Lib>=0.4.28
+python-telegram-bot>=20.7
 PyYAML>=6.0
 ccxt>=4.2.0
-python-dateutil>=2.8.0
+python-dotenv>=1.0.0
 urllib3>=2.0.0
-pytz>=2023.3
-
-# Optional but recommended for enhanced functionality
-# TA-Lib>=0.4.28  # Uncomment if you want additional technical analysis
-# python-telegram-bot>=20.7  # Alternative Telegram library
+python-dateutil>=2.8.0
