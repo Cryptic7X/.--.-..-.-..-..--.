@@ -35,9 +35,9 @@
     "recorded_at": 1757772462.48485
   },
   "TRX_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772466.268313
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773394.8619
   },
   "LINK_SELL": {
     "timeframe": "6h",
@@ -50,9 +50,9 @@
     "recorded_at": 1757772489.67415
   },
   "UNI_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772490.903756
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773422.605514
   },
   "AAVE_SELL": {
     "timeframe": "6h",
@@ -80,19 +80,19 @@
     "recorded_at": 1757772512.823625
   },
   "LDO_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772513.474797
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773447.381817
   },
   "AERO_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772514.106425
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773448.069851
   },
   "ENS_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772519.130418
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773454.048577
   },
   "XCN_SELL": {
     "timeframe": "6h",
@@ -120,13 +120,18 @@
     "recorded_at": 1757772558.762892
   },
   "ORCA_SELL": {
-    "timeframe": "6h",
-    "timestamp": 1757777400.0,
-    "recorded_at": 1757772561.220757
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773500.469713
   },
   "HIFI_SELL": {
     "timeframe": "6h",
     "timestamp": 1757777400.0,
     "recorded_at": 1757772576.22854
+  },
+  "TRB_SELL": {
+    "timeframe": "8h",
+    "timestamp": 1757770200.0,
+    "recorded_at": 1757773506.496651
   }
 }
