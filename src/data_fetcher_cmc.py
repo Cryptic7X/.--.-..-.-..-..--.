@@ -223,37 +223,36 @@ class CoinMarketCapFetcher:
         print(f"   15m system: {len(top_100_coins)} coins (rank 1-100)")
         print(f"   Multi system: {len(top_500_coins)} coins (rank 1-500)")
 
-def main():
-    fetcher = CoinMarketCapFetcher()
-    
-    if not fetcher.api_key:
-        print("❌ COINMARKETCAP_API_KEY not found in environment variables")
-        return
-    
-    # Load blocked coins
-    blocked_coins = fetcher.load_blocked_coins()
-    
-    # Fetch data for both systems
-    print("📊 Starting market data fetch for both systems...")
-    print("🕐 Update frequency: Every 6 hours")
-    print("🔧 Fixed: Proper handling of zero market cap coins")
-    
-    # System 1: Top 100 coins
-    top_100_raw = fetcher.fetch_top_100_coins()
-    top_100_filtered = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
-    
-    # System 2: Top 500 coins (with proper data handling)
-    top_500_raw = fetcher.fetch_top_500_coins()
-    top_500_filtered = fetcher.filter_blocked_coins(top_500_raw, blocked_coins)
-    
-    # Save to cache
-    fetcher.save_market_data(top_100_filtered, top_500_filtered)
-    
-    print("✅ Market data fetch completed successfully!")
-    print(f"\n📈 Results summary:")
-    print(f"   15m system: ~98 coins (top 100 minus blocked)")
-    print(f"   Multi system: ~{500 - len(blocked_coins)} coins (true top 500 minus blocked)")
-    print(f"   Next update: 6 hours")
+    def main():
+        fetcher = CoinMarketCapFetcher()
+        
+        if not fetcher.api_key:
+            print("❌ COINMARKETCAP_API_KEY not found in environment variables")
+            return
+        
+        # Load blocked coins
+        blocked_coins = fetcher.load_blocked_coins()
+        
+        # Fetch data for both systems
+        print("📊 Starting market data fetch for both systems...")
+        print("🕐 Update frequency: Every 6 hours")
+        
+        # System 1: Top 100 coins
+        top_100_raw = fetcher.fetch_top_100_coins()
+        top_100_filtered = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
+        
+        # System 2: Top 500 coins by rank
+        top_500_raw = fetcher.fetch_top_500_coins()
+        top_500_filtered = fetcher.filter_blocked_coins(top_500_raw, blocked_coins)
+        
+        # Save to cache
+        fetcher.save_market_data(top_100_filtered, top_500_filtered)
+        
+        print("✅ Market data fetch completed successfully!")
+        print(f"\n📈 Results summary:")
+        print(f"   15m system: ~{len(top_100_filtered)} coins (top 100 minus blocked)")
+        print(f"   Multi system: ~{len(top_500_filtered)} coins (top 500 minus blocked)")
+        print(f"   Next update: 6 hours")
 
 if __name__ == '__main__':
     main()
