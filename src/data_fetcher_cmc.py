@@ -88,7 +88,7 @@ class CoinMarketCapFetcher:
         url = f"{self.base_url}/cryptocurrency/listings/latest"
         params = {
             'start': 1,
-            'limit': 1000,  # Increased to get more coins to filter from
+            'limit': 3000,  # Increased to get more coins to filter from
             'sort': 'market_cap',
             'sort_dir': 'desc',
             'cryptocurrency_type': 'coins',
