@@ -1,0 +1,33 @@
+# Multi-Timeframe CipherB Analysis System
+
+system:
+  name: "Multi-Timeframe CipherB System"
+  version: "3.0"
+  timeframes: ["6h", "8h", "12h"]
+
+cipherb:
+  wt_channel_len: 9
+  wt_average_len: 12
+  wt_ma_len: 3
+  oversold_threshold: -60
+  overbought_threshold: 60
+
+market_data:
+  source: "coinmarketcap"
+  min_market_cap: 50000000    # $50M
+  min_volume_24h: 20000000    # $20M
+  method: "filtered_by_criteria"
+
+alerts:
+  freshness_minutes: 90
+  batch_size: 30
+
+suppression:
+  window_hours: 24
+  cleanup_hours: 72
+
+exchanges:
+  primary: "bingx"
+  fallback: "kucoin"
+  rate_limit: 0.3
+  timeout: 30
