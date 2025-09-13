@@ -2,7 +2,7 @@
 """
 CoinMarketCap Market Data Fetcher for Dual Systems
 - System 1: Top 100 coins by rank
-- System 2: Top 500 coins by rank (simplified approach)
+- System 2: Top 500+ coins to ensure complete coverage
 """
 
 import os
@@ -80,46 +80,78 @@ class CoinMarketCapFetcher:
             print(f"❌ Error fetching top 100 coins: {e}")
             return []
     
-    def fetch_top_500_coins(self):
-        """Fetch top 500 coins by rank for multi-timeframe system"""
-        print("🚀 Fetching top 500 coins by rank for multi-timeframe system...")
+    def fetch_extended_coin_list(self):
+        """Fetch extended coin list using pagination to ensure top 500+ coverage"""
+        print("🚀 Fetching extended coin list for multi-timeframe system...")
         
-        url = f"{self.base_url}/cryptocurrency/listings/latest"
-        params = {
-            'start': 1,
-            'limit': 500,
-            'sort': 'market_cap',
-            'sort_dir': 'desc',
-            'cryptocurrency_type': 'coins',
-            'convert': 'USD'
-        }
+        all_coins = []
+        pages_to_fetch = 2  # Fetch 1000 coins to ensure we get top 500 after filtering
         
-        try:
-            response = self.session.get(url, params=params, timeout=30)
-            response.raise_for_status()
-            data = response.json()
+        for page in range(pages_to_fetch):
+            start = page * 500 + 1
+            print(f"   📄 Fetching page {page + 1}/{pages_to_fetch} (coins {start}-{start + 499})")
             
-            coins = []
-            for coin in data['data']:
-                coin_data = {
-                    'symbol': coin['symbol'],
-                    'name': coin['name'],
-                    'market_cap': coin['quote']['USD']['market_cap'],
-                    'volume_24h': coin['quote']['USD']['volume_24h'],
-                    'current_price': coin['quote']['USD']['price'],
-                    'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
-                    'rank': coin['cmc_rank']
-                }
-                coins.append(coin_data)
+            url = f"{self.base_url}/cryptocurrency/listings/latest"
+            params = {
+                'start': start,
+                'limit': 500,
+                'sort': 'market_cap',
+                'sort_dir': 'desc',
+                'cryptocurrency_type': 'coins',
+                'convert': 'USD'
+            }
             
-            print(f"✅ Fetched {len(coins)} top-ranked coins")
-            print(f"   Rank range: 1-500")
-            print(f"   Market cap range: ${coins[-1]['market_cap']:,.0f} - ${coins[0]['market_cap']:,.0f}")
-            return coins
-            
-        except Exception as e:
-            print(f"❌ Error fetching top 500 coins: {e}")
+            try:
+                response = self.session.get(url, params=params, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                
+                page_coins = []
+                for coin in data['data']:
+                    coin_data = {
+                        'symbol': coin['symbol'],
+                        'name': coin['name'],
+                        'market_cap': coin['quote']['USD']['market_cap'],
+                        'volume_24h': coin['quote']['USD']['volume_24h'],
+                        'current_price': coin['quote']['USD']['price'],
+                        'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
+                        'rank': coin['cmc_rank']
+                    }
+                    page_coins.append(coin_data)
+                
+                all_coins.extend(page_coins)
+                print(f"   ✅ Page {page + 1}: {len(page_coins)} coins fetched")
+                
+                # Rate limiting between pages
+                if page < pages_to_fetch - 1:
+                    time.sleep(1)
+                    
+            except Exception as e:
+                print(f"   ❌ Page {page + 1} failed: {e}")
+                break
+        
+        print(f"✅ Total coins fetched: {len(all_coins)}")
+        if all_coins:
+            print(f"   Rank range: {all_coins[0]['rank']} - {all_coins[-1]['rank']}")
+        
+        return all_coins
+    
+    def select_top_500_by_rank(self, coins):
+        """Select exactly top 500 coins by rank from extended list"""
+        if not coins:
             return []
+        
+        # Sort by rank to ensure correct order
+        sorted_coins = sorted(coins, key=lambda x: x['rank'])
+        
+        # Take top 500 by rank
+        top_500 = sorted_coins[:500]
+        
+        print(f"🎯 Selected top 500 coins by rank:")
+        print(f"   Rank range: {top_500[0]['rank']} - {top_500[-1]['rank']}")
+        print(f"   Total selected: {len(top_500)}")
+        
+        return top_500
     
     def load_blocked_coins(self):
         """Load blocked coins list"""
@@ -147,14 +179,21 @@ class CoinMarketCapFetcher:
         
         filtered = []
         blocked_count = 0
+        blocked_symbols = []
         
         for coin in coins:
             if coin['symbol'].upper() in blocked_coins:
                 blocked_count += 1
+                blocked_symbols.append(coin['symbol'])
                 continue
             filtered.append(coin)
         
         print(f"🔍 Filtered out {blocked_count} blocked coins")
+        if blocked_symbols:
+            print(f"   Blocked: {', '.join(blocked_symbols[:10])}")
+            if len(blocked_symbols) > 10:
+                print(f"   ... and {len(blocked_symbols) - 10} more")
+        
         return filtered
     
     def save_market_data(self, top_100_coins, top_500_coins):
@@ -175,12 +214,13 @@ class CoinMarketCapFetcher:
             json.dump(system_15m_data, f, indent=2)
         
         # Save data for multi-timeframe system
+        rank_range = f"1-{top_500_coins[-1]['rank']}" if top_500_coins else "none"
         system_multi_data = {
             'updated_at': datetime.utcnow().isoformat(),
             'system': 'multi',
-            'method': 'top_500_by_rank',
+            'method': 'top_500_by_rank_extended_fetch',
             'total_coins': len(top_500_coins),
-            'rank_range': f"1-{len(top_500_coins)}",
+            'rank_range': rank_range,
             'coins': top_500_coins
         }
         
@@ -189,7 +229,7 @@ class CoinMarketCapFetcher:
         
         print(f"💾 Saved market data:")
         print(f"   15m system: {len(top_100_coins)} coins (rank 1-100)")
-        print(f"   Multi system: {len(top_500_coins)} coins (rank 1-500)")
+        print(f"   Multi system: {len(top_500_coins)} coins (rank {rank_range})")
 
 def main():
     fetcher = CoinMarketCapFetcher()
@@ -204,22 +244,24 @@ def main():
     # Fetch data for both systems
     print("📊 Starting market data fetch for both systems...")
     print("🕐 Update frequency: Every 6 hours")
+    print("🎯 Strategy: Extended fetch to ensure complete top 500 coverage")
     
     # System 1: Top 100 coins
     top_100_raw = fetcher.fetch_top_100_coins()
     top_100_filtered = fetcher.filter_blocked_coins(top_100_raw, blocked_coins)
     
-    # System 2: Top 500 coins by rank
-    top_500_raw = fetcher.fetch_top_500_coins()
-    top_500_filtered = fetcher.filter_blocked_coins(top_500_raw, blocked_coins)
+    # System 2: Extended fetch + top 500 selection
+    extended_coins = fetcher.fetch_extended_coin_list()
+    top_500_selected = fetcher.select_top_500_by_rank(extended_coins)
+    top_500_filtered = fetcher.filter_blocked_coins(top_500_selected, blocked_coins)
     
     # Save to cache
     fetcher.save_market_data(top_100_filtered, top_500_filtered)
     
     print("✅ Market data fetch completed successfully!")
     print(f"\n📈 Results summary:")
-    print(f"   15m system: {len(top_100_filtered)} coins (top 100 minus blocked)")
-    print(f"   Multi system: {len(top_500_filtered)} coins (top 500 minus blocked)")
+    print(f"   15m system: ~98 coins (top 100 minus blocked)")
+    print(f"   Multi system: ~{len(top_500_filtered)} coins (actual top 500 by rank)")
     print(f"   Next update: 6 hours")
 
 if __name__ == '__main__':
