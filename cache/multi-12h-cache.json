@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-09-13T13:36:00.101310",
+  "timeframe": "12h",
+  "analysis_duration": 122.29532074928284,
+  "total_analyzed": 161,
+  "signals_found": 6,
+  "signals": [
+    {
+      "symbol": "BTC",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 79.34929066567247,
+      "wt2": 79.96275583104442,
+      "price": 115962.37209555107,
+      "suppression_action": "allow_initial"
+    },
+    {
+      "symbol": "SOL",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 83.28834358579141,
+      "wt2": 83.52749229486457,
+      "price": 242.61713672496228,
+      "suppression_action": "allow_initial"
+    },
+    {
+      "symbol": "ONDO",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 76.90880849201132,
+      "wt2": 77.3837726790854,
+      "price": 1.1158958718792389,
+      "suppression_action": "allow_initial"
+    },
+    {
+      "symbol": "JUP",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 75.71061083960512,
+      "wt2": 77.67040964052103,
+      "price": 0.559843323042215,
+      "suppression_action": "allow_initial"
+    },
+    {
+      "symbol": "FIDA",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 76.14029178106627,
+      "wt2": 77.03776146510899,
+      "price": 0.10033055786836972,
+      "suppression_action": "allow_initial"
+    },
+    {
+      "symbol": "REAL",
+      "type": "SELL",
+      "timeframe": "12h",
+      "wt1": 78.01260640403225,
+      "wt2": 78.53156219466393,
+      "price": 0.0648173018610106,
+      "suppression_action": "allow_initial"
+    }
+  ],
+  "system": "multi-timeframe-12h",
+  "version": "3.0"
+}

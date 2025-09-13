@@ -1,0 +1,32 @@
+{
+  "BTC_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757770439.854623
+  },
+  "SOL_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757770441.791988
+  },
+  "ONDO_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757770476.786949
+  },
+  "JUP_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757770486.58589
+  },
+  "FIDA_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757784600.0,
+    "recorded_at": 1757770548.677913
+  },
+  "REAL_SELL": {
+    "timeframe": "12h",
+    "timestamp": 1757755800.0,
+    "recorded_at": 1757770551.171798
+  }
+}
