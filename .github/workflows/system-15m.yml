@@ -1,8 +1,8 @@
-name: 15-Minute CipherB Analysis
+name: Enhanced 15-Minute Analysis
 
 on:
   schedule:
-    # CORRECTED: Run every 15 minutes at :01, :16, :31, :46
+    # CORRECTED: Every 15 minutes at :01, :16, :31, :46 (NOT every 5 minutes)
     - cron: '1,16,31,46 * * * *'
   workflow_dispatch:
 
@@ -18,8 +18,7 @@ jobs:
         python-version: '3.11'
         
     - name: Install Dependencies
-      run: |
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
         
     - name: Run 15m Analysis
       env:
@@ -31,7 +30,7 @@ jobs:
         BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
       run: python src/system-15m/analyzer_15m_cto.py
       
-    - name: Commit Updates
+    - name: Commit Cache
       run: |
         git config --global user.name "actions"
         git config --global user.email "actions@github.com"
