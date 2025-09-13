@@ -1,0 +1,50 @@
+# Dual System - Blocked Coins List
+# Updated for both 15-minute and multi-timeframe systems
+
+# Stablecoins
+USDT
+USDC
+BUSD
+DAI
+TUSD
+FDUSD
+FRAX
+LUSD
+USDD
+XAUT
+UST
+USDP
+GUSD
+
+# Wrapped Tokens
+WBTC
+WETH
+WBNB
+WMATIC
+WAVAX
+WFTM
+BETH
+STETH
+RETH
+CBETH
+WSTETH
+
+# Bridge Tokens
+ANYETH
+ANYUSDC
+CEUSDC
+HBTC
+RENBTC
+
+# Problematic/Low Volume
+LUNA
+LUNC
+USTC
+UST
+TERRA
+
+# Add your specific blocked coins here
+# Lines starting with # are comments and will be ignored
+# Format: One symbol per line, uppercase
+PAXG
+
