@@ -1,40 +1,25 @@
 #!/usr/bin/env python3
 """
-Fixed Telegram Alert System for Multi-Timeframe Analysis
-- Proper MarkdownV2 escaping to prevent 400 errors
-- Timeframe-specific formatting
-- Enhanced error handling
+Multi-Timeframe Telegram Alerts - RESTORED to working version
 """
 
 import os
 import requests
 from datetime import datetime, timedelta
 
-def escape_markdown_v2(text: str) -> str:
-    """Escape special characters for Telegram MarkdownV2"""
-    escape_chars = '_*[]()~`>#+-=|{}.!'
-    for char in escape_chars:
-        text = text.replace(char, '\\' + char)
-    return text
-
 def get_ist_time():
-    """Convert UTC to IST"""
     return datetime.utcnow() + timedelta(hours=5, minutes=30)
 
 def send_telegram_message(bot_token, chat_id, message):
-    """Send message via Telegram Bot API with proper error handling"""
+    """Send message with proper error handling and fallback"""
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     
-    # Validate message length (Telegram limit: 4096 characters)
-    if len(message) > 4096:
-        message = message[:4090] + "..."
-        print(f"⚠️ Message truncated to fit Telegram limit")
-    
+    # Try with Markdown first
     payload = {
         'chat_id': chat_id,
         'text': message,
-        'parse_mode': 'MarkdownV2',
-        'disable_web_page_preview': True  # Prevent link previews
+        'parse_mode': 'Markdown',
+        'disable_web_page_preview': False
     }
     
     try:
@@ -42,28 +27,20 @@ def send_telegram_message(bot_token, chat_id, message):
         response.raise_for_status()
         return True
     except Exception as e:
-        print(f"❌ Telegram message failed: {e}")
+        print(f"❌ Markdown failed: {e}")
         
-        # Fallback: try sending as plain text
+        # Fallback to plain text
         payload['parse_mode'] = None
-        payload['text'] = message.replace('\\', '').replace('*', '').replace('_', '')
-        
         try:
             response = requests.post(url, json=payload, timeout=30)
             response.raise_for_status()
-            print("✅ Sent as plain text fallback")
+            print("✅ Sent as plain text")
             return True
         except Exception as e2:
-            print(f"❌ Plain text fallback also failed: {e2}")
+            print(f"❌ Plain text also failed: {e2}")
             return False
 
-def get_timeframe_emoji(timeframe):
-    """Get emoji for timeframe"""
-    emoji_map = {'6h': '🕕', '8h': '🕗', '12h': '🕛'}
-    return emoji_map.get(timeframe, '⏰')
-
 def send_multi_consolidated_alert(signals, timeframe):
-    """Send consolidated multi-timeframe CipherB alert"""
     if not signals:
         return False
     
@@ -71,95 +48,88 @@ def send_multi_consolidated_alert(signals, timeframe):
     chat_id = os.getenv('TELEGRAM_MULTI_CHAT_ID')
     
     if not bot_token or not chat_id:
-        print("❌ Missing Telegram credentials for multi-timeframe system")
+        print("❌ Missing Telegram credentials")
         return False
     
     ist_time = get_ist_time()
-    tf_emoji = get_timeframe_emoji(timeframe)
-    
-    # Build message with proper escaping
     buy_signals = [s for s in signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in signals if s['signal_type'] == 'SELL']
     
-    # Header (escape all dynamic content)
-    time_str = escape_markdown_v2(ist_time.strftime('%H:%M:%S IST'))
-    tf_upper = escape_markdown_v2(timeframe.upper())
-    signal_count = len(signals)
+    # Timeframe emojis
+    tf_emoji = {'6h': '🕕', '8h': '🕗', '12h': '🕛'}.get(timeframe, '⏰')
     
-    message = f"""📈 *MULTI\\-TIMEFRAME CIPHERB ALERTS*
+    # Build clean message with TradingView links
+    message = f"""*📈 MULTI-TIMEFRAME CIPHERB ALERTS*
 
-{tf_emoji} *{signal_count} {tf_upper} SIGNALS*
-🕐 *{time_str}*
-⏰ *Timeframe: {tf_upper} candles*
+{tf_emoji} *{timeframe.upper()} Analysis | {len(signals)} Signals*
+⏰ *{ist_time.strftime('%H:%M:%S IST')}*
 
 """
     
-    # Add BUY signals
+    # Add BUY signals with TradingView links
     if buy_signals:
-        message += f"🟢 *{tf_upper} BUY SIGNALS:*\n"
+        message += f"*🟢 {timeframe.upper()} BUY SIGNALS:*\n"
         for i, signal in enumerate(buy_signals, 1):
-            symbol = escape_markdown_v2(signal['symbol'])
-            tf_disp = escape_markdown_v2(signal['timeframe'].upper())
-            price = f"{signal['price']:.4f}"
-            price_esc = escape_markdown_v2(price)
-            change_24h = f"{signal['change_24h']:+.1f}"
-            change_esc = escape_markdown_v2(change_24h)
-            exchange = escape_markdown_v2(signal['exchange'])
+            symbol = signal['symbol']
+            price = signal['price']
+            change_24h = signal['change_24h']
+            market_cap_m = signal.get('market_cap', 0) / 1_000_000
+            wt1 = signal.get('wt1', 0)
+            wt2 = signal.get('wt2', 0)
+            exchange = signal.get('exchange', 'Unknown')
             
-            message += f"\n{i}\\. *{symbol}* \\({tf_disp}\\) \\| ${price_esc} \\| {change_esc}%\n"
-            message += f"   {exchange}\n"
+            # Clean TradingView link with correct timeframe
+            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
+            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={timeframe}"
+            
+            message += f"""
+{i}. *{symbol}* ({timeframe.upper()}) | ${price:.4f} | {change_24h:+.1f}%
+   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f} | {exchange}
+   [📈 Chart]({tv_link})"""
     
-    # Add SELL signals
+    # Add SELL signals with TradingView links
     if sell_signals:
-        message += f"\n🔴 *{tf_upper} SELL SIGNALS:*\n"
+        message += f"\n\n*🔴 {timeframe.upper()} SELL SIGNALS:*\n"
         for i, signal in enumerate(sell_signals, 1):
-            symbol = escape_markdown_v2(signal['symbol'])
-            tf_disp = escape_markdown_v2(signal['timeframe'].upper())
-            price = f"{signal['price']:.4f}"
-            price_esc = escape_markdown_v2(price)
-            change_24h = f"{signal['change_24h']:+.1f}"
-            change_esc = escape_markdown_v2(change_24h)
-            exchange = escape_markdown_v2(signal['exchange'])
+            symbol = signal['symbol']
+            price = signal['price']
+            change_24h = signal['change_24h']
+            market_cap_m = signal.get('market_cap', 0) / 1_000_000
+            wt1 = signal.get('wt1', 0)
+            wt2 = signal.get('wt2', 0)
+            exchange = signal.get('exchange', 'Unknown')
             
-            message += f"\n{i}\\. *{symbol}* \\({tf_disp}\\) \\| ${price_esc} \\| {change_esc}%\n"
-            message += f"   {exchange}\n"
+            # Clean TradingView link with correct timeframe
+            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
+            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={timeframe}"
+            
+            message += f"""
+{i}. *{symbol}* ({timeframe.upper()}) | ${price:.4f} | {change_24h:+.1f}%
+   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f} | {exchange}
+   [📈 Chart]({tv_link})"""
     
     # Footer
-    buy_count = len(buy_signals)
-    sell_count = len(sell_signals)
-    
     message += f"""
-📊 *MULTI\\-TIMEFRAME SUMMARY:*
-• {tf_upper} Signals: {signal_count} \\(Buy: {buy_count}, Sell: {sell_count}\\)
-• Suppression: Advanced cascading active
-• System: Multi\\-Timeframe v3\\.0
 
-\\#Trading \\#Crypto"""
+📊 *{timeframe.upper()} Summary:* {len(signals)} pure CipherB signals
+• Buy: {len(buy_signals)} | Sell: {len(sell_signals)}
+• System: Multi-Timeframe CipherB v3.0
+
+#Trading #Crypto"""
     
     return send_telegram_message(bot_token, chat_id, message)
 
 def send_admin_alert(subject, error_message):
-    """Send admin alert for system errors"""
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
     admin_chat_id = os.getenv('TELEGRAM_ADMIN_CHAT_ID')
     
     if not bot_token or not admin_chat_id:
-        print("❌ Missing admin Telegram credentials")
         return False
     
-    utc_time = datetime.utcnow()
-    time_str = escape_markdown_v2(utc_time.strftime('%Y-%m-%d %H:%M:%S UTC'))
-    subject_esc = escape_markdown_v2(subject)
-    message_esc = escape_markdown_v2(error_message[:500])  # Limit error message length
+    message = f"""*🚨 SYSTEM ALERT: {subject}*
+
+{error_message}
+
+Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}"""
     
-    message = f"""🚨 *SYSTEM ALERT: {subject_esc}*
-
-⚠️ *Error Details:*
-{message_esc}
-
-🕐 *Time:* {time_str}
-🎯 *System:* Enhanced GitHub Actions
-
-🔧 *Action Required:* Check system logs"""
-    
-    return send_telegram_message(bot_token, chat_id, message)
+    return send_telegram_message(bot_token, admin_chat_id, message)
