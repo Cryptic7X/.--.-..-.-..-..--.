@@ -1,46 +1,9 @@
 {
-  "timestamp": "2025-09-13T13:49:30.677464",
-  "analysis_duration": 75.81412148475647,
+  "timestamp": "2025-09-13T14:06:08.859804",
+  "analysis_duration": 71.77012062072754,
   "total_analyzed": 94,
-  "signals_found": 6,
-  "signals": [
-    {
-      "symbol": "HBAR",
-      "type": "SELL",
-      "cto_score": 98.1060606060606,
-      "price": 0.254018814805004
-    },
-    {
-      "symbol": "POL",
-      "type": "SELL",
-      "cto_score": 96.21212121212122,
-      "price": 0.28677991172047856
-    },
-    {
-      "symbol": "ALGO",
-      "type": "SELL",
-      "cto_score": 100.0,
-      "price": 0.25834143840495594
-    },
-    {
-      "symbol": "BONK",
-      "type": "SELL",
-      "cto_score": 97.34848484848486,
-      "price": 2.722956676871988e-05
-    },
-    {
-      "symbol": "STX",
-      "type": "SELL",
-      "cto_score": 93.18181818181816,
-      "price": 0.6981620778635922
-    },
-    {
-      "symbol": "SAND",
-      "type": "SELL",
-      "cto_score": 94.6969696969697,
-      "price": 0.322123796749475
-    }
-  ],
+  "signals_found": 0,
+  "signals": [],
   "system": "cipherb-cto-15m",
   "version": "3.0"
 }
