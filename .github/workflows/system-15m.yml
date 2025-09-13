@@ -1,34 +1,27 @@
-name: Enhanced 15-Minute CipherB + CTO Analysis
+name: 15-Minute CipherB Analysis
 
 on:
   schedule:
-    # CORRECTED: Run at 1, 16, 31, 46 minutes (1 minute after 15m candle closes)
-    - cron: '1,16,31,46 * * * *'   # Primary schedule
-    # Backup schedules (in case primary fails due to GitHub Actions delays)
-    - cron: '2,17,32,47 * * * *'   # 1-minute backup
-    - cron: '3,18,33,48 * * * *'   # 2-minute backup
+    # CORRECTED: Run every 15 minutes at :01, :16, :31, :46
+    - cron: '1,16,31,46 * * * *'
   workflow_dispatch:
 
 jobs:
-  cipherb-cto-15m-analysis:
+  analysis-15m:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Reduced timeout for faster failures
+    timeout-minutes: 8
     
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
-      
-    - name: Setup Python
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
         
     - name: Install Dependencies
       run: |
-        python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Run 15-Minute Analysis
+    - name: Run 15m Analysis
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_15M_CHAT_ID: ${{ secrets.TELEGRAM_15M_CHAT_ID }}
@@ -38,20 +31,10 @@ jobs:
         BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
       run: python src/system-15m/analyzer_15m_cto.py
       
-    - name: Commit Cache Updates
+    - name: Commit Updates
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        
-        if [ -f cache/system-15m-cache.json ]; then
-          git add cache/system-15m-cache.json
-        fi
-        
-        if [ -f cache/dedup-15m.json ]; then
-          git add cache/dedup-15m.json
-        fi
-        
-        if ! git diff --staged --quiet; then
-          git commit -m "Update 15m cache [skip ci]" || true
-          git push || true
-        fi
+        git config --global user.name "actions"
+        git config --global user.email "actions@github.com"
+        git add cache/ || true
+        git commit -m "Update cache" || true
+        git push || true
