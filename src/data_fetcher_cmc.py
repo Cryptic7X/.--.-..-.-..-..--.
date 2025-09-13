@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-CoinMarketCap Market Data Fetcher for Dual Systems - FIXED VERSION
-- System 1: Top 100 coins by rank  
-- System 2: ALL coins meeting criteria (market cap ≥ $50M, volume ≥ $20M)
-- Maximizes API calls to get more coins for multi-timeframe system
+CoinMarketCap Market Data Fetcher - PAGINATION FIXED
+- Uses multiple API calls to fetch ALL available coins
+- Proper pagination to get 200+ coins for multi-timeframe system
 """
 
 import os
@@ -20,9 +19,6 @@ class CoinMarketCapFetcher:
         self.api_key = os.getenv('COINMARKETCAP_API_KEY')
         self.base_url = "https://pro-api.coinmarketcap.com/v1"
         self.session = self.create_session()
-        
-        # CoinMarketCap API limits (Basic plan can fetch up to 5000 coins)
-        self.max_fetch_limit = 5000
         
     def create_session(self):
         session = requests.Session()
@@ -46,18 +42,22 @@ class CoinMarketCapFetcher:
         return session
     
     def fetch_all_coins_paginated(self):
-        """Fetch maximum coins using pagination to get complete dataset"""
-        print("🚀 Fetching ALL available coins for comprehensive filtering...")
+        """Fetch coins using proper pagination - multiple API calls"""
+        print("🚀 Fetching ALL available coins using pagination...")
         
         all_coins = []
-        limit_per_call = 5000  # Maximum allowed per call
-        start = 1
+        coins_per_page = 100  # API standard limit
+        max_pages = 30  # Fetch up to 3000 coins (30 pages × 100)
         
-        while True:
+        for page in range(1, max_pages + 1):
+            start_position = (page - 1) * coins_per_page + 1
+            
+            print(f"   📄 Page {page}/{max_pages}: Fetching coins {start_position} to {start_position + coins_per_page - 1}")
+            
             url = f"{self.base_url}/cryptocurrency/listings/latest"
             params = {
-                'start': start,
-                'limit': limit_per_call,
+                'start': start_position,
+                'limit': coins_per_page,
                 'sort': 'market_cap',
                 'sort_dir': 'desc',
                 'cryptocurrency_type': 'coins',
@@ -65,17 +65,21 @@ class CoinMarketCapFetcher:
             }
             
             try:
-                print(f"   Fetching coins {start} to {start + limit_per_call - 1}...")
                 response = self.session.get(url, params=params, timeout=60)
                 response.raise_for_status()
                 data = response.json()
                 
                 if not data.get('data') or len(data['data']) == 0:
-                    print(f"   No more coins available (stopped at {len(all_coins)} total)")
+                    print(f"   📭 No more coins available (stopped at page {page})")
                     break
                 
-                batch_coins = []
+                page_coins = []
                 for coin in data['data']:
+                    # Skip coins with missing data
+                    if (coin['quote']['USD']['market_cap'] is None or 
+                        coin['quote']['USD']['volume_24h'] is None):
+                        continue
+                        
                     coin_data = {
                         'symbol': coin['symbol'],
                         'name': coin['name'],
@@ -85,30 +89,28 @@ class CoinMarketCapFetcher:
                         'price_change_percentage_24h': coin['quote']['USD']['percent_change_24h'],
                         'rank': coin['cmc_rank']
                     }
-                    batch_coins.append(coin_data)
+                    page_coins.append(coin_data)
                 
-                all_coins.extend(batch_coins)
-                print(f"   ✅ Added {len(batch_coins)} coins (total: {len(all_coins)})")
+                all_coins.extend(page_coins)
+                print(f"   ✅ Added {len(page_coins)} valid coins (total: {len(all_coins)})")
                 
-                # If we got less than requested, we've reached the end
-                if len(data['data']) < limit_per_call:
+                # If we got less coins than requested, we've reached the end
+                if len(data['data']) < coins_per_page:
+                    print(f"   📭 Reached end of available coins (page {page})")
                     break
                 
-                start += limit_per_call
+                # Rate limiting between pages
+                time.sleep(1)
                 
-                # Respect rate limits
-                time.sleep(2)
-                
-                # Safety limit to prevent infinite loops
-                if len(all_coins) >= 10000:
-                    print(f"   🛑 Reached safety limit of 10,000 coins")
-                    break
-                    
+            except requests.exceptions.RequestException as e:
+                print(f"   ❌ API error on page {page}: {e}")
+                # Continue with next page instead of stopping
+                continue
             except Exception as e:
-                print(f"   ❌ Error fetching coins starting at {start}: {e}")
-                break
+                print(f"   ❌ Unexpected error on page {page}: {e}")
+                continue
         
-        print(f"✅ Total coins fetched: {len(all_coins)}")
+        print(f"✅ Pagination complete: {len(all_coins)} total coins fetched")
         return all_coins
     
     def extract_top_100(self, all_coins):
@@ -129,17 +131,11 @@ class CoinMarketCapFetcher:
         qualified_coins = []
         below_market_cap = 0
         below_volume = 0
-        no_data_coins = 0
         
         for coin in all_coins:
-            market_cap = coin.get('market_cap') 
-            volume_24h = coin.get('volume_24h')
+            market_cap = coin.get('market_cap', 0)
+            volume_24h = coin.get('volume_24h', 0)
             
-            # Handle None values
-            if market_cap is None or volume_24h is None:
-                no_data_coins += 1
-                continue
-                
             # Apply criteria
             if market_cap < min_market_cap:
                 below_market_cap += 1
@@ -155,7 +151,6 @@ class CoinMarketCapFetcher:
         print(f"   Total coins processed: {len(all_coins):,}")
         print(f"   Below ${min_market_cap/1_000_000:.0f}M market cap: {below_market_cap:,}")
         print(f"   Below ${min_volume_24h/1_000_000:.0f}M volume: {below_volume:,}")
-        print(f"   Missing data: {no_data_coins:,}")
         print(f"   ✅ Qualified coins: {len(qualified_coins):,}")
         
         return qualified_coins
@@ -186,14 +181,21 @@ class CoinMarketCapFetcher:
         
         filtered = []
         blocked_count = 0
+        blocked_symbols = []
         
         for coin in coins:
             if coin['symbol'].upper() in blocked_coins:
                 blocked_count += 1
+                blocked_symbols.append(coin['symbol'])
                 continue
             filtered.append(coin)
         
         print(f"🔍 Filtered out {blocked_count} blocked coins")
+        if blocked_symbols:
+            print(f"   Blocked: {', '.join(blocked_symbols[:10])}")
+            if len(blocked_symbols) > 10:
+                print(f"   ... and {len(blocked_symbols) - 10} more")
+                
         return filtered
     
     def save_market_data(self, top_100_coins, multi_coins):
@@ -235,10 +237,6 @@ class CoinMarketCapFetcher:
         print(f"💾 Saved market data:")
         print(f"   📊 15m system: {len(top_100_coins)} coins (independent dataset)")
         print(f"   📈 Multi system: {len(multi_coins)} coins (independent dataset)")
-        print(f"\n📝 Data Usage:")
-        print(f"   • 15m system analyzes ONLY its {len(top_100_coins)} coins")
-        print(f"   • Multi-timeframe system analyzes ONLY its {len(multi_coins)} coins") 
-        print(f"   • Systems do NOT share or combine datasets")
 
 def main():
     fetcher = CoinMarketCapFetcher()
@@ -248,13 +246,13 @@ def main():
         return
     
     print("="*80)
-    print("🔥 COMPREHENSIVE MARKET DATA FETCH - DUAL SYSTEMS")
+    print("🔥 COMPREHENSIVE MARKET DATA FETCH - PAGINATION FIXED")
     print("="*80)
     
     # Load blocked coins
     blocked_coins = fetcher.load_blocked_coins()
     
-    # Fetch ALL available coins
+    # Fetch ALL available coins using pagination
     all_coins = fetcher.fetch_all_coins_paginated()
     
     if not all_coins:
@@ -280,17 +278,20 @@ def main():
     print("✅ MARKET DATA FETCH COMPLETED SUCCESSFULLY!")
     print("="*80)
     print(f"📈 Results Summary:")
-    print(f"   • Total coins processed: {len(all_coins):,}")
+    print(f"   • Total coins fetched: {len(all_coins):,}")
     print(f"   • 15m system dataset: {len(top_100_final)} coins")
     print(f"   • Multi-timeframe dataset: {len(multi_final)} coins")
-    print(f"   • Expected multi-timeframe range: 200-400 coins")
     
-    if len(multi_final) < 200:
-        print(f"\n⚠️  Multi-timeframe coin count is lower than expected.")
-        print(f"   This could be due to:")
-        print(f"   • Current market conditions (fewer coins meeting volume criteria)")
-        print(f"   • API rate limiting")
-        print(f"   • Data availability issues")
+    print(f"\n📝 System Usage:")
+    print(f"   • 15m system analyzes ONLY its {len(top_100_final)} coins")
+    print(f"   • Multi-timeframe system analyzes ONLY its {len(multi_final)} coins")
+    print(f"   • Systems operate independently (no shared datasets)")
+    
+    if len(multi_final) >= 200:
+        print(f"\n🎉 SUCCESS: Multi-timeframe system now has sufficient coins!")
+    else:
+        print(f"\n⚠️  Multi-timeframe coin count still lower than expected.")
+        print(f"   This suggests market conditions have fewer coins meeting your criteria.")
     
     print("="*80)
 
