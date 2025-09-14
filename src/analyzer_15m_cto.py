@@ -21,34 +21,12 @@ from indicators.cipherb_exact import detect_exact_cipherb_signals
 from indicators.composite_trend_oscillator import CompositeTrendOscillator
 from alerts.telegram_15m import send_15m_alert
 from alerts.deduplication_15m import Deduplicator15m
-from utils.freshness import is_signal_fresh, get_signal_age_display  # ✅ ADD THIS LINE
-
-# Remove the duplicate is_signal_fresh function definition from this file
-# since it's now imported from utils.freshness
-
-# Rest of your existing analyzer code...
-
+from utils.freshness import is_signal_fresh, get_signal_age_display
 
 def get_ist_time():
     """Convert UTC to IST"""
     utc_now = datetime.utcnow()
     return utc_now + timedelta(hours=5, minutes=30)
-
-def is_signal_fresh(signal_time_utc, timeframe):
-    """Check if signal is fresh based on timeframe"""
-    now_utc = datetime.now(timezone.utc)
-    
-    freshness_limits = {
-        '15m': 15,    # 15 minutes
-        '6h': 360,    # 6 hours in minutes
-        '8h': 480,    # 8 hours in minutes
-        '12h': 720,   # 12 hours in minutes
-    }
-    
-    max_age_minutes = freshness_limits.get(timeframe, 15)
-    signal_age_minutes = (now_utc - signal_time_utc.replace(tzinfo=timezone.utc)).total_seconds() / 60
-    
-    return signal_age_minutes <= max_age_minutes
 
 class Analyzer15mCTO:
     def __init__(self):
@@ -107,6 +85,7 @@ class Analyzer15mCTO:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
+            bingx.load_markets()  # ✅ Load markets to get all symbols
             exchanges.append(('BingX', bingx))
         except Exception as e:
             print(f"⚠️ BingX initialization failed: {e}")
@@ -118,37 +97,68 @@ class Analyzer15mCTO:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
+            kucoin.load_markets()  # ✅ Load markets to get all symbols
             exchanges.append(('KuCoin', kucoin))
         except Exception as e:
             print(f"⚠️ KuCoin initialization failed: {e}")
         
+        # ✅ Build unified symbol mapping
+        self.symbol_map = {}
+        for exchange_name, exchange in exchanges:
+            for market_symbol in exchange.symbols:
+                # Extract base currency (e.g., 'TON' from 'TON/USDT' or 'TONUSDT')
+                if '/USDT' in market_symbol:
+                    base = market_symbol.replace('/USDT', '')
+                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+                elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
+                    base = market_symbol[:-4]  # Remove 'USDT' suffix
+                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+        
+        print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
         return exchanges
     
     def fetch_ohlcv_data(self, symbol, timeframe='15m'):
-        """Fetch OHLCV data with exchange fallback"""
-        for exchange_name, exchange in self.exchanges:
-            try:
-                ohlcv = exchange.fetch_ohlcv(f"{symbol}/USDT", timeframe, limit=200)
-                
-                if len(ohlcv) < 100:
-                    continue
-                
-                df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
-                df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
-                df.set_index('timestamp', inplace=True)
-                
-                # Keep UTC timestamps for freshness checking
-                df['utc_timestamp'] = df.index
-                
-                # Convert to IST for display
-                df.index = df.index + pd.Timedelta(hours=5, minutes=30)
-                
-                if len(df) > 50 and df['close'].iloc[-1] > 0:
-                    return df, exchange_name
-                    
-            except Exception as e:
-                print(f"⚠️ {exchange_name} failed for {symbol}: {str(e)[:50]}")
-                continue
+        """Fetch OHLCV data with proper symbol mapping"""
+        
+        # ✅ Use symbol mapping to find correct market symbol
+        if symbol.upper() not in self.symbol_map:
+            print(f"⚠️ {symbol}: No USDT pair found on any exchange")
+            return None, None
+        
+        exchange_name, market_symbol = self.symbol_map[symbol.upper()]
+        
+        # Get the correct exchange
+        exchange = None
+        for ex_name, ex in self.exchanges:
+            if ex_name == exchange_name:
+                exchange = ex
+                break
+        
+        if not exchange:
+            return None, None
+        
+        try:
+            ohlcv = exchange.fetch_ohlcv(market_symbol, timeframe, limit=200)
+            
+            if len(ohlcv) < 100:
+                return None, None
+            
+            df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+            df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+            df.set_index('timestamp', inplace=True)
+            
+            # Keep UTC timestamps for freshness checking
+            df['utc_timestamp'] = df.index
+            
+            # Convert to IST for display
+            df.index = df.index + pd.Timedelta(hours=5, minutes=30)
+            
+            if len(df) > 50 and df['close'].iloc[-1] > 0:
+                return df, exchange_name
+            
+        except Exception as e:
+            print(f"⚠️ {exchange_name} failed for {symbol} ({market_symbol}): {str(e)[:50]}")
+            return None, None
         
         return None, None
     
@@ -168,8 +178,8 @@ class Analyzer15mCTO:
             
             # ✅ FRESHNESS CHECK: Signal must be within last 15 minutes
             if not is_signal_fresh(signal_timestamp_utc, self.timeframe):
-                signal_age_minutes = (datetime.now(timezone.utc) - signal_timestamp_utc.replace(tzinfo=timezone.utc)).total_seconds() / 60
-                print(f"⏰ {symbol}: Signal too old ({signal_age_minutes:.1f}m ago) - skipping")
+                signal_age_display = get_signal_age_display(signal_timestamp_utc, self.timeframe)
+                print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
                 return None
             
             # Calculate CipherB signals
@@ -267,7 +277,6 @@ class Analyzer15mCTO:
         confirmed_signals = []
         batch_size = self.config['alerts']['batch_size']
         total_analyzed = 0
-        stale_signals_count = 0
         
         for i in range(0, len(self.market_data), batch_size):
             batch = self.market_data[i:i + batch_size]
@@ -282,7 +291,7 @@ class Analyzer15mCTO:
                     confirmed_signals.append(signal_result)
                     age_s = signal_result['signal_age_seconds']
                     cto_score = signal_result['cto_score']
-                    print(f"🚨 FRESH {signal_result['signal_type']}: {signal_result['symbol']} "
+                    print(f"🚨 FRESH 15M {signal_result['signal_type']}: {signal_result['symbol']} "
                           f"(CTO: {cto_score:.1f}, {age_s:.0f}s ago)")
                 
                 total_analyzed += 1
@@ -293,7 +302,7 @@ class Analyzer15mCTO:
             success = send_15m_alert(confirmed_signals)
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in confirmed_signals) / len(confirmed_signals)
-                print(f"\n✅ SENT 15M FRESH SIGNAL ALERT")
+                print(f"\n✅ SENT 15M FRESH CONFIRMED SIGNAL ALERT")
                 print(f"   Fresh confirmed signals: {len(confirmed_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
