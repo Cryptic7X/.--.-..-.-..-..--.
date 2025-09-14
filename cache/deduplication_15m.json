@@ -101,8 +101,8 @@
   },
   "GRT_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T04:30:00",
-    "alerted_at": "2025-09-14T04:42:45.283353"
+    "signal_time": "2025-09-14T13:30:00",
+    "alerted_at": "2025-09-14T13:38:12.967078"
   },
   "VIRTUAL_recent": {
     "signal_type": "BUY",
@@ -233,5 +233,20 @@
     "signal_type": "BUY",
     "signal_time": "2025-09-14T13:15:00",
     "alerted_at": "2025-09-14T13:21:04.462208"
+  },
+  "S_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T13:30:00",
+    "alerted_at": "2025-09-14T13:38:31.043228"
+  },
+  "XTZ_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T13:30:00",
+    "alerted_at": "2025-09-14T13:38:46.709476"
+  },
+  "MANA_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T13:30:00",
+    "alerted_at": "2025-09-14T13:38:51.212112"
   }
 }
