@@ -26,14 +26,11 @@ def send_15m_alert(all_signals):
     buy_signals = [s for s in all_signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in all_signals if s['signal_type'] == 'SELL']
     
-    # Build message
-    message = f"""🔧 *CIPHERB + CTO 15M ALERT*
-
-🎯 *{len(all_signals)} CONFIRMED SIGNALS*
-🕐 *{current_time_str}*
-⏰ *Timeframe: 15M + CTO Confirmation*
-
-"""
+    # Build message header
+    message = f"🔧 *CIPHERB + CTO 15M ALERT*\n\n"
+    message += f"🎯 *{len(all_signals)} CONFIRMED SIGNALS*\n"
+    message += f"🕐 *{current_time_str}*\n"
+    message += f"⏰ *Timeframe: 15M + CTO Confirmation*\n\n"
 
     # Add BUY signals
     if buy_signals:
@@ -61,15 +58,14 @@ def send_15m_alert(all_signals):
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
             tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=15"
             
-            message += f"""
-{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
-   CTO: {cto_score:.1f} (Oversold ✓) | {exchange}
-   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"""
+            message += f"\n{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%\n"
+            message += f"   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}\n"
+            message += f"   CTO: {cto_score:.1f} (Oversold ✓) | {exchange}\n"
+            message += f"   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"
 
     # Add SELL signals
     if sell_signals:
-        message += f"\n\n🔴 *SELL SIGNALS (CTO Overbought):*\n"
+        message += "\n\n🔴 *SELL SIGNALS (CTO Overbought):*\n"
         for i, signal in enumerate(sell_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
@@ -93,24 +89,20 @@ def send_15m_alert(all_signals):
             clean_symbol = symbol.replace('USDT', '').replace('USD', '')
             tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval=15"
             
-            message += f"""
-{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%
-   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}
-   CTO: {cto_score:.1f} (Overbought ✓) | {exchange}
-   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"""
+            message += f"\n{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%\n"
+            message += f"   Cap: ${market_cap_m:.0f}M | WT: {wt1:.1f}/{wt2:.1f}\n"
+            message += f"   CTO: {cto_score:.1f} (Overbought ✓) | {exchange}\n"
+            message += f"   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"
 
     # Footer
     avg_age = sum(s.get('signal_age_seconds', 0) for s in all_signals) / len(all_signals)
-    message += f"""
-
-📊 *15M CONFIRMED SIGNAL SUMMARY:*
-• Total Signals: {len(all_signals)} (avg age: {avg_age:.0f}s)
-• Buy Signals: {len(buy_signals)}
-• Sell Signals: {len(sell_signals)}
-• Confirmation: CTO ±70 thresholds ✅
-• Cooldown: 4-hour deduplication ✅
-
-🎯 *CipherB + CTO 15M System v3.0*"""
+    message += f"\n\n📊 *15M CONFIRMED SIGNAL SUMMARY:*\n"
+    message += f"• Total Signals: {len(all_signals)} (avg age: {avg_age:.0f}s)\n"
+    message += f"• Buy Signals: {len(buy_signals)}\n"
+    message += f"• Sell Signals: {len(sell_signals)}\n"
+    message += f"• Confirmation: CTO ±70 thresholds ✅\n"
+    message += f"• Cooldown: 4-hour deduplication ✅\n\n"
+    message += f"🎯 *CipherB + CTO 15M System v3.0*"
 
     # Send message
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
@@ -140,11 +132,25 @@ def send_admin_alert(error_type, error_message):
     
     ist_time = get_ist_time()
     
-    # Fixed: Use .format() instead of f-string to avoid syntax issues
-    message = """🚨 *15M SYSTEM ERROR*
-
-⚠️ *Error Type:* {error_type}
-🕐 *Time:* {ist_time}
-🔧 *System:* 15-Minute CipherB + CTO
-
-*Error Details:*
+    # Simple string concatenation to avoid triple-quote issues
+    message = "🚨 *15M SYSTEM ERROR*\n\n"
+    message += f"⚠️ *Error Type:* {error_type}\n"
+    message += f"🕐 *Time:* {ist_time.strftime('%Y-%m-%d %H:%M:%S IST')}\n"
+    message += f"🔧 *System:* 15-Minute CipherB + CTO\n\n"
+    message += f"*Error Details:*\n``````\n\n"
+    message += f"🔧 *Action Required:* Check system logs"
+    
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+    payload = {
+        'chat_id': admin_chat_id,
+        'text': message,
+        'parse_mode': 'Markdown'
+    }
+    
+    try:
+        response = requests.post(url, json=payload, timeout=30)
+        response.raise_for_status()
+        return True
+    except Exception as e:
+        print(f"❌ Admin alert failed: {e}")
+        return False
