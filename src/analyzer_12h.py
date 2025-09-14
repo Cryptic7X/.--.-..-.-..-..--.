@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-12-Hour Multi-Timeframe CipherB Analyzer
-Part of cascading suppression system
+12-Hour Multi-Timeframe CipherB Analyzer - FIXED VERSION
+- Enhanced symbol mapping for BingX/KuCoin
+- Freshness validation (12 hours)
+- Safe Telegram alerts (no 400 errors)
 """
 
 import os
@@ -64,7 +66,7 @@ class Analyzer12h:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
-            bingx.load_markets()  # ✅ Load markets to get all symbols
+            bingx.load_markets()
             exchanges.append(('BingX', bingx))
         except Exception as e:
             print(f"⚠️ BingX initialization failed: {e}")
@@ -76,33 +78,76 @@ class Analyzer12h:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
-            kucoin.load_markets()  # ✅ Load markets to get all symbols
+            kucoin.load_markets()
             exchanges.append(('KuCoin', kucoin))
         except Exception as e:
             print(f"⚠️ KuCoin initialization failed: {e}")
         
-        # ✅ Build unified symbol mapping
+        # ✅ Enhanced symbol mapping with multiple market types
         self.symbol_map = {}
-        for exchange_name, exchange in exchanges:
-            for market_symbol in exchange.symbols:
-                # Extract base currency (e.g., 'TON' from 'TON/USDT' or 'TONUSDT')
-                if '/USDT' in market_symbol:
-                    base = market_symbol.replace('/USDT', '')
-                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
-                elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
-                    base = market_symbol[:-4]  # Remove 'USDT' suffix
-                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+        missing_count = 0
         
-        print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
+        for exchange_name, exchange in exchanges:
+            print(f"📊 Loading {exchange_name} markets...")
+            
+            for market_symbol in exchange.symbols:
+                try:
+                    market = exchange.market(market_symbol)
+                    
+                    # Skip inactive markets
+                    if not market.get('active', True):
+                        continue
+                    
+                    # Extract base currency from various formats
+                    base_currency = None
+                    
+                    if '/USDT' in market_symbol:
+                        base_currency = market_symbol.split('/USDT')[0]
+                    elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
+                        base_currency = market_symbol[:-4]
+                    elif '/USDC' in market_symbol:
+                        base_currency = market_symbol.split('/USDC')[0]
+                    elif market_symbol.endswith('USDC') and len(market_symbol) > 4:
+                        base_currency = market_symbol[:-4]
+                    
+                    if base_currency:
+                        # Store with priority: USDT > USDC
+                        key = base_currency.upper()
+                        if key not in self.symbol_map or 'USDT' in market_symbol:
+                            self.symbol_map[key] = (exchange_name, market_symbol)
+                            
+                except Exception as e:
+                    missing_count += 1
+                    continue
+        
+        print(f"✅ Symbol mapping built: {len(self.symbol_map)} pairs available")
+        if missing_count > 0:
+            print(f"⚠️ Skipped {missing_count} inactive/invalid markets")
+        
         return exchanges
     
     def fetch_ohlcv_data(self, symbol, timeframe='12h'):
-        """Fetch OHLCV data with proper symbol mapping"""
+        """Fetch OHLCV data with enhanced symbol mapping"""
         
-        # ✅ Use symbol mapping to find correct market symbol
+        # ✅ Check symbol mapping first
         if symbol.upper() not in self.symbol_map:
-            print(f"⚠️ {symbol}: No USDT pair found on any exchange")
-            return None, None
+            # Try common variations
+            variations = [
+                symbol.upper(),
+                f"{symbol.upper()}-USDT",
+                f"{symbol.upper()}USDT",
+            ]
+            
+            found = False
+            for variation in variations:
+                if variation in self.symbol_map:
+                    symbol = variation
+                    found = True
+                    break
+            
+            if not found:
+                print(f"⚠️ {symbol}: No valid trading pair found")
+                return None, None
         
         exchange_name, market_symbol = self.symbol_map[symbol.upper()]
         
@@ -117,6 +162,12 @@ class Analyzer12h:
             return None, None
         
         try:
+            # ✅ Check if market is still active before fetching
+            market = exchange.market(market_symbol)
+            if not market.get('active', True):
+                print(f"⚠️ {symbol} ({market_symbol}): Market is inactive")
+                return None, None
+            
             ohlcv = exchange.fetch_ohlcv(market_symbol, timeframe, limit=200)
             
             if len(ohlcv) < 50:
@@ -126,17 +177,18 @@ class Analyzer12h:
             df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
             df.set_index('timestamp', inplace=True)
             
-            # Keep UTC timestamps for freshness checking
             df['utc_timestamp'] = df.index
-            
-            # Convert to IST for display
             df.index = df.index + pd.Timedelta(hours=5, minutes=30)
             
             if len(df) > 25 and df['close'].iloc[-1] > 0:
                 return df, exchange_name
             
         except Exception as e:
-            print(f"⚠️ {exchange_name} failed for {symbol} ({market_symbol}): {str(e)[:50]}")
+            error_msg = str(e)
+            if "symbol is not found" in error_msg:
+                print(f"⚠️ {symbol}: Not available on {exchange_name}")
+            else:
+                print(f"⚠️ {exchange_name} error for {symbol}: {error_msg[:50]}")
             return None, None
         
         return None, None
@@ -146,13 +198,11 @@ class Analyzer12h:
         symbol = coin_data['symbol']
         
         try:
-            # Fetch 12h OHLCV data
             df, exchange_used = self.fetch_ohlcv_data(symbol, '12h')
             
             if df is None or len(df) < 25:
                 return None
             
-            # Get signal timestamp for freshness check
             signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
             
             # ✅ FRESHNESS CHECK: Signal must be within last 12 hours
@@ -161,18 +211,14 @@ class Analyzer12h:
                 print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
                 return None
             
-            # Calculate CipherB signals
             cipherb_signals = detect_exact_cipherb_signals(df, self.config['cipherb'])
             
             if cipherb_signals.empty:
                 return None
             
-            # Get latest signal
             latest_idx = -1
             latest_signal = cipherb_signals.iloc[latest_idx]
-            
             signal_timestamp_ist = cipherb_signals.index[latest_idx]
-            
             current_time = datetime.utcnow()
             time_since_signal = current_time - signal_timestamp_utc.to_pydatetime()
             
@@ -237,10 +283,8 @@ class Analyzer12h:
             print("❌ No market data available")
             return
         
-        # Clean up old records
         self.suppressor.cleanup_old_states()
         
-        # Analyze coins in batches
         valid_signals = []
         batch_size = self.config['alerts']['batch_size']
         total_analyzed = 0
@@ -282,7 +326,6 @@ class Analyzer12h:
         print(f"📊 Total analyzed: {total_analyzed}")
         print(f"🚨 Fresh valid signals: {len(valid_signals)}")
         print(f"📱 Alert sent: {'Yes' if valid_signals else 'No'}")
-        print(f"⏰ Freshness filter: Active (12 hours)")
         print(f"⏰ Next analysis: 12 hours")
         print("="*80)
 
