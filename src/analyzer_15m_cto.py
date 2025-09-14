@@ -21,6 +21,13 @@ from indicators.cipherb_exact import detect_exact_cipherb_signals
 from indicators.composite_trend_oscillator import CompositeTrendOscillator
 from alerts.telegram_15m import send_15m_alert
 from alerts.deduplication_15m import Deduplicator15m
+from utils.freshness import is_signal_fresh, get_signal_age_display  # ✅ ADD THIS LINE
+
+# Remove the duplicate is_signal_fresh function definition from this file
+# since it's now imported from utils.freshness
+
+# Rest of your existing analyzer code...
+
 
 def get_ist_time():
     """Convert UTC to IST"""
