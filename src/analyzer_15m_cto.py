@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
 15-Minute CipherB + CTO Confirmation Analyzer
-OPTIMIZED for speed - prevents GitHub Actions timeout
+- CipherB primary signals
+- CTO confirmation (±70 thresholds)
+- 4-hour cooldown deduplication
+- 15-minute freshness validation
 """
 
 import os
 import sys
+import time
 import json
 import ccxt
 import pandas as pd
@@ -29,7 +33,7 @@ class Analyzer15mCTO:
         self.config = self.load_config()
         self.timeframe = '15m'
         
-        # Initialize CTO
+        # Initialize CTO with only valid constructor parameters
         cto_config = self.config['cto']
         self.cto = CompositeTrendOscillator(
             spacing=cto_config.get('spacing', 3),
@@ -41,8 +45,10 @@ class Analyzer15mCTO:
             phase=cto_config.get('phase', 3.7)
         )
         
+        # Store thresholds separately for analysis
         self.cto_overbought_threshold = cto_config.get('overbought_threshold', 70)
         self.cto_oversold_threshold = cto_config.get('oversold_threshold', -70)
+        
         self.deduplicator = Deduplicator15m()
         self.exchanges = self.init_exchanges()
         self.market_data = self.load_market_data()
@@ -53,29 +59,19 @@ class Analyzer15mCTO:
             return yaml.safe_load(f)
     
     def load_market_data(self):
-        """Load and filter top coins by volume for speed"""
+        """Load top 100 coins from cache"""
         cache_file = os.path.join(os.path.dirname(__file__), '..', 'cache', 'market_data_15m.json')
         
         if not os.path.exists(cache_file):
-            print("❌ Market data cache not found")
+            print("❌ Market data cache not found - run data fetcher first")
             return []
         
         with open(cache_file) as f:
             data = json.load(f)
         
         coins = data.get('coins', [])
-        
-        # ✅ OPTIMIZATION: Filter to high-volume coins only (faster processing)
-        high_volume_coins = [
-            c for c in coins 
-            if c.get('volume_24h', 0) > 5_000_000  # Min $5M 24h volume
-        ]
-        
-        # ✅ OPTIMIZATION: Limit to top 50 coins (prevents timeout)
-        top_coins = high_volume_coins[:50]
-        
-        print(f"📊 Loaded {len(top_coins)} high-volume coins for 15m analysis")
-        return top_coins
+        print(f"📊 Loaded {len(coins)} coins for 15m analysis")
+        return coins
     
     def init_exchanges(self):
         exchanges = []
@@ -85,49 +81,61 @@ class Analyzer15mCTO:
             bingx = ccxt.bingx({
                 'apiKey': os.getenv('BINGX_API_KEY', ''),
                 'secret': os.getenv('BINGX_SECRET_KEY', ''),
-                'rateLimit': 100,  # ✅ OPTIMIZATION: Faster rate limit
+                'rateLimit': 300,
                 'enableRateLimit': True,
-                'timeout': 15000,  # ✅ OPTIMIZATION: Shorter timeout
+                'timeout': 30000,
             })
             bingx.load_markets()
             exchanges.append(('BingX', bingx))
         except Exception as e:
-            print(f"⚠️ BingX init failed: {e}")
+            print(f"⚠️ BingX initialization failed: {e}")
         
-        # Fallback: KuCoin  
+        # Fallback: KuCoin
         try:
             kucoin = ccxt.kucoin({
-                'rateLimit': 200,  # ✅ OPTIMIZATION: Faster rate limit
+                'rateLimit': 500,
                 'enableRateLimit': True,
-                'timeout': 15000,  # ✅ OPTIMIZATION: Shorter timeout
+                'timeout': 30000,
             })
             kucoin.load_markets()
             exchanges.append(('KuCoin', kucoin))
         except Exception as e:
-            print(f"⚠️ KuCoin init failed: {e}")
+            print(f"⚠️ KuCoin initialization failed: {e}")
         
-        # ✅ OPTIMIZATION: Simplified symbol mapping
+        # Enhanced symbol mapping
         self.symbol_map = {}
         for exchange_name, exchange in exchanges:
             for market_symbol in exchange.symbols:
-                if '/USDT' in market_symbol:
-                    base = market_symbol.replace('/USDT', '')
-                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
-                elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
-                    base = market_symbol[:-4]
-                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+                try:
+                    market = exchange.market(market_symbol)
+                    if not market.get('active', True):
+                        continue
+                    
+                    base_currency = None
+                    if '/USDT' in market_symbol:
+                        base_currency = market_symbol.split('/USDT')[0]
+                    elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
+                        base_currency = market_symbol[:-4]
+                    
+                    if base_currency:
+                        key = base_currency.upper()
+                        if key not in self.symbol_map or 'USDT' in market_symbol:
+                            self.symbol_map[key] = (exchange_name, market_symbol)
+                except Exception:
+                    continue
         
-        print(f"✅ Symbol map built: {len(self.symbol_map)} pairs")
+        print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
         return exchanges
     
     def fetch_ohlcv_data(self, symbol, timeframe='15m'):
-        """Fast OHLCV fetch with minimal error handling"""
+        """Fetch OHLCV data with enhanced symbol mapping"""
+        
         if symbol.upper() not in self.symbol_map:
+            print(f"⚠️ {symbol}: No USDT pair found on any exchange")
             return None, None
         
         exchange_name, market_symbol = self.symbol_map[symbol.upper()]
         
-        # Get exchange
         exchange = None
         for ex_name, ex in self.exchanges:
             if ex_name == exchange_name:
@@ -138,48 +146,59 @@ class Analyzer15mCTO:
             return None, None
         
         try:
-            # ✅ OPTIMIZATION: Smaller candle limit (faster fetch)
-            ohlcv = exchange.fetch_ohlcv(market_symbol, timeframe, limit=100)
+            market = exchange.market(market_symbol)
+            if not market.get('active', True):
+                print(f"⚠️ {symbol} ({market_symbol}): Market is inactive")
+                return None, None
             
-            if len(ohlcv) < 30:  # ✅ OPTIMIZATION: Lower minimum requirement
+            ohlcv = exchange.fetch_ohlcv(market_symbol, timeframe, limit=200)
+            
+            if len(ohlcv) < 100:
                 return None, None
             
             df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
             df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
             df.set_index('timestamp', inplace=True)
+            
             df['utc_timestamp'] = df.index
             df.index = df.index + pd.Timedelta(hours=5, minutes=30)
             
-            if len(df) > 30 and df['close'].iloc[-1] > 0:
+            if len(df) > 50 and df['close'].iloc[-1] > 0:
                 return df, exchange_name
             
-        except Exception:
-            # ✅ OPTIMIZATION: Silent fail (no logging delays)
-            return None, None
+        except Exception as e:
+            error_msg = str(e)
+            if "symbol is not found" in error_msg:
+                print(f"⚠️ {symbol}: Not available on {exchange_name}")
+            else:
+                print(f"⚠️ {exchange_name} error for {symbol}: {error_msg[:50]}")
         
         return None, None
     
     def analyze_coin(self, coin_data):
-        """Fast coin analysis with minimal checks"""
+        """Analyze single coin for CipherB + CTO confirmation with 15m freshness"""
         symbol = coin_data['symbol']
         
         try:
-            # Fetch data
             df, exchange_used = self.fetch_ohlcv_data(symbol, '15m')
-            if df is None or len(df) < 30:
+            
+            if df is None or len(df) < 50:
                 return None
             
-            # Freshness check
             signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
+            
             if not is_signal_fresh(signal_timestamp_utc, self.timeframe):
+                signal_age_display = get_signal_age_display(signal_timestamp_utc, self.timeframe)
+                print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
                 return None
             
-            # CipherB signals
+            # Calculate CipherB signals
             cipherb_signals = detect_exact_cipherb_signals(df, self.config['cipherb'])
+            
             if cipherb_signals.empty:
                 return None
             
-            # CTO analysis
+            # Calculate CTO indicators
             cto_df = self.cto.calculate_signals(df)
             cto_final = self.cto.detect_cto_conditions(
                 cto_df, 
@@ -188,118 +207,120 @@ class Analyzer15mCTO:
             )
             
             # Get latest signals
-            latest_cipherb = cipherb_signals.iloc[-1]
-            latest_cto = cto_final.iloc[-1]
-            signal_timestamp_ist = cipherb_signals.index[-1]
+            latest_idx = -1
+            latest_cipherb = cipherb_signals.iloc[latest_idx]
+            latest_cto = cto_final.iloc[latest_idx]
             
+            signal_timestamp_ist = cipherb_signals.index[latest_idx]
             current_time = datetime.utcnow()
             time_since_signal = current_time - signal_timestamp_utc.to_pydatetime()
             
-            # Check BUY signal
-            if (latest_cipherb['buySignal'] and 
-                latest_cto['cto_oversold'] and 
-                self.deduplicator.is_signal_allowed(symbol, 'BUY', signal_timestamp_utc)):
-                
-                return {
-                    'symbol': symbol,
-                    'signal_type': 'BUY',
-                    'cipherb_wt1': latest_cipherb['wt1'],
-                    'cipherb_wt2': latest_cipherb['wt2'],
-                    'cto_score': latest_cto['cto_score'],
-                    'price': coin_data['current_price'],
-                    'change_24h': coin_data['price_change_percentage_24h'],
-                    'market_cap': coin_data['market_cap'],
-                    'volume_24h': coin_data['volume_24h'],
-                    'exchange': exchange_used,
-                    'timestamp': signal_timestamp_ist,
-                    'signal_age_seconds': time_since_signal.total_seconds(),
-                    'coin_data': coin_data
-                }
+            # Check for confirmed BUY signal
+            if latest_cipherb['buySignal'] and latest_cto['cto_oversold']:
+                if self.deduplicator.is_signal_allowed(symbol, 'BUY', signal_timestamp_utc):
+                    return {
+                        'symbol': symbol,
+                        'signal_type': 'BUY',
+                        'cipherb_wt1': latest_cipherb['wt1'],
+                        'cipherb_wt2': latest_cipherb['wt2'],
+                        'cto_score': latest_cto['cto_score'],
+                        'price': coin_data['current_price'],
+                        'change_24h': coin_data['price_change_percentage_24h'],
+                        'market_cap': coin_data['market_cap'],
+                        'volume_24h': coin_data['volume_24h'],
+                        'exchange': exchange_used,
+                        'timestamp': signal_timestamp_ist,
+                        'signal_age_seconds': time_since_signal.total_seconds(),
+                        'coin_data': coin_data
+                    }
             
-            # Check SELL signal
-            if (latest_cipherb['sellSignal'] and 
-                latest_cto['cto_overbought'] and 
-                self.deduplicator.is_signal_allowed(symbol, 'SELL', signal_timestamp_utc)):
-                
-                return {
-                    'symbol': symbol,
-                    'signal_type': 'SELL',
-                    'cipherb_wt1': latest_cipherb['wt1'],
-                    'cipherb_wt2': latest_cipherb['wt2'],
-                    'cto_score': latest_cto['cto_score'],
-                    'price': coin_data['current_price'],
-                    'change_24h': coin_data['price_change_percentage_24h'],
-                    'market_cap': coin_data['market_cap'],
-                    'volume_24h': coin_data['volume_24h'],
-                    'exchange': exchange_used,
-                    'timestamp': signal_timestamp_ist,
-                    'signal_age_seconds': time_since_signal.total_seconds(),
-                    'coin_data': coin_data
-                }
+            # Check for confirmed SELL signal
+            if latest_cipherb['sellSignal'] and latest_cto['cto_overbought']:
+                if self.deduplicator.is_signal_allowed(symbol, 'SELL', signal_timestamp_utc):
+                    return {
+                        'symbol': symbol,
+                        'signal_type': 'SELL',
+                        'cipherb_wt1': latest_cipherb['wt1'],
+                        'cipherb_wt2': latest_cipherb['wt2'],
+                        'cto_score': latest_cto['cto_score'],
+                        'price': coin_data['current_price'],
+                        'change_24h': coin_data['price_change_percentage_24h'],
+                        'market_cap': coin_data['market_cap'],
+                        'volume_24h': coin_data['volume_24h'],
+                        'exchange': exchange_used,
+                        'timestamp': signal_timestamp_ist,
+                        'signal_age_seconds': time_since_signal.total_seconds(),
+                        'coin_data': coin_data
+                    }
             
             return None
             
-        except Exception:
-            # ✅ OPTIMIZATION: Silent fail (no delays)
+        except Exception as e:
+            print(f"❌ {symbol} analysis failed: {str(e)[:100]}")
             return None
     
     def run_analysis(self):
-        """Optimized 15m analysis - completes under 5 minutes"""
+        """Run 15m CipherB + CTO analysis with freshness validation"""
         ist_current = get_ist_time()
         
-        print("="*60)
-        print("🎯 OPTIMIZED 15M CIPHERB + CTO ANALYSIS")
-        print("="*60)
-        print(f"🕐 Start: {ist_current.strftime('%H:%M:%S IST')}")
-        print(f"📊 Analyzing {len(self.market_data)} high-volume coins")
-        print(f"⚡ Speed optimized for GitHub Actions")
+        print("="*80)
+        print("🎯 15-MINUTE CIPHERB + CTO ANALYSIS")
+        print("="*80)
+        print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
+        print(f"⏰ Timeframe: 15-minute candles")
+        print(f"✅ CipherB + CTO confirmation (±{abs(self.cto_oversold_threshold)})")
+        print(f"🔄 4-hour cooldown deduplication")
+        print(f"⏰ Freshness: Signals within last 15 minutes only")
+        print(f"🔍 Analyzing {len(self.market_data)} top coins")
         
         if not self.market_data:
             print("❌ No market data available")
             return
         
-        # Clean deduplication cache
         self.deduplicator.cleanup_old_signals()
         
-        # ✅ OPTIMIZATION: Process all coins without batching delays
         confirmed_signals = []
-        processed = 0
+        batch_size = self.config['alerts']['batch_size']
+        total_analyzed = 0
         
-        for coin in self.market_data:
-            signal_result = self.analyze_coin(coin)
-            if signal_result:
-                confirmed_signals.append(signal_result)
-                cto_score = signal_result['cto_score']
-                age_s = signal_result['signal_age_seconds']
-                print(f"🚨 {signal_result['signal_type']}: {signal_result['symbol']} "
-                      f"(CTO: {cto_score:.1f}, {age_s:.0f}s ago)")
+        for i in range(0, len(self.market_data), batch_size):
+            batch = self.market_data[i:i + batch_size]
+            batch_num = i // batch_size + 1
+            total_batches = (len(self.market_data) - 1) // batch_size + 1
             
-            processed += 1
-            # ✅ OPTIMIZATION: No sleep delays between coins
+            print(f"\n🔄 Processing batch {batch_num}/{total_batches}")
+            
+            for coin in batch:
+                signal_result = self.analyze_coin(coin)
+                if signal_result:
+                    confirmed_signals.append(signal_result)
+                    age_s = signal_result['signal_age_seconds']
+                    cto_score = signal_result['cto_score']
+                    print(f"🚨 FRESH 15M {signal_result['signal_type']}: {signal_result['symbol']} "
+                          f"(CTO: {cto_score:.1f}, {age_s:.0f}s ago)")
+                
+                total_analyzed += 1
+                time.sleep(self.config['exchanges']['rate_limit'])
         
-        # Send alerts
         if confirmed_signals:
             success = send_15m_alert(confirmed_signals)
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in confirmed_signals) / len(confirmed_signals)
-                print(f"\n✅ ALERT SENT: {len(confirmed_signals)} confirmed signals")
-                print(f"   Average signal age: {avg_age:.0f} seconds")
+                print(f"\n✅ SENT 15M FRESH CONFIRMED SIGNAL ALERT")
+                print(f"   Fresh confirmed signals: {len(confirmed_signals)}")
+                print(f"   Average age: {avg_age:.0f} seconds")
             else:
-                print(f"\n❌ Failed to send alert")
+                print(f"\n❌ Failed to send confirmed signal alert")
         else:
-            print(f"\n📊 No confirmed signals detected")
+            print(f"\n📊 No fresh confirmed signals detected")
         
-        end_time = get_ist_time()
-        duration = (end_time - ist_current).total_seconds()
-        
-        print(f"\n" + "="*60)
-        print("✅ 15M ANALYSIS COMPLETE")
-        print("="*60)
-        print(f"📊 Processed: {processed} coins")
-        print(f"🚨 Signals: {len(confirmed_signals)}")
-        print(f"⏱️ Duration: {duration:.1f} seconds")
-        print(f"📱 Alert: {'Sent' if confirmed_signals else 'None'}")
-        print("="*60)
+        print(f"\n" + "="*80)
+        print("🎯 15M CIPHERB + CTO ANALYSIS COMPLETE")
+        print("="*80)
+        print(f"📊 Total analyzed: {total_analyzed}")
+        print(f"🚨 Fresh confirmed signals: {len(confirmed_signals)}")
+        print(f"📱 Alert sent: {'Yes' if confirmed_signals else 'No'}")
+        print("="*80)
 
 if __name__ == '__main__':
     analyzer = Analyzer15mCTO()
