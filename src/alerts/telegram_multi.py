@@ -12,7 +12,7 @@ def get_ist_time():
     return utc_now + timedelta(hours=5, minutes=30)
 
 def send_multi_alert(all_signals, timeframe):
-    """Send consolidated multi-timeframe alert with safe formatting"""
+    """Send consolidated multi-timeframe alert with 3-line format and TradingView links"""
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
     chat_id = os.getenv('TELEGRAM_MULTI_CHAT_ID')
     
@@ -26,13 +26,17 @@ def send_multi_alert(all_signals, timeframe):
     buy_signals = [s for s in all_signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in all_signals if s['signal_type'] == 'SELL']
     
-    # Build message with SAFE formatting (no special Markdown)
+    # TradingView interval mapping
+    interval_map = {'6h': '360', '8h': '480', '12h': '720'}
+    interval = interval_map.get(timeframe, '360')
+    
+    # Build message with safe formatting
     message = f"📈 MULTI-TIMEFRAME CIPHERB ALERT\n\n"
     message += f"🎯 {len(all_signals)} {timeframe.upper()} SIGNALS\n"
     message += f"🕐 {current_time_str}\n"
     message += f"⏰ Timeframe: {timeframe.upper()} Candles\n\n"
 
-    # Add BUY signals (plain text, no Markdown)
+    # Add BUY signals with 3-line format
     if buy_signals:
         message += f"🟢 {timeframe.upper()} BUY SIGNALS:\n"
         for i, signal in enumerate(buy_signals, 1):
@@ -41,8 +45,8 @@ def send_multi_alert(all_signals, timeframe):
             change_24h = signal['change_24h']
             market_cap_m = signal['market_cap'] / 1_000_000
             volume_m = signal['volume_24h'] / 1_000_000
-            exchange = signal['exchange']
-            age_s = signal.get('signal_age_seconds', 0)
+            wt1 = signal['wt1']
+            wt2 = signal['wt2']
             
             # Format price safely
             if price < 0.001:
@@ -52,22 +56,22 @@ def send_multi_alert(all_signals, timeframe):
             else:
                 price_fmt = f"${price:.3f}"
             
-            # Plain text format (no Markdown links to avoid parsing issues)
-            message += f"\n{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
+            # 3-line format for 6h/8h/12h
+            message += f"{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
             message += f"   Cap: ${market_cap_m:.0f}M | Vol: ${volume_m:.0f}M\n"
-            message += f"   {exchange} | {age_s:.0f}s ago"
+            message += f"   WT: {wt1:.1f}/{wt2:.1f} | [Chart →](https://www.tradingview.com/chart/?symbol={symbol}USDT&interval={interval})\n"
 
-    # Add SELL signals (plain text, no Markdown)
+    # Add SELL signals with 3-line format
     if sell_signals:
-        message += f"\n\n🔴 {timeframe.upper()} SELL SIGNALS:\n"
+        message += f"\n🔴 {timeframe.upper()} SELL SIGNALS:\n"
         for i, signal in enumerate(sell_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
             change_24h = signal['change_24h']
             market_cap_m = signal['market_cap'] / 1_000_000
             volume_m = signal['volume_24h'] / 1_000_000
-            exchange = signal['exchange']
-            age_s = signal.get('signal_age_seconds', 0)
+            wt1 = signal['wt1']
+            wt2 = signal['wt2']
             
             # Format price safely
             if price < 0.001:
@@ -77,23 +81,27 @@ def send_multi_alert(all_signals, timeframe):
             else:
                 price_fmt = f"${price:.3f}"
             
-            message += f"\n{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
+            # 3-line format for 6h/8h/12h
+            message += f"{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
             message += f"   Cap: ${market_cap_m:.0f}M | Vol: ${volume_m:.0f}M\n"
-            message += f"   {exchange} | {age_s:.0f}s ago"
+            message += f"   WT: {wt1:.1f}/{wt2:.1f} | [Chart →](https://www.tradingview.com/chart/?symbol={symbol}USDT&interval={interval})\n"
 
-    # Footer (plain text)
+    # Footer
     avg_age = sum(s.get('signal_age_seconds', 0) for s in all_signals) / len(all_signals)
-    message += f"\n\n📊 {timeframe.upper()} SUMMARY:\n"
+    message += f"\n📊 {timeframe.upper()} SUMMARY:\n"
     message += f"• Total: {len(all_signals)} (avg age: {avg_age:.0f}s)\n"
     message += f"• Buy: {len(buy_signals)} | Sell: {len(sell_signals)}\n"
-    message += f"• Multi-Timeframe CipherB System v3.0"
+    message += f"• Suppression: Advanced deduplication ✅\n"
+    message += f"• Pure CipherB: No confirmation needed\n\n"
+    message += f"🎯 Multi-Timeframe CipherB System v3.0"
 
-    # Send message with NO parse mode to avoid Markdown errors
+    # Send message with Markdown for clickable links
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = {
         'chat_id': chat_id,
         'text': message,
-        'disable_web_page_preview': True
+        'parse_mode': 'Markdown',
+        'disable_web_page_preview': False
     }
     
     try:
