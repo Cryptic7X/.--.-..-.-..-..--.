@@ -1,8 +1,8 @@
 {
   "SOL_recent": {
-    "signal_type": "SELL",
-    "signal_time": "2025-09-14T03:00:00",
-    "alerted_at": "2025-09-14T03:02:32.763374"
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:13:54.827435"
   },
   "RAY_recent": {
     "signal_type": "BUY",
@@ -16,8 +16,8 @@
   },
   "AERO_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T03:45:00",
-    "alerted_at": "2025-09-14T03:50:18.612894"
+    "signal_time": "2025-09-14T15:15:00",
+    "alerted_at": "2025-09-14T15:16:16.617838"
   },
   "XLM_recent": {
     "signal_type": "BUY",
@@ -26,8 +26,8 @@
   },
   "CRO_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T11:00:00",
-    "alerted_at": "2025-09-14T11:08:49.806558"
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:14:30.854825"
   },
   "DOT_recent": {
     "signal_type": "BUY",
@@ -66,8 +66,8 @@
   },
   "PENGU_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T04:30:00",
-    "alerted_at": "2025-09-14T04:41:46.805224"
+    "signal_time": "2025-09-14T15:15:00",
+    "alerted_at": "2025-09-14T15:15:22.600059"
   },
   "ATOM_recent": {
     "signal_type": "BUY",
@@ -86,8 +86,8 @@
   },
   "FET_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T04:30:00",
-    "alerted_at": "2025-09-14T04:42:16.057295"
+    "signal_time": "2025-09-14T15:15:00",
+    "alerted_at": "2025-09-14T15:15:49.606388"
   },
   "OP_recent": {
     "signal_type": "BUY",
@@ -273,5 +273,25 @@
     "signal_type": "BUY",
     "signal_time": "2025-09-14T14:00:00",
     "alerted_at": "2025-09-14T14:13:58.203665"
+  },
+  "BTC_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:13:48.095857"
+  },
+  "XRP_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:13:52.555042"
+  },
+  "LTC_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:14:24.101153"
+  },
+  "TON_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:00:00",
+    "alerted_at": "2025-09-14T15:14:26.340899"
   }
 }
