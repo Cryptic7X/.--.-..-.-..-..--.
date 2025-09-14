@@ -9,7 +9,7 @@ on:
 jobs:
   analysis_15m:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 18
     
     steps:
     - name: Checkout Repository
