@@ -81,8 +81,8 @@
   },
   "SEI_recent": {
     "signal_type": "BUY",
-    "signal_time": "2025-09-14T04:30:00",
-    "alerted_at": "2025-09-14T04:42:02.552697"
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:38:10.064554"
   },
   "FET_recent": {
     "signal_type": "BUY",
@@ -293,5 +293,45 @@
     "signal_type": "BUY",
     "signal_time": "2025-09-14T15:00:00",
     "alerted_at": "2025-09-14T15:14:26.340899"
+  },
+  "TRX_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:36:35.567272"
+  },
+  "SHIB_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:37:02.947068"
+  },
+  "MNT_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:37:13.798469"
+  },
+  "PEPE_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:37:20.547812"
+  },
+  "TAO_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:37:25.071609"
+  },
+  "INJ_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:38:28.076472"
+  },
+  "CFX_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:39:06.687790"
+  },
+  "CAKE_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T15:30:00",
+    "alerted_at": "2025-09-14T15:39:17.565072"
   }
 }
