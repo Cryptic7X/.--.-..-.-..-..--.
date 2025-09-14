@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-6-Hour Multi-Timeframe CipherB Analyzer - FIXED VERSION
-- Enhanced symbol mapping for BingX/KuCoin
-- Freshness validation (6 hours)
-- Safe Telegram alerts (no 400 errors)
+6-Hour Multi-Timeframe CipherB Analyzer
+Enhanced with symbol mapping and error handling
 """
 
 import os
@@ -83,7 +81,7 @@ class Analyzer6h:
         except Exception as e:
             print(f"⚠️ KuCoin initialization failed: {e}")
         
-        # ✅ Enhanced symbol mapping with multiple market types
+        # Enhanced symbol mapping with multiple market types
         self.symbol_map = {}
         missing_count = 0
         
@@ -129,7 +127,7 @@ class Analyzer6h:
     def fetch_ohlcv_data(self, symbol, timeframe='6h'):
         """Fetch OHLCV data with enhanced symbol mapping"""
         
-        # ✅ Check symbol mapping first
+        # Check symbol mapping first
         if symbol.upper() not in self.symbol_map:
             # Try common variations
             variations = [
@@ -162,7 +160,7 @@ class Analyzer6h:
             return None, None
         
         try:
-            # ✅ Check if market is still active before fetching
+            # Check if market is still active before fetching
             market = exchange.market(market_symbol)
             if not market.get('active', True):
                 print(f"⚠️ {symbol} ({market_symbol}): Market is inactive")
@@ -177,7 +175,10 @@ class Analyzer6h:
             df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
             df.set_index('timestamp', inplace=True)
             
+            # Keep UTC timestamps for freshness checking
             df['utc_timestamp'] = df.index
+            
+            # Convert to IST for display
             df.index = df.index + pd.Timedelta(hours=5, minutes=30)
             
             if len(df) > 25 and df['close'].iloc[-1] > 0:
@@ -198,27 +199,33 @@ class Analyzer6h:
         symbol = coin_data['symbol']
         
         try:
+            # Fetch 6h OHLCV data
             df, exchange_used = self.fetch_ohlcv_data(symbol, '6h')
             
             if df is None or len(df) < 25:
                 return None
             
+            # Get signal timestamp for freshness check
             signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
             
-            # ✅ FRESHNESS CHECK: Signal must be within last 6 hours
+            # FRESHNESS CHECK: Signal must be within last 6 hours
             if not is_signal_fresh(signal_timestamp_utc, '6h'):
                 signal_age_display = get_signal_age_display(signal_timestamp_utc, '6h')
                 print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
                 return None
             
+            # Calculate CipherB signals
             cipherb_signals = detect_exact_cipherb_signals(df, self.config['cipherb'])
             
             if cipherb_signals.empty:
                 return None
             
+            # Get latest signal
             latest_idx = -1
             latest_signal = cipherb_signals.iloc[latest_idx]
+            
             signal_timestamp_ist = cipherb_signals.index[latest_idx]
+            
             current_time = datetime.utcnow()
             time_since_signal = current_time - signal_timestamp_utc.to_pydatetime()
             
@@ -283,8 +290,10 @@ class Analyzer6h:
             print("❌ No market data available")
             return
         
+        # Clean up old records
         self.suppressor.cleanup_old_states()
         
+        # Analyze coins in batches
         valid_signals = []
         batch_size = self.config['alerts']['batch_size']
         total_analyzed = 0
@@ -326,6 +335,7 @@ class Analyzer6h:
         print(f"📊 Total analyzed: {total_analyzed}")
         print(f"🚨 Fresh valid signals: {len(valid_signals)}")
         print(f"📱 Alert sent: {'Yes' if valid_signals else 'No'}")
+        print(f"⏰ Freshness filter: Active (6 hours)")
         print(f"⏰ Next analysis: 6 hours")
         print("="*80)
 
