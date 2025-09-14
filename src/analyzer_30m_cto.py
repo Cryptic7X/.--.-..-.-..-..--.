@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-15-Minute CipherB + CTO Confirmation Analyzer
+30-Minute CipherB + CTO Confirmation Analyzer
 - CipherB primary signals
 - CTO confirmation (±70 thresholds)
 - 4-hour cooldown deduplication
-- 15-minute freshness validation
+- 30-minute freshness validation
 """
 
 import os
@@ -19,8 +19,8 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from indicators.cipherb_exact import detect_exact_cipherb_signals
 from indicators.composite_trend_oscillator import CompositeTrendOscillator
-from alerts.telegram_15m import send_15m_alert
-from alerts.deduplication_15m import Deduplicator15m
+from alerts.telegram_30m import send_30m_alert
+from alerts.deduplication_30m import Deduplicator30m
 from utils.freshness import is_signal_fresh, get_signal_age_display
 
 def get_ist_time():
@@ -28,10 +28,10 @@ def get_ist_time():
     utc_now = datetime.utcnow()
     return utc_now + timedelta(hours=5, minutes=30)
 
-class Analyzer15mCTO:
+class Analyzer30mCTO:
     def __init__(self):
         self.config = self.load_config()
-        self.timeframe = '15m'
+        self.timeframe = '30m'
         
         # Initialize CTO with only valid constructor parameters
         cto_config = self.config['cto']
@@ -49,18 +49,18 @@ class Analyzer15mCTO:
         self.cto_overbought_threshold = cto_config.get('overbought_threshold', 70)
         self.cto_oversold_threshold = cto_config.get('oversold_threshold', -70)
         
-        self.deduplicator = Deduplicator15m()
+        self.deduplicator = Deduplicator30m()
         self.exchanges = self.init_exchanges()
         self.market_data = self.load_market_data()
     
     def load_config(self):
-        config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'config_15m.yaml')
+        config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'config_30m.yaml')
         with open(config_path) as f:
             return yaml.safe_load(f)
     
     def load_market_data(self):
         """Load top 100 coins from cache"""
-        cache_file = os.path.join(os.path.dirname(__file__), '..', 'cache', 'market_data_15m.json')
+        cache_file = os.path.join(os.path.dirname(__file__), '..', 'cache', 'market_data_30m.json')
         
         if not os.path.exists(cache_file):
             print("❌ Market data cache not found - run data fetcher first")
@@ -70,7 +70,7 @@ class Analyzer15mCTO:
             data = json.load(f)
         
         coins = data.get('coins', [])
-        print(f"📊 Loaded {len(coins)} coins for 15m analysis")
+        print(f"📊 Loaded {len(coins)} coins for 30m analysis")
         return coins
     
     def init_exchanges(self):
@@ -127,7 +127,7 @@ class Analyzer15mCTO:
         print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
         return exchanges
     
-    def fetch_ohlcv_data(self, symbol, timeframe='15m'):
+    def fetch_ohlcv_data(self, symbol, timeframe='30m'):
         """Fetch OHLCV data with enhanced symbol mapping"""
         
         if symbol.upper() not in self.symbol_map:
@@ -176,17 +176,18 @@ class Analyzer15mCTO:
         return None, None
     
     def analyze_coin(self, coin_data):
-        """Analyze single coin for CipherB + CTO confirmation with 15m freshness"""
+        """Analyze single coin for CipherB + CTO confirmation with 30m freshness"""
         symbol = coin_data['symbol']
         
         try:
-            df, exchange_used = self.fetch_ohlcv_data(symbol, '15m')
+            df, exchange_used = self.fetch_ohlcv_data(symbol, '30m')
             
             if df is None or len(df) < 50:
                 return None
             
             signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
             
+            # ✅ FRESHNESS CHECK: Signal must be within last 30 minutes
             if not is_signal_fresh(signal_timestamp_utc, self.timeframe):
                 signal_age_display = get_signal_age_display(signal_timestamp_utc, self.timeframe)
                 print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
@@ -260,17 +261,17 @@ class Analyzer15mCTO:
             return None
     
     def run_analysis(self):
-        """Run 15m CipherB + CTO analysis with freshness validation"""
+        """Run 30m CipherB + CTO analysis with freshness validation"""
         ist_current = get_ist_time()
         
         print("="*80)
-        print("🎯 15-MINUTE CIPHERB + CTO ANALYSIS")
+        print("🎯 30-MINUTE CIPHERB + CTO ANALYSIS")
         print("="*80)
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
-        print(f"⏰ Timeframe: 15-minute candles")
+        print(f"⏰ Timeframe: 30-minute candles")
         print(f"✅ CipherB + CTO confirmation (±{abs(self.cto_oversold_threshold)})")
         print(f"🔄 4-hour cooldown deduplication")
-        print(f"⏰ Freshness: Signals within last 15 minutes only")
+        print(f"⏰ Freshness: Signals within last 30 minutes only")
         print(f"🔍 Analyzing {len(self.market_data)} top coins")
         
         if not self.market_data:
@@ -296,17 +297,17 @@ class Analyzer15mCTO:
                     confirmed_signals.append(signal_result)
                     age_s = signal_result['signal_age_seconds']
                     cto_score = signal_result['cto_score']
-                    print(f"🚨 FRESH 15M {signal_result['signal_type']}: {signal_result['symbol']} "
+                    print(f"🚨 FRESH 30M {signal_result['signal_type']}: {signal_result['symbol']} "
                           f"(CTO: {cto_score:.1f}, {age_s:.0f}s ago)")
                 
                 total_analyzed += 1
                 time.sleep(self.config['exchanges']['rate_limit'])
         
         if confirmed_signals:
-            success = send_15m_alert(confirmed_signals)
+            success = send_30m_alert(confirmed_signals)
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in confirmed_signals) / len(confirmed_signals)
-                print(f"\n✅ SENT 15M FRESH CONFIRMED SIGNAL ALERT")
+                print(f"\n✅ SENT 30M FRESH CONFIRMED SIGNAL ALERT")
                 print(f"   Fresh confirmed signals: {len(confirmed_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
@@ -315,7 +316,7 @@ class Analyzer15mCTO:
             print(f"\n📊 No fresh confirmed signals detected")
         
         print(f"\n" + "="*80)
-        print("🎯 15M CIPHERB + CTO ANALYSIS COMPLETE")
+        print("🎯 30M CIPHERB + CTO ANALYSIS COMPLETE")
         print("="*80)
         print(f"📊 Total analyzed: {total_analyzed}")
         print(f"🚨 Fresh confirmed signals: {len(confirmed_signals)}")
@@ -323,5 +324,5 @@ class Analyzer15mCTO:
         print("="*80)
 
 if __name__ == '__main__':
-    analyzer = Analyzer15mCTO()
+    analyzer = Analyzer30mCTO()
     analyzer.run_analysis()
