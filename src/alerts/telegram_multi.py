@@ -1,5 +1,5 @@
 """
-Telegram Alert System for Multi-Timeframe System
+Telegram Alert System for Multi-Timeframe System - SAFE FORMATTING
 """
 
 import os
@@ -12,7 +12,7 @@ def get_ist_time():
     return utc_now + timedelta(hours=5, minutes=30)
 
 def send_multi_alert(all_signals, timeframe):
-    """Send consolidated multi-timeframe alert"""
+    """Send consolidated multi-timeframe alert with safe formatting"""
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
     chat_id = os.getenv('TELEGRAM_MULTI_CHAT_ID')
     
@@ -26,27 +26,25 @@ def send_multi_alert(all_signals, timeframe):
     buy_signals = [s for s in all_signals if s['signal_type'] == 'BUY']
     sell_signals = [s for s in all_signals if s['signal_type'] == 'SELL']
     
-    # Build message header
-    message = f"📈 *MULTI-TIMEFRAME CIPHERB ALERT*\n\n"
-    message += f"🎯 *{len(all_signals)} {timeframe.upper()} SIGNALS*\n"
-    message += f"🕐 *{current_time_str}*\n"
-    message += f"⏰ *Timeframe: {timeframe.upper()} Candles*\n\n"
+    # Build message with SAFE formatting (no special Markdown)
+    message = f"📈 MULTI-TIMEFRAME CIPHERB ALERT\n\n"
+    message += f"🎯 {len(all_signals)} {timeframe.upper()} SIGNALS\n"
+    message += f"🕐 {current_time_str}\n"
+    message += f"⏰ Timeframe: {timeframe.upper()} Candles\n\n"
 
-    # Add BUY signals
+    # Add BUY signals (plain text, no Markdown)
     if buy_signals:
-        message += f"🟢 *{timeframe.upper()} BUY SIGNALS:*\n"
+        message += f"🟢 {timeframe.upper()} BUY SIGNALS:\n"
         for i, signal in enumerate(buy_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
             change_24h = signal['change_24h']
             market_cap_m = signal['market_cap'] / 1_000_000
             volume_m = signal['volume_24h'] / 1_000_000
-            wt1 = signal['wt1']
-            wt2 = signal['wt2']
             exchange = signal['exchange']
             age_s = signal.get('signal_age_seconds', 0)
             
-            # Format price
+            # Format price safely
             if price < 0.001:
                 price_fmt = f"${price:.8f}"
             elif price < 1:
@@ -54,32 +52,24 @@ def send_multi_alert(all_signals, timeframe):
             else:
                 price_fmt = f"${price:.3f}"
             
-            # TradingView link with correct interval
-            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            interval_map = {'6h': '360', '8h': '480', '12h': '720'}
-            interval = interval_map.get(timeframe, '360')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={interval}"
-            
-            message += f"\n{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%\n"
+            # Plain text format (no Markdown links)
+            message += f"\n{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
             message += f"   Cap: ${market_cap_m:.0f}M | Vol: ${volume_m:.0f}M\n"
-            message += f"   WT: {wt1:.1f}/{wt2:.1f} | {exchange}\n"
-            message += f"   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"
+            message += f"   {exchange} | {age_s:.0f}s ago"
 
-    # Add SELL signals
+    # Add SELL signals (plain text, no Markdown)
     if sell_signals:
-        message += f"\n\n🔴 *{timeframe.upper()} SELL SIGNALS:*\n"
+        message += f"\n\n🔴 {timeframe.upper()} SELL SIGNALS:\n"
         for i, signal in enumerate(sell_signals, 1):
             symbol = signal['symbol']
             price = signal['price']
             change_24h = signal['change_24h']
             market_cap_m = signal['market_cap'] / 1_000_000
             volume_m = signal['volume_24h'] / 1_000_000
-            wt1 = signal['wt1']
-            wt2 = signal['wt2']
             exchange = signal['exchange']
             age_s = signal.get('signal_age_seconds', 0)
             
-            # Format price
+            # Format price safely
             if price < 0.001:
                 price_fmt = f"${price:.8f}"
             elif price < 1:
@@ -87,34 +77,24 @@ def send_multi_alert(all_signals, timeframe):
             else:
                 price_fmt = f"${price:.3f}"
             
-            # TradingView link with correct interval
-            clean_symbol = symbol.replace('USDT', '').replace('USD', '')
-            interval_map = {'6h': '360', '8h': '480', '12h': '720'}
-            interval = interval_map.get(timeframe, '360')
-            tv_link = f"https://www.tradingview.com/chart/?symbol={clean_symbol}USDT&interval={interval}"
-            
-            message += f"\n{i}. *{symbol}* | {price_fmt} | {change_24h:+.1f}%\n"
+            message += f"\n{i}. {symbol} | {price_fmt} | {change_24h:+.1f}%\n"
             message += f"   Cap: ${market_cap_m:.0f}M | Vol: ${volume_m:.0f}M\n"
-            message += f"   WT: {wt1:.1f}/{wt2:.1f} | {exchange}\n"
-            message += f"   ⚡{age_s:.0f}s ago | [Chart →]({tv_link})"
+            message += f"   {exchange} | {age_s:.0f}s ago"
 
-    # Footer
+    # Footer (plain text)
     avg_age = sum(s.get('signal_age_seconds', 0) for s in all_signals) / len(all_signals)
-    message += f"\n\n📊 *{timeframe.upper()} SIGNAL SUMMARY:*\n"
-    message += f"• Total Signals: {len(all_signals)} (avg age: {avg_age:.0f}s)\n"
-    message += f"• Buy Signals: {len(buy_signals)}\n"
-    message += f"• Sell Signals: {len(sell_signals)}\n"
-    message += f"• Suppression: Advanced deduplication ✅\n"
-    message += f"• Pure CipherB: No confirmation needed\n\n"
-    message += f"🎯 *Multi-Timeframe CipherB System v3.0*"
+    message += f"\n\n📊 {timeframe.upper()} SUMMARY:\n"
+    message += f"• Total: {len(all_signals)} (avg age: {avg_age:.0f}s)\n"
+    message += f"• Buy: {len(buy_signals)} | Sell: {len(sell_signals)}\n"
+    message += f"• Multi-Timeframe CipherB System v3.0"
 
-    # Send message
+    # Send message with NO parse mode to avoid Markdown errors
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = {
         'chat_id': chat_id,
         'text': message,
-        'parse_mode': 'Markdown',
-        'disable_web_page_preview': False
+        # Remove parse_mode to avoid Markdown parsing errors
+        'disable_web_page_preview': True
     }
     
     try:
@@ -138,18 +118,17 @@ def send_admin_alert(error_type, error_message, timeframe=None):
     tf_info = f" ({timeframe})" if timeframe else ""
     
     # Simple string concatenation to avoid triple-quote issues
-    message = f"🚨 *MULTI-TIMEFRAME SYSTEM ERROR{tf_info}*\n\n"
-    message += f"⚠️ *Error Type:* {error_type}\n"
-    message += f"🕐 *Time:* {ist_time.strftime('%Y-%m-%d %H:%M:%S IST')}\n"
-    message += f"🔧 *System:* Multi-Timeframe CipherB{tf_info}\n\n"
-    message += f"*Error Details:*\n``````\n\n"
-    message += f"🔧 *Action Required:* Check system logs"
+    message = f"🚨 MULTI-TIMEFRAME SYSTEM ERROR{tf_info}\n\n"
+    message += f"⚠️ Error Type: {error_type}\n"
+    message += f"🕐 Time: {ist_time.strftime('%Y-%m-%d %H:%M:%S IST')}\n"
+    message += f"🔧 System: Multi-Timeframe CipherB{tf_info}\n\n"
+    message += f"Error Details:\n{error_message[:1000]}\n\n"
+    message += f"🔧 Action Required: Check system logs"
     
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     payload = {
         'chat_id': admin_chat_id,
-        'text': message,
-        'parse_mode': 'Markdown'
+        'text': message
     }
     
     try:
