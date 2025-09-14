@@ -439,5 +439,26 @@
     "last_alert_time": "2025-09-14T06:00:00",
     "created_at": "2025-09-14T07:22:46.011699",
     "suppression_level": "none"
+  },
+  "BSV_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T08:02:03.677068",
+    "suppression_level": "none"
+  },
+  "SNT_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T08:07:59.048807",
+    "suppression_level": "none"
+  },
+  "G_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T08:08:18.130298",
+    "suppression_level": "none"
   }
 }
