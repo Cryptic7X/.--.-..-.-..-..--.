@@ -140,10 +140,11 @@ def send_admin_alert(error_type, error_message):
     
     ist_time = get_ist_time()
     
-    message = f"""🚨 *15M SYSTEM ERROR*
+    # Fixed: Use .format() instead of f-string to avoid syntax issues
+    message = """🚨 *15M SYSTEM ERROR*
 
 ⚠️ *Error Type:* {error_type}
-🕐 *Time:* {ist_time.strftime('%Y-%m-%d %H:%M:%S IST')}
+🕐 *Time:* {ist_time}
 🔧 *System:* 15-Minute CipherB + CTO
 
 *Error Details:*
