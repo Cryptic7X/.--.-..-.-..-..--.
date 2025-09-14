@@ -2,7 +2,7 @@
   "M_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-14T12:00:00",
+    "last_alert_time": "2025-09-14T18:00:00",
     "created_at": "2025-09-14T05:45:23.314851",
     "suppression_level": "none"
   },
@@ -408,7 +408,7 @@
   "SAPIEN_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-14T06:00:00",
+    "last_alert_time": "2025-09-14T18:00:00",
     "created_at": "2025-09-14T06:57:00.417931",
     "suppression_level": "none"
   },
@@ -478,7 +478,7 @@
   "PUMP_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-14T12:00:00",
+    "last_alert_time": "2025-09-14T18:00:00",
     "created_at": "2025-09-14T12:39:24.032593",
     "suppression_level": "none"
   },
@@ -513,7 +513,7 @@
   "ARK_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-14T12:00:00",
+    "last_alert_time": "2025-09-14T18:00:00",
     "created_at": "2025-09-14T12:49:36.155924",
     "suppression_level": "none"
   },
@@ -522,6 +522,20 @@
     "last_alerted_timeframe": "6h",
     "last_alert_time": "2025-09-14T12:00:00",
     "created_at": "2025-09-14T12:51:20.964509",
+    "suppression_level": "none"
+  },
+  "SKY_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T18:00:00",
+    "created_at": "2025-09-14T18:28:18.628771",
+    "suppression_level": "none"
+  },
+  "BIO_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T18:00:00",
+    "created_at": "2025-09-14T18:30:58.410846",
     "suppression_level": "none"
   }
 }
