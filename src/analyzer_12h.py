@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-12-Hour Multi-Timeframe CipherB Analyzer - FIXED VERSION
-- Enhanced symbol mapping for BingX/KuCoin
-- Freshness validation (12 hours)
-- Safe Telegram alerts (no 400 errors)
+12-Hour Multi-Timeframe CipherB Analyzer
+Part of cascading suppression system
 """
 
 import os
@@ -83,75 +81,40 @@ class Analyzer12h:
         except Exception as e:
             print(f"⚠️ KuCoin initialization failed: {e}")
         
-        # ✅ Enhanced symbol mapping with multiple market types
+        # Enhanced symbol mapping
         self.symbol_map = {}
-        missing_count = 0
-        
         for exchange_name, exchange in exchanges:
-            print(f"📊 Loading {exchange_name} markets...")
-            
             for market_symbol in exchange.symbols:
                 try:
                     market = exchange.market(market_symbol)
-                    
-                    # Skip inactive markets
                     if not market.get('active', True):
                         continue
                     
-                    # Extract base currency from various formats
                     base_currency = None
-                    
                     if '/USDT' in market_symbol:
                         base_currency = market_symbol.split('/USDT')[0]
                     elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
                         base_currency = market_symbol[:-4]
-                    elif '/USDC' in market_symbol:
-                        base_currency = market_symbol.split('/USDC')[0]
-                    elif market_symbol.endswith('USDC') and len(market_symbol) > 4:
-                        base_currency = market_symbol[:-4]
                     
                     if base_currency:
-                        # Store with priority: USDT > USDC
                         key = base_currency.upper()
                         if key not in self.symbol_map or 'USDT' in market_symbol:
                             self.symbol_map[key] = (exchange_name, market_symbol)
-                            
-                except Exception as e:
-                    missing_count += 1
+                except Exception:
                     continue
         
-        print(f"✅ Symbol mapping built: {len(self.symbol_map)} pairs available")
-        if missing_count > 0:
-            print(f"⚠️ Skipped {missing_count} inactive/invalid markets")
-        
+        print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
         return exchanges
     
     def fetch_ohlcv_data(self, symbol, timeframe='12h'):
         """Fetch OHLCV data with enhanced symbol mapping"""
         
-        # ✅ Check symbol mapping first
         if symbol.upper() not in self.symbol_map:
-            # Try common variations
-            variations = [
-                symbol.upper(),
-                f"{symbol.upper()}-USDT",
-                f"{symbol.upper()}USDT",
-            ]
-            
-            found = False
-            for variation in variations:
-                if variation in self.symbol_map:
-                    symbol = variation
-                    found = True
-                    break
-            
-            if not found:
-                print(f"⚠️ {symbol}: No valid trading pair found")
-                return None, None
+            print(f"⚠️ {symbol}: No USDT pair found on any exchange")
+            return None, None
         
         exchange_name, market_symbol = self.symbol_map[symbol.upper()]
         
-        # Get the correct exchange
         exchange = None
         for ex_name, ex in self.exchanges:
             if ex_name == exchange_name:
@@ -162,7 +125,6 @@ class Analyzer12h:
             return None, None
         
         try:
-            # ✅ Check if market is still active before fetching
             market = exchange.market(market_symbol)
             if not market.get('active', True):
                 print(f"⚠️ {symbol} ({market_symbol}): Market is inactive")
@@ -189,7 +151,6 @@ class Analyzer12h:
                 print(f"⚠️ {symbol}: Not available on {exchange_name}")
             else:
                 print(f"⚠️ {exchange_name} error for {symbol}: {error_msg[:50]}")
-            return None, None
         
         return None, None
     
@@ -205,7 +166,6 @@ class Analyzer12h:
             
             signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
             
-            # ✅ FRESHNESS CHECK: Signal must be within last 12 hours
             if not is_signal_fresh(signal_timestamp_utc, '12h'):
                 signal_age_display = get_signal_age_display(signal_timestamp_utc, '12h')
                 print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
@@ -222,7 +182,6 @@ class Analyzer12h:
             current_time = datetime.utcnow()
             time_since_signal = current_time - signal_timestamp_utc.to_pydatetime()
             
-            # Check for BUY signal
             if latest_signal['buySignal']:
                 if self.suppressor.should_alert(symbol, 'BUY', self.timeframe, signal_timestamp_utc):
                     return {
@@ -241,7 +200,6 @@ class Analyzer12h:
                         'coin_data': coin_data
                     }
             
-            # Check for SELL signal
             if latest_signal['sellSignal']:
                 if self.suppressor.should_alert(symbol, 'SELL', self.timeframe, signal_timestamp_utc):
                     return {
@@ -275,7 +233,6 @@ class Analyzer12h:
         print("="*80)
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
         print(f"⏰ Timeframe: 12-hour candles")
-        print(f"🔄 Advanced suppression logic")
         print(f"⏰ Freshness: Signals within last 12 hours only")
         print(f"🔍 Analyzing {len(self.market_data)} filtered coins")
         
@@ -307,7 +264,6 @@ class Analyzer12h:
                 total_analyzed += 1
                 time.sleep(self.config['exchanges']['rate_limit'])
         
-        # Send alerts
         if valid_signals:
             success = send_multi_alert(valid_signals, self.timeframe)
             if success:
@@ -326,7 +282,6 @@ class Analyzer12h:
         print(f"📊 Total analyzed: {total_analyzed}")
         print(f"🚨 Fresh valid signals: {len(valid_signals)}")
         print(f"📱 Alert sent: {'Yes' if valid_signals else 'No'}")
-        print(f"⏰ Next analysis: 12 hours")
         print("="*80)
 
 if __name__ == '__main__':
