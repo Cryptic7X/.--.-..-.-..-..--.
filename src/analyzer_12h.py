@@ -17,10 +17,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from indicators.cipherb_exact import detect_exact_cipherb_signals
 from alerts.telegram_multi import send_multi_alert
 from alerts.suppression_multi import MultiTimeframeSuppressor
-from utils.freshness import is_signal_fresh, get_signal_age_display  # ✅ ADD THIS LINE
-
-# Rest of your existing analyzer_12h.py code...
-
+from utils.freshness import is_signal_fresh, get_signal_age_display
 
 def get_ist_time():
     """Convert UTC to IST"""
@@ -67,6 +64,7 @@ class Analyzer12h:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
+            bingx.load_markets()  # ✅ Load markets to get all symbols
             exchanges.append(('BingX', bingx))
         except Exception as e:
             print(f"⚠️ BingX initialization failed: {e}")
@@ -78,37 +76,68 @@ class Analyzer12h:
                 'enableRateLimit': True,
                 'timeout': 30000,
             })
+            kucoin.load_markets()  # ✅ Load markets to get all symbols
             exchanges.append(('KuCoin', kucoin))
         except Exception as e:
             print(f"⚠️ KuCoin initialization failed: {e}")
         
+        # ✅ Build unified symbol mapping
+        self.symbol_map = {}
+        for exchange_name, exchange in exchanges:
+            for market_symbol in exchange.symbols:
+                # Extract base currency (e.g., 'TON' from 'TON/USDT' or 'TONUSDT')
+                if '/USDT' in market_symbol:
+                    base = market_symbol.replace('/USDT', '')
+                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+                elif market_symbol.endswith('USDT') and len(market_symbol) > 4:
+                    base = market_symbol[:-4]  # Remove 'USDT' suffix
+                    self.symbol_map[base.upper()] = (exchange_name, market_symbol)
+        
+        print(f"✅ Symbol mapping built: {len(self.symbol_map)} USDT pairs available")
         return exchanges
     
     def fetch_ohlcv_data(self, symbol, timeframe='12h'):
-        """Fetch OHLCV data with exchange fallback"""
-        for exchange_name, exchange in self.exchanges:
-            try:
-                ohlcv = exchange.fetch_ohlcv(f"{symbol}/USDT", timeframe, limit=200)
-                
-                if len(ohlcv) < 50:
-                    continue
-                
-                df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
-                df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
-                df.set_index('timestamp', inplace=True)
-                
-                # Keep UTC timestamps for freshness checking
-                df['utc_timestamp'] = df.index
-                
-                # Convert to IST for display
-                df.index = df.index + pd.Timedelta(hours=5, minutes=30)
-                
-                if len(df) > 25 and df['close'].iloc[-1] > 0:
-                    return df, exchange_name
-                    
-            except Exception as e:
-                print(f"⚠️ {exchange_name} failed for {symbol}: {str(e)[:50]}")
-                continue
+        """Fetch OHLCV data with proper symbol mapping"""
+        
+        # ✅ Use symbol mapping to find correct market symbol
+        if symbol.upper() not in self.symbol_map:
+            print(f"⚠️ {symbol}: No USDT pair found on any exchange")
+            return None, None
+        
+        exchange_name, market_symbol = self.symbol_map[symbol.upper()]
+        
+        # Get the correct exchange
+        exchange = None
+        for ex_name, ex in self.exchanges:
+            if ex_name == exchange_name:
+                exchange = ex
+                break
+        
+        if not exchange:
+            return None, None
+        
+        try:
+            ohlcv = exchange.fetch_ohlcv(market_symbol, timeframe, limit=200)
+            
+            if len(ohlcv) < 50:
+                return None, None
+            
+            df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
+            df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+            df.set_index('timestamp', inplace=True)
+            
+            # Keep UTC timestamps for freshness checking
+            df['utc_timestamp'] = df.index
+            
+            # Convert to IST for display
+            df.index = df.index + pd.Timedelta(hours=5, minutes=30)
+            
+            if len(df) > 25 and df['close'].iloc[-1] > 0:
+                return df, exchange_name
+            
+        except Exception as e:
+            print(f"⚠️ {exchange_name} failed for {symbol} ({market_symbol}): {str(e)[:50]}")
+            return None, None
         
         return None, None
     
@@ -128,11 +157,10 @@ class Analyzer12h:
             
             # ✅ FRESHNESS CHECK: Signal must be within last 12 hours
             if not is_signal_fresh(signal_timestamp_utc, '12h'):
-                signal_age_hours = (datetime.now(timezone.utc) - signal_timestamp_utc.replace(tzinfo=timezone.utc)).total_seconds() / 3600
-                print(f"⏰ {symbol}: Signal too old ({signal_age_hours:.1f}h ago) - skipping")
+                signal_age_display = get_signal_age_display(signal_timestamp_utc, '12h')
+                print(f"⏰ {symbol}: Signal too old ({signal_age_display}) - skipping")
                 return None
             
-            # Rest of the existing analyze_coin logic...
             # Calculate CipherB signals
             cipherb_signals = detect_exact_cipherb_signals(df, self.config['cipherb'])
             
@@ -143,16 +171,10 @@ class Analyzer12h:
             latest_idx = -1
             latest_signal = cipherb_signals.iloc[latest_idx]
             
-            signal_timestamp_utc = df['utc_timestamp'].iloc[latest_idx]
             signal_timestamp_ist = cipherb_signals.index[latest_idx]
             
             current_time = datetime.utcnow()
             time_since_signal = current_time - signal_timestamp_utc.to_pydatetime()
-            
-            # Check freshness
-            freshness_limit = timedelta(minutes=self.config['alerts']['freshness_minutes'])
-            if time_since_signal > freshness_limit:
-                return None
             
             # Check for BUY signal
             if latest_signal['buySignal']:
@@ -208,6 +230,7 @@ class Analyzer12h:
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
         print(f"⏰ Timeframe: 12-hour candles")
         print(f"🔄 Advanced suppression logic")
+        print(f"⏰ Freshness: Signals within last 12 hours only")
         print(f"🔍 Analyzing {len(self.market_data)} filtered coins")
         
         if not self.market_data:
@@ -234,7 +257,7 @@ class Analyzer12h:
                 if signal_result:
                     valid_signals.append(signal_result)
                     age_s = signal_result['signal_age_seconds']
-                    print(f"🚨 12H {signal_result['signal_type']}: {signal_result['symbol']} "
+                    print(f"🚨 FRESH 12H {signal_result['signal_type']}: {signal_result['symbol']} "
                           f"({age_s:.0f}s ago)")
                 
                 total_analyzed += 1
@@ -246,19 +269,20 @@ class Analyzer12h:
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in valid_signals) / len(valid_signals)
                 print(f"\n✅ SENT 12H MULTI-TIMEFRAME ALERT")
-                print(f"   Valid signals: {len(valid_signals)}")
+                print(f"   Fresh valid signals: {len(valid_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
                 print(f"\n❌ Failed to send multi-timeframe alert")
         else:
-            print(f"\n📊 No valid 12h signals detected")
+            print(f"\n📊 No fresh valid 12h signals detected")
         
         print(f"\n" + "="*80)
         print("🎯 12H MULTI-TIMEFRAME ANALYSIS COMPLETE")
         print("="*80)
         print(f"📊 Total analyzed: {total_analyzed}")
-        print(f"🚨 Valid signals: {len(valid_signals)}")
+        print(f"🚨 Fresh valid signals: {len(valid_signals)}")
         print(f"📱 Alert sent: {'Yes' if valid_signals else 'No'}")
+        print(f"⏰ Freshness filter: Active (12 hours)")
         print(f"⏰ Next analysis: 12 hours")
         print("="*80)
 
