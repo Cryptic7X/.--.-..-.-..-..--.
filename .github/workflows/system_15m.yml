@@ -32,7 +32,7 @@ jobs:
         BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
         BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
         COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
-      run: python src/analyzer_15m_cto.py
+      run: python src/analyzer_6h.py
       
     - name: Commit Cache Updates
       run: |
