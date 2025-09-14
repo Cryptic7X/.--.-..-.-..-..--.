@@ -109,7 +109,7 @@ class Analyzer8h:
         return None, None
     
     def analyze_coin(self, coin_data):
-        """Analyze single coin for 8h CipherB signals"""
+        """Analyze single coin for 8h CipherB signals with 8-hour freshness"""
         symbol = coin_data['symbol']
         
         try:
@@ -119,6 +119,17 @@ class Analyzer8h:
             if df is None or len(df) < 25:
                 return None
             
+            # Get signal timestamp for freshness check
+            signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
+            
+            # ✅ FRESHNESS CHECK: Signal must be within last 8 hours
+            if not is_signal_fresh(signal_timestamp_utc, '8h'):
+                signal_age_hours = (datetime.now(timezone.utc) - signal_timestamp_utc.replace(tzinfo=timezone.utc)).total_seconds() / 3600
+                print(f"⏰ {symbol}: Signal too old ({signal_age_hours:.1f}h ago) - skipping")
+                return None
+            
+            # Rest of the existing analyze_coin logic...
+            # (Continue with CipherB calculation, signal detection, etc.)        
             # Calculate CipherB signals
             cipherb_signals = detect_exact_cipherb_signals(df, self.config['cipherb'])
             
