@@ -4,8 +4,7 @@ on:
   schedule:
     # Every 15 minutes + 1 minute offset (Primary)
     - cron: '1,16,31,46 * * * *'
-    # Backup schedule + 2 minutes (in case primary fails)
-    - cron: '3,18,33,48 * * * *'
+
   workflow_dispatch:
 
 jobs:
