@@ -167,4 +167,5 @@ class MultiTimeframeSuppressor:
         
         if old_keys:
             self.save_states()
-            print(f"
+            # Fixed: Use string concatenation instead of f-string
+            print("🧹 Cleaned " + str(len(old_keys)) + " old multi-timeframe suppression records")
