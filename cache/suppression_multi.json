@@ -292,5 +292,145 @@
     "last_alert_time": "2025-09-14T00:00:00",
     "created_at": "2025-09-14T05:57:17.098469",
     "suppression_level": "none"
+  },
+  "KCS_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:46:03.096358",
+    "suppression_level": "none"
+  },
+  "A_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:47:30.998651",
+    "suppression_level": "none"
+  },
+  "ETHFI_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:47:39.866043",
+    "suppression_level": "none"
+  },
+  "EGLD_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:48:45.130777",
+    "suppression_level": "none"
+  },
+  "XEC_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:48:47.369894",
+    "suppression_level": "none"
+  },
+  "JST_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:49:14.365210",
+    "suppression_level": "none"
+  },
+  "OM_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:50:30.878809",
+    "suppression_level": "none"
+  },
+  "BDX_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:50:42.141254",
+    "suppression_level": "none"
+  },
+  "CELO_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:51:33.906056",
+    "suppression_level": "none"
+  },
+  "T_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:52:05.413479",
+    "suppression_level": "none"
+  },
+  "CSPR_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:53:28.679122",
+    "suppression_level": "none"
+  },
+  "SSV_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:53:35.426485",
+    "suppression_level": "none"
+  },
+  "COTI_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:53:53.427388",
+    "suppression_level": "none"
+  },
+  "STRAX_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:56:08.662912",
+    "suppression_level": "none"
+  },
+  "AUDIO_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:56:15.528091",
+    "suppression_level": "none"
+  },
+  "PAAL_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:56:22.169447",
+    "suppression_level": "none"
+  },
+  "SAPIEN_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:57:00.417931",
+    "suppression_level": "none"
+  },
+  "LSK_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:57:02.639666",
+    "suppression_level": "none"
+  },
+  "CTSI_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:57:09.413451",
+    "suppression_level": "none"
+  },
+  "SCRT_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-14T06:00:00",
+    "created_at": "2025-09-14T06:57:58.902694",
+    "suppression_level": "none"
   }
 }
