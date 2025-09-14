@@ -29,7 +29,23 @@ def get_ist_time():
 class Analyzer15mCTO:
     def __init__(self):
         self.config = self.load_config()
-        self.cto = CompositeTrendOscillator(**self.config['cto'])
+        
+        # Initialize CTO with only valid constructor parameters
+        cto_config = self.config['cto']
+        self.cto = CompositeTrendOscillator(
+            spacing=cto_config.get('spacing', 3),
+            signal_length=cto_config.get('signal_length', 20),
+            filter_type=cto_config.get('filter_type', 'PhiSmoother'),
+            post_smooth_length=cto_config.get('post_smooth_length', 1),
+            upper_trim=cto_config.get('upper_trim', 0),
+            lower_trim=cto_config.get('lower_trim', 0),
+            phase=cto_config.get('phase', 3.7)
+        )
+        
+        # Store thresholds separately for analysis
+        self.cto_overbought_threshold = cto_config.get('overbought_threshold', 70)
+        self.cto_oversold_threshold = cto_config.get('oversold_threshold', -70)
+        
         self.deduplicator = Deduplicator15m()
         self.exchanges = self.init_exchanges()
         self.market_data = self.load_market_data()
@@ -130,10 +146,12 @@ class Analyzer15mCTO:
             
             # Calculate CTO indicators
             cto_df = self.cto.calculate_signals(df)
+            
+            # Apply CTO thresholds for overbought/oversold detection
             cto_final = self.cto.detect_cto_conditions(
                 cto_df, 
-                self.config['cto']['overbought_threshold'],
-                self.config['cto']['oversold_threshold']
+                self.cto_overbought_threshold,
+                self.cto_oversold_threshold
             )
             
             # Get latest signals
@@ -200,7 +218,7 @@ class Analyzer15mCTO:
         print("="*80)
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
         print(f"⏰ Timeframe: 15-minute candles")
-        print(f"✅ CipherB + CTO confirmation (±70)")
+        print(f"✅ CipherB + CTO confirmation (±{abs(self.cto_oversold_threshold)})")
         print(f"🔄 4-hour cooldown deduplication")
         print(f"🔍 Analyzing {len(self.market_data)} top coins")
         
