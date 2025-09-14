@@ -11,12 +11,16 @@ import json
 import ccxt
 import pandas as pd
 import yaml
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 from indicators.cipherb_exact import detect_exact_cipherb_signals
 from alerts.telegram_multi import send_multi_alert
 from alerts.suppression_multi import MultiTimeframeSuppressor
+from utils.freshness import is_signal_fresh, get_signal_age_display  # ✅ ADD THIS LINE
+
+# Rest of your existing analyzer_8h.py code...
+
 
 def get_ist_time():
     """Convert UTC to IST"""
