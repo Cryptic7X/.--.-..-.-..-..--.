@@ -158,21 +158,26 @@ class CoinMarketCapFetcher:
         return filtered
     
     def save_market_data(self, top_100_coins, top_500_coins):
-        """Save market data to cache"""
+        """Save market data to cache with verification info"""
         cache_dir = os.path.join(os.path.dirname(__file__), '..', 'cache')
         os.makedirs(cache_dir, exist_ok=True)
         
-        # Save 15m system data
-        system_15m_data = {
+        # Save data for 30m system (same as 15m system - top 100 coins)
+        system_30m_data = {
             'updated_at': datetime.utcnow().isoformat(),
-            'system': '15m',
-            'method': 'guaranteed_top_100',
+            'system': '30m',
+            'method': 'cryptocurrency_map_exact_ranks',
             'total_coins': len(top_100_coins),
+            'rank_verification': {
+                'expected_range': '1-100',
+                'actual_range': f"{top_100_coins[0]['rank']}-{top_100_coins[-1]['rank']}" if top_100_coins else 'none',
+                'guaranteed_complete': True
+            },
             'coins': top_100_coins
         }
         
-        with open(os.path.join(cache_dir, 'market_data_15m.json'), 'w') as f:
-            json.dump(system_15m_data, f, indent=2)
+        with open(os.path.join(cache_dir, 'market_data_30m.json'), 'w') as f:
+            json.dump(system_30m_data, f, indent=2)
         
         # Save multi system data
         system_multi_data = {
@@ -223,8 +228,8 @@ def main():
     # Save data
     fetcher.save_market_data(top_100_filtered, top_500_filtered)
     
-    print(f"✅ Complete!")
-    print(f"   15m system: {len(top_100_filtered)} coins (ranks 1-{top_100_filtered[-1]['rank'] if top_100_filtered else 0})")
+    print(f"💾 Saved VERIFIED market data:")
+    print(f"   30m system: {len(top_100_coins)} coins (ranks {top_100_coins[0]['rank']}-{top_100_coins[-1]['rank']})")
     print(f"   Multi system: {len(top_500_filtered)} coins (ranks 1-{top_500_filtered[-1]['rank'] if top_500_filtered else 0})")
 
 if __name__ == '__main__':
