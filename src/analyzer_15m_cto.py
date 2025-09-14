@@ -4,6 +4,7 @@
 - CipherB primary signals
 - CTO confirmation (±70 thresholds)
 - 4-hour cooldown deduplication
+- 15-minute freshness validation
 """
 
 import os
@@ -13,7 +14,7 @@ import json
 import ccxt
 import pandas as pd
 import yaml
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 from indicators.cipherb_exact import detect_exact_cipherb_signals
@@ -26,9 +27,26 @@ def get_ist_time():
     utc_now = datetime.utcnow()
     return utc_now + timedelta(hours=5, minutes=30)
 
+def is_signal_fresh(signal_time_utc, timeframe):
+    """Check if signal is fresh based on timeframe"""
+    now_utc = datetime.now(timezone.utc)
+    
+    freshness_limits = {
+        '15m': 15,    # 15 minutes
+        '6h': 360,    # 6 hours in minutes
+        '8h': 480,    # 8 hours in minutes
+        '12h': 720,   # 12 hours in minutes
+    }
+    
+    max_age_minutes = freshness_limits.get(timeframe, 15)
+    signal_age_minutes = (now_utc - signal_time_utc.replace(tzinfo=timezone.utc)).total_seconds() / 60
+    
+    return signal_age_minutes <= max_age_minutes
+
 class Analyzer15mCTO:
     def __init__(self):
         self.config = self.load_config()
+        self.timeframe = '15m'  # Add timeframe identifier
         
         # Initialize CTO with only valid constructor parameters
         cto_config = self.config['cto']
@@ -128,7 +146,7 @@ class Analyzer15mCTO:
         return None, None
     
     def analyze_coin(self, coin_data):
-        """Analyze single coin for CipherB + CTO confirmation"""
+        """Analyze single coin for CipherB + CTO confirmation with 15m freshness"""
         symbol = coin_data['symbol']
         
         try:
@@ -136,6 +154,15 @@ class Analyzer15mCTO:
             df, exchange_used = self.fetch_ohlcv_data(symbol, '15m')
             
             if df is None or len(df) < 50:
+                return None
+            
+            # Get signal timestamp for freshness check
+            signal_timestamp_utc = df['utc_timestamp'].iloc[-1]
+            
+            # ✅ FRESHNESS CHECK: Signal must be within last 15 minutes
+            if not is_signal_fresh(signal_timestamp_utc, self.timeframe):
+                signal_age_minutes = (datetime.now(timezone.utc) - signal_timestamp_utc.replace(tzinfo=timezone.utc)).total_seconds() / 60
+                print(f"⏰ {symbol}: Signal too old ({signal_age_minutes:.1f}m ago) - skipping")
                 return None
             
             # Calculate CipherB signals
@@ -159,7 +186,6 @@ class Analyzer15mCTO:
             latest_cipherb = cipherb_signals.iloc[latest_idx]
             latest_cto = cto_final.iloc[latest_idx]
             
-            signal_timestamp_utc = df['utc_timestamp'].iloc[latest_idx]
             signal_timestamp_ist = cipherb_signals.index[latest_idx]
             
             current_time = datetime.utcnow()
@@ -210,7 +236,7 @@ class Analyzer15mCTO:
             return None
     
     def run_analysis(self):
-        """Run 15m CipherB + CTO analysis"""
+        """Run 15m CipherB + CTO analysis with freshness validation"""
         ist_current = get_ist_time()
         
         print("="*80)
@@ -220,6 +246,7 @@ class Analyzer15mCTO:
         print(f"⏰ Timeframe: 15-minute candles")
         print(f"✅ CipherB + CTO confirmation (±{abs(self.cto_oversold_threshold)})")
         print(f"🔄 4-hour cooldown deduplication")
+        print(f"⏰ Freshness: Signals within last 15 minutes only")
         print(f"🔍 Analyzing {len(self.market_data)} top coins")
         
         if not self.market_data:
@@ -233,6 +260,7 @@ class Analyzer15mCTO:
         confirmed_signals = []
         batch_size = self.config['alerts']['batch_size']
         total_analyzed = 0
+        stale_signals_count = 0
         
         for i in range(0, len(self.market_data), batch_size):
             batch = self.market_data[i:i + batch_size]
@@ -247,7 +275,7 @@ class Analyzer15mCTO:
                     confirmed_signals.append(signal_result)
                     age_s = signal_result['signal_age_seconds']
                     cto_score = signal_result['cto_score']
-                    print(f"🚨 {signal_result['signal_type']}: {signal_result['symbol']} "
+                    print(f"🚨 FRESH {signal_result['signal_type']}: {signal_result['symbol']} "
                           f"(CTO: {cto_score:.1f}, {age_s:.0f}s ago)")
                 
                 total_analyzed += 1
@@ -258,20 +286,21 @@ class Analyzer15mCTO:
             success = send_15m_alert(confirmed_signals)
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in confirmed_signals) / len(confirmed_signals)
-                print(f"\n✅ SENT 15M CONFIRMED SIGNAL ALERT")
-                print(f"   Confirmed signals: {len(confirmed_signals)}")
+                print(f"\n✅ SENT 15M FRESH SIGNAL ALERT")
+                print(f"   Fresh confirmed signals: {len(confirmed_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
                 print(f"\n❌ Failed to send confirmed signal alert")
         else:
-            print(f"\n📊 No confirmed signals detected")
+            print(f"\n📊 No fresh confirmed signals detected")
         
         print(f"\n" + "="*80)
         print("🎯 15M CIPHERB + CTO ANALYSIS COMPLETE")
         print("="*80)
         print(f"📊 Total analyzed: {total_analyzed}")
-        print(f"🚨 Confirmed signals: {len(confirmed_signals)}")
+        print(f"🚨 Fresh confirmed signals: {len(confirmed_signals)}")
         print(f"📱 Alert sent: {'Yes' if confirmed_signals else 'No'}")
+        print(f"⏰ Freshness filter: Active (15 minutes)")
         print(f"⏰ Next analysis: 15 minutes")
         print("="*80)
 
