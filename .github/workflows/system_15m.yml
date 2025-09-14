@@ -2,9 +2,8 @@ name: 15-Minute CipherB + CTO Analysis
 
 on:
   schedule:
-    # Every 15 minutes + 1 minute offset (Primary)
+    # Only keep primary schedule - remove backup to prevent duplicates
     - cron: '1,16,31,46 * * * *'
-
   workflow_dispatch:
 
 jobs:
