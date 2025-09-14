@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 CoinMarketCap Data Fetcher for Multi-System Support
-Fetches top 100 and top 500 cryptocurrency data with exact rank verification
+Fetches top 100 and filtered high-volume cryptocurrency data
 """
 
 import os
@@ -22,16 +22,20 @@ class CMCDataFetcher:
             'X-CMC_PRO_API_KEY': self.api_key,
         }
         
+        # Volume filter settings
+        self.min_volume_24h = 20_000_000  # $20M minimum 24h volume
+        
         print(f"📊 CMC Data Fetcher initialized")
+        print(f"💰 Volume filter: ${self.min_volume_24h:,.0f} minimum 24h volume")
     
     def get_cryptocurrency_map(self):
-        """Get complete cryptocurrency map for symbol lookup"""
+        """Get complete cryptocurrency map for symbol lookup (optional)"""
         print("🗺️ Fetching cryptocurrency map...")
         
         url = f"{self.base_url}/cryptocurrency/map"
         params = {
             'listing_status': 'active',
-            'limit': 10000
+            'limit': 5000  # Reduced limit to avoid 400 errors
         }
         
         try:
@@ -45,7 +49,7 @@ class CMCDataFetcher:
             return crypto_map
             
         except Exception as e:
-            print(f"❌ Failed to fetch cryptocurrency map: {e}")
+            print(f"⚠️ Cryptocurrency map failed: {e} (continuing without map)")
             return {}
     
     def get_market_data_by_rank_range(self, start_rank=1, limit=100):
@@ -94,37 +98,54 @@ class CMCDataFetcher:
             print(f"❌ Failed to fetch market data: {e}")
             return []
     
-    def verify_rank_completeness(self, coins, expected_start=1, expected_end=100):
-        """Verify that we have complete rank coverage"""
+    def filter_by_volume(self, coins, min_volume=None):
+        """Filter coins by minimum 24h volume"""
+        if min_volume is None:
+            min_volume = self.min_volume_24h
+        
+        original_count = len(coins)
+        filtered_coins = [
+            coin for coin in coins 
+            if coin.get('volume_24h', 0) >= min_volume
+        ]
+        
+        filtered_count = len(filtered_coins)
+        removed_count = original_count - filtered_count
+        
+        print(f"🔍 Volume filter (≥${min_volume:,.0f}): {filtered_count} coins kept, {removed_count} removed")
+        
+        if filtered_coins:
+            min_vol = min(coin['volume_24h'] for coin in filtered_coins)
+            max_vol = max(coin['volume_24h'] for coin in filtered_coins)
+            print(f"📊 Volume range: ${min_vol:,.0f} - ${max_vol:,.0f}")
+        
+        return filtered_coins
+    
+    def verify_data_quality(self, coins, system_name):
+        """Verify data quality without strict rank requirements"""
         if not coins:
             return False, "No coins data"
         
-        ranks = [coin['rank'] for coin in coins]
-        ranks.sort()
+        # Check for reasonable data
+        valid_coins = [
+            coin for coin in coins 
+            if coin.get('current_price', 0) > 0 and 
+               coin.get('market_cap', 0) > 0 and
+               coin.get('volume_24h', 0) > 0
+        ]
         
-        # Check if we have the expected range
-        actual_start = ranks[0]
-        actual_end = ranks[-1]
+        quality_ratio = len(valid_coins) / len(coins)
         
-        # Check for gaps in ranking
-        expected_ranks = set(range(expected_start, expected_end + 1))
-        actual_ranks = set(ranks)
-        missing_ranks = expected_ranks - actual_ranks
+        if quality_ratio < 0.95:  # 95% of coins should have valid data
+            return False, f"Low data quality: {quality_ratio*100:.1f}% valid"
         
-        is_complete = (
-            actual_start == expected_start and
-            actual_end == expected_end and
-            len(missing_ranks) == 0
-        )
+        ranks = [coin['rank'] for coin in coins if coin.get('rank')]
+        rank_range = f"{min(ranks)}-{max(ranks)}" if ranks else "unknown"
         
-        if not is_complete:
-            missing_info = f"Missing ranks: {sorted(list(missing_ranks))}" if missing_ranks else "No gaps"
-            return False, f"Expected {expected_start}-{expected_end}, got {actual_start}-{actual_end}. {missing_info}"
-        
-        return True, "Complete"
+        return True, f"Good quality: {len(valid_coins)} valid coins, ranks {rank_range}"
     
-    def save_market_data(self, top_100_coins, top_500_coins):
-        """Save market data to cache with verification info"""
+    def save_market_data(self, top_100_coins, filtered_multi_coins):
+        """Save market data to cache with volume filtering info"""
         cache_dir = os.path.join(os.path.dirname(__file__), '..', 'cache')
         os.makedirs(cache_dir, exist_ok=True)
         
@@ -136,26 +157,24 @@ class CMCDataFetcher:
             'system': '30m',
             'method': 'cryptocurrency_listings_latest',
             'total_coins': len(top_100_coins),
-            'rank_verification': {
-                'expected_range': '1-100',
-                'actual_range': f"{top_100_coins[0]['rank']}-{top_100_coins[-1]['rank']}" if top_100_coins else 'none',
-                'guaranteed_complete': True
-            },
+            'volume_filter': 'none',
+            'rank_range': f"{top_100_coins[0]['rank']}-{top_100_coins[-1]['rank']}" if top_100_coins else 'none',
             'coins': top_100_coins
         }
         
-        # Save data for multi-timeframe system (top 500 coins)  
+        # Save data for multi-timeframe system (volume-filtered coins)
         system_multi_data = {
             'updated_at': current_time,
             'system': 'multi',
-            'method': 'cryptocurrency_listings_latest',
-            'total_coins': len(top_500_coins),
-            'rank_verification': {
-                'expected_range': '1-500',
-                'actual_range': f"{top_500_coins[0]['rank']}-{top_500_coins[-1]['rank']}" if top_500_coins else 'none',
-                'guaranteed_complete': True
+            'method': 'cryptocurrency_listings_latest_filtered',
+            'total_coins': len(filtered_multi_coins),
+            'volume_filter': f'min_${self.min_volume_24h:,.0f}_24h',
+            'volume_stats': {
+                'min_volume': min(coin['volume_24h'] for coin in filtered_multi_coins) if filtered_multi_coins else 0,
+                'max_volume': max(coin['volume_24h'] for coin in filtered_multi_coins) if filtered_multi_coins else 0,
             },
-            'coins': top_500_coins
+            'rank_range': f"{min(coin['rank'] for coin in filtered_multi_coins)}-{max(coin['rank'] for coin in filtered_multi_coins)}" if filtered_multi_coins else 'none',
+            'coins': filtered_multi_coins
         }
         
         # Write cache files
@@ -165,60 +184,67 @@ class CMCDataFetcher:
         with open(os.path.join(cache_dir, 'market_data_multi.json'), 'w') as f:
             json.dump(system_multi_data, f, indent=2)
         
-        print(f"💾 Saved VERIFIED market data:")
+        print(f"💾 Saved market data:")
         if top_100_coins:
             print(f"   30m system: {len(top_100_coins)} coins (ranks {top_100_coins[0]['rank']}-{top_100_coins[-1]['rank']})")
-        if top_500_coins:
-            print(f"   Multi system: {len(top_500_coins)} coins (ranks {top_500_coins[0]['rank']}-{top_500_coins[-1]['rank']})")
+        if filtered_multi_coins:
+            min_rank = min(coin['rank'] for coin in filtered_multi_coins)
+            max_rank = max(coin['rank'] for coin in filtered_multi_coins)
+            print(f"   Multi system: {len(filtered_multi_coins)} high-volume coins (ranks {min_rank}-{max_rank})")
     
     def fetch_all_data(self):
-        """Fetch complete dataset for all systems"""
-        print("="*60)
-        print("🚀 COINMARKETCAP DATA FETCHER")
-        print("="*60)
+        """Fetch complete dataset with volume filtering for multi-timeframe system"""
+        print("="*70)
+        print("🚀 COINMARKETCAP DATA FETCHER WITH VOLUME FILTERING")
+        print("="*70)
         
-        # Get cryptocurrency map for reference
+        # Optional cryptocurrency map (continues if fails)
         crypto_map = self.get_cryptocurrency_map()
         
-        # Fetch top 100 coins (for 30m system)
-        print(f"\n📈 Fetching data for 30m system...")
+        # Fetch top 100 coins (for 30m system - no volume filter)
+        print(f"\n📈 Fetching data for 30m system (top 100, no volume filter)...")
         top_100_coins = self.get_market_data_by_rank_range(start_rank=1, limit=100)
         
-        # Verify top 100 completeness
-        is_complete_100, status_100 = self.verify_rank_completeness(top_100_coins, 1, 100)
-        if not is_complete_100:
-            print(f"⚠️ Top 100 verification: {status_100}")
+        # Verify top 100 quality
+        is_quality_100, status_100 = self.verify_data_quality(top_100_coins, "30m")
+        if not is_quality_100:
+            print(f"⚠️ 30m data quality: {status_100}")
         else:
-            print(f"✅ Top 100 verification: {status_100}")
+            print(f"✅ 30m data quality: {status_100}")
         
         # Small delay to respect rate limits
         time.sleep(1)
         
         # Fetch top 500 coins (for multi-timeframe system)
         print(f"\n📈 Fetching data for multi-timeframe system...")
-        top_500_coins = self.get_market_data_by_rank_range(start_rank=1, limit=500)
+        coins_500 = self.get_market_data_by_rank_range(start_rank=1, limit=500)
         
-        # Verify top 500 completeness
-        is_complete_500, status_500 = self.verify_rank_completeness(top_500_coins, 1, 500)
-        if not is_complete_500:
-            print(f"⚠️ Top 500 verification: {status_500}")
+        # ✅ Apply volume filter for multi-timeframe system
+        print(f"\n🔍 Applying volume filter for day trading suitability...")
+        filtered_multi_coins = self.filter_by_volume(coins_500, self.min_volume_24h)
+        
+        # Verify filtered data quality
+        is_quality_multi, status_multi = self.verify_data_quality(filtered_multi_coins, "multi")
+        if not is_quality_multi:
+            print(f"⚠️ Multi-timeframe data quality: {status_multi}")
         else:
-            print(f"✅ Top 500 verification: {status_500}")
+            print(f"✅ Multi-timeframe data quality: {status_multi}")
         
         # Save all data
-        if top_100_coins and top_500_coins:
-            self.save_market_data(top_100_coins, top_500_coins)
+        if top_100_coins and filtered_multi_coins:
+            self.save_market_data(top_100_coins, filtered_multi_coins)
         else:
             print("❌ Failed to fetch required data - not saving")
             return False
         
-        print(f"\n" + "="*60)
-        print("✅ DATA FETCH COMPLETE")
-        print("="*60)
+        print(f"\n" + "="*70)
+        print("✅ DATA FETCH COMPLETE WITH VOLUME FILTERING")
+        print("="*70)
         print(f"🕐 Updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}")
-        print(f"📊 30m System: {len(top_100_coins)} coins ready")
-        print(f"📊 Multi System: {len(top_500_coins)} coins ready")
-        print("="*60)
+        print(f"📊 30m System: {len(top_100_coins)} coins (all ranks 1-100)")
+        print(f"📊 Multi System: {len(filtered_multi_coins)} high-volume coins (≥${self.min_volume_24h:,.0f})")
+        print(f"💰 Volume filter removed {len(coins_500) - len(filtered_multi_coins)} low-volume coins")
+        print("="*70)
         
         return True
 
