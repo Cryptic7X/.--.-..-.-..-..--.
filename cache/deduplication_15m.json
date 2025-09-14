@@ -143,5 +143,10 @@
     "signal_type": "SELL",
     "signal_time": "2025-09-14T11:15:00",
     "alerted_at": "2025-09-14T11:26:02.325942"
+  },
+  "QNT_recent": {
+    "signal_type": "BUY",
+    "signal_time": "2025-09-14T11:45:00",
+    "alerted_at": "2025-09-14T11:52:11.373972"
   }
 }
