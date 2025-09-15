@@ -142,5 +142,41 @@
     "signal_type": "BUY",
     "timestamp": "2025-09-15T10:00:00",
     "recorded_at": "2025-09-15T10:24:25.891974"
+  },
+  "LINK_BUY": {
+    "symbol": "LINK",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:44:03.586234"
+  },
+  "HBAR_BUY": {
+    "symbol": "HBAR",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:44:17.070586"
+  },
+  "FIL_BUY": {
+    "symbol": "FIL",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:45:40.338775"
+  },
+  "JUP_BUY": {
+    "symbol": "JUP",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:45:42.591779"
+  },
+  "GRT_BUY": {
+    "symbol": "GRT",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:46:16.335641"
+  },
+  "CAKE_BUY": {
+    "symbol": "CAKE",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:30:00",
+    "recorded_at": "2025-09-15T10:46:20.875227"
   }
 }
