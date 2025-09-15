@@ -579,5 +579,12 @@
     "last_alert_time": "2025-09-15T08:00:00",
     "created_at": "2025-09-15T08:21:59.369728",
     "suppression_level": "none"
+  },
+  "FLR_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-15T12:00:00",
+    "created_at": "2025-09-15T12:31:00.450856",
+    "suppression_level": "none"
   }
 }
