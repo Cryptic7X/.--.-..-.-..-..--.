@@ -232,10 +232,10 @@
   },
   "PEAQ_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-14T00:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-15T00:00:00",
     "created_at": "2025-09-14T05:54:29.497457",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "HIVE_SELL": {
     "current_direction": "SELL",
@@ -536,6 +536,20 @@
     "last_alerted_timeframe": "6h",
     "last_alert_time": "2025-09-14T18:00:00",
     "created_at": "2025-09-14T18:30:58.410846",
+    "suppression_level": "none"
+  },
+  "CRO_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-15T00:00:00",
+    "created_at": "2025-09-15T00:58:53.625555",
+    "suppression_level": "none"
+  },
+  "AWE_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-15T00:00:00",
+    "created_at": "2025-09-15T01:03:55.413295",
     "suppression_level": "none"
   }
 }
