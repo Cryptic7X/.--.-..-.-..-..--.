@@ -16,5 +16,11 @@
     "signal_type": "SELL",
     "timestamp": "2025-09-15T04:00:00",
     "recorded_at": "2025-09-15T04:25:30.987596"
+  },
+  "MNT_SELL": {
+    "symbol": "MNT",
+    "signal_type": "SELL",
+    "timestamp": "2025-09-15T05:00:00",
+    "recorded_at": "2025-09-15T05:21:02.567936"
   }
 }
