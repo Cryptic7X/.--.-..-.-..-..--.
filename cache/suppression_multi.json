@@ -572,5 +572,12 @@
     "last_alert_time": "2025-09-15T06:00:00",
     "created_at": "2025-09-15T06:41:13.430971",
     "suppression_level": "none"
+  },
+  "SAROS_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-15T08:00:00",
+    "created_at": "2025-09-15T08:21:59.369728",
+    "suppression_level": "none"
   }
 }
