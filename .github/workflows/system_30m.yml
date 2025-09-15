@@ -31,7 +31,7 @@ jobs:
         TELEGRAM_30M_CHAT_ID: ${{ secrets.TELEGRAM_30M_CHAT_ID }}
         BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
         BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
-        COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+        # COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
       run: python src/analyzer_30m_cto.py
       
     - name: Commit Cache Updates
