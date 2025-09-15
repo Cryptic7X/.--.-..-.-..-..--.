@@ -184,5 +184,29 @@
     "signal_type": "BUY",
     "timestamp": "2025-09-15T11:00:00",
     "recorded_at": "2025-09-15T11:20:19.491142"
+  },
+  "WLD_BUY": {
+    "symbol": "WLD",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T16:30:00",
+    "recorded_at": "2025-09-15T16:47:39.104751"
+  },
+  "STX_BUY": {
+    "symbol": "STX",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T16:30:00",
+    "recorded_at": "2025-09-15T16:48:51.112306"
+  },
+  "PAXG_SELL": {
+    "symbol": "PAXG",
+    "signal_type": "SELL",
+    "timestamp": "2025-09-15T16:30:00",
+    "recorded_at": "2025-09-15T16:48:57.877961"
+  },
+  "XAUt_SELL": {
+    "symbol": "XAUt",
+    "signal_type": "SELL",
+    "timestamp": "2025-09-15T16:30:00",
+    "recorded_at": "2025-09-15T16:49:13.609895"
   }
 }
