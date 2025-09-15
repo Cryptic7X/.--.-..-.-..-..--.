@@ -178,5 +178,11 @@
     "signal_type": "BUY",
     "timestamp": "2025-09-15T10:30:00",
     "recorded_at": "2025-09-15T10:46:20.875227"
+  },
+  "SAND_BUY": {
+    "symbol": "SAND",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T11:00:00",
+    "recorded_at": "2025-09-15T11:20:19.491142"
   }
 }
