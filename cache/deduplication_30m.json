@@ -34,5 +34,89 @@
     "signal_type": "BUY",
     "timestamp": "2025-09-15T09:00:00",
     "recorded_at": "2025-09-15T09:24:42.295712"
+  },
+  "DOGE_BUY": {
+    "symbol": "DOGE",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:42:39.891277"
+  },
+  "SUI_BUY": {
+    "symbol": "SUI",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:42:53.392972"
+  },
+  "CRO_BUY": {
+    "symbol": "CRO",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:43:11.418576"
+  },
+  "PEPE_BUY": {
+    "symbol": "PEPE",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:43:27.128493"
+  },
+  "POL_BUY": {
+    "symbol": "POL",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:43:47.370458"
+  },
+  "ICP_BUY": {
+    "symbol": "ICP",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:43:56.393488"
+  },
+  "KAS_BUY": {
+    "symbol": "KAS",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:43:58.635447"
+  },
+  "ATOM_BUY": {
+    "symbol": "ATOM",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:44:03.127148"
+  },
+  "BONK_BUY": {
+    "symbol": "BONK",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:44:16.629429"
+  },
+  "SKY_BUY": {
+    "symbol": "SKY",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:44:23.388078"
+  },
+  "SPX_BUY": {
+    "symbol": "SPX",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:44:45.889540"
+  },
+  "FLOKI_BUY": {
+    "symbol": "FLOKI",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:45:08.393665"
+  },
+  "WIF_BUY": {
+    "symbol": "WIF",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:45:12.889182"
+  },
+  "RAY_BUY": {
+    "symbol": "RAY",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T09:30:00",
+    "recorded_at": "2025-09-15T09:45:17.434357"
   }
 }
