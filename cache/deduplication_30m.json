@@ -118,5 +118,29 @@
     "signal_type": "BUY",
     "timestamp": "2025-09-15T09:30:00",
     "recorded_at": "2025-09-15T09:45:17.434357"
+  },
+  "UNI_BUY": {
+    "symbol": "UNI",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:00:00",
+    "recorded_at": "2025-09-15T10:22:17.625650"
+  },
+  "PENGU_BUY": {
+    "symbol": "PENGU",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:00:00",
+    "recorded_at": "2025-09-15T10:23:02.604596"
+  },
+  "KCS_BUY": {
+    "symbol": "KCS",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:00:00",
+    "recorded_at": "2025-09-15T10:23:11.631785"
+  },
+  "FARTCOIN_BUY": {
+    "symbol": "FARTCOIN",
+    "signal_type": "BUY",
+    "timestamp": "2025-09-15T10:00:00",
+    "recorded_at": "2025-09-15T10:24:25.891974"
   }
 }
