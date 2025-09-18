@@ -1,11 +1,4 @@
 {
-  "CRO_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-16T12:00:00",
-    "created_at": "2025-09-15T00:58:53.625555",
-    "suppression_level": "8h_suppressed"
-  },
   "AWE_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
@@ -162,10 +155,10 @@
   },
   "PROM_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-17T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-18T00:00:00",
     "created_at": "2025-09-17T06:37:35.719865",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "USD1_SELL": {
     "current_direction": "SELL",
