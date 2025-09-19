@@ -194,5 +194,26 @@
     "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-19T01:47:20.503250",
     "suppression_level": "none"
+  },
+  "AVAX_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T06:00:00",
+    "created_at": "2025-09-19T06:32:41.323875",
+    "suppression_level": "none"
+  },
+  "MORPHO_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T06:00:00",
+    "created_at": "2025-09-19T06:35:35.263019",
+    "suppression_level": "none"
+  },
+  "GRASS_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T06:00:00",
+    "created_at": "2025-09-19T06:37:21.128795",
+    "suppression_level": "none"
   }
 }
