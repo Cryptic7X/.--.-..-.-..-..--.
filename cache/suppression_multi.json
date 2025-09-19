@@ -1,18 +1,4 @@
 {
-  "KAVA_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-16T08:00:00",
-    "created_at": "2025-09-16T08:21:11.656556",
-    "suppression_level": "8h_suppressed"
-  },
-  "NEIRO_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-16T12:00:00",
-    "created_at": "2025-09-16T08:22:30.400613",
-    "suppression_level": "8h_suppressed"
-  },
   "ENA_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "8h",
@@ -51,7 +37,7 @@
   "MERL_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-19T00:00:00",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-16T16:20:10.763040",
     "suppression_level": "8h_suppressed"
   },
@@ -78,8 +64,8 @@
   },
   "IMX_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-17T16:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-17T01:05:43.801132",
     "suppression_level": "8h_suppressed"
   },
@@ -162,10 +148,10 @@
   },
   "DRIFT_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-19T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-19T01:46:31.025887",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "BABY_SELL": {
     "current_direction": "SELL",
@@ -176,10 +162,10 @@
   },
   "AVAX_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-19T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-19T06:32:41.323875",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "MORPHO_SELL": {
     "current_direction": "SELL",
@@ -197,16 +183,23 @@
   },
   "EIGEN_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-19T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-19T08:19:40.079669",
-    "suppression_level": "none"
+    "suppression_level": "8h_suppressed"
   },
   "W_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-19T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
     "created_at": "2025-09-19T08:20:02.590425",
+    "suppression_level": "8h_suppressed"
+  },
+  "BB_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T12:00:00",
+    "created_at": "2025-09-19T12:34:49.814574",
     "suppression_level": "none"
   }
 }
