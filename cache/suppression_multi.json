@@ -141,8 +141,8 @@
   },
   "KMNO_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-18T08:00:00",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-18T06:37:19.089705",
     "suppression_level": "8h_suppressed"
   },
@@ -179,6 +179,20 @@
     "last_alerted_timeframe": "12h",
     "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-19T01:10:15.996984",
+    "suppression_level": "none"
+  },
+  "DRIFT_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T01:46:31.025887",
+    "suppression_level": "none"
+  },
+  "BABY_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T01:47:20.503250",
     "suppression_level": "none"
   }
 }
