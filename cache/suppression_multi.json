@@ -151,6 +151,27 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-18T08:00:00",
     "created_at": "2025-09-18T06:37:19.089705",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
+  },
+  "BTC_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T00:55:12.183735",
+    "suppression_level": "none"
+  },
+  "BCH_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T00:55:45.945616",
+    "suppression_level": "none"
+  },
+  "ETHFI_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T00:58:23.689347",
+    "suppression_level": "none"
   }
 }
