@@ -1,11 +1,4 @@
 {
-  "QTUM_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-16T00:00:00",
-    "created_at": "2025-09-16T00:58:03.042841",
-    "suppression_level": "none"
-  },
   "ATH_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
@@ -79,7 +72,7 @@
   "MERL_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-17T12:00:00",
+    "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-16T16:20:10.763040",
     "suppression_level": "8h_suppressed"
   },
@@ -127,8 +120,8 @@
   },
   "BNB_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-18T18:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-17T16:15:18.245916",
     "suppression_level": "8h_suppressed"
   },
@@ -172,6 +165,20 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-19T00:00:00",
     "created_at": "2025-09-19T00:58:23.689347",
+    "suppression_level": "none"
+  },
+  "AERO_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T01:08:28.030497",
+    "suppression_level": "none"
+  },
+  "TOSHI_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-19T00:00:00",
+    "created_at": "2025-09-19T01:10:15.996984",
     "suppression_level": "none"
   }
 }
