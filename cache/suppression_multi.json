@@ -1,18 +1,4 @@
 {
-  "PAXG_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-17T00:00:00",
-    "created_at": "2025-09-16T18:33:44.397513",
-    "suppression_level": "6h_suppressed"
-  },
-  "CRV_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-16T18:00:00",
-    "created_at": "2025-09-16T18:33:46.668489",
-    "suppression_level": "none"
-  },
   "SUN_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "8h",
@@ -155,8 +141,8 @@
   },
   "BB_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-19T12:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-20T00:00:00",
     "created_at": "2025-09-19T12:34:49.814574",
     "suppression_level": "none"
   },
@@ -176,16 +162,16 @@
   },
   "OMNI_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-19T18:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-20T00:00:00",
     "created_at": "2025-09-19T18:35:57.138964",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "DOLO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-19T12:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-20T00:00:00",
     "created_at": "2025-09-19T18:36:46.634985",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   }
 }
