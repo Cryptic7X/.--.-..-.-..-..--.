@@ -1,11 +1,4 @@
 {
-  "USD1_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-17T08:00:00",
-    "created_at": "2025-09-17T08:17:35.397556",
-    "suppression_level": "none"
-  },
   "BNB_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
@@ -121,7 +114,7 @@
   "BB_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-20T00:00:00",
+    "last_alert_time": "2025-09-20T12:00:00",
     "created_at": "2025-09-19T12:34:49.814574",
     "suppression_level": "8h_suppressed"
   },
@@ -142,7 +135,7 @@
   "OMNI_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-20T00:00:00",
+    "last_alert_time": "2025-09-20T12:00:00",
     "created_at": "2025-09-19T18:35:57.138964",
     "suppression_level": "8h_suppressed"
   },
