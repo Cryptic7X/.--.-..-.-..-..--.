@@ -1,18 +1,4 @@
 {
-  "FDUSD_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-18T16:00:00",
-    "created_at": "2025-09-18T06:34:30.855006",
-    "suppression_level": "6h_suppressed"
-  },
-  "KMNO_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-19T00:00:00",
-    "created_at": "2025-09-18T06:37:19.089705",
-    "suppression_level": "8h_suppressed"
-  },
   "BTC_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "8h",
@@ -99,8 +85,8 @@
   },
   "BB_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-21T06:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-21T08:00:00",
     "created_at": "2025-09-19T12:34:49.814574",
     "suppression_level": "8h_suppressed"
   },
@@ -113,7 +99,7 @@
   },
   "FORM_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
+    "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-21T00:00:00",
     "created_at": "2025-09-19T16:17:46.024832",
     "suppression_level": "8h_suppressed"
@@ -179,6 +165,13 @@
     "last_alerted_timeframe": "6h",
     "last_alert_time": "2025-09-21T00:00:00",
     "created_at": "2025-09-21T01:53:12.897841",
+    "suppression_level": "none"
+  },
+  "USD1_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-21T08:00:00",
+    "created_at": "2025-09-21T08:15:02.073633",
     "suppression_level": "none"
   }
 }
