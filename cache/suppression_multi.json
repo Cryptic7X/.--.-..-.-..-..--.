@@ -50,8 +50,8 @@
   },
   "LAUNCHCOIN_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-22T00:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-22T16:00:00",
     "created_at": "2025-09-20T18:33:31.801488",
     "suppression_level": "8h_suppressed"
   },
@@ -127,10 +127,10 @@
   },
   "ULTIMA_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-22T10:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-22T16:00:00",
     "created_at": "2025-09-22T01:03:16.078661",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "AEVO_SELL": {
     "current_direction": "SELL",
@@ -151,6 +151,27 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-22T08:00:00",
     "created_at": "2025-09-22T06:39:46.759782",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
+  },
+  "CRO_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-22T16:00:00",
+    "created_at": "2025-09-22T16:15:43.805623",
+    "suppression_level": "none"
+  },
+  "FDUSD_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-22T16:00:00",
+    "created_at": "2025-09-22T16:17:21.325199",
+    "suppression_level": "none"
+  },
+  "FTN_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-22T16:00:00",
+    "created_at": "2025-09-22T16:19:54.651245",
+    "suppression_level": "none"
   }
 }
