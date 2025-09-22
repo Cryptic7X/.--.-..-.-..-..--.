@@ -1,11 +1,4 @@
 {
-  "AVAX_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-19T12:00:00",
-    "created_at": "2025-09-19T06:32:41.323875",
-    "suppression_level": "8h_suppressed"
-  },
   "MORPHO_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
@@ -193,6 +186,13 @@
     "last_alerted_timeframe": "6h",
     "last_alert_time": "2025-09-21T22:00:00",
     "created_at": "2025-09-22T01:55:11.111068",
+    "suppression_level": "none"
+  },
+  "MERL_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-22T06:00:00",
+    "created_at": "2025-09-22T06:39:46.759782",
     "suppression_level": "none"
   }
 }
