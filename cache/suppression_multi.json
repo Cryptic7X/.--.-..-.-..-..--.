@@ -1,18 +1,4 @@
 {
-  "BIO_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-21T00:00:00",
-    "created_at": "2025-09-20T12:44:31.461330",
-    "suppression_level": "8h_suppressed"
-  },
-  "PTB_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-20T12:00:00",
-    "created_at": "2025-09-20T12:46:05.986013",
-    "suppression_level": "none"
-  },
   "LAUNCHCOIN_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "12h",
@@ -533,10 +519,10 @@
   },
   "PENGU_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T06:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T01:41:01.782692",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "ALGO_BUY": {
     "current_direction": "BUY",
@@ -645,8 +631,8 @@
   },
   "A_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-23T12:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T08:00:00",
     "created_at": "2025-09-23T01:42:38.532931",
     "suppression_level": "8h_suppressed"
   },
@@ -792,10 +778,10 @@
   },
   "AIXBT_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T01:45:28.215794",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "PEOPLE_BUY": {
     "current_direction": "BUY",
@@ -841,10 +827,10 @@
   },
   "DYM_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T01:45:59.730359",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "API3_BUY": {
     "current_direction": "BUY",
@@ -862,10 +848,10 @@
   },
   "SOL_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T06:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T06:32:53.372099",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "BCH_BUY": {
     "current_direction": "BUY",
@@ -893,7 +879,7 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-23T08:00:00",
     "created_at": "2025-09-23T06:34:23.403808",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "JUP_BUY": {
     "current_direction": "BUY",
@@ -904,10 +890,10 @@
   },
   "OP_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T06:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T06:34:50.423378",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "LDO_BUY": {
     "current_direction": "BUY",
@@ -925,10 +911,10 @@
   },
   "XAUt_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T12:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T06:35:26.527182",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "MORPHO_BUY": {
     "current_direction": "BUY",
@@ -942,7 +928,7 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-23T08:00:00",
     "created_at": "2025-09-23T06:36:30.134637",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "APE_BUY": {
     "current_direction": "BUY",
@@ -967,10 +953,10 @@
   },
   "NEIRO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T06:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T06:38:08.427062",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   },
   "REAL_BUY": {
     "current_direction": "BUY",
@@ -1023,9 +1009,9 @@
   },
   "FLOCK_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T12:00:00",
+    "last_alerted_timeframe": "8h",
+    "last_alert_time": "2025-09-23T16:00:00",
     "created_at": "2025-09-23T12:50:03.146961",
-    "suppression_level": "none"
+    "suppression_level": "6h_suppressed"
   }
 }
