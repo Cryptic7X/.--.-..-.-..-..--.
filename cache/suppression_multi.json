@@ -926,7 +926,7 @@
   "XAUt_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T06:00:00",
+    "last_alert_time": "2025-09-23T12:00:00",
     "created_at": "2025-09-23T06:35:26.527182",
     "suppression_level": "none"
   },
@@ -1012,6 +1012,20 @@
     "last_alerted_timeframe": "12h",
     "last_alert_time": "2025-09-23T12:00:00",
     "created_at": "2025-09-23T12:33:45.368764",
+    "suppression_level": "none"
+  },
+  "CRV_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-23T12:00:00",
+    "created_at": "2025-09-23T12:45:50.729200",
+    "suppression_level": "none"
+  },
+  "FLOCK_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-23T12:00:00",
+    "created_at": "2025-09-23T12:50:03.146961",
     "suppression_level": "none"
   }
 }
