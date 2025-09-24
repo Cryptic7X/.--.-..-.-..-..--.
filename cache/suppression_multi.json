@@ -1,11 +1,4 @@
 {
-  "USELESS_BUY": {
-    "current_direction": "BUY",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-24T00:00:00",
-    "created_at": "2025-09-21T01:53:12.897841",
-    "suppression_level": "8h_suppressed"
-  },
   "USD1_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "6h",
@@ -29,8 +22,8 @@
   },
   "CARDS_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-21T16:00:00",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-24T04:00:00",
     "created_at": "2025-09-21T12:45:30.713423",
     "suppression_level": "8h_suppressed"
   },
