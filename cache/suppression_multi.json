@@ -1,11 +1,4 @@
 {
-  "USD1_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T00:00:00",
-    "created_at": "2025-09-21T08:15:02.073633",
-    "suppression_level": "8h_suppressed"
-  },
   "CAKE_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
@@ -137,7 +130,7 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-23T00:00:00",
     "created_at": "2025-09-22T18:31:08.441236",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "POL_BUY": {
     "current_direction": "BUY",
