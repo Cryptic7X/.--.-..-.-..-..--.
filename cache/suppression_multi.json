@@ -85,8 +85,8 @@
   },
   "MERL_SELL": {
     "current_direction": "SELL",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-24T00:00:00",
     "created_at": "2025-09-22T06:39:46.759782",
     "suppression_level": "8h_suppressed"
   },
@@ -421,8 +421,8 @@
   },
   "DOLO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-24T00:00:00",
     "created_at": "2025-09-23T01:00:05.157323",
     "suppression_level": "8h_suppressed"
   },
@@ -989,7 +989,7 @@
   "CRV_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "6h",
-    "last_alert_time": "2025-09-23T12:00:00",
+    "last_alert_time": "2025-09-24T00:00:00",
     "created_at": "2025-09-23T12:45:50.729200",
     "suppression_level": "none"
   },
@@ -1012,6 +1012,13 @@
     "last_alerted_timeframe": "8h",
     "last_alert_time": "2025-09-24T00:00:00",
     "created_at": "2025-09-24T00:59:21.851503",
+    "suppression_level": "none"
+  },
+  "TRX_BUY": {
+    "current_direction": "BUY",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-24T00:00:00",
+    "created_at": "2025-09-24T01:41:07.981644",
     "suppression_level": "none"
   }
 }
