@@ -1,11 +1,4 @@
 {
-  "CAKE_SELL": {
-    "current_direction": "SELL",
-    "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-21T12:00:00",
-    "created_at": "2025-09-21T12:28:52.532946",
-    "suppression_level": "none"
-  },
   "BNB_SELL": {
     "current_direction": "SELL",
     "last_alerted_timeframe": "12h",
@@ -86,7 +79,7 @@
   "FDUSD_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-22T16:00:00",
+    "last_alert_time": "2025-09-24T04:00:00",
     "created_at": "2025-09-22T16:17:21.325199",
     "suppression_level": "8h_suppressed"
   },
@@ -120,15 +113,15 @@
   },
   "TAO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-22T18:30:54.890415",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "WLD_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-22T18:31:08.441236",
     "suppression_level": "8h_suppressed"
   },
@@ -274,10 +267,10 @@
   },
   "ONDO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T00:54:27.078265",
-    "suppression_level": "none"
+    "suppression_level": "8h_suppressed"
   },
   "ETC_BUY": {
     "current_direction": "BUY",
@@ -422,7 +415,7 @@
   "ETH_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-24T00:00:00",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:39:26.815656",
     "suppression_level": "8h_suppressed"
   },
@@ -519,24 +512,24 @@
   },
   "INJ_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:41:26.560612",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "TIA_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:41:35.546153",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "STX_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:41:42.300887",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "GRT_BUY": {
     "current_direction": "BUY",
@@ -680,17 +673,17 @@
   },
   "KAITO_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:43:55.037733",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "POPCAT_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:43:59.561291",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "OM_BUY": {
     "current_direction": "BUY",
@@ -723,7 +716,7 @@
   "BOME_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-24T00:00:00",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:44:58.966942",
     "suppression_level": "8h_suppressed"
   },
@@ -736,10 +729,10 @@
   },
   "COTI_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:45:17.031023",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "AI16Z_BUY": {
     "current_direction": "BUY",
@@ -750,10 +743,10 @@
   },
   "AIXBT_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T16:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:45:28.215794",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "PEOPLE_BUY": {
     "current_direction": "BUY",
@@ -771,10 +764,10 @@
   },
   "TRB_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:45:43.959571",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "ANIME_BUY": {
     "current_direction": "BUY",
@@ -814,7 +807,7 @@
   "VINE_BUY": {
     "current_direction": "BUY",
     "last_alerted_timeframe": "12h",
-    "last_alert_time": "2025-09-24T00:00:00",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T01:46:10.962346",
     "suppression_level": "8h_suppressed"
   },
@@ -897,8 +890,8 @@
   },
   "CORE_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-23T08:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T06:36:30.134637",
     "suppression_level": "8h_suppressed"
   },
@@ -988,17 +981,17 @@
   },
   "NFT_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-24T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-23T18:35:56.933394",
-    "suppression_level": "6h_suppressed"
+    "suppression_level": "8h_suppressed"
   },
   "PROVE_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-24T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-24T12:00:00",
     "created_at": "2025-09-24T00:59:21.851503",
-    "suppression_level": "none"
+    "suppression_level": "8h_suppressed"
   },
   "TRX_BUY": {
     "current_direction": "BUY",
