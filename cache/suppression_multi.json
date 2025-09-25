@@ -950,5 +950,12 @@
     "last_alert_time": "2025-09-25T04:00:00",
     "created_at": "2025-09-25T12:37:04.789544",
     "suppression_level": "none"
+  },
+  "ZEC_SELL": {
+    "current_direction": "SELL",
+    "last_alerted_timeframe": "6h",
+    "last_alert_time": "2025-09-25T12:00:00",
+    "created_at": "2025-09-25T12:48:56.930461",
+    "suppression_level": "none"
   }
 }
