@@ -1,0 +1,37 @@
+name: EMA 30M Crossover Analysis
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:
+
+jobs:
+  ema-analysis:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+    
+    - name: Run EMA 30M Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_30M_CHAT_ID: ${{ secrets.TELEGRAM_30M_CHAT_ID }}
+      run: |
+        python ema_30m_analyzer.py
+    
+    - name: Commit cache updates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add cache/ema_12_21_alerts.json || true
+        git commit -m "Update EMA 30M alert cache" || true
+        git push || true
