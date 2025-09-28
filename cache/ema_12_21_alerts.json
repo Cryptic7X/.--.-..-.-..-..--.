@@ -121,5 +121,8 @@
   },
   "IPUSDT": {
     "last_alert_time": 1759075959.8160038
+  },
+  "WLFIUSDT": {
+    "last_alert_time": 1759088039.9562624
   }
 }
