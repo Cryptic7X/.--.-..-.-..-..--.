@@ -40,5 +40,23 @@
   },
   "ETCUSDT": {
     "last_alert_time": 1759066529.7510934
+  },
+  "ADAUSDT": {
+    "last_alert_time": 1759067282.2382336
+  },
+  "SUIUSDT": {
+    "last_alert_time": 1759067282.984188
+  },
+  "APTUSDT": {
+    "last_alert_time": 1759067283.2668686
+  },
+  "INJUSDT": {
+    "last_alert_time": 1759067283.6672595
+  },
+  "SUSDT": {
+    "last_alert_time": 1759067284.0554829
+  },
+  "BRETTUSDT": {
+    "last_alert_time": 1759067284.2041864
   }
 }
