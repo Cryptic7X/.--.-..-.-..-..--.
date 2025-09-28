@@ -10,5 +10,8 @@
   },
   "MUSDT": {
     "last_alert_time": 1759057733.904061
+  },
+  "PENDLEUSDT": {
+    "last_alert_time": 1759058531.7662237
   }
 }
