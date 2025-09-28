@@ -764,8 +764,8 @@
   },
   "XDC_BUY": {
     "current_direction": "BUY",
-    "last_alerted_timeframe": "8h",
-    "last_alert_time": "2025-09-27T00:00:00",
+    "last_alerted_timeframe": "12h",
+    "last_alert_time": "2025-09-28T00:00:00",
     "created_at": "2025-09-27T00:54:06.575053",
     "suppression_level": "8h_suppressed"
   },
