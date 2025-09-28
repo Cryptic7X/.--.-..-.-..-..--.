@@ -106,5 +106,11 @@
   },
   "ASTERUSDT": {
     "last_alert_time": 1759070085.08606
+  },
+  "SOLUSDT": {
+    "last_alert_time": 1759070872.164567
+  },
+  "IMXUSDT": {
+    "last_alert_time": 1759070873.3890018
   }
 }
