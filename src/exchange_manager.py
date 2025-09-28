@@ -1,33 +1,28 @@
 """
-Simple Exchange Manager - EXACT COPY WITH SYMBOL FIX
+Simple Exchange Manager - CORRECTED VERSION
+Fixed symbol processing for TONUSDT, OKXUSDT, PIUSDT, BEAMUSDT
 """
 
 import os
 import json
 import time
 import requests
-import yaml
 from datetime import datetime, timedelta
 from typing import Optional, Tuple, Dict, Any
 
 class SimpleExchangeManager:
     def __init__(self):
-        self.config = self.load_config()
         self.symbol_mapping = self.load_symbol_mapping()
         self.session = self.create_session()
 
-    def load_config(self):
-        # For standalone - skip config loading  
-        return {}
-
     def load_symbol_mapping(self):
-        # For standalone - no symbol mapping needed
+        """Load symbol mapping - simplified for standalone"""
         return {}
 
     def create_session(self):
         session = requests.Session()
         session.headers.update({
-            'User-Agent': 'EMA-15M-Standalone/1.0',
+            'User-Agent': 'Dynamic-EMA-15M/1.0',
             'Accept': 'application/json',
             'Connection': 'keep-alive'
         })
@@ -42,11 +37,9 @@ class SimpleExchangeManager:
     def fetch_bingx_perpetuals_data(self, symbol: str, timeframe: str, limit: int = 200) -> Optional[Dict]:
         """Fetch from BingX Perpetuals (Swap API)"""
         api_key = os.getenv('BINGX_API_KEY')
-        # Note: For public endpoints, API key is optional
-        
+
         url = "https://open-api.bingx.com/openApi/swap/v2/quote/klines"
-        
-        # Updated interval mapping for all timeframes
+
         interval_map = {
             '15m': '15m',
             '1h': '1h', 
@@ -71,7 +64,7 @@ class SimpleExchangeManager:
             response = self.session.get(url, headers=headers, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
-            
+
             if data.get('code') == 0 and data.get('data'):
                 return self.normalize_ohlcv_data(data['data'], 'bingx')
             return None
@@ -82,9 +75,9 @@ class SimpleExchangeManager:
     def fetch_bingx_spot_data(self, symbol: str, timeframe: str, limit: int = 200) -> Optional[Dict]:
         """Fetch from BingX Spot API"""
         api_key = os.getenv('BINGX_API_KEY')
-        
+
         url = "https://open-api.bingx.com/openApi/spot/v1/market/kline"
-        
+
         interval_map = {
             '15m': '15m',
             '1h': '1h',
@@ -109,7 +102,7 @@ class SimpleExchangeManager:
             response = self.session.get(url, headers=headers, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
-            
+
             if data.get('code') == 0 and data.get('data'):
                 return self.normalize_ohlcv_data(data['data'], 'bingx_spot')
             return None
@@ -120,7 +113,7 @@ class SimpleExchangeManager:
     def fetch_kucoin_data(self, symbol: str, timeframe: str, limit: int = 200) -> Optional[Dict]:
         """Fetch data from KuCoin (public API)"""
         url = "https://api.kucoin.com/api/v1/market/candles"
-        
+
         interval_map = {
             '15m': '15min',
             '1h': '1hour',
@@ -151,7 +144,7 @@ class SimpleExchangeManager:
             response = self.session.get(url, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
-            
+
             if data.get('code') == '200000' and data.get('data'):
                 return self.normalize_ohlcv_data(data['data'], 'kucoin')
             return None
@@ -162,7 +155,7 @@ class SimpleExchangeManager:
     def fetch_okx_data(self, symbol: str, timeframe: str, limit: int = 200) -> Optional[Dict]:
         """Fetch data from OKX (public API)"""
         url = "https://www.okx.com/api/v5/market/candles"
-        
+
         interval_map = {
             '15m': '15m',
             '1h': '1H',
@@ -180,7 +173,7 @@ class SimpleExchangeManager:
             response = self.session.get(url, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
-            
+
             if data.get('code') == '0' and data.get('data'):
                 return self.normalize_ohlcv_data(data['data'], 'okx')
             return None
@@ -276,10 +269,7 @@ class SimpleExchangeManager:
         return ['15m', '1h', '2h', '8h']
 
     def fetch_ohlcv_with_fallback(self, symbol: str, timeframe: str, limit: int = 200) -> Tuple[Optional[Dict], Optional[str]]:
-        """
-        Enhanced fallback chain: BingX Perpetuals → BingX Spot → KuCoin → OKX
-        Returns (data, exchange_used)
-        """
+        """Enhanced fallback chain: BingX Perpetuals → BingX Spot → KuCoin → OKX"""
         # Validate timeframe
         if timeframe not in self.get_supported_timeframes():
             print(f"❌ Unsupported timeframe: {timeframe}")
@@ -287,38 +277,28 @@ class SimpleExchangeManager:
 
         # Apply symbol mapping
         api_symbol, display_symbol = self.apply_symbol_mapping(symbol)
-        
+
         # FIXED: Remove USDT suffix if present for API calls
         if api_symbol.endswith('USDT'):
             clean_symbol = api_symbol[:-4]  # TONUSDT -> TON
         else:
             clean_symbol = api_symbol
 
-        print(f"🔄 Fetching {display_symbol} ({clean_symbol}) on {timeframe}")
-
-        # 1. Try BingX Perpetuals first
+        # Try all exchanges
         data = self.fetch_bingx_perpetuals_data(clean_symbol, timeframe, limit)
         if data and len(data.get('timestamp', [])) > 0:
-            print(f"✅ {display_symbol} data from BingX Perpetuals")
             return data, 'BingX Perpetuals'
 
-        # 2. Try BingX Spot
         data = self.fetch_bingx_spot_data(clean_symbol, timeframe, limit)
         if data and len(data.get('timestamp', [])) > 0:
-            print(f"✅ {display_symbol} data from BingX Spot")
             return data, 'BingX Spot'
 
-        # 3. Try KuCoin (public)
         data = self.fetch_kucoin_data(clean_symbol, timeframe, limit)
         if data and len(data.get('timestamp', [])) > 0:
-            print(f"✅ {display_symbol} data from KuCoin")
             return data, 'KuCoin'
 
-        # 4. Try OKX (public)
         data = self.fetch_okx_data(clean_symbol, timeframe, limit)
         if data and len(data.get('timestamp', [])) > 0:
-            print(f"✅ {display_symbol} data from OKX")
             return data, 'OKX'
 
-        print(f"❌ All exchanges failed for {display_symbol}")
         return None, None
