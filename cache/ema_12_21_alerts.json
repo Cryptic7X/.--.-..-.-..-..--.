@@ -58,5 +58,26 @@
   },
   "BRETTUSDT": {
     "last_alert_time": 1759067284.2041864
+  },
+  "ETHUSDT": {
+    "last_alert_time": 1759068556.170528
+  },
+  "TRXUSDT": {
+    "last_alert_time": 1759068556.177552
+  },
+  "ONDOUSDT": {
+    "last_alert_time": 1759068557.5158417
+  },
+  "ENSUSDT": {
+    "last_alert_time": 1759068557.8419003
+  },
+  "FARTCOINUSDT": {
+    "last_alert_time": 1759068558.0656605
+  },
+  "BEAMUSDT": {
+    "last_alert_time": 1759068558.1000504
+  },
+  "BERAUSDT": {
+    "last_alert_time": 1759068558.1456065
   }
 }
