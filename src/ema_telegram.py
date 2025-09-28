@@ -1,6 +1,6 @@
 """
-EMA 15M Telegram Alert System - SIMPLIFIED FORMAT
-No EMA values, no market cap/volume details
+Dynamic EMA Telegram Sender - Config-Aware Alert Messages
+Shows dynamic EMA numbers in summary (12/21 or 21/50)
 """
 
 import os
@@ -8,7 +8,7 @@ import requests
 from datetime import datetime
 from typing import List, Dict
 
-class EMA15MTelegramSender:
+class DynamicEMATelegram:
     def __init__(self):
         self.bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
         self.chat_id = os.getenv('TELEGRAM_15M_CHAT_ID')
@@ -29,8 +29,8 @@ class EMA15MTelegramSender:
         cg_link = f"https://www.coinglass.com/pro/futures/LiquidationHeatMapNew?coin={clean_symbol}"
         return tv_link, cg_link
 
-    def send_alerts(self, signals: List[Dict], timeframe_minutes: int = 15) -> bool:
-        """Send EMA 15M crossover alerts - SIMPLIFIED FORMAT"""
+    def send_alerts(self, signals: List[Dict], ema_short: int, ema_long: int, timeframe_minutes: int = 15) -> bool:
+        """Send dynamic EMA crossover alerts"""
         if not self.bot_token or not self.chat_id or not signals:
             return False
 
@@ -73,7 +73,7 @@ class EMA15MTelegramSender:
 {i}. {symbol} | 💰 {price}
   📈[Chart →]({tv_link}) |🔥 [Liq Heat →]({cg_link})"""
 
-            # Summary
+            # Summary with DYNAMIC EMA numbers
             total_crossovers = len(golden_signals) + len(death_signals)
             golden_count = len(golden_signals)
             death_count = len(death_signals)
@@ -82,7 +82,7 @@ class EMA15MTelegramSender:
 
 📊 EMA SUMMARY
 • Total Crossovers: {total_crossovers} (🟡 {golden_count} Golden, 🔴 {death_count} Death)
-⚡ 15M timeframe for rapid signals"""
+⚡ {ema_short}/{ema_long} EMA - 15M timeframe for rapid signals"""
 
             url = f"https://api.telegram.org/bot{self.bot_token}/sendMessage"
             payload = {
