@@ -79,5 +79,29 @@
   },
   "BERAUSDT": {
     "last_alert_time": 1759068558.1456065
+  },
+  "XRPUSDT": {
+    "last_alert_time": 1759069548.5550995
+  },
+  "HBARUSDT": {
+    "last_alert_time": 1759069548.8307726
+  },
+  "UNIUSDT": {
+    "last_alert_time": 1759069548.9012034
+  },
+  "AAVEUSDT": {
+    "last_alert_time": 1759069549.108261
+  },
+  "TAOUSDT": {
+    "last_alert_time": 1759069549.1607025
+  },
+  "POLUSDT": {
+    "last_alert_time": 1759069549.4494333
+  },
+  "KASUSDT": {
+    "last_alert_time": 1759069549.6515276
+  },
+  "WIFUSDT": {
+    "last_alert_time": 1759069550.2775714
   }
 }
