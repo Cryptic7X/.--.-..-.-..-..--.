@@ -34,5 +34,11 @@
   },
   "JTOUSDT": {
     "last_alert_time": 1759065521.1035383
+  },
+  "MNTUSDT": {
+    "last_alert_time": 1759066529.4938383
+  },
+  "ETCUSDT": {
+    "last_alert_time": 1759066529.7510934
   }
 }
