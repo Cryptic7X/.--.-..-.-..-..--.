@@ -22,5 +22,17 @@
   },
   "EIGENUSDT": {
     "last_alert_time": 1759064190.762155
+  },
+  "DOTUSDT": {
+    "last_alert_time": 1759065519.6997025
+  },
+  "PIUSDT": {
+    "last_alert_time": 1759065520.4037926
+  },
+  "ATOMUSDT": {
+    "last_alert_time": 1759065520.580337
+  },
+  "JTOUSDT": {
+    "last_alert_time": 1759065521.1035383
   }
 }
