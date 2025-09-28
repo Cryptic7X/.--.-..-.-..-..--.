@@ -103,5 +103,8 @@
   },
   "WIFUSDT": {
     "last_alert_time": 1759069550.2775714
+  },
+  "ASTERUSDT": {
+    "last_alert_time": 1759070085.08606
   }
 }
