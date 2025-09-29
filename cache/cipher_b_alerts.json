@@ -38,5 +38,9 @@
   "MNTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759157717.9683988
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759162931.5915499
   }
 }
