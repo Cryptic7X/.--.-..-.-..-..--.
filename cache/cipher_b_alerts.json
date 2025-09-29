@@ -10,5 +10,25 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759143401.7728806
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759150069.417831
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759150070.2921042
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759150070.4793
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759150070.9481025
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759150071.3119023
   }
 }
