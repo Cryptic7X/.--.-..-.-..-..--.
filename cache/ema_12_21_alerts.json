@@ -57,7 +57,7 @@
     "last_alert_time": 1759067284.0554829
   },
   "BRETTUSDT": {
-    "last_alert_time": 1759067284.2041864
+    "last_alert_time": 1759121438.3390155
   },
   "ETHUSDT": {
     "last_alert_time": 1759068556.170528
@@ -72,7 +72,7 @@
     "last_alert_time": 1759120876.971697
   },
   "FARTCOINUSDT": {
-    "last_alert_time": 1759068558.0656605
+    "last_alert_time": 1759121438.3544862
   },
   "BEAMUSDT": {
     "last_alert_time": 1759117737.166203
@@ -136,5 +136,8 @@
   },
   "JASMYUSDT": {
     "last_alert_time": 1759119321.7376344
+  },
+  "LTCUSDT": {
+    "last_alert_time": 1759121436.334931
   }
 }
