@@ -42,5 +42,13 @@
   "TRXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759162931.5915499
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759168344.6531985
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759168346.4796686
   }
 }
