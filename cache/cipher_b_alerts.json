@@ -50,5 +50,9 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759168346.4796686
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759170710.924292
   }
 }
