@@ -34,5 +34,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759157029.8911512
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759157717.9683988
   }
 }
