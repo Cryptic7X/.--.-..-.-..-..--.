@@ -122,5 +122,9 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759182727.0287929
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759184259.7648065
   }
 }
