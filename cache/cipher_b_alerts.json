@@ -94,5 +94,33 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759181942.930615
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182725.444543
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182725.4618154
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182725.4821866
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182725.5199058
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182725.540221
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182726.9665012
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759182727.0287929
   }
 }
