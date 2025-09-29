@@ -1,0 +1,14 @@
+{
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759143401.0877953
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759143401.2648745
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759143401.7728806
+  }
+}
