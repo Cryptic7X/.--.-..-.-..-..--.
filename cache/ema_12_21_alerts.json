@@ -39,7 +39,7 @@
     "last_alert_time": 1759066529.4938383
   },
   "ETCUSDT": {
-    "last_alert_time": 1759066529.7510934
+    "last_alert_time": 1759123939.9937582
   },
   "ADAUSDT": {
     "last_alert_time": 1759122786.6747916
@@ -96,7 +96,7 @@
     "last_alert_time": 1759069549.1607025
   },
   "POLUSDT": {
-    "last_alert_time": 1759069549.4494333
+    "last_alert_time": 1759123939.9873395
   },
   "KASUSDT": {
     "last_alert_time": 1759069549.6515276
@@ -145,5 +145,8 @@
   },
   "CRVUSDT": {
     "last_alert_time": 1759122788.0344205
+  },
+  "JUPUSDT": {
+    "last_alert_time": 1759123940.512249
   }
 }
