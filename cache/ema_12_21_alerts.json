@@ -3,7 +3,7 @@
     "last_alert_time": 1759053729.8824663
   },
   "AVAXUSDT": {
-    "last_alert_time": 1759054480.0520616
+    "last_alert_time": 1759122786.915506
   },
   "BTCUSDT": {
     "last_alert_time": 1759056488.353497
@@ -42,7 +42,7 @@
     "last_alert_time": 1759066529.7510934
   },
   "ADAUSDT": {
-    "last_alert_time": 1759067282.2382336
+    "last_alert_time": 1759122786.6747916
   },
   "SUIUSDT": {
     "last_alert_time": 1759067282.984188
@@ -51,7 +51,7 @@
     "last_alert_time": 1759067283.2668686
   },
   "INJUSDT": {
-    "last_alert_time": 1759067283.6672595
+    "last_alert_time": 1759122787.9423726
   },
   "SUSDT": {
     "last_alert_time": 1759067284.0554829
@@ -84,13 +84,13 @@
     "last_alert_time": 1759069548.5550995
   },
   "HBARUSDT": {
-    "last_alert_time": 1759069548.8307726
+    "last_alert_time": 1759122787.1100342
   },
   "UNIUSDT": {
     "last_alert_time": 1759069548.9012034
   },
   "AAVEUSDT": {
-    "last_alert_time": 1759069549.108261
+    "last_alert_time": 1759122787.0253549
   },
   "TAOUSDT": {
     "last_alert_time": 1759069549.1607025
@@ -139,5 +139,11 @@
   },
   "LTCUSDT": {
     "last_alert_time": 1759121436.334931
+  },
+  "DOGEUSDT": {
+    "last_alert_time": 1759122786.7044528
+  },
+  "CRVUSDT": {
+    "last_alert_time": 1759122788.0344205
   }
 }
