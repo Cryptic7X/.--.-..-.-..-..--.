@@ -1,0 +1,23 @@
+# CipherB 15M Analysis Configuration
+# Simplified config for standalone Cipher B analysis
+
+cipher_b:
+  timeframe: "15m"              # Fixed 15-minute timeframe
+  freshness_minutes: 15         # Only alert if signal within 15 minutes
+  data_limit: 200               # Candles for accurate calculation
+  
+  # Pine Script parameters (matching your TradingView exactly)
+  wt_channel_len: 9             # wtChannelLen = 9
+  wt_average_len: 12            # wtAverageLen = 12  
+  wt_ma_len: 3                  # wtMALen = 3
+  os_level: -60                 # osLevel2 = -60
+  ob_level: 60                  # obLevel2 = 60
+
+system:
+  max_workers: 10               # Concurrent analysis threads
+  
+# Alert Logic:
+# ✅ Send buy signal → Track as last_signal: "buy"
+# ❌ Skip repeated buy signals until sell signal occurs
+# ✅ Send sell signal → Reset buy tracking, track as last_signal: "sell" 
+# ❌ Skip repeated sell signals until buy signal occurs
