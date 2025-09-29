@@ -30,7 +30,7 @@
     "last_alert_time": 1759065520.4037926
   },
   "ATOMUSDT": {
-    "last_alert_time": 1759065520.580337
+    "last_alert_time": 1759117736.400579
   },
   "JTOUSDT": {
     "last_alert_time": 1759065521.1035383
@@ -75,7 +75,7 @@
     "last_alert_time": 1759068558.0656605
   },
   "BEAMUSDT": {
-    "last_alert_time": 1759068558.1000504
+    "last_alert_time": 1759117737.166203
   },
   "BERAUSDT": {
     "last_alert_time": 1759068558.1456065
@@ -127,5 +127,11 @@
   },
   "PENGUUSDT": {
     "last_alert_time": 1759116292.2592168
+  },
+  "FLOKIUSDT": {
+    "last_alert_time": 1759117736.7844982
+  },
+  "RAYUSDT": {
+    "last_alert_time": 1759117736.8681157
   }
 }
