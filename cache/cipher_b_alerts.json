@@ -202,5 +202,29 @@
   "GALAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759247600.835493
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249658.5150099
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249658.5784612
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249658.7627087
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249658.8079352
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249658.9922943
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759249660.2020288
   }
 }
