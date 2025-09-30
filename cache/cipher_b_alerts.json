@@ -178,5 +178,9 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759213993.8180854
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759217057.687769
   }
 }
