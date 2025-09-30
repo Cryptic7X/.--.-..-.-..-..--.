@@ -178,5 +178,9 @@
   "CFXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759239102.3849862
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759240420.449187
   }
 }
