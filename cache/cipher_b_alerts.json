@@ -110,5 +110,45 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759227922.0420628
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229025.568019
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229025.6146464
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229025.6305099
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229026.3091948
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759229026.3508425
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229026.8113859
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229027.1132455
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229027.1885533
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229027.6283996
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759229027.6583755
   }
 }
