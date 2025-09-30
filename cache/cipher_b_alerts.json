@@ -162,5 +162,21 @@
   "KASUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759236453.4227324
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759239101.1684878
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759239101.2160785
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759239102.214217
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759239102.3849862
   }
 }
