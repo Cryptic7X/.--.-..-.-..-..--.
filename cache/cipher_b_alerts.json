@@ -194,5 +194,13 @@
   "SUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759246870.3899577
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759247599.8195498
+  },
+  "GALAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759247600.835493
   }
 }
