@@ -16,8 +16,8 @@
     "last_alert_time": 1759181941.408308
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759181941.4166794
+    "last_signal": "buy",
+    "last_alert_time": 1759222580.8154364
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -64,12 +64,12 @@
     "last_alert_time": 1759206379.6188486
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759181942.3883154
+    "last_signal": "buy",
+    "last_alert_time": 1759222580.9736416
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759181942.5166225
+    "last_signal": "buy",
+    "last_alert_time": 1759222581.8439393
   },
   "WIFUSDT": {
     "last_signal": "sell",
