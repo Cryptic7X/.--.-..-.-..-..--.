@@ -40,8 +40,8 @@
     "last_alert_time": 1759181941.7611072
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759181941.7857425
+    "last_signal": "buy",
+    "last_alert_time": 1759213992.3891385
   },
   "ICPUSDT": {
     "last_signal": "sell",
@@ -108,8 +108,8 @@
     "last_alert_time": 1759182725.4821866
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759182725.5199058
+    "last_signal": "buy",
+    "last_alert_time": 1759213991.872884
   },
   "DOGEUSDT": {
     "last_signal": "sell",
@@ -166,5 +166,17 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759209783.041228
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759213991.8977215
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759213992.8184159
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759213993.8180854
   }
 }
