@@ -154,5 +154,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759229701.923756
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759233135.8014274
   }
 }
