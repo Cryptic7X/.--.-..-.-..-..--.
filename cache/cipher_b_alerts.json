@@ -158,5 +158,9 @@
   "WLFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759233135.8014274
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759236453.4227324
   }
 }
