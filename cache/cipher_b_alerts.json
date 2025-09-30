@@ -120,8 +120,8 @@
     "last_alert_time": 1759229025.6146464
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759229025.6305099
+    "last_signal": "sell",
+    "last_alert_time": 1759263821.6096382
   },
   "ETHUSDT": {
     "last_signal": "buy",
@@ -160,16 +160,16 @@
     "last_alert_time": 1759233135.8014274
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759236453.4227324
+    "last_signal": "sell",
+    "last_alert_time": 1759263822.5549712
   },
   "ASTERUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759239101.1684878
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759239101.2160785
+    "last_signal": "sell",
+    "last_alert_time": 1759263821.8711994
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1759239102.3849862
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759240420.449187
+    "last_signal": "sell",
+    "last_alert_time": 1759263822.281511
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -192,8 +192,8 @@
     "last_alert_time": 1759243355.8109078
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759246870.3899577
+    "last_signal": "sell",
+    "last_alert_time": 1759263823.0876236
   },
   "LTCUSDT": {
     "last_signal": "buy",
