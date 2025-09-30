@@ -32,8 +32,8 @@
     "last_alert_time": 1759227920.7725909
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759227920.8141913
+    "last_signal": "sell",
+    "last_alert_time": 1759242080.9234312
   },
   "ETCUSDT": {
     "last_signal": "buy",
@@ -182,5 +182,9 @@
   "OKBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759240420.449187
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759242081.745433
   }
 }
