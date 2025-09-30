@@ -128,8 +128,8 @@
     "last_alert_time": 1759184259.7648065
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759185520.7003057
+    "last_signal": "buy",
+    "last_alert_time": 1759204415.8961015
   },
   "TRXUSDT": {
     "last_signal": "sell",
