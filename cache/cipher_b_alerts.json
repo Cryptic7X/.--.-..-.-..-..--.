@@ -70,5 +70,9 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759269134.2030716
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759270775.214322
   }
 }
