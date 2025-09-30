@@ -134,5 +134,9 @@
   "TRXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759187955.358753
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759196341.0535975
   }
 }
