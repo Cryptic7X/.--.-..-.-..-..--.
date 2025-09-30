@@ -162,5 +162,9 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759200477.6907938
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759209783.041228
   }
 }
