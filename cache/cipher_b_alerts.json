@@ -210,5 +210,9 @@
   "CRVUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759221043.003119
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759224404.5289474
   }
 }
