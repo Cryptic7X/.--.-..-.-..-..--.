@@ -106,5 +106,9 @@
   "MNTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759297323.0663939
+  },
+  "IMXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759298019.3807423
   }
 }
