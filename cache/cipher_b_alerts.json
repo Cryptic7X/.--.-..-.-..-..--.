@@ -74,5 +74,9 @@
   "IPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759270775.214322
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759283457.5510674
   }
 }
