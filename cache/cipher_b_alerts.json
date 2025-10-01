@@ -120,8 +120,8 @@
     "last_alert_time": 1759314203.3196461
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759314203.36387
+    "last_signal": "buy",
+    "last_alert_time": 1759339157.050295
   },
   "UNIUSDT": {
     "last_signal": "sell",
