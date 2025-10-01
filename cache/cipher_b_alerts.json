@@ -144,8 +144,8 @@
     "last_alert_time": 1759314203.7891755
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759314203.8570914
+    "last_signal": "buy",
+    "last_alert_time": 1759358418.8578947
   },
   "PIUSDT": {
     "last_signal": "buy",
