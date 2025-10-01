@@ -114,5 +114,13 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759304453.1272068
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759310650.9633698
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759310652.424574
   }
 }
