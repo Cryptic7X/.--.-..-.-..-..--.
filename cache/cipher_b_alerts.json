@@ -36,8 +36,8 @@
     "last_alert_time": 1759312450.4214969
   },
   "ATOMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759312450.4472537
+    "last_signal": "buy",
+    "last_alert_time": 1759343468.5642245
   },
   "KASUSDT": {
     "last_signal": "sell",
