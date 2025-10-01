@@ -198,5 +198,13 @@
   "HBARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759332328.799895
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759334061.7825167
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759334062.1076903
   }
 }
