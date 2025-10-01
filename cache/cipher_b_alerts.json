@@ -186,5 +186,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759325500.8881233
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759330598.7259228
   }
 }
