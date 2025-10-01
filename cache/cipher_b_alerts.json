@@ -132,8 +132,8 @@
     "last_alert_time": 1759314203.5331252
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759314203.6423028
+    "last_signal": "buy",
+    "last_alert_time": 1759332329.1099553
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -190,5 +190,13 @@
   "DOGEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759330598.7259228
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759332328.4674246
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759332328.799895
   }
 }
