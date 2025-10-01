@@ -116,8 +116,8 @@
     "last_alert_time": 1759314203.2867787
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759314203.3196461
+    "last_signal": "buy",
+    "last_alert_time": 1759355507.7011993
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -168,8 +168,8 @@
     "last_alert_time": 1759314204.6869326
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759314204.7198536
+    "last_signal": "buy",
+    "last_alert_time": 1759355509.9871175
   },
   "BEAMUSDT": {
     "last_signal": "sell",
