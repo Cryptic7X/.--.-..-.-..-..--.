@@ -110,5 +110,9 @@
   "IMXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759298019.3807423
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759304453.1272068
   }
 }
