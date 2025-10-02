@@ -158,5 +158,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759436600.8516672
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759437653.3708515
   }
 }
