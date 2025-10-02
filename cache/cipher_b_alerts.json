@@ -126,5 +126,37 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759434720.713905
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436598.8707728
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436598.8928769
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436599.1828904
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436599.3032718
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436599.4826627
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436600.000603
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436600.2573593
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759436600.8516672
   }
 }
