@@ -36,8 +36,8 @@
     "last_alert_time": 1759354718.5777693
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759343468.5642245
+    "last_signal": "sell",
+    "last_alert_time": 1759373191.1188688
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1759314203.2867787
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759355507.7011993
+    "last_signal": "sell",
+    "last_alert_time": 1759373189.894582
   },
   "CROUSDT": {
     "last_signal": "sell",
@@ -222,5 +222,13 @@
   "LINKUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759348348.9460907
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759373190.080381
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759373191.3975248
   }
 }
