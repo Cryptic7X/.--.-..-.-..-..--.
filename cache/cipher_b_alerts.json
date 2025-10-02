@@ -162,5 +162,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759437653.3708515
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759439895.4595065
   }
 }
