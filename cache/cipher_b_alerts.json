@@ -32,8 +32,8 @@
     "last_alert_time": 1759312450.4080935
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759354718.5777693
+    "last_signal": "sell",
+    "last_alert_time": 1759375841.2990417
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -148,8 +148,8 @@
     "last_alert_time": 1759358418.8578947
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759340451.9117773
+    "last_signal": "sell",
+    "last_alert_time": 1759375841.447806
   },
   "SPXUSDT": {
     "last_signal": "sell",
@@ -230,5 +230,13 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759373191.3975248
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759375840.2368453
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759375840.571292
   }
 }
