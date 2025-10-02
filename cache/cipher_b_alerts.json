@@ -168,8 +168,8 @@
     "last_alert_time": 1759314204.6869326
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759355509.9871175
+    "last_signal": "sell",
+    "last_alert_time": 1759377149.9569826
   },
   "BEAMUSDT": {
     "last_signal": "sell",
@@ -238,5 +238,9 @@
   "AVAXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759375840.571292
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759377147.951559
   }
 }
