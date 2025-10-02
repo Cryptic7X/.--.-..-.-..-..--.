@@ -42,5 +42,89 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759433915.578357
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434718.8966053
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434718.9032686
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434718.927162
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434718.934841
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434718.9406571
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.080257
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.0948942
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.1614695
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.1733778
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.359652
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.4173996
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.626843
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.779401
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434719.998376
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.181826
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.2562542
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.414817
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.5589552
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.593935
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.635953
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759434720.713905
   }
 }
