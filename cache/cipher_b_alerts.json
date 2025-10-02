@@ -242,5 +242,9 @@
   "SOLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759377147.951559
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759402418.5404952
   }
 }
