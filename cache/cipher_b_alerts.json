@@ -48,8 +48,8 @@
     "last_alert_time": 1759477935.7614565
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434718.9032686
+    "last_signal": "buy",
+    "last_alert_time": 1759481224.771062
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -60,8 +60,8 @@
     "last_alert_time": 1759477935.8219569
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434718.9406571
+    "last_signal": "buy",
+    "last_alert_time": 1759481224.7545593
   },
   "LINKUSDT": {
     "last_signal": "buy",
@@ -108,8 +108,8 @@
     "last_alert_time": 1759473089.428827
   },
   "PENDLEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.414817
+    "last_signal": "buy",
+    "last_alert_time": 1759481226.3641963
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -132,12 +132,12 @@
     "last_alert_time": 1759436598.8707728
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436598.8928769
+    "last_signal": "buy",
+    "last_alert_time": 1759481224.7314334
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436599.1828904
+    "last_signal": "buy",
+    "last_alert_time": 1759481225.0474246
   },
   "WLFIUSDT": {
     "last_signal": "sell",
