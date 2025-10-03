@@ -202,5 +202,9 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759459559.8549323
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759466525.9667103
   }
 }
