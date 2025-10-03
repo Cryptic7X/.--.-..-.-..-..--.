@@ -222,5 +222,13 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759492328.0071743
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759497296.391049
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759497296.920644
   }
 }
