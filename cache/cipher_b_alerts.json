@@ -188,8 +188,8 @@
     "last_alert_time": 1759488800.789387
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759455535.355815
+    "last_signal": "sell",
+    "last_alert_time": 1759513941.2806125
   },
   "NEARUSDT": {
     "last_signal": "sell",
