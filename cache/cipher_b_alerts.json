@@ -44,8 +44,8 @@
     "last_alert_time": 1759459559.678486
   },
   "SOLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434718.8966053
+    "last_signal": "buy",
+    "last_alert_time": 1759477935.7614565
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -56,20 +56,20 @@
     "last_alert_time": 1759434718.927162
   },
   "ADAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434718.934841
+    "last_signal": "buy",
+    "last_alert_time": 1759477935.8219569
   },
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759434718.9406571
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.080257
+    "last_signal": "buy",
+    "last_alert_time": 1759477935.9965103
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.0948942
+    "last_signal": "buy",
+    "last_alert_time": 1759477936.1542704
   },
   "SUIUSDT": {
     "last_signal": "sell",
@@ -80,8 +80,8 @@
     "last_alert_time": 1759434719.1733778
   },
   "AAVEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.359652
+    "last_signal": "buy",
+    "last_alert_time": 1759477936.0703938
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,9 @@
   "PENGUUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759473089.202511
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759477936.8685887
   }
 }
