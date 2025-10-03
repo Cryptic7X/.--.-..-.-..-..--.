@@ -40,8 +40,8 @@
     "last_alert_time": 1759433915.5595672
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759433915.578357
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.678486
   },
   "SOLUSDT": {
     "last_signal": "sell",
@@ -88,20 +88,20 @@
     "last_alert_time": 1759434719.4173996
   },
   "ENAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.626843
+    "last_signal": "buy",
+    "last_alert_time": 1759459558.6338565
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.779401
+    "last_signal": "buy",
+    "last_alert_time": 1759459558.7638235
   },
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759434719.998376
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.181826
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.1964235
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -112,8 +112,8 @@
     "last_alert_time": 1759434720.414817
   },
   "RAYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.5589552
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.5243707
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -124,8 +124,8 @@
     "last_alert_time": 1759455535.2150004
   },
   "JTOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.713905
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.7753792
   },
   "XRPUSDT": {
     "last_signal": "sell",
@@ -148,12 +148,12 @@
     "last_alert_time": 1759436599.4826627
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436600.000603
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.7127335
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436600.2573593
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.069684
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -190,5 +190,17 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759455535.355815
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759459558.4283245
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.7962308
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759459559.8549323
   }
 }
