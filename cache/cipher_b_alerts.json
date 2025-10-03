@@ -8,8 +8,8 @@
     "last_alert_time": 1759433914.3097088
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759433914.562242
+    "last_signal": "buy",
+    "last_alert_time": 1759480043.6668522
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -52,8 +52,8 @@
     "last_alert_time": 1759434718.9032686
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434718.927162
+    "last_signal": "buy",
+    "last_alert_time": 1759480042.6636589
   },
   "ADAUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1759477936.0703938
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434719.4173996
+    "last_signal": "buy",
+    "last_alert_time": 1759480043.1527536
   },
   "ENAUSDT": {
     "last_signal": "buy",
