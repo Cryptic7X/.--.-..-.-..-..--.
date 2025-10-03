@@ -12,8 +12,8 @@
     "last_alert_time": 1759480043.6668522
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759455534.252438
+    "last_signal": "sell",
+    "last_alert_time": 1759509930.0761573
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -48,8 +48,8 @@
     "last_alert_time": 1759477935.7614565
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759481224.771062
+    "last_signal": "sell",
+    "last_alert_time": 1759509928.9771793
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -68,8 +68,8 @@
     "last_alert_time": 1759477935.9965103
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759477936.1542704
+    "last_signal": "sell",
+    "last_alert_time": 1759509929.2896497
   },
   "SUIUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1759459559.069684
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759455535.3513608
+    "last_signal": "sell",
+    "last_alert_time": 1759509931.2544494
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1759459558.4283245
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759459559.7962308
+    "last_signal": "sell",
+    "last_alert_time": 1759509931.2667098
   },
   "BEAMUSDT": {
     "last_signal": "buy",
