@@ -128,8 +128,8 @@
     "last_alert_time": 1759459559.7753792
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436598.8707728
+    "last_signal": "buy",
+    "last_alert_time": 1759498704.1786423
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1759455533.1490612
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759455533.1784317
+    "last_signal": "sell",
+    "last_alert_time": 1759498704.144255
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1759466525.9667103
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759473089.0004034
+    "last_signal": "buy",
+    "last_alert_time": 1759498705.1288714
   },
   "PENGUUSDT": {
     "last_signal": "buy",
