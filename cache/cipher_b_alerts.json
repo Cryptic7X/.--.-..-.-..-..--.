@@ -104,8 +104,8 @@
     "last_alert_time": 1759459559.1964235
   },
   "LDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.2562542
+    "last_signal": "buy",
+    "last_alert_time": 1759473089.428827
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -206,5 +206,13 @@
   "ASTERUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759466525.9667103
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759473089.0004034
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759473089.202511
   }
 }
