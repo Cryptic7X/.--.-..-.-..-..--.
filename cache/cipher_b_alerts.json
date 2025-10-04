@@ -72,8 +72,8 @@
     "last_alert_time": 1759568042.7460654
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759547704.4666402
+    "last_signal": "sell",
+    "last_alert_time": 1759613877.1157956
   },
   "TRXUSDT": {
     "last_signal": "buy",
