@@ -76,8 +76,8 @@
     "last_alert_time": 1759613877.1157956
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759535542.7028506
+    "last_signal": "sell",
+    "last_alert_time": 1759617531.2946312
   },
   "AAVEUSDT": {
     "last_signal": "buy",
