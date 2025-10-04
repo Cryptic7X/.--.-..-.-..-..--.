@@ -8,8 +8,8 @@
     "last_alert_time": 1759503244.5527365
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511851.7460938
+    "last_signal": "buy",
+    "last_alert_time": 1759541738.905201
   },
   "POLUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1759513941.2806125
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511851.5650806
+    "last_signal": "buy",
+    "last_alert_time": 1759541738.6189108
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
