@@ -1,15 +1,15 @@
 {
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759569545.543378
+    "last_signal": "sell",
+    "last_alert_time": 1759616275.2335346
   },
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759503244.5527365
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759541738.905201
+    "last_signal": "sell",
+    "last_alert_time": 1759616276.1916625
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -36,8 +36,8 @@
     "last_alert_time": 1759593121.0478976
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759547706.269533
+    "last_signal": "sell",
+    "last_alert_time": 1759616277.04017
   },
   "EIGENUSDT": {
     "last_signal": "sell",
@@ -124,16 +124,16 @@
     "last_alert_time": 1759547706.1658626
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759459559.7753792
+    "last_signal": "sell",
+    "last_alert_time": 1759616277.1515725
   },
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759545672.1612823
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759481224.7314334
+    "last_signal": "sell",
+    "last_alert_time": 1759616275.995115
   },
   "CROUSDT": {
     "last_signal": "buy",
