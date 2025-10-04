@@ -164,8 +164,8 @@
     "last_alert_time": 1759437653.3708515
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759465465.1401565
+    "last_signal": "sell",
+    "last_alert_time": 1759559339.95606
   },
   "DOTUSDT": {
     "last_signal": "buy",
