@@ -208,8 +208,8 @@
     "last_alert_time": 1759466525.9667103
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511851.785625
+    "last_signal": "buy",
+    "last_alert_time": 1759573172.5932565
   },
   "PENGUUSDT": {
     "last_signal": "sell",
