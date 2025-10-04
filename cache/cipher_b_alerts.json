@@ -40,8 +40,8 @@
     "last_alert_time": 1759547706.269533
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759555143.347911
+    "last_signal": "sell",
+    "last_alert_time": 1759587412.2537472
   },
   "SOLUSDT": {
     "last_signal": "buy",
@@ -228,8 +228,8 @@
     "last_alert_time": 1759578715.612855
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759555142.873412
+    "last_signal": "sell",
+    "last_alert_time": 1759587411.9443007
   },
   "OKBUSDT": {
     "last_signal": "buy",
