@@ -32,8 +32,8 @@
     "last_alert_time": 1759433915.2427726
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511852.541988
+    "last_signal": "buy",
+    "last_alert_time": 1759593121.0478976
   },
   "GALAUSDT": {
     "last_signal": "buy",
@@ -116,8 +116,8 @@
     "last_alert_time": 1759545673.9252677
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759434720.593935
+    "last_signal": "buy",
+    "last_alert_time": 1759593121.0411937
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -144,8 +144,8 @@
     "last_alert_time": 1759577219.5127037
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759436599.4826627
+    "last_signal": "buy",
+    "last_alert_time": 1759593120.0748076
   },
   "KASUSDT": {
     "last_signal": "buy",
