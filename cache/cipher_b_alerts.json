@@ -152,8 +152,8 @@
     "last_alert_time": 1759545673.3751764
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511852.2003255
+    "last_signal": "buy",
+    "last_alert_time": 1759549054.8463829
   },
   "BRETTUSDT": {
     "last_signal": "sell",
