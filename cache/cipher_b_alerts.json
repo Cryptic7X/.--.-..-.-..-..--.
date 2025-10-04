@@ -1,7 +1,7 @@
 {
   "BNBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759433914.2597213
+    "last_signal": "buy",
+    "last_alert_time": 1759569545.543378
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -100,8 +100,8 @@
     "last_alert_time": 1759547705.5894132
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759511852.40535
+    "last_signal": "buy",
+    "last_alert_time": 1759569546.8311043
   },
   "LDOUSDT": {
     "last_signal": "buy",
