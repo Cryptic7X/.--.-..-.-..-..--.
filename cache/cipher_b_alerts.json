@@ -40,8 +40,8 @@
     "last_alert_time": 1759547706.269533
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759529915.2981515
+    "last_signal": "buy",
+    "last_alert_time": 1759555143.347911
   },
   "SOLUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1759545674.1219437
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759513941.2806125
+    "last_signal": "buy",
+    "last_alert_time": 1759555143.4281945
   },
   "NEARUSDT": {
     "last_signal": "buy",
@@ -228,8 +228,8 @@
     "last_alert_time": 1759497296.391049
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759497296.920644
+    "last_signal": "buy",
+    "last_alert_time": 1759555142.873412
   },
   "OKBUSDT": {
     "last_signal": "sell",
