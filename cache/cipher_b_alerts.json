@@ -224,8 +224,8 @@
     "last_alert_time": 1759492328.0071743
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759578715.612855
+    "last_signal": "sell",
+    "last_alert_time": 1759609249.561233
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
