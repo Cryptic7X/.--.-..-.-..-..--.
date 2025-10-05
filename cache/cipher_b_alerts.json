@@ -160,8 +160,8 @@
     "last_alert_time": 1759643508.5165653
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759643508.6576815
+    "last_signal": "buy",
+    "last_alert_time": 1759677515.2080896
   },
   "WLDUSDT": {
     "last_signal": "sell",
