@@ -138,5 +138,13 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759641553.104893
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759642764.7294967
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759642765.627184
   }
 }
