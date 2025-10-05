@@ -8,8 +8,8 @@
     "last_alert_time": 1759635775.706486
   },
   "LTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759635775.7141914
+    "last_signal": "buy",
+    "last_alert_time": 1759663606.2846572
   },
   "LINKUSDT": {
     "last_signal": "sell",
@@ -218,5 +218,9 @@
   "OKBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759661523.527481
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759663606.330621
   }
 }
