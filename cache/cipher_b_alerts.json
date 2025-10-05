@@ -206,5 +206,9 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759646810.447845
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759648661.0626893
   }
 }
