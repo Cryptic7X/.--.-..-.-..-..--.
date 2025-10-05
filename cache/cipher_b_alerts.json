@@ -204,8 +204,8 @@
     "last_alert_time": 1759459559.8549323
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759466525.9667103
+    "last_signal": "buy",
+    "last_alert_time": 1759628928.0252209
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -228,8 +228,8 @@
     "last_alert_time": 1759609249.561233
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759587411.9443007
+    "last_signal": "buy",
+    "last_alert_time": 1759628928.9322445
   },
   "OKBUSDT": {
     "last_signal": "buy",
