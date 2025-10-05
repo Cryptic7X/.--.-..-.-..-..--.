@@ -202,5 +202,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759645752.1112444
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759646810.447845
   }
 }
