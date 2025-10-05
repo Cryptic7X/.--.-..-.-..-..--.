@@ -126,5 +126,9 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759638235.826815
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759639272.0538564
   }
 }
