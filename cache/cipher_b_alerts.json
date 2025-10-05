@@ -92,8 +92,8 @@
     "last_alert_time": 1759636459.1632712
   },
   "JASMYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759636459.20242
+    "last_signal": "buy",
+    "last_alert_time": 1759665123.4357073
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
@@ -222,5 +222,13 @@
   "SUIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759663606.330621
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759665122.213632
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759665123.1741366
   }
 }
