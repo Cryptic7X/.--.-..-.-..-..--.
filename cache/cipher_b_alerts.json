@@ -146,5 +146,37 @@
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759642765.627184
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643508.2108786
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643508.2484696
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643508.5165653
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643508.6576815
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643508.841562
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643509.2758405
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643509.4519818
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759643509.5556147
   }
 }
