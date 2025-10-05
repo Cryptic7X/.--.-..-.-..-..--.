@@ -130,5 +130,13 @@
   "INJUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759639272.0538564
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759641552.3371956
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759641553.104893
   }
 }
