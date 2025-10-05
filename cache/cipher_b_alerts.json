@@ -98,5 +98,33 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759636459.2962077
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638234.2966933
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638234.303249
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638234.3688676
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638234.6594582
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638235.216358
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638235.5839891
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759638235.826815
   }
 }
