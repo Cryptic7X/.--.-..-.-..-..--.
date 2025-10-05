@@ -12,8 +12,8 @@
     "last_alert_time": 1759663606.2846572
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759635776.0169282
+    "last_signal": "buy",
+    "last_alert_time": 1759696733.3536596
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "FLOKIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759689916.9833746
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759696734.2617908
   }
 }
