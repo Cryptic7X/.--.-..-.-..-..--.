@@ -178,5 +178,29 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1759643509.5556147
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759645751.1365218
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759645751.180333
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759645751.2130725
+  },
+  "IMXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759645751.370157
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759645751.6224341
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1759645752.1112444
   }
 }
