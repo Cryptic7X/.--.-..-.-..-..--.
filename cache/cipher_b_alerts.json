@@ -4,8 +4,8 @@
     "last_alert_time": 1759635775.698441
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759635775.706486
+    "last_signal": "buy",
+    "last_alert_time": 1759664374.2548347
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -144,8 +144,8 @@
     "last_alert_time": 1759642764.7294967
   },
   "LDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759642765.627184
+    "last_signal": "buy",
+    "last_alert_time": 1759664375.1832108
   },
   "AVAXUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1759646810.447845
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759648661.0626893
+    "last_signal": "buy",
+    "last_alert_time": 1759664375.2809658
   },
   "EIGENUSDT": {
     "last_signal": "buy",
