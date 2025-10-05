@@ -180,8 +180,8 @@
     "last_alert_time": 1759643509.5556147
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759645751.1365218
+    "last_signal": "buy",
+    "last_alert_time": 1759661524.1203039
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,9 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759660780.8096213
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1759661523.527481
   }
 }
