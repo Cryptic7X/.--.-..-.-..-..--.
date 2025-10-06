@@ -8,8 +8,8 @@
     "last_alert_time": 1759664374.2548347
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759663606.2846572
+    "last_signal": "sell",
+    "last_alert_time": 1759724739.4413478
   },
   "LINKUSDT": {
     "last_signal": "buy",
@@ -36,8 +36,8 @@
     "last_alert_time": 1759689916.4996119
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759660780.468661
+    "last_signal": "sell",
+    "last_alert_time": 1759724740.9361622
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -144,8 +144,8 @@
     "last_alert_time": 1759689915.6399882
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759664375.1832108
+    "last_signal": "sell",
+    "last_alert_time": 1759724740.8873029
   },
   "AVAXUSDT": {
     "last_signal": "sell",
