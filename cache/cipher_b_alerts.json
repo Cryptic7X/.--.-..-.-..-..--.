@@ -24,8 +24,8 @@
     "last_alert_time": 1759695675.5519454
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689915.9388356
+    "last_signal": "sell",
+    "last_alert_time": 1759754782.2681365
   },
   "POLUSDT": {
     "last_signal": "sell",
@@ -64,8 +64,8 @@
     "last_alert_time": 1759695675.3394868
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689915.3818994
+    "last_signal": "sell",
+    "last_alert_time": 1759754781.6075134
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1759746257.1825469
   },
   "SEIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689916.633423
+    "last_signal": "sell",
+    "last_alert_time": 1759754783.014481
   },
   "WIFUSDT": {
     "last_signal": "buy",
