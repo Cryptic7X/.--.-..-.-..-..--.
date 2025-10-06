@@ -1,7 +1,7 @@
 {
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689915.397349
+    "last_signal": "sell",
+    "last_alert_time": 1759749470.9466426
   },
   "HYPEUSDT": {
     "last_signal": "sell",
@@ -168,8 +168,8 @@
     "last_alert_time": 1759695675.915612
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689917.0199587
+    "last_signal": "sell",
+    "last_alert_time": 1759749472.3436549
   },
   "ENSUSDT": {
     "last_signal": "buy",
