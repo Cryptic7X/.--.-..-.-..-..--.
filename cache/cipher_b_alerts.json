@@ -232,8 +232,8 @@
     "last_alert_time": 1759760490.6952286
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759671017.31005
+    "last_signal": "sell",
+    "last_alert_time": 1759766027.2625318
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
