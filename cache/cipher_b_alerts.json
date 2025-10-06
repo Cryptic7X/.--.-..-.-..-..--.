@@ -132,8 +132,8 @@
     "last_alert_time": 1759758763.1436157
   },
   "APTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759761825.3301334
+    "last_signal": "buy",
+    "last_alert_time": 1759794735.7090523
   },
   "SUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1759646810.447845
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759721720.5954068
+    "last_signal": "buy",
+    "last_alert_time": 1759794736.225708
   },
   "EIGENUSDT": {
     "last_signal": "sell",
