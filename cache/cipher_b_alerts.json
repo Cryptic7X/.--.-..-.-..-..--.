@@ -176,8 +176,8 @@
     "last_alert_time": 1759689917.2376235
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689917.523115
+    "last_signal": "sell",
+    "last_alert_time": 1759735377.725483
   },
   "KASUSDT": {
     "last_signal": "buy",
