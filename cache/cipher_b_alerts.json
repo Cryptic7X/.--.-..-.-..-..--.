@@ -140,8 +140,8 @@
     "last_alert_time": 1759689917.290469
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689915.6399882
+    "last_signal": "sell",
+    "last_alert_time": 1759733750.4167101
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -236,8 +236,8 @@
     "last_alert_time": 1759671017.31005
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689916.9833746
+    "last_signal": "sell",
+    "last_alert_time": 1759733751.8126345
   },
   "PIUSDT": {
     "last_signal": "buy",
