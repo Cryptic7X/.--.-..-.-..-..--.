@@ -84,12 +84,12 @@
     "last_alert_time": 1759758762.8779058
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689917.172829
+    "last_signal": "sell",
+    "last_alert_time": 1759760491.0890193
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689917.2535663
+    "last_signal": "sell",
+    "last_alert_time": 1759760490.9722645
   },
   "JASMYUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1759645751.2130725
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759695676.2267442
+    "last_signal": "sell",
+    "last_alert_time": 1759760490.4797227
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -228,8 +228,8 @@
     "last_alert_time": 1759714934.31783
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759665123.1741366
+    "last_signal": "sell",
+    "last_alert_time": 1759760490.6952286
   },
   "BERAUSDT": {
     "last_signal": "buy",
