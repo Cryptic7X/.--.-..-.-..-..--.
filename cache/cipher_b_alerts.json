@@ -48,8 +48,8 @@
     "last_alert_time": 1759689915.6536825
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759660779.017455
+    "last_signal": "sell",
+    "last_alert_time": 1759721719.3520942
   },
   "ETHUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1759664375.1832108
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759689915.6201813
+    "last_signal": "sell",
+    "last_alert_time": 1759721719.5750568
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1759646810.447845
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759664375.2809658
+    "last_signal": "sell",
+    "last_alert_time": 1759721720.5954068
   },
   "EIGENUSDT": {
     "last_signal": "buy",
