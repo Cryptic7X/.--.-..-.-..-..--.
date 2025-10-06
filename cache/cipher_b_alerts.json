@@ -104,8 +104,8 @@
     "last_alert_time": 1759736390.2618873
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759695675.9029422
+    "last_signal": "sell",
+    "last_alert_time": 1759773136.506794
   },
   "AAVEUSDT": {
     "last_signal": "sell",
