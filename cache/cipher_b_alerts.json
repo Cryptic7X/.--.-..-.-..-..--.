@@ -112,8 +112,8 @@
     "last_alert_time": 1759638234.3688676
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759695675.6123998
+    "last_signal": "sell",
+    "last_alert_time": 1759746257.1825469
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1759721720.5954068
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759660780.8096213
+    "last_signal": "sell",
+    "last_alert_time": 1759746258.4653559
   },
   "OKBUSDT": {
     "last_signal": "sell",
