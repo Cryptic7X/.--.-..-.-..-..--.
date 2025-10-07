@@ -60,8 +60,8 @@
     "last_alert_time": 1759719195.1463757
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759762491.6711998
+    "last_signal": "buy",
+    "last_alert_time": 1759823533.0935788
   },
   "XRPUSDT": {
     "last_signal": "sell",
@@ -76,8 +76,8 @@
     "last_alert_time": 1759821661.7436025
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759762492.920752
+    "last_signal": "buy",
+    "last_alert_time": 1759823533.897584
   },
   "PENGUUSDT": {
     "last_signal": "sell",
