@@ -32,8 +32,8 @@
     "last_alert_time": 1759736390.9131107
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759757472.7666495
+    "last_signal": "buy",
+    "last_alert_time": 1759809210.981301
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -68,8 +68,8 @@
     "last_alert_time": 1759754781.6075134
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759719195.1033118
+    "last_signal": "buy",
+    "last_alert_time": 1759809210.0007882
   },
   "MNTUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1759760491.0890193
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759760490.9722645
+    "last_signal": "buy",
+    "last_alert_time": 1759809211.5080214
   },
   "JASMYUSDT": {
     "last_signal": "sell",
