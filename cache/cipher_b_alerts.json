@@ -128,8 +128,8 @@
     "last_alert_time": 1759826956.6529028
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759821662.6934137
+    "last_signal": "sell",
+    "last_alert_time": 1759845176.3060966
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1759645751.2130725
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759807921.0223272
+    "last_signal": "sell",
+    "last_alert_time": 1759845176.6534493
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1759826956.3462193
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759794736.225708
+    "last_signal": "sell",
+    "last_alert_time": 1759845176.1260853
   },
   "EIGENUSDT": {
     "last_signal": "sell",
