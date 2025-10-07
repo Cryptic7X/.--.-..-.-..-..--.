@@ -1,7 +1,7 @@
 {
   "DOTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759749470.9466426
+    "last_signal": "buy",
+    "last_alert_time": 1759812199.7542083
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -24,12 +24,12 @@
     "last_alert_time": 1759695675.5519454
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759754782.2681365
+    "last_signal": "buy",
+    "last_alert_time": 1759812200.4400806
   },
   "POLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736390.9131107
+    "last_signal": "buy",
+    "last_alert_time": 1759812200.711651
   },
   "ICPUSDT": {
     "last_signal": "buy",
