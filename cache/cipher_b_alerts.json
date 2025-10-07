@@ -148,8 +148,8 @@
     "last_alert_time": 1759724740.8873029
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759721719.5750568
+    "last_signal": "buy",
+    "last_alert_time": 1759805243.7703729
   },
   "CROUSDT": {
     "last_signal": "sell",
@@ -220,8 +220,8 @@
     "last_alert_time": 1759708333.023544
   },
   "SUIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736390.2246306
+    "last_signal": "buy",
+    "last_alert_time": 1759805243.876437
   },
   "ASTERUSDT": {
     "last_signal": "sell",
