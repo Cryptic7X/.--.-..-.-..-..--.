@@ -132,8 +132,8 @@
     "last_alert_time": 1759821662.6934137
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759794735.7090523
+    "last_signal": "sell",
+    "last_alert_time": 1759834513.8918636
   },
   "SUSDT": {
     "last_signal": "sell",
