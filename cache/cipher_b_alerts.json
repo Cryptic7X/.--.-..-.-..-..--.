@@ -164,8 +164,8 @@
     "last_alert_time": 1759826955.8298142
   },
   "WLDUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759761825.4963007
+    "last_signal": "buy",
+    "last_alert_time": 1759829000.8729627
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -216,8 +216,8 @@
     "last_alert_time": 1759746258.4653559
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759708333.023544
+    "last_signal": "buy",
+    "last_alert_time": 1759829000.4232767
   },
   "SUIUSDT": {
     "last_signal": "sell",
