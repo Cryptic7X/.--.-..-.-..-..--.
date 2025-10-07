@@ -28,8 +28,8 @@
     "last_alert_time": 1759812200.4400806
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759812200.711651
+    "last_signal": "sell",
+    "last_alert_time": 1759841147.5018964
   },
   "ICPUSDT": {
     "last_signal": "buy",
@@ -216,8 +216,8 @@
     "last_alert_time": 1759746258.4653559
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759829000.4232767
+    "last_signal": "sell",
+    "last_alert_time": 1759841146.7813702
   },
   "SUIUSDT": {
     "last_signal": "sell",
