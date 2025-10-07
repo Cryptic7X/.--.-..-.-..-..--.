@@ -100,8 +100,8 @@
     "last_alert_time": 1759768021.398881
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736390.2618873
+    "last_signal": "buy",
+    "last_alert_time": 1759812893.2877173
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -244,7 +244,7 @@
     "last_alert_time": 1759768020.0766366
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759757472.4339201
+    "last_signal": "buy",
+    "last_alert_time": 1759812893.7387605
   }
 }
