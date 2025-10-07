@@ -4,8 +4,8 @@
     "last_alert_time": 1759749470.9466426
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736389.980232
+    "last_signal": "buy",
+    "last_alert_time": 1759801196.0711484
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -156,8 +156,8 @@
     "last_alert_time": 1759758762.0317738
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736390.5200741
+    "last_signal": "buy",
+    "last_alert_time": 1759801196.5655673
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1759760490.4797227
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759751547.5234854
+    "last_signal": "buy",
+    "last_alert_time": 1759801197.2786987
   },
   "BRETTUSDT": {
     "last_signal": "sell",
