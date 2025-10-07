@@ -96,8 +96,8 @@
     "last_alert_time": 1759826956.646144
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759768021.398881
+    "last_signal": "buy",
+    "last_alert_time": 1759850870.720999
   },
   "UNIUSDT": {
     "last_signal": "buy",
