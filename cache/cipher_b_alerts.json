@@ -188,8 +188,8 @@
     "last_alert_time": 1759807920.8090153
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759645751.2130725
+    "last_signal": "sell",
+    "last_alert_time": 1759869662.3105297
   },
   "IMXUSDT": {
     "last_signal": "sell",
