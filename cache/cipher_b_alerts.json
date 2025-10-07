@@ -56,8 +56,8 @@
     "last_alert_time": 1759762491.7941778
   },
   "SOLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759719195.1463757
+    "last_signal": "buy",
+    "last_alert_time": 1759848304.896945
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1759735377.725483
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759736391.0802271
+    "last_signal": "buy",
+    "last_alert_time": 1759848306.2677164
   },
   "ATOMUSDT": {
     "last_signal": "buy",
