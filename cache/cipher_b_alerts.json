@@ -4,8 +4,8 @@
     "last_alert_time": 1759812199.7542083
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759801196.0711484
+    "last_signal": "sell",
+    "last_alert_time": 1759915419.949456
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -36,28 +36,28 @@
     "last_alert_time": 1759843902.1187682
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759895607.4678888
+    "last_signal": "sell",
+    "last_alert_time": 1759915421.2671444
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759855699.3153048
+    "last_signal": "sell",
+    "last_alert_time": 1759915421.52923
   },
   "ADAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1759826955.187799
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759897520.735849
+    "last_signal": "sell",
+    "last_alert_time": 1759915419.9282794
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759855697.488316
+    "last_signal": "sell",
+    "last_alert_time": 1759915419.8957605
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759848304.896945
+    "last_signal": "sell",
+    "last_alert_time": 1759915419.9336493
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1759823533.897584
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759851871.4375353
+    "last_signal": "sell",
+    "last_alert_time": 1759915421.0963075
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1759854537.1018524
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759855699.2213552
+    "last_signal": "sell",
+    "last_alert_time": 1759915421.6049426
   },
   "BEAMUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1759848306.2677164
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759807920.8090153
+    "last_signal": "sell",
+    "last_alert_time": 1759915420.9712992
   },
   "MUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1759854535.624403
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759895606.6528544
+    "last_signal": "sell",
+    "last_alert_time": 1759915420.5828216
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
