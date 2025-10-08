@@ -36,8 +36,8 @@
     "last_alert_time": 1759843902.1187682
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759724740.9361622
+    "last_signal": "buy",
+    "last_alert_time": 1759895607.4678888
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1759854535.624403
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759714934.31783
+    "last_signal": "buy",
+    "last_alert_time": 1759895606.6528544
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
