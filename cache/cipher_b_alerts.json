@@ -76,8 +76,8 @@
     "last_alert_time": 1759909940.382036
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759823533.897584
+    "last_signal": "sell",
+    "last_alert_time": 1759934715.2872024
   },
   "PENGUUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1759826956.646144
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759850870.720999
+    "last_signal": "sell",
+    "last_alert_time": 1759934716.414172
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -200,8 +200,8 @@
     "last_alert_time": 1759801197.2786987
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759807921.714364
+    "last_signal": "sell",
+    "last_alert_time": 1759934716.4785373
   },
   "SPXUSDT": {
     "last_signal": "sell",
