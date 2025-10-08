@@ -72,8 +72,8 @@
     "last_alert_time": 1759843901.2677298
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759821661.7436025
+    "last_signal": "sell",
+    "last_alert_time": 1759909940.382036
   },
   "ETCUSDT": {
     "last_signal": "buy",
