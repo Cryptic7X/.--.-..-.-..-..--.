@@ -20,8 +20,8 @@
     "last_alert_time": 1759811176.3918898
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759857566.2382262
+    "last_signal": "buy",
+    "last_alert_time": 1759887619.6439252
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1759807919.936882
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759818754.0557182
+    "last_signal": "buy",
+    "last_alert_time": 1759887619.5802038
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1759807920.8090153
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759869662.3105297
+    "last_signal": "buy",
+    "last_alert_time": 1759887619.955927
   },
   "IMXUSDT": {
     "last_signal": "sell",
