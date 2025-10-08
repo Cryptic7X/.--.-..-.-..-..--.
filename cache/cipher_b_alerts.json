@@ -224,8 +224,8 @@
     "last_alert_time": 1759948358.0001414
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759915420.5828216
+    "last_signal": "buy",
+    "last_alert_time": 1759959506.4777753
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
