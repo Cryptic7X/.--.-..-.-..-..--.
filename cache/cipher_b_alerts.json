@@ -208,12 +208,12 @@
     "last_alert_time": 1759918969.2562344
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759923529.390156
+    "last_signal": "buy",
+    "last_alert_time": 1759966730.5139458
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759746258.4653559
+    "last_signal": "buy",
+    "last_alert_time": 1759966730.8766758
   },
   "OKBUSDT": {
     "last_signal": "sell",
