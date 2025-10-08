@@ -152,8 +152,8 @@
     "last_alert_time": 1759805243.7703729
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759807919.936882
+    "last_signal": "sell",
+    "last_alert_time": 1759908020.9490068
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -232,8 +232,8 @@
     "last_alert_time": 1759792765.4089227
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759826956.771978
+    "last_signal": "sell",
+    "last_alert_time": 1759908022.7422292
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
