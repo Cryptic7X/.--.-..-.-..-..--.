@@ -20,8 +20,8 @@
     "last_alert_time": 1759811176.3918898
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759887619.6439252
+    "last_signal": "sell",
+    "last_alert_time": 1759942126.4581182
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -104,8 +104,8 @@
     "last_alert_time": 1759922302.391097
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759826955.4615684
+    "last_signal": "sell",
+    "last_alert_time": 1759942126.283237
   },
   "AAVEUSDT": {
     "last_signal": "sell",
