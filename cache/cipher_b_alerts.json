@@ -116,8 +116,8 @@
     "last_alert_time": 1759746257.1825469
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1759754783.014481
+    "last_signal": "buy",
+    "last_alert_time": 1759898612.8289254
   },
   "WIFUSDT": {
     "last_signal": "buy",
