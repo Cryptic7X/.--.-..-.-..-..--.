@@ -28,8 +28,8 @@
     "last_alert_time": 1759974048.4509234
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980818.9408557
+    "last_signal": "sell",
+    "last_alert_time": 1760016723.228917
   },
   "ICPUSDT": {
     "last_signal": "buy",
@@ -68,8 +68,8 @@
     "last_alert_time": 1759980817.8795204
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980817.886708
+    "last_signal": "sell",
+    "last_alert_time": 1760016722.1248689
   },
   "MNTUSDT": {
     "last_signal": "sell",
@@ -204,12 +204,12 @@
     "last_alert_time": 1759980819.8209186
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980819.379349
+    "last_signal": "sell",
+    "last_alert_time": 1760016723.6411874
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759966730.5139458
+    "last_signal": "sell",
+    "last_alert_time": 1760016723.605211
   },
   "EIGENUSDT": {
     "last_signal": "buy",
