@@ -20,8 +20,8 @@
     "last_alert_time": 1759978196.3802373
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980818.857924
+    "last_signal": "sell",
+    "last_alert_time": 1760048364.6089892
   },
   "NEARUSDT": {
     "last_signal": "buy",
@@ -176,8 +176,8 @@
     "last_alert_time": 1759980819.5390277
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980819.8676527
+    "last_signal": "sell",
+    "last_alert_time": 1760048366.0761821
   },
   "KASUSDT": {
     "last_signal": "buy",
