@@ -136,8 +136,8 @@
     "last_alert_time": 1759980818.6733284
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760084926.117364
+    "last_signal": "sell",
+    "last_alert_time": 1760104595.8063571
   },
   "TRXUSDT": {
     "last_signal": "buy",
