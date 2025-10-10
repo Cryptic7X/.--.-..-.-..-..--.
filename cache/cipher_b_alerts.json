@@ -32,8 +32,8 @@
     "last_alert_time": 1760016723.228917
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980819.0218074
+    "last_signal": "sell",
+    "last_alert_time": 1760102304.6897783
   },
   "CAKEUSDT": {
     "last_signal": "buy",
