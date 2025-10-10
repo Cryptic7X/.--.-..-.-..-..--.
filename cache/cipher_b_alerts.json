@@ -152,8 +152,8 @@
     "last_alert_time": 1760051945.6464143
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980818.1846983
+    "last_signal": "sell",
+    "last_alert_time": 1760100288.5917306
   },
   "TAOUSDT": {
     "last_signal": "sell",
@@ -200,8 +200,8 @@
     "last_alert_time": 1760051946.694984
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980819.8209186
+    "last_signal": "sell",
+    "last_alert_time": 1760100290.3665397
   },
   "SPXUSDT": {
     "last_signal": "sell",
