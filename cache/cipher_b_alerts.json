@@ -204,8 +204,8 @@
     "last_alert_time": 1759980819.8209186
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760031705.8337262
+    "last_signal": "sell",
+    "last_alert_time": 1760060503.0505428
   },
   "CRVUSDT": {
     "last_signal": "sell",
@@ -220,8 +220,8 @@
     "last_alert_time": 1760051945.9329312
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980818.2063556
+    "last_signal": "sell",
+    "last_alert_time": 1760060502.2312534
   },
   "ASTERUSDT": {
     "last_signal": "buy",
