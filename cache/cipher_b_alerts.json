@@ -80,8 +80,8 @@
     "last_alert_time": 1760051946.2446618
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1759980819.1228702
+    "last_signal": "sell",
+    "last_alert_time": 1760096315.3675013
   },
   "RAYUSDT": {
     "last_signal": "buy",
