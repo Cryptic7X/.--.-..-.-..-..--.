@@ -70,5 +70,13 @@
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760116730.498006
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760118000.7596118
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760118001.8156705
   }
 }
