@@ -78,5 +78,17 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760118001.8156705
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760121032.0546625
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760121032.2589877
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760121032.5496192
   }
 }
