@@ -20,8 +20,8 @@
     "last_alert_time": 1760051945.7362106
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760048364.6089892
+    "last_signal": "buy",
+    "last_alert_time": 1760084925.128077
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -84,8 +84,8 @@
     "last_alert_time": 1759980819.1228702
   },
   "RAYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760051947.0604875
+    "last_signal": "buy",
+    "last_alert_time": 1760084925.9231174
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -136,8 +136,8 @@
     "last_alert_time": 1759980818.6733284
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760041458.6624272
+    "last_signal": "buy",
+    "last_alert_time": 1760084926.117364
   },
   "TRXUSDT": {
     "last_signal": "buy",
