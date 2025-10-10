@@ -66,5 +66,9 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760114823.07157
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760116730.498006
   }
 }
