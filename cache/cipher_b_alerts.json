@@ -186,5 +186,9 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760195903.4766319
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760197946.969988
   }
 }
