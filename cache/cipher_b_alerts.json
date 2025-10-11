@@ -190,5 +190,9 @@
   "BNBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760197946.969988
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760202990.1596353
   }
 }
