@@ -84,8 +84,8 @@
     "last_alert_time": 1760176305.7448697
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760176305.7516918
+    "last_signal": "buy",
+    "last_alert_time": 1760192221.87878
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -166,5 +166,9 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760190739.7292407
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760192222.7599018
   }
 }
