@@ -126,5 +126,13 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760186341.3114228
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760189441.756842
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760189441.922634
   }
 }
