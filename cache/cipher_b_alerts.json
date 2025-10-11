@@ -22,5 +22,93 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760175470.8682523
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.021834
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.2974403
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.5635395
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.6217074
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.894197
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.900275
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.9566529
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176304.9855306
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.2640176
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.4730074
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.481341
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.5717177
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.662682
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.7378144
+  },
+  "IMXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.7448697
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.7516918
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.7993681
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.8157148
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176305.9196057
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176306.008892
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176306.0168438
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760176306.0299213
   }
 }
