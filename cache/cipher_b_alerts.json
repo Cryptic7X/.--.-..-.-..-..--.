@@ -44,8 +44,8 @@
     "last_alert_time": 1760215899.5508976
   },
   "AAVEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760176304.900275
+    "last_signal": "buy",
+    "last_alert_time": 1760217432.2525353
   },
   "NEARUSDT": {
     "last_signal": "buy",
@@ -76,8 +76,8 @@
     "last_alert_time": 1760190738.9473774
   },
   "ATOMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760176305.7378144
+    "last_signal": "buy",
+    "last_alert_time": 1760217433.1908371
   },
   "IMXUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1760214032.019978
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760186341.3114228
+    "last_signal": "buy",
+    "last_alert_time": 1760217433.6703317
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760215901.0851326
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760217432.2277067
   }
 }
