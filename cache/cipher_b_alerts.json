@@ -72,8 +72,8 @@
     "last_alert_time": 1760134737.4103048
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760134737.4159956
+    "last_signal": "sell",
+    "last_alert_time": 1760167071.836111
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1760134737.6767824
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760134737.6832407
+    "last_signal": "sell",
+    "last_alert_time": 1760167072.2496507
   },
   "WLDUSDT": {
     "last_signal": "buy",
