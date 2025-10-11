@@ -110,5 +110,13 @@
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760176306.0299213
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760178002.6645963
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760178003.5252404
   }
 }
