@@ -170,5 +170,13 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760192222.7599018
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760193453.2306097
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760193453.364163
   }
 }
