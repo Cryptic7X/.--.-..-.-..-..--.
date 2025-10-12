@@ -178,5 +178,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760297905.4488616
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760300508.482357
   }
 }
