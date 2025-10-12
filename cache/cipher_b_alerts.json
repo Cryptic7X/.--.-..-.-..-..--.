@@ -134,5 +134,9 @@
   "GALAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760284306.2769077
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760286228.6850932
   }
 }
