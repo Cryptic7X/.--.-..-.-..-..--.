@@ -242,5 +242,9 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760217432.2277067
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760233476.455973
   }
 }
