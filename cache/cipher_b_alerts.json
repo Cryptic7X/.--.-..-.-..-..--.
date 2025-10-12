@@ -212,8 +212,8 @@
     "last_alert_time": 1760214031.8509176
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760214031.8745992
+    "last_signal": "sell",
+    "last_alert_time": 1760248334.0018957
   },
   "BTCUSDT": {
     "last_signal": "buy",
