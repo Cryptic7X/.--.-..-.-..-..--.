@@ -86,5 +86,37 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760272769.1005015
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274263.4488635
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.001826
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.1133673
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.1545832
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.4239345
+  },
+  "FLOKIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.7050745
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274264.777912
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760274265.0692966
   }
 }
