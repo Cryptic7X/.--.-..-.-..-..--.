@@ -62,5 +62,13 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760254671.899121
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760259275.1272779
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760259275.412617
   }
 }
