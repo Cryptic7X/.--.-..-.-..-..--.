@@ -34,5 +34,33 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760253495.8617249
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254670.2253249
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254670.2607615
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254670.2740695
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254670.2804449
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254670.7556102
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254671.6647928
+  },
+  "BERAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760254671.899121
   }
 }
