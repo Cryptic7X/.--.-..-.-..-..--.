@@ -118,5 +118,21 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760274265.0692966
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760284304.5109475
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760284304.8262892
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760284305.4305513
+  },
+  "GALAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760284306.2769077
   }
 }
