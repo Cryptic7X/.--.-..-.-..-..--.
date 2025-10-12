@@ -166,5 +166,13 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760289412.3073049
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760291530.9528346
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760291531.151262
   }
 }
