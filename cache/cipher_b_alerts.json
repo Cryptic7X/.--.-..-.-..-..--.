@@ -12,8 +12,8 @@
     "last_alert_time": 1760214032.7393901
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760214032.9339557
+    "last_signal": "sell",
+    "last_alert_time": 1760244786.5897982
   },
   "JASMYUSDT": {
     "last_signal": "buy",
@@ -40,8 +40,8 @@
     "last_alert_time": 1760214031.2260072
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760215899.5508976
+    "last_signal": "sell",
+    "last_alert_time": 1760244784.9203277
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -200,8 +200,8 @@
     "last_alert_time": 1760214030.572354
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760214031.29373
+    "last_signal": "sell",
+    "last_alert_time": 1760244784.3453314
   },
   "WLFIUSDT": {
     "last_signal": "buy",
