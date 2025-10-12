@@ -70,5 +70,13 @@
   "ETCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760259275.412617
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760262722.3990095
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760262723.169109
   }
 }
