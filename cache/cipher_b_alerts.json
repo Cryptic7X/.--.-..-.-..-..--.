@@ -78,5 +78,13 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760262723.169109
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760272768.209614
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760272769.1005015
   }
 }
