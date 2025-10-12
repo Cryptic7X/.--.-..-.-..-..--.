@@ -134,5 +134,37 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760288057.3082018
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289410.701351
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289410.760804
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289410.7840266
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289411.0190752
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289411.761992
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289411.7815511
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289411.954142
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760289412.3073049
   }
 }
