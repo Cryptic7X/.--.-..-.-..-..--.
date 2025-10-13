@@ -168,8 +168,8 @@
     "last_alert_time": 1760331396.7910569
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760356306.4126124
+    "last_signal": "sell",
+    "last_alert_time": 1760377940.603975
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -192,8 +192,8 @@
     "last_alert_time": 1760337290.969141
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760320079.7943306
+    "last_signal": "sell",
+    "last_alert_time": 1760377941.312687
   },
   "ENSUSDT": {
     "last_signal": "buy",
