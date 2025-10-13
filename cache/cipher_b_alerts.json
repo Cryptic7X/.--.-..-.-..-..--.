@@ -198,5 +198,9 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760320080.1648982
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760325134.5080676
   }
 }
