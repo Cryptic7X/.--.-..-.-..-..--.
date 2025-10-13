@@ -8,16 +8,16 @@
     "last_alert_time": 1760288054.7553492
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288054.9209118
+    "last_signal": "buy",
+    "last_alert_time": 1760320079.243477
   },
   "LINKUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760288054.9269485
   },
   "AAVEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288055.021539
+    "last_signal": "buy",
+    "last_alert_time": 1760320079.0607007
   },
   "SUIUSDT": {
     "last_signal": "sell",
@@ -28,16 +28,16 @@
     "last_alert_time": 1760288055.1282802
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288055.1835961
+    "last_signal": "buy",
+    "last_alert_time": 1760320079.0183718
   },
   "OKBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760288055.2905905
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288055.3922114
+    "last_signal": "buy",
+    "last_alert_time": 1760320079.4444203
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -80,8 +80,8 @@
     "last_alert_time": 1760288056.0785644
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288056.1497455
+    "last_signal": "buy",
+    "last_alert_time": 1760320080.029298
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -92,8 +92,8 @@
     "last_alert_time": 1760288056.2401724
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288056.2590597
+    "last_signal": "buy",
+    "last_alert_time": 1760320080.181629
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1760288056.5908167
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288056.5990615
+    "last_signal": "buy",
+    "last_alert_time": 1760320080.4399164
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -190,5 +190,13 @@
   "LTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760303864.5303395
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760320079.7943306
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760320080.1648982
   }
 }
