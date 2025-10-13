@@ -124,8 +124,8 @@
     "last_alert_time": 1760288056.6808536
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288056.748154
+    "last_signal": "buy",
+    "last_alert_time": 1760398736.3926995
   },
   "CFXUSDT": {
     "last_signal": "sell",
