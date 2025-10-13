@@ -234,5 +234,9 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760342000.0206847
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760344304.1420026
   }
 }
