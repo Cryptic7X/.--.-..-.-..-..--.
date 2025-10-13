@@ -104,8 +104,8 @@
     "last_alert_time": 1760288056.4333146
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760331396.673921
+    "last_signal": "sell",
+    "last_alert_time": 1760387055.5068529
   },
   "JTOUSDT": {
     "last_signal": "sell",
@@ -136,8 +136,8 @@
     "last_alert_time": 1760288057.3082018
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760331394.560324
+    "last_signal": "sell",
+    "last_alert_time": 1760387053.2329633
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -148,8 +148,8 @@
     "last_alert_time": 1760289410.7840266
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760359551.5521219
+    "last_signal": "sell",
+    "last_alert_time": 1760387053.7424607
   },
   "INJUSDT": {
     "last_signal": "sell",
