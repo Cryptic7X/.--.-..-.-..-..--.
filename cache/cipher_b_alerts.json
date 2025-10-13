@@ -96,8 +96,8 @@
     "last_alert_time": 1760320080.181629
   },
   "RAYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288056.384484
+    "last_signal": "buy",
+    "last_alert_time": 1760330714.5852091
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -172,8 +172,8 @@
     "last_alert_time": 1760291530.9528346
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760291531.151262
+    "last_signal": "buy",
+    "last_alert_time": 1760330713.664663
   },
   "CAKEUSDT": {
     "last_signal": "sell",
