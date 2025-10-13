@@ -148,8 +148,8 @@
     "last_alert_time": 1760289410.7840266
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760289411.0190752
+    "last_signal": "buy",
+    "last_alert_time": 1760359551.5521219
   },
   "INJUSDT": {
     "last_signal": "sell",
