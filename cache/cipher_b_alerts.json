@@ -36,8 +36,8 @@
     "last_alert_time": 1760288055.2905905
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760320079.4444203
+    "last_signal": "sell",
+    "last_alert_time": 1760384321.34366
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1760288056.5908167
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760320080.4399164
+    "last_signal": "sell",
+    "last_alert_time": 1760384322.4916215
   },
   "JUPUSDT": {
     "last_signal": "sell",
