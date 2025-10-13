@@ -202,5 +202,13 @@
   "TRXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760325134.5080676
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760327368.485736
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760327368.7534037
   }
 }
