@@ -44,8 +44,8 @@
     "last_alert_time": 1760288055.4530222
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760288055.4583526
+    "last_signal": "buy",
+    "last_alert_time": 1760410275.9672446
   },
   "ETCUSDT": {
     "last_signal": "sell",
@@ -80,8 +80,8 @@
     "last_alert_time": 1760288056.0785644
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760342000.388125
+    "last_signal": "buy",
+    "last_alert_time": 1760410276.5216508
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -104,8 +104,8 @@
     "last_alert_time": 1760288056.4333146
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760387055.5068529
+    "last_signal": "buy",
+    "last_alert_time": 1760410276.7623394
   },
   "JTOUSDT": {
     "last_signal": "sell",
@@ -144,12 +144,12 @@
     "last_alert_time": 1760289410.760804
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760289410.7840266
+    "last_signal": "buy",
+    "last_alert_time": 1760410275.304918
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760387053.7424607
+    "last_signal": "buy",
+    "last_alert_time": 1760410275.5448687
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -236,8 +236,8 @@
     "last_alert_time": 1760342000.0206847
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760344304.1420026
+    "last_signal": "buy",
+    "last_alert_time": 1760410276.0215487
   },
   "ETHUSDT": {
     "last_signal": "sell",
