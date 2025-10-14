@@ -186,5 +186,9 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760415993.4796956
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760417708.096268
   }
 }
