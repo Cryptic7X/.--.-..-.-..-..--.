@@ -182,5 +182,17 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760419244.854624
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760420462.8652096
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760420462.8891275
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760420462.898138
   }
 }
