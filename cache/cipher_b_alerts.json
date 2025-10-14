@@ -60,8 +60,8 @@
     "last_alert_time": 1760288055.7471397
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760288055.7593462
+    "last_signal": "sell",
+    "last_alert_time": 1760406092.251331
   },
   "KASUSDT": {
     "last_signal": "sell",
