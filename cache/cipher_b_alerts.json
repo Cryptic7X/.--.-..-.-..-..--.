@@ -128,8 +128,8 @@
     "last_alert_time": 1760460529.758093
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760419244.275603
+    "last_signal": "sell",
+    "last_alert_time": 1760464330.0126283
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -176,8 +176,8 @@
     "last_alert_time": 1760460530.421117
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760419244.8317792
+    "last_signal": "sell",
+    "last_alert_time": 1760464330.5000992
   },
   "BRETTUSDT": {
     "last_signal": "sell",
