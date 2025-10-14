@@ -214,5 +214,29 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760423560.153948
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426534.0504076
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426534.3466268
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426534.6019344
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426534.6287498
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426535.5409632
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760426535.7669463
   }
 }
