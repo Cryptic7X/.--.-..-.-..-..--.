@@ -238,5 +238,9 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760426535.7669463
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760430468.4684103
   }
 }
