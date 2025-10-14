@@ -174,5 +174,17 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760414033.7477639
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760415992.192762
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760415993.2429245
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760415993.4796956
   }
 }
