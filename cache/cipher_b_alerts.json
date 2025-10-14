@@ -194,5 +194,9 @@
   "SOLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760420462.898138
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760421151.5528848
   }
 }
