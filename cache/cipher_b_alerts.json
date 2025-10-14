@@ -116,8 +116,8 @@
     "last_alert_time": 1760460529.6695511
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760419244.006547
+    "last_signal": "sell",
+    "last_alert_time": 1760466717.4814856
   },
   "JUPUSDT": {
     "last_signal": "sell",
