@@ -198,5 +198,21 @@
   "BNBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760421151.5528848
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760423559.6716275
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760423559.6845922
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760423559.8511565
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760423560.153948
   }
 }
