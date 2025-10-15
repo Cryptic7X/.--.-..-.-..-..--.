@@ -190,5 +190,25 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760561657.775137
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760564311.5236166
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760564311.5679228
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760564312.4291098
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760564312.7167125
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760564312.9736776
   }
 }
