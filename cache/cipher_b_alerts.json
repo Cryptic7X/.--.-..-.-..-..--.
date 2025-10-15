@@ -152,8 +152,8 @@
     "last_alert_time": 1760535237.3802948
   },
   "ENSUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760460530.140314
+    "last_signal": "buy",
+    "last_alert_time": 1760536472.7506833
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1760535237.5873134
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760460528.2032468
+    "last_signal": "buy",
+    "last_alert_time": 1760536471.060469
   },
   "HYPEUSDT": {
     "last_signal": "sell",
@@ -216,8 +216,8 @@
     "last_alert_time": 1760460530.3229365
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760460528.847807
+    "last_signal": "buy",
+    "last_alert_time": 1760536471.0671859
   },
   "WLFIUSDT": {
     "last_signal": "buy",
