@@ -178,5 +178,17 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760559917.769563
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760561655.5485437
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760561656.1387224
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760561657.775137
   }
 }
