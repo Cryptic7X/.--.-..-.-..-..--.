@@ -170,5 +170,13 @@
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760550794.4749897
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760559916.8072753
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760559917.769563
   }
 }
