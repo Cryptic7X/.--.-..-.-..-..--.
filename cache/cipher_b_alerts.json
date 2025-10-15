@@ -150,5 +150,21 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760548760.1654932
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760550066.6979172
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760550066.7593293
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760550067.2111304
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760550067.6823757
   }
 }
