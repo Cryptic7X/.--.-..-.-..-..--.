@@ -166,5 +166,9 @@
   "POLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760550067.6823757
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760550794.4749897
   }
 }
