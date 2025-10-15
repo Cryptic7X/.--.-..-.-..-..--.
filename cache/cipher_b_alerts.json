@@ -72,8 +72,8 @@
     "last_alert_time": 1760462306.8615475
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760419243.59123
+    "last_signal": "sell",
+    "last_alert_time": 1760520538.5021052
   },
   "ETCUSDT": {
     "last_signal": "sell",
