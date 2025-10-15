@@ -228,8 +228,8 @@
     "last_alert_time": 1760460529.1039445
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760460529.764838
+    "last_signal": "buy",
+    "last_alert_time": 1760523893.4964716
   },
   "SUSDT": {
     "last_signal": "sell",
