@@ -214,5 +214,9 @@
   "KASUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760565137.1692317
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760566731.9480934
   }
 }
