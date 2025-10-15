@@ -98,5 +98,53 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760545487.9535549
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546734.7508745
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546734.784927
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546734.9806223
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.0030465
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.0186925
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.0525842
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.062854
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.3025136
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.338988
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546735.9679947
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546736.19466
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760546736.4335501
   }
 }
