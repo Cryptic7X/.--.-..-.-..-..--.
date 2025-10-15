@@ -210,5 +210,9 @@
   "IMXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760564312.9736776
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760565137.1692317
   }
 }
