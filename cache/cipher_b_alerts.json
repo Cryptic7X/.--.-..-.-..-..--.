@@ -126,5 +126,17 @@
   "RAYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760646254.9816005
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760647304.1718092
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760647304.2017794
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760647304.2335963
   }
 }
