@@ -12,8 +12,8 @@
     "last_alert_time": 1760545486.8364394
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760585914.8733597
+    "last_signal": "buy",
+    "last_alert_time": 1760607928.7506459
   },
   "ETCUSDT": {
     "last_signal": "buy",
@@ -24,8 +24,8 @@
     "last_alert_time": 1760583380.919936
   },
   "PIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760583380.9543626
+    "last_signal": "buy",
+    "last_alert_time": 1760607928.7454531
   },
   "CROUSDT": {
     "last_signal": "buy",
