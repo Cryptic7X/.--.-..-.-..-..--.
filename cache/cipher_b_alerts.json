@@ -68,8 +68,8 @@
     "last_alert_time": 1760585915.721155
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760545487.5860374
+    "last_signal": "sell",
+    "last_alert_time": 1760594008.0853567
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
