@@ -222,5 +222,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760579004.0866222
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760592292.2212238
   }
 }
