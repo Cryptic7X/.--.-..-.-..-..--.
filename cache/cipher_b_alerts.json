@@ -174,5 +174,9 @@
   "BTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760635182.850022
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760640872.707351
   }
 }
