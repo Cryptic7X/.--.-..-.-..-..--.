@@ -220,12 +220,12 @@
     "last_alert_time": 1760566731.9480934
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760579004.0866222
+    "last_signal": "buy",
+    "last_alert_time": 1760622850.4620893
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760592292.2212238
+    "last_signal": "sell",
+    "last_alert_time": 1760622851.2786133
   },
   "GALAUSDT": {
     "last_signal": "sell",
