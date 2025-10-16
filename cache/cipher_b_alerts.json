@@ -20,12 +20,12 @@
     "last_alert_time": 1760545486.85706
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760545486.8644893
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.919936
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760545486.8815544
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.9543626
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -72,16 +72,16 @@
     "last_alert_time": 1760545487.5860374
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760545487.5981271
+    "last_signal": "sell",
+    "last_alert_time": 1760583381.5391006
   },
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760545487.6408484
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760545487.7210786
+    "last_signal": "sell",
+    "last_alert_time": 1760583381.7503886
   },
   "JASMYUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1760546735.0525842
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760546735.062854
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.5503976
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -140,16 +140,16 @@
     "last_alert_time": 1760546735.9679947
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760546736.19466
+    "last_signal": "sell",
+    "last_alert_time": 1760583381.4606447
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760546736.4335501
+    "last_signal": "sell",
+    "last_alert_time": 1760583381.8386698
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760548760.1654932
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.31414
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -164,16 +164,16 @@
     "last_alert_time": 1760550067.2111304
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760550067.6823757
+    "last_signal": "sell",
+    "last_alert_time": 1760583381.056675
   },
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760550794.4749897
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760559916.8072753
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.7025094
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -192,8 +192,8 @@
     "last_alert_time": 1760561657.775137
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760564311.5236166
+    "last_signal": "sell",
+    "last_alert_time": 1760583380.2681553
   },
   "HYPEUSDT": {
     "last_signal": "buy",
