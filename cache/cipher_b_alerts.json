@@ -138,5 +138,13 @@
   "ETHUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760647304.2335963
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760647985.3254414
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760647986.8850734
   }
 }
