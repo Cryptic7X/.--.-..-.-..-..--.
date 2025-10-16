@@ -166,5 +166,13 @@
   "KASUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760633365.7302554
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760635182.7735982
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760635182.850022
   }
 }
