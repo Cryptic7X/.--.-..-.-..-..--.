@@ -64,8 +64,8 @@
     "last_alert_time": 1760665331.5714695
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760646253.5841072
+    "last_signal": "sell",
+    "last_alert_time": 1760675202.460717
   },
   "PENGUUSDT": {
     "last_signal": "buy",
