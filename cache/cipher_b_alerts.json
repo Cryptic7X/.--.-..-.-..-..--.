@@ -136,8 +136,8 @@
     "last_alert_time": 1760647304.2017794
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760686786.1496809
+    "last_signal": "sell",
+    "last_alert_time": 1760729917.1230943
   },
   "TAOUSDT": {
     "last_signal": "buy",
