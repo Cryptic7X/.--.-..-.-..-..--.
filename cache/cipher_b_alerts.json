@@ -172,8 +172,8 @@
     "last_alert_time": 1760649511.005534
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760649511.4298768
+    "last_signal": "sell",
+    "last_alert_time": 1760726897.7361274
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -196,8 +196,8 @@
     "last_alert_time": 1760649512.2354226
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760649513.008377
+    "last_signal": "sell",
+    "last_alert_time": 1760726898.5810413
   },
   "MUSDT": {
     "last_signal": "buy",
@@ -244,7 +244,7 @@
     "last_alert_time": 1760687546.539111
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760689813.0202467
+    "last_signal": "sell",
+    "last_alert_time": 1760726897.4326928
   }
 }
