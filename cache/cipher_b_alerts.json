@@ -136,8 +136,8 @@
     "last_alert_time": 1760647304.2017794
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760665330.7086315
+    "last_signal": "buy",
+    "last_alert_time": 1760686786.1496809
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -222,5 +222,13 @@
   "CAKEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760685684.8768017
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760686786.1817713
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760686786.1923528
   }
 }
