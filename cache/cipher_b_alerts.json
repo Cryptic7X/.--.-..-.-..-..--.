@@ -210,5 +210,9 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760665330.7253134
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760672097.509301
   }
 }
