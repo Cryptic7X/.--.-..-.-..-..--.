@@ -54,5 +54,13 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760739574.1456947
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760740815.582268
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760740815.6017976
   }
 }
