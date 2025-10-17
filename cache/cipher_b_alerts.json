@@ -242,5 +242,9 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760687546.539111
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760689813.0202467
   }
 }
