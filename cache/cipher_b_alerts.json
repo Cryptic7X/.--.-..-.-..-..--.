@@ -60,8 +60,8 @@
     "last_alert_time": 1760646253.4524312
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760646253.4915702
+    "last_signal": "sell",
+    "last_alert_time": 1760665331.5714695
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1760647304.2017794
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760647304.2335963
+    "last_signal": "sell",
+    "last_alert_time": 1760665330.7086315
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -206,5 +206,9 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760650744.4802148
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760665330.7253134
   }
 }
