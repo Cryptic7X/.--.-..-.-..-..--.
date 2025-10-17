@@ -218,5 +218,9 @@
   "LDOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760682729.223183
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760685684.8768017
   }
 }
