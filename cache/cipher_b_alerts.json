@@ -214,5 +214,9 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760672097.509301
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760682729.223183
   }
 }
