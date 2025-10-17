@@ -56,12 +56,12 @@
     "last_alert_time": 1760646253.428354
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760646253.4524312
+    "last_signal": "sell",
+    "last_alert_time": 1760719667.436524
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760687545.450383
+    "last_signal": "sell",
+    "last_alert_time": 1760719667.4044585
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1760646253.8252494
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760646253.890626
+    "last_signal": "sell",
+    "last_alert_time": 1760719667.824026
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1760650744.4802148
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760687544.5309799
+    "last_signal": "sell",
+    "last_alert_time": 1760719666.8569741
   },
   "JTOUSDT": {
     "last_signal": "sell",
@@ -224,8 +224,8 @@
     "last_alert_time": 1760685684.8768017
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760686786.1817713
+    "last_signal": "sell",
+    "last_alert_time": 1760719666.1170945
   },
   "BNBUSDT": {
     "last_signal": "buy",
