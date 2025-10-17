@@ -60,12 +60,12 @@
     "last_alert_time": 1760646253.4524312
   },
   "PIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760665331.5714695
+    "last_signal": "buy",
+    "last_alert_time": 1760687545.450383
   },
   "POLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760675202.460717
+    "last_signal": "buy",
+    "last_alert_time": 1760687545.6685174
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1760650744.4802148
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760665330.7253134
+    "last_signal": "buy",
+    "last_alert_time": 1760687544.5309799
   },
   "JTOUSDT": {
     "last_signal": "sell",
@@ -230,5 +230,17 @@
   "BNBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760686786.1923528
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760687545.133065
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760687546.4709303
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760687546.539111
   }
 }
