@@ -16,8 +16,8 @@
     "last_alert_time": 1760795520.0202932
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760739572.0980012
+    "last_signal": "buy",
+    "last_alert_time": 1760797074.2430289
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -40,8 +40,8 @@
     "last_alert_time": 1760739572.685956
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760739572.9713805
+    "last_signal": "buy",
+    "last_alert_time": 1760797074.8315117
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1760761480.907862
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760779395.4244773
+    "last_signal": "buy",
+    "last_alert_time": 1760797073.7733462
   },
   "IPUSDT": {
     "last_signal": "sell",
@@ -150,5 +150,13 @@
   "CRVUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760791216.6970847
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760797074.9745247
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760797075.2367983
   }
 }
