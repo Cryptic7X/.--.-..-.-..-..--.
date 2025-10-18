@@ -176,8 +176,8 @@
     "last_alert_time": 1760812059.2382197
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760799140.921299
+    "last_signal": "sell",
+    "last_alert_time": 1760822252.2411792
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -214,5 +214,9 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760812058.0685534
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760822251.7321382
   }
 }
