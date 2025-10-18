@@ -110,5 +110,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760768997.3828595
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760770101.293128
   }
 }
