@@ -56,8 +56,8 @@
     "last_alert_time": 1760739574.1456947
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760740815.582268
+    "last_signal": "buy",
+    "last_alert_time": 1760806474.9341037
   },
   "DOGEUSDT": {
     "last_signal": "sell",
@@ -182,5 +182,17 @@
   "KASUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760804658.4381528
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760806475.0831501
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760806475.738791
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760806475.745531
   }
 }
