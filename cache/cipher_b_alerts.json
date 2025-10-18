@@ -66,5 +66,13 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760751458.3409874
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760755480.4791543
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760755481.3847651
   }
 }
