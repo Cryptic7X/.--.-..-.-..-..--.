@@ -92,8 +92,8 @@
     "last_alert_time": 1760779395.4244773
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760764785.0677304
+    "last_signal": "sell",
+    "last_alert_time": 1760784725.3481808
   },
   "SPXUSDT": {
     "last_signal": "buy",
