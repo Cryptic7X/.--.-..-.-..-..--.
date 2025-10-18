@@ -138,5 +138,9 @@
   "UNIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760779395.898113
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760782818.4585123
   }
 }
