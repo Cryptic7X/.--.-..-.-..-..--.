@@ -178,5 +178,9 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760799140.921299
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760804658.4381528
   }
 }
