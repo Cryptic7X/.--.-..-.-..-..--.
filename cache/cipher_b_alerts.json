@@ -98,5 +98,9 @@
   "SPXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760764785.7750719
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760766744.892061
   }
 }
