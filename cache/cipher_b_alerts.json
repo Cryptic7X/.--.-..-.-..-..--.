@@ -74,5 +74,17 @@
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760755481.3847651
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760761479.6318688
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760761479.6880593
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760761480.907862
   }
 }
