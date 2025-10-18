@@ -122,5 +122,9 @@
   "JUPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760773097.132271
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760773899.2938068
   }
 }
