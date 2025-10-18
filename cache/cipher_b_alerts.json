@@ -142,5 +142,13 @@
   "WLDUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760782818.4585123
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760791216.6688666
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760791216.6970847
   }
 }
