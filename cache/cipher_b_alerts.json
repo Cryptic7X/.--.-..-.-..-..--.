@@ -174,5 +174,9 @@
   "SUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760798352.8092906
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760799140.921299
   }
 }
