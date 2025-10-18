@@ -52,8 +52,8 @@
     "last_alert_time": 1760739573.2117352
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760807801.4980516
+    "last_signal": "sell",
+    "last_alert_time": 1760827938.6717849
   },
   "XRPUSDT": {
     "last_signal": "buy",
