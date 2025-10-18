@@ -114,5 +114,13 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760770101.293128
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760773097.0068662
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760773097.132271
   }
 }
