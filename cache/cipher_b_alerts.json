@@ -88,8 +88,8 @@
     "last_alert_time": 1760761480.907862
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760764784.5255656
+    "last_signal": "sell",
+    "last_alert_time": 1760779395.4244773
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -134,5 +134,9 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760775981.7427897
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760779395.898113
   }
 }
