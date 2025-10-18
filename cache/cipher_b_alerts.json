@@ -172,8 +172,8 @@
     "last_alert_time": 1760798352.1845014
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760798352.8092906
+    "last_signal": "sell",
+    "last_alert_time": 1760812059.2382197
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -210,5 +210,9 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760807801.592669
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760812058.0685534
   }
 }
