@@ -102,5 +102,13 @@
   "CROUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760766744.892061
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760768997.136644
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760768997.3828595
   }
 }
