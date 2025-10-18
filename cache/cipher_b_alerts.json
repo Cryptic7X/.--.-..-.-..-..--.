@@ -32,8 +32,8 @@
     "last_alert_time": 1760795519.836495
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760798352.208353
+    "last_signal": "sell",
+    "last_alert_time": 1760827180.2679143
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1760761479.6880593
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760807801.4896472
+    "last_signal": "sell",
+    "last_alert_time": 1760827180.9099035
   },
   "HYPEUSDT": {
     "last_signal": "buy",
