@@ -8,8 +8,8 @@
     "last_alert_time": 1760838821.9990618
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760739572.0293908
+    "last_signal": "buy",
+    "last_alert_time": 1760867508.6037934
   },
   "TAOUSDT": {
     "last_signal": "sell",
@@ -52,16 +52,16 @@
     "last_alert_time": 1760838823.214454
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760827938.6717849
+    "last_signal": "buy",
+    "last_alert_time": 1760867509.9204755
   },
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760806474.9341037
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760740815.6017976
+    "last_signal": "buy",
+    "last_alert_time": 1760867508.0963035
   },
   "JTOUSDT": {
     "last_signal": "buy",
