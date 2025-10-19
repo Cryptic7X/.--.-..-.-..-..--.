@@ -184,8 +184,8 @@
     "last_alert_time": 1760804658.4381528
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760806475.0831501
+    "last_signal": "sell",
+    "last_alert_time": 1760884743.529808
   },
   "SEIUSDT": {
     "last_signal": "buy",
