@@ -118,5 +118,9 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760912377.8838964
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760915955.249095
   }
 }
