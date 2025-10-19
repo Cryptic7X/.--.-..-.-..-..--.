@@ -86,5 +86,9 @@
   "BNBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760889140.4328637
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760892190.1138291
   }
 }
