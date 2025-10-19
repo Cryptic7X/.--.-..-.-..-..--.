@@ -110,5 +110,9 @@
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760905358.257852
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760906403.8418984
   }
 }
