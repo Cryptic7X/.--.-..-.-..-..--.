@@ -102,5 +102,9 @@
   "CROUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760901371.3397295
+  },
+  "BERAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760903511.297427
   }
 }
