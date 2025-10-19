@@ -132,8 +132,8 @@
     "last_alert_time": 1760798351.485087
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760807801.2711446
+    "last_signal": "sell",
+    "last_alert_time": 1760877617.5775871
   },
   "UNIUSDT": {
     "last_signal": "sell",
