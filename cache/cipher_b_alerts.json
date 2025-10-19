@@ -78,5 +78,13 @@
   "INJUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760888282.5645292
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760889140.35011
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760889140.4328637
   }
 }
