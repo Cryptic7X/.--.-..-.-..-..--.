@@ -232,7 +232,7 @@
     "last_alert_time": 1760838823.2420564
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760838823.484001
+    "last_signal": "sell",
+    "last_alert_time": 1760883483.4204898
   }
 }
