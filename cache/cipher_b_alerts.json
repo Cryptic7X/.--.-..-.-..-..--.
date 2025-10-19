@@ -68,8 +68,8 @@
     "last_alert_time": 1760888282.2030113
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760888282.216079
+    "last_signal": "buy",
+    "last_alert_time": 1760912377.858112
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -114,5 +114,9 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760906403.8418984
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760912377.8838964
   }
 }
