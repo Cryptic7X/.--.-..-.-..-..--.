@@ -98,5 +98,9 @@
   "KASUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760898495.3703794
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760901371.3397295
   }
 }
