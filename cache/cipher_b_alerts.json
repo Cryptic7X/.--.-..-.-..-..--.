@@ -94,5 +94,9 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760895514.5769207
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760898495.3703794
   }
 }
