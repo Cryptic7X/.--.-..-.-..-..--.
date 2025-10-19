@@ -106,5 +106,9 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760903511.297427
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760905358.257852
   }
 }
