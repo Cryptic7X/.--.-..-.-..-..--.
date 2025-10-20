@@ -138,5 +138,9 @@
   "BNBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760972169.8357632
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760973891.5032015
   }
 }
