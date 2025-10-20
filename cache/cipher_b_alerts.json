@@ -128,11 +128,15 @@
     "last_alert_time": 1760960311.1940804
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760960311.7374742
+    "last_signal": "sell",
+    "last_alert_time": 1760972170.6362624
   },
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760971467.3713112
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760972169.8357632
   }
 }
