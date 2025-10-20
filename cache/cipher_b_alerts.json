@@ -118,5 +118,17 @@
   "ENAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760955944.501433
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760960311.1476097
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760960311.1940804
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760960311.7374742
   }
 }
