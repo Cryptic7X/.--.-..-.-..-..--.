@@ -206,5 +206,9 @@
   "PENGUUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760982764.5179937
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760986617.099045
   }
 }
