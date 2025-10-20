@@ -110,5 +110,9 @@
   "IMXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760946045.2696152
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760946743.3171008
   }
 }
