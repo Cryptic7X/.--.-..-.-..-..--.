@@ -126,5 +126,45 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760925065.1652262
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935915.680971
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935915.6925762
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935915.720068
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.227629
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.3620079
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.5656865
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.778412
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.8944564
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935916.9004521
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760935917.5623412
   }
 }
