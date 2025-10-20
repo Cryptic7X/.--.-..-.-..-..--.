@@ -48,8 +48,8 @@
     "last_alert_time": 1760888281.7668045
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760888281.9028504
+    "last_signal": "buy",
+    "last_alert_time": 1760925065.8690343
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -122,5 +122,9 @@
   "NEARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760915955.249095
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760925065.1652262
   }
 }
