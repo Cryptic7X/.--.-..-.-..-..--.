@@ -114,5 +114,9 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760946743.3171008
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760955944.501433
   }
 }
