@@ -52,8 +52,8 @@
     "last_alert_time": 1760946044.0254383
   },
   "ADAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760946044.0465584
+    "last_signal": "buy",
+    "last_alert_time": 1760982763.3240774
   },
   "LTCUSDT": {
     "last_signal": "sell",
@@ -202,5 +202,9 @@
   "CAKEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1760980753.4588735
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1760982764.5179937
   }
 }
