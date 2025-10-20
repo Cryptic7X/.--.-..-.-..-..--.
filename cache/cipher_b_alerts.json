@@ -48,8 +48,8 @@
     "last_alert_time": 1760888281.7668045
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1760925065.8690343
+    "last_signal": "sell",
+    "last_alert_time": 1760937751.124092
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -166,5 +166,21 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1760935917.5623412
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760937749.7087915
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760937749.9564896
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760937751.168083
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1760937751.461482
   }
 }
