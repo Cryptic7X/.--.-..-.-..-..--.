@@ -12,8 +12,8 @@
     "last_alert_time": 1760980752.9897356
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760945156.6003013
+    "last_signal": "buy",
+    "last_alert_time": 1761018060.6726995
   },
   "ETCUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1760986617.099045
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1760993021.0019524
+    "last_signal": "buy",
+    "last_alert_time": 1761018058.9985147
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,13 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761015535.2691622
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761018058.99034
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761018059.374339
   }
 }
