@@ -78,5 +78,13 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761028391.4247923
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761038934.404337
+  },
+  "INJUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761038935.5406682
   }
 }
