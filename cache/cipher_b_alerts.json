@@ -68,8 +68,8 @@
     "last_alert_time": 1761026025.0293505
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761026025.07688
+    "last_signal": "sell",
+    "last_alert_time": 1761047544.2352154
   },
   "CRVUSDT": {
     "last_signal": "buy",
@@ -98,5 +98,13 @@
   "SOLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761045520.5041904
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761047542.416383
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761047542.4997857
   }
 }
