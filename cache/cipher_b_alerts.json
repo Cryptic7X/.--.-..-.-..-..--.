@@ -1,7 +1,7 @@
 {
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761026023.729276
+    "last_signal": "sell",
+    "last_alert_time": 1761053738.0865786
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -20,8 +20,8 @@
     "last_alert_time": 1761026023.9683022
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761026023.9949973
+    "last_signal": "sell",
+    "last_alert_time": 1761053738.4426355
   },
   "IPUSDT": {
     "last_signal": "sell",
@@ -56,12 +56,12 @@
     "last_alert_time": 1761026024.6822903
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761026024.8906791
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.7140884
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761026024.9870408
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.0626688
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -76,16 +76,16 @@
     "last_alert_time": 1761026025.1158717
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761028391.4247923
+    "last_signal": "sell",
+    "last_alert_time": 1761053737.6160233
   },
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761038934.404337
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761038935.5406682
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.2432942
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -114,5 +114,45 @@
   "ETCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761050928.0737736
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053737.628379
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053737.9182813
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053738.0582967
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053738.279766
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053738.9267685
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.3764372
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.4093285
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.5548413
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.7522848
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761053739.8129957
   }
 }
