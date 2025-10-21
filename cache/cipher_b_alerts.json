@@ -82,5 +82,9 @@
   "ENSUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761064130.5275238
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761065316.33835
   }
 }
