@@ -106,5 +106,13 @@
   "HBARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761047542.4997857
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761050927.8664029
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761050928.0737736
   }
 }
