@@ -90,5 +90,9 @@
   "PIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761042446.7231576
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761043555.399328
   }
 }
