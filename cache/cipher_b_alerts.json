@@ -134,5 +134,17 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761083543.2057943
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761085130.9058125
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761085130.9217649
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761085130.936136
   }
 }
