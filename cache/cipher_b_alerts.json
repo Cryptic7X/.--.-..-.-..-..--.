@@ -158,5 +158,21 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761088853.358385
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761089951.952631
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761089951.9726477
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761089951.9920273
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761089952.5890348
   }
 }
