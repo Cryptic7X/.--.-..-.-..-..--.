@@ -74,5 +74,9 @@
   "CRVUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761026025.1158717
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761028391.4247923
   }
 }
