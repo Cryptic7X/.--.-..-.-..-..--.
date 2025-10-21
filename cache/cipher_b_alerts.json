@@ -86,5 +86,9 @@
   "INJUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761038935.5406682
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761042446.7231576
   }
 }
