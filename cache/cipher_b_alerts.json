@@ -210,5 +210,9 @@
   "CROUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761128724.0071223
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761130023.9047685
   }
 }
