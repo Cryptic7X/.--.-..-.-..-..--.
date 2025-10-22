@@ -192,8 +192,8 @@
     "last_alert_time": 1761114863.1694841
   },
   "ENAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761133945.6712546
+    "last_signal": "buy",
+    "last_alert_time": 1761148489.7053864
   },
   "WIFUSDT": {
     "last_signal": "buy",
