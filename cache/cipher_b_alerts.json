@@ -44,8 +44,8 @@
     "last_alert_time": 1761088851.813034
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088851.8272278
+    "last_signal": "sell",
+    "last_alert_time": 1761125492.8464074
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -156,8 +156,8 @@
     "last_alert_time": 1761088853.2466974
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088853.358385
+    "last_signal": "sell",
+    "last_alert_time": 1761125493.9295256
   },
   "BTCUSDT": {
     "last_signal": "buy",
