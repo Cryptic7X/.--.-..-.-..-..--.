@@ -96,8 +96,8 @@
     "last_alert_time": 1761088852.6976066
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088852.7151277
+    "last_signal": "sell",
+    "last_alert_time": 1761150608.8831754
   },
   "CRVUSDT": {
     "last_signal": "buy",
