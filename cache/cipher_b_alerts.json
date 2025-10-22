@@ -202,5 +202,13 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761114864.618853
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761128723.6601496
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761128724.0071223
   }
 }
