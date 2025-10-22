@@ -44,8 +44,8 @@
     "last_alert_time": 1761088851.813034
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761125492.8464074
+    "last_signal": "buy",
+    "last_alert_time": 1761160741.1701856
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1761088852.6514447
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761110525.054787
+    "last_signal": "buy",
+    "last_alert_time": 1761160741.7548614
   },
   "SPXUSDT": {
     "last_signal": "buy",
