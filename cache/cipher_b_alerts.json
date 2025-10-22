@@ -156,8 +156,8 @@
     "last_alert_time": 1761088853.2466974
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761125493.9295256
+    "last_signal": "buy",
+    "last_alert_time": 1761158047.6901166
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -230,5 +230,13 @@
   "LTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761155521.8460188
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761158046.3990133
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761158046.6416693
   }
 }
