@@ -76,8 +76,8 @@
     "last_alert_time": 1761088852.4271386
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761169939.5775032
+    "last_signal": "sell",
+    "last_alert_time": 1761202582.7331822
   },
   "INJUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1761169940.035236
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088853.2360654
+    "last_signal": "sell",
+    "last_alert_time": 1761202583.3416486
   },
   "BEAMUSDT": {
     "last_signal": "buy",
