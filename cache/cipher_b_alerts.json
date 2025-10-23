@@ -138,5 +138,13 @@
   "INJUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761239976.771042
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761241274.6394765
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761241274.7565966
   }
 }
