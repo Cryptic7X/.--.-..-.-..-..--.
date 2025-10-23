@@ -112,8 +112,8 @@
     "last_alert_time": 1761088852.8154767
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088852.8506343
+    "last_signal": "sell",
+    "last_alert_time": 1761198803.5423656
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1761088852.9272048
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088852.9757104
+    "last_signal": "sell",
+    "last_alert_time": 1761198803.668044
   },
   "ENSUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1761088853.0327919
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761088853.0891423
+    "last_signal": "sell",
+    "last_alert_time": 1761198803.8676274
   },
   "EIGENUSDT": {
     "last_signal": "sell",
