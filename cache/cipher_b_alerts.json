@@ -102,5 +102,29 @@
   "ATOMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761234805.6626818
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761236920.4242072
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761236920.5338583
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761236920.6750236
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761236920.7086427
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761236921.324976
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761236921.9831872
   }
 }
