@@ -130,5 +130,29 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761205222.9601462
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205929.1739278
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205929.2027469
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205929.4951026
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205929.6054127
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205929.8892531
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761205930.3405209
   }
 }
