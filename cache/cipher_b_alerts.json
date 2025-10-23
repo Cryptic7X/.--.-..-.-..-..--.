@@ -22,5 +22,9 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761212689.4969656
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761215258.9707222
   }
 }
