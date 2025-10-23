@@ -42,5 +42,9 @@
   "JUPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761216306.867192
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761216989.540734
   }
 }
