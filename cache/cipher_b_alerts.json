@@ -28,8 +28,8 @@
     "last_alert_time": 1761215258.9707222
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761216305.7301264
+    "last_signal": "buy",
+    "last_alert_time": 1761258000.830755
   },
   "PUMPUSDT": {
     "last_signal": "sell",
@@ -144,8 +144,8 @@
     "last_alert_time": 1761241274.6394765
   },
   "ENSUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761241274.7565966
+    "last_signal": "buy",
+    "last_alert_time": 1761258002.6854742
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -210,5 +210,17 @@
   "ETHFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761256344.4359875
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761258001.1069853
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761258001.5044434
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761258003.0622022
   }
 }
