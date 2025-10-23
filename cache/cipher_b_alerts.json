@@ -194,5 +194,9 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761244353.741449
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761255504.003386
   }
 }
