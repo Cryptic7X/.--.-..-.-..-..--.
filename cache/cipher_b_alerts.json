@@ -26,5 +26,21 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761215258.9707222
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761216305.7301264
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761216306.1979427
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761216306.666495
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761216306.867192
   }
 }
