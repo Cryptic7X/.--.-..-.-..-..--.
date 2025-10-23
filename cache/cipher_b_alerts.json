@@ -98,5 +98,9 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761229391.6080923
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761234805.6626818
   }
 }
