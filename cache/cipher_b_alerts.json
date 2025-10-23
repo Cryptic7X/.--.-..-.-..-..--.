@@ -156,8 +156,8 @@
     "last_alert_time": 1761088853.2466974
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761158047.6901166
+    "last_signal": "sell",
+    "last_alert_time": 1761190708.052112
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1761107194.3695688
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761171451.812235
+    "last_signal": "sell",
+    "last_alert_time": 1761190706.1119003
   },
   "SUIUSDT": {
     "last_signal": "buy",
