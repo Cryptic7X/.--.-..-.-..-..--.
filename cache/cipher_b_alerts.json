@@ -208,12 +208,12 @@
     "last_alert_time": 1761256343.3232143
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761256344.4359875
+    "last_signal": "sell",
+    "last_alert_time": 1761287525.2717392
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761258001.1069853
+    "last_signal": "sell",
+    "last_alert_time": 1761287524.2412791
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,13 @@
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761274191.941564
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761287524.4902205
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761287524.9999912
   }
 }
