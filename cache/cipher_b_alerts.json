@@ -46,5 +46,41 @@
   "ENSUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761338532.0469973
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339207.7830822
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339207.792806
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339207.9138553
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339207.9297667
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339208.4599733
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339208.7349086
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339208.9117389
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339209.2689383
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761339209.3917239
   }
 }
