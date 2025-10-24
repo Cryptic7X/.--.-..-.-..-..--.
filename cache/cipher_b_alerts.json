@@ -204,8 +204,8 @@
     "last_alert_time": 1761283258.329362
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761256343.3232143
+    "last_signal": "sell",
+    "last_alert_time": 1761335540.1322205
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
@@ -216,8 +216,8 @@
     "last_alert_time": 1761287524.2412791
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761258001.5044434
+    "last_signal": "sell",
+    "last_alert_time": 1761335540.5975552
   },
   "BEAMUSDT": {
     "last_signal": "buy",
