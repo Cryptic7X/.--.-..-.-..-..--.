@@ -184,8 +184,8 @@
     "last_alert_time": 1761259976.814325
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761244353.4721584
+    "last_signal": "buy",
+    "last_alert_time": 1761326367.5598094
   },
   "BRETTUSDT": {
     "last_signal": "sell",
@@ -232,12 +232,12 @@
     "last_alert_time": 1761270016.5540068
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761274191.941564
+    "last_signal": "buy",
+    "last_alert_time": 1761326366.325453
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761287524.4902205
+    "last_signal": "buy",
+    "last_alert_time": 1761326366.9094393
   },
   "PENGUUSDT": {
     "last_signal": "sell",
