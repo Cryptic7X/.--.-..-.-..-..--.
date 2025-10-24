@@ -6,5 +6,45 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761337479.817611
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338530.4258268
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338530.5146112
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.0147789
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.063596
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.1455674
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.5598416
+  },
+  "FLOKIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.9382622
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338531.96885
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338532.0203276
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761338532.0469973
   }
 }
