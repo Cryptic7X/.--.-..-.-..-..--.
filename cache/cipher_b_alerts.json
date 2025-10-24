@@ -108,8 +108,8 @@
     "last_alert_time": 1761284498.7313914
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761236920.5338583
+    "last_signal": "buy",
+    "last_alert_time": 1761317133.1090512
   },
   "OKBUSDT": {
     "last_signal": "buy",
