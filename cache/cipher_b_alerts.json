@@ -104,8 +104,8 @@
     "last_alert_time": 1761279997.8191454
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761236920.4242072
+    "last_signal": "sell",
+    "last_alert_time": 1761284498.7313914
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -144,8 +144,8 @@
     "last_alert_time": 1761241274.6394765
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761258002.6854742
+    "last_signal": "sell",
+    "last_alert_time": 1761284499.7512834
   },
   "ADAUSDT": {
     "last_signal": "sell",
