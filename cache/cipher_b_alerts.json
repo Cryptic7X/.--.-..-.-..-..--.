@@ -230,5 +230,9 @@
   "LTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761270016.5540068
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761274191.941564
   }
 }
