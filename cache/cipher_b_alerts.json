@@ -36,8 +36,8 @@
     "last_alert_time": 1761216306.1979427
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761216306.666495
+    "last_signal": "buy",
+    "last_alert_time": 1761319417.3888738
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1761244351.6529498
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761244351.6803627
+    "last_signal": "buy",
+    "last_alert_time": 1761319416.8180985
   },
   "LINKUSDT": {
     "last_signal": "sell",
