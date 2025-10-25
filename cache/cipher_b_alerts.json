@@ -186,5 +186,13 @@
   "INJUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761366298.5267837
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761368035.3624556
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761368036.1262577
   }
 }
