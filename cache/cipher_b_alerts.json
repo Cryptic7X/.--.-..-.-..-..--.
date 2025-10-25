@@ -200,16 +200,16 @@
     "last_alert_time": 1761369624.8147445
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761405561.8360736
+    "last_signal": "sell",
+    "last_alert_time": 1761418028.5517263
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761407547.5415194
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761371598.3371024
+    "last_signal": "sell",
+    "last_alert_time": 1761418030.1436844
   },
   "SUSDT": {
     "last_signal": "sell",
