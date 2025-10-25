@@ -4,8 +4,8 @@
     "last_alert_time": 1761337479.7220263
   },
   "BEAMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761337479.817611
+    "last_signal": "buy",
+    "last_alert_time": 1761373791.0092242
   },
   "DOTUSDT": {
     "last_signal": "buy",
@@ -32,8 +32,8 @@
     "last_alert_time": 1761338531.5598416
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761338531.9382622
+    "last_signal": "buy",
+    "last_alert_time": 1761373790.7995224
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -112,8 +112,8 @@
     "last_alert_time": 1761340756.9973207
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761340757.0095036
+    "last_signal": "buy",
+    "last_alert_time": 1761373790.235042
   },
   "IMXUSDT": {
     "last_signal": "sell",
