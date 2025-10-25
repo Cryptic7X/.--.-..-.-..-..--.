@@ -24,8 +24,8 @@
     "last_alert_time": 1761356503.5206301
   },
   "ENAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761338531.1455674
+    "last_signal": "buy",
+    "last_alert_time": 1761369625.339663
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -194,5 +194,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761368036.1262577
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761369624.8147445
   }
 }
