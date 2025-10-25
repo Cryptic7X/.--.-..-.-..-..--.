@@ -128,8 +128,8 @@
     "last_alert_time": 1761374878.0253482
   },
   "JTOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761340757.7316208
+    "last_signal": "buy",
+    "last_alert_time": 1761380725.5868475
   },
   "SEIUSDT": {
     "last_signal": "sell",
