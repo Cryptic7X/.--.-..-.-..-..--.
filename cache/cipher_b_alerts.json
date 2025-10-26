@@ -1,7 +1,7 @@
 {
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761450499.9616644
+    "last_signal": "sell",
+    "last_alert_time": 1761472311.2981813
   },
   "AVAXUSDT": {
     "last_signal": "sell",
@@ -12,8 +12,8 @@
     "last_alert_time": 1761467191.2056115
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761450500.5275488
+    "last_signal": "sell",
+    "last_alert_time": 1761472311.817184
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1761470421.1807027
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761452699.0924394
+    "last_signal": "sell",
+    "last_alert_time": 1761472312.0613663
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -202,5 +202,13 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761470421.9283803
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761472311.3259542
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761472311.534728
   }
 }
