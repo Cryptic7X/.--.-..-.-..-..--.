@@ -56,8 +56,8 @@
     "last_alert_time": 1761450501.6998825
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761450501.7637625
+    "last_signal": "sell",
+    "last_alert_time": 1761468963.2736049
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1761452699.3689923
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761452699.749637
+    "last_signal": "sell",
+    "last_alert_time": 1761468963.0566056
   },
   "JTOUSDT": {
     "last_signal": "buy",
