@@ -126,5 +126,9 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761457258.6175973
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761463138.126679
   }
 }
