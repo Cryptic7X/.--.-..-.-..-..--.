@@ -106,5 +106,53 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761486723.675989
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488306.2382712
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488306.2560937
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488306.8133652
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488306.8193429
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488307.2773135
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488307.5686612
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488307.9577124
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488307.9939644
+  },
+  "IMXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488308.0049033
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488308.155511
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488308.268276
+  },
+  "GALAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761488308.4266973
   }
 }
