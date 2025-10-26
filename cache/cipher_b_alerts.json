@@ -8,8 +8,8 @@
     "last_alert_time": 1761450500.247815
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761450500.2806802
+    "last_signal": "sell",
+    "last_alert_time": 1761467191.2056115
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -72,8 +72,8 @@
     "last_alert_time": 1761452698.1693013
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761452698.462101
+    "last_signal": "sell",
+    "last_alert_time": 1761467191.123164
   },
   "MNTUSDT": {
     "last_signal": "buy",
