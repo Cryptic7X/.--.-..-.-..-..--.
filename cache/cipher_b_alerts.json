@@ -174,5 +174,9 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761500355.196173
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761506215.6946225
   }
 }
