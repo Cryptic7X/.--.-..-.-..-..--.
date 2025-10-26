@@ -4,16 +4,16 @@
     "last_alert_time": 1761484363.9668758
   },
   "HBARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484363.988552
+    "last_signal": "buy",
+    "last_alert_time": 1761513536.9741223
   },
   "TRXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761484364.0285451
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484364.0452414
+    "last_signal": "buy",
+    "last_alert_time": 1761513536.9491584
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -24,8 +24,8 @@
     "last_alert_time": 1761484364.260185
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484364.3020902
+    "last_signal": "buy",
+    "last_alert_time": 1761513537.251942
   },
   "IPUSDT": {
     "last_signal": "sell",
@@ -36,8 +36,8 @@
     "last_alert_time": 1761484364.5658724
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484364.5938978
+    "last_signal": "buy",
+    "last_alert_time": 1761513537.573108
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -72,8 +72,8 @@
     "last_alert_time": 1761484365.3274899
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484365.3616834
+    "last_signal": "buy",
+    "last_alert_time": 1761513538.4105952
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1761485636.062574
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761486721.9398232
+    "last_signal": "buy",
+    "last_alert_time": 1761513536.6771498
   },
   "LINKUSDT": {
     "last_signal": "sell",
@@ -152,8 +152,8 @@
     "last_alert_time": 1761488308.268276
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761488308.4266973
+    "last_signal": "buy",
+    "last_alert_time": 1761513538.4647365
   },
   "MUSDT": {
     "last_signal": "buy",
@@ -194,5 +194,9 @@
   "ADAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761511981.105146
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761513538.349507
   }
 }
