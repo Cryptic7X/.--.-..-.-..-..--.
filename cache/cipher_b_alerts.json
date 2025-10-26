@@ -130,5 +130,9 @@
   "XRPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761463138.126679
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761464275.1657794
   }
 }
