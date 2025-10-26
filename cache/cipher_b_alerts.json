@@ -32,8 +32,8 @@
     "last_alert_time": 1761338531.5598416
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419754.4163332
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.5821028
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -44,8 +44,8 @@
     "last_alert_time": 1761366297.9817023
   },
   "ENSUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419754.5634196
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.6426077
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -56,24 +56,24 @@
     "last_alert_time": 1761339207.792806
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761339207.9138553
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.3945644
   },
   "AVAXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761339207.9297667
   },
   "ONDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761405562.756377
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.9492908
   },
   "POLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761339208.7349086
   },
   "PENGUUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761414746.1919055
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.2682776
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -100,8 +100,8 @@
     "last_alert_time": 1761397515.277876
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419753.82445
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.955504
   },
   "PIUSDT": {
     "last_signal": "sell",
@@ -112,12 +112,12 @@
     "last_alert_time": 1761376742.842416
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419754.0092163
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.1719205
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761340757.1507325
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.3234475
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -148,8 +148,8 @@
     "last_alert_time": 1761344439.8692524
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761344440.1257439
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.3167517
   },
   "OKBUSDT": {
     "last_signal": "sell",
@@ -176,20 +176,20 @@
     "last_alert_time": 1761397516.664672
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419753.32528
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.6052423
   },
   "CRVUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761419754.274875
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761397516.2130973
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.3278697
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761368035.3624556
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.529282
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -200,8 +200,8 @@
     "last_alert_time": 1761369624.8147445
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761418028.5517263
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.6857479
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
@@ -212,12 +212,12 @@
     "last_alert_time": 1761443402.8703496
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761399136.6453815
+    "last_signal": "buy",
+    "last_alert_time": 1761448362.6754215
   },
   "SUIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761419753.2935476
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.4782333
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "BNBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761434315.24576
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761448361.6287782
   }
 }
