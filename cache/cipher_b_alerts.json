@@ -122,5 +122,9 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761456045.2226183
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761457258.6175973
   }
 }
