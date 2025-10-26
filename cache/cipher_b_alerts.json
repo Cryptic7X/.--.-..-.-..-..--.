@@ -134,5 +134,17 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761464275.1657794
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761465133.481684
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761465133.967227
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761465135.1087747
   }
 }
