@@ -94,5 +94,17 @@
   "APTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761485636.062574
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761486721.9398232
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761486722.1297095
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761486723.675989
   }
 }
