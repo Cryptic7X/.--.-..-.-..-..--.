@@ -86,5 +86,13 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761484365.6642494
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761485635.2407074
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761485636.062574
   }
 }
