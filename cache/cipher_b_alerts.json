@@ -182,5 +182,13 @@
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761508342.1238394
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761510192.9557433
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761510193.9815133
   }
 }
