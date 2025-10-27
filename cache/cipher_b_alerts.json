@@ -68,8 +68,8 @@
     "last_alert_time": 1761484365.0967274
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761515510.4702291
+    "last_signal": "sell",
+    "last_alert_time": 1761535347.0139458
   },
   "SUSDT": {
     "last_signal": "buy",
@@ -218,5 +218,9 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761530059.9577157
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761535347.3269386
   }
 }
