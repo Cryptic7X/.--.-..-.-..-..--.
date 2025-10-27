@@ -108,8 +108,8 @@
     "last_alert_time": 1761486723.675989
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761515508.9096315
+    "last_signal": "sell",
+    "last_alert_time": 1761530059.3448617
   },
   "DOTUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,9 @@
   "SEIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761520795.5171835
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761530059.9577157
   }
 }
