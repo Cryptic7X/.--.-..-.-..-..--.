@@ -20,8 +20,8 @@
     "last_alert_time": 1761560772.782503
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560772.888061
+    "last_signal": "sell",
+    "last_alert_time": 1761586875.0126717
   },
   "AVAXUSDT": {
     "last_signal": "buy",
@@ -64,8 +64,8 @@
     "last_alert_time": 1761560773.7370842
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560773.871995
+    "last_signal": "sell",
+    "last_alert_time": 1761586875.9178596
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1761560773.961663
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560774.0546355
+    "last_signal": "sell",
+    "last_alert_time": 1761586876.0780249
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -174,5 +174,17 @@
   "LTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761582585.9557192
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761586874.9809666
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761586874.999723
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761586876.900469
   }
 }
