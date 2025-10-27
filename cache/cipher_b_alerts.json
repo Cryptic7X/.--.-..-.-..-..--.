@@ -202,5 +202,9 @@
   "PIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761596527.3013253
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761599965.9760077
   }
 }
