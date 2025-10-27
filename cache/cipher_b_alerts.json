@@ -180,8 +180,8 @@
     "last_alert_time": 1761506215.6946225
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761508342.1238394
+    "last_signal": "sell",
+    "last_alert_time": 1761542947.065956
   },
   "XRPUSDT": {
     "last_signal": "sell",
