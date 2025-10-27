@@ -170,5 +170,9 @@
   "OKBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761578644.847562
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761582585.9557192
   }
 }
