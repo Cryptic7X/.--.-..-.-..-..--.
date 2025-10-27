@@ -150,5 +150,9 @@
   "ENAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761569355.5386424
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761572047.188288
   }
 }
