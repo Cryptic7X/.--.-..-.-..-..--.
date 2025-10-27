@@ -142,5 +142,13 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761565203.3982737
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761569354.6664104
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761569355.5386424
   }
 }
