@@ -154,5 +154,17 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761572047.188288
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761576174.9508595
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761576174.977237
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761576176.08514
   }
 }
