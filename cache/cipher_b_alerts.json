@@ -16,8 +16,8 @@
     "last_alert_time": 1761513536.9491584
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484364.0676723
+    "last_signal": "buy",
+    "last_alert_time": 1761540200.271215
   },
   "OKBUSDT": {
     "last_signal": "sell",
@@ -80,8 +80,8 @@
     "last_alert_time": 1761484365.4235191
   },
   "JASMYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761484365.5613332
+    "last_signal": "buy",
+    "last_alert_time": 1761540201.4293957
   },
   "BEAMUSDT": {
     "last_signal": "sell",
@@ -222,5 +222,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761535347.3269386
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761540200.408187
   }
 }
