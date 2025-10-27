@@ -156,8 +156,8 @@
     "last_alert_time": 1761572047.188288
   },
   "SUIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761589961.9188101
+    "last_signal": "buy",
+    "last_alert_time": 1761609101.5334797
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -218,5 +218,9 @@
   "CAKEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761608330.9839242
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761609101.2822382
   }
 }
