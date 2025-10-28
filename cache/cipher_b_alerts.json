@@ -28,8 +28,8 @@
     "last_alert_time": 1761560773.0773046
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560773.0887754
+    "last_signal": "sell",
+    "last_alert_time": 1761615855.1327868
   },
   "LINKUSDT": {
     "last_signal": "sell",
@@ -222,5 +222,9 @@
   "DOGEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761609101.2822382
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761615855.2490778
   }
 }
