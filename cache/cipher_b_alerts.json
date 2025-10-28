@@ -4,8 +4,8 @@
     "last_alert_time": 1761587601.3798842
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761558723.5193396
+    "last_signal": "sell",
+    "last_alert_time": 1761652325.5381906
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1761560773.961663
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761608330.8472211
+    "last_signal": "sell",
+    "last_alert_time": 1761652325.1049235
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -100,8 +100,8 @@
     "last_alert_time": 1761589962.5735304
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560774.3413386
+    "last_signal": "sell",
+    "last_alert_time": 1761652325.321843
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
@@ -128,8 +128,8 @@
     "last_alert_time": 1761589962.9588628
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560774.953226
+    "last_signal": "sell",
+    "last_alert_time": 1761652325.6730487
   },
   "CRVUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "FLOKIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761633291.8672965
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761652325.1097462
   }
 }
