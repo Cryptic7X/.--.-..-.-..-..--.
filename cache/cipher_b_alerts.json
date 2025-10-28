@@ -226,5 +226,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761615855.2490778
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761620414.2964206
   }
 }
