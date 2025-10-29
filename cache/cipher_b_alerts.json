@@ -240,8 +240,8 @@
     "last_alert_time": 1761633291.8672965
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685002.304258
+    "last_signal": "sell",
+    "last_alert_time": 1761722788.4672003
   },
   "HYPEUSDT": {
     "last_signal": "sell",
