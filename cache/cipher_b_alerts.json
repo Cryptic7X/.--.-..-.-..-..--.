@@ -84,8 +84,8 @@
     "last_alert_time": 1761685002.3222373
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560774.0672882
+    "last_signal": "sell",
+    "last_alert_time": 1761721048.7465954
   },
   "SEIUSDT": {
     "last_signal": "buy",
