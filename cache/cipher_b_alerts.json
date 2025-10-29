@@ -32,8 +32,8 @@
     "last_alert_time": 1761734786.5340416
   },
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761633290.800313
+    "last_signal": "sell",
+    "last_alert_time": 1761742161.5225563
   },
   "UNIUSDT": {
     "last_signal": "buy",
@@ -52,8 +52,8 @@
     "last_alert_time": 1761685001.8492658
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761623134.0684023
+    "last_signal": "sell",
+    "last_alert_time": 1761742162.065373
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -112,16 +112,16 @@
     "last_alert_time": 1761685002.592876
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685002.7275784
+    "last_signal": "sell",
+    "last_alert_time": 1761742163.0313382
   },
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761717346.7607892
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761686586.4259205
+    "last_signal": "sell",
+    "last_alert_time": 1761742163.1013825
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -152,12 +152,12 @@
     "last_alert_time": 1761625574.996175
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761572047.188288
+    "last_signal": "sell",
+    "last_alert_time": 1761742163.3756666
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761609101.5334797
+    "last_signal": "sell",
+    "last_alert_time": 1761742161.5322154
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -176,8 +176,8 @@
     "last_alert_time": 1761726699.628256
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685001.3527176
+    "last_signal": "sell",
+    "last_alert_time": 1761742161.2014408
   },
   "ETHUSDT": {
     "last_signal": "sell",
@@ -220,8 +220,8 @@
     "last_alert_time": 1761608330.9839242
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761609101.2822382
+    "last_signal": "sell",
+    "last_alert_time": 1761742161.298955
   },
   "MUSDT": {
     "last_signal": "sell",
