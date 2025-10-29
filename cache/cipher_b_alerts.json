@@ -84,8 +84,8 @@
     "last_alert_time": 1761723712.592382
   },
   "ATOMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761721048.7465954
+    "last_signal": "buy",
+    "last_alert_time": 1761755451.8685908
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1761742163.1013825
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761738740.3240926
+    "last_signal": "buy",
+    "last_alert_time": 1761755452.5746133
   },
   "BERAUSDT": {
     "last_signal": "sell",
@@ -140,12 +140,12 @@
     "last_alert_time": 1761563976.8281267
   },
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761713724.1621306
+    "last_signal": "buy",
+    "last_alert_time": 1761755450.9664161
   },
   "BNBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761717345.2978485
+    "last_signal": "buy",
+    "last_alert_time": 1761755450.698524
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -168,8 +168,8 @@
     "last_alert_time": 1761576176.08514
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761719793.5801806
+    "last_signal": "buy",
+    "last_alert_time": 1761755451.2309117
   },
   "LTCUSDT": {
     "last_signal": "sell",
@@ -180,16 +180,16 @@
     "last_alert_time": 1761742161.2014408
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761719793.087435
+    "last_signal": "buy",
+    "last_alert_time": 1761755450.6854377
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761738740.353935
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761737998.9393976
+    "last_signal": "buy",
+    "last_alert_time": 1761755451.9655123
   },
   "PUMPUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1761736798.9651237
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761719793.127291
+    "last_signal": "buy",
+    "last_alert_time": 1761755450.6177506
   },
   "ASTERUSDT": {
     "last_signal": "buy",
