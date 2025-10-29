@@ -116,8 +116,8 @@
     "last_alert_time": 1761685002.7275784
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560774.5977144
+    "last_signal": "sell",
+    "last_alert_time": 1761717346.7607892
   },
   "ENSUSDT": {
     "last_signal": "buy",
@@ -144,8 +144,8 @@
     "last_alert_time": 1761713724.1621306
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761686584.5961213
+    "last_signal": "sell",
+    "last_alert_time": 1761717345.2978485
   },
   "ENAUSDT": {
     "last_signal": "buy",
