@@ -72,8 +72,8 @@
     "last_alert_time": 1761560773.8790302
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685002.1690426
+    "last_signal": "sell",
+    "last_alert_time": 1761726700.4824803
   },
   "ICPUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1761719793.5801806
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761686584.6590989
+    "last_signal": "sell",
+    "last_alert_time": 1761726699.628256
   },
   "SOLUSDT": {
     "last_signal": "buy",
