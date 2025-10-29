@@ -48,8 +48,8 @@
     "last_alert_time": 1761723712.0372925
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685001.8492658
+    "last_signal": "sell",
+    "last_alert_time": 1761774037.6196997
   },
   "APTUSDT": {
     "last_signal": "sell",
