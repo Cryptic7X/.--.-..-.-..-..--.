@@ -96,8 +96,8 @@
     "last_alert_time": 1761685002.5149832
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685002.5213766
+    "last_signal": "sell",
+    "last_alert_time": 1761715422.1051226
   },
   "SPXUSDT": {
     "last_signal": "buy",
