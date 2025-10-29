@@ -24,8 +24,8 @@
     "last_alert_time": 1761586875.0126717
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761560773.0773046
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.375333
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -56,12 +56,12 @@
     "last_alert_time": 1761623134.0684023
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685002.0856838
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.8196886
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761608330.5573678
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.8332822
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -168,8 +168,8 @@
     "last_alert_time": 1761576176.08514
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761578644.847562
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.5801806
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1761685001.3527176
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761603614.0674634
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.087435
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1761684287.5365558
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761685001.413033
+    "last_signal": "sell",
+    "last_alert_time": 1761719793.127291
   },
   "ASTERUSDT": {
     "last_signal": "sell",
