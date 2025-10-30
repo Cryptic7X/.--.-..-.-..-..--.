@@ -194,5 +194,25 @@
   "JUPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761853942.617458
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761855893.152523
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761855893.192045
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761855893.446945
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761855893.4664998
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761855893.9628966
   }
 }
