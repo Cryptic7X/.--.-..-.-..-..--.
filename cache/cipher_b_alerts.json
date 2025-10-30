@@ -166,5 +166,21 @@
   "RAYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761852013.8517458
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761853159.3630877
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761853159.3990872
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761853159.6179886
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761853160.4260843
   }
 }
