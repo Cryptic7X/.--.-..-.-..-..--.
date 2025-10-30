@@ -32,8 +32,8 @@
     "last_alert_time": 1761734786.5340416
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761742161.5225563
+    "last_signal": "buy",
+    "last_alert_time": 1761802939.1175056
   },
   "UNIUSDT": {
     "last_signal": "buy",
@@ -132,8 +132,8 @@
     "last_alert_time": 1761652325.6730487
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761772809.8917701
+    "last_signal": "buy",
+    "last_alert_time": 1761802940.0805852
   },
   "IPUSDT": {
     "last_signal": "buy",
