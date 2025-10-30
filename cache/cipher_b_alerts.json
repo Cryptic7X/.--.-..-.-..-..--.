@@ -150,5 +150,21 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761849159.3544402
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761852012.780818
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761852013.0286493
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761852013.2915618
+  },
+  "RAYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761852013.8517458
   }
 }
