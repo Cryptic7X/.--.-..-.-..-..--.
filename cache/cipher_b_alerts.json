@@ -4,8 +4,8 @@
     "last_alert_time": 1761685002.7693634
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761781214.5864842
+    "last_signal": "buy",
+    "last_alert_time": 1761819853.1476629
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -100,8 +100,8 @@
     "last_alert_time": 1761801852.403893
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761746164.553241
+    "last_signal": "buy",
+    "last_alert_time": 1761819853.6049106
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
