@@ -126,5 +126,13 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761902693.3799293
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761906248.8109875
+  },
+  "INJUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761906249.605367
   }
 }
