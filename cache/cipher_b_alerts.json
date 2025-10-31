@@ -70,5 +70,13 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761890100.632375
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761895463.7345397
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761895463.8128958
   }
 }
