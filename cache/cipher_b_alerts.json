@@ -1,14 +1,66 @@
 {
-  "BEAMUSDT": {
+  "LINKUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1761875230.910817
+    "last_alert_time": 1761888187.2406423
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.251006
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.2568643
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.3475924
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.517868
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.7726047
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.8259087
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888187.9084074
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.032242
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.0544903
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.071519
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.174084
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.2813945
+  },
+  "FLOKIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761888188.4880416
   },
   "BRETTUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1761875230.9402337
+    "last_alert_time": 1761888188.5743563
   },
-  "ATOMUSDT": {
+  "BEAMUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1761886029.6728938
+    "last_alert_time": 1761888188.6603096
   }
 }
