@@ -114,5 +114,17 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761900611.531567
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761902692.6475987
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761902692.6715732
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761902693.3799293
   }
 }
