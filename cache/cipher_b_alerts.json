@@ -90,5 +90,29 @@
   "WLDUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761899366.7091112
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761900610.5509048
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761900610.7221825
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761900610.9008405
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761900611.2095733
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761900611.4959474
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761900611.531567
   }
 }
