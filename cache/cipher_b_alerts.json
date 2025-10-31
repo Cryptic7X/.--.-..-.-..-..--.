@@ -194,5 +194,9 @@
   "AAVEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761944134.6525805
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761945518.3167906
   }
 }
