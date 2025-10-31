@@ -190,5 +190,9 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1761933165.0185323
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761944134.6525805
   }
 }
