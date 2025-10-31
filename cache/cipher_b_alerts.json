@@ -62,5 +62,13 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761889385.6886058
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761890098.6453922
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761890100.632375
   }
 }
