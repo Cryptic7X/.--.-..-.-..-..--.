@@ -128,8 +128,8 @@
     "last_alert_time": 1761932485.0690153
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761992468.143243
+    "last_signal": "sell",
+    "last_alert_time": 1762030305.2685914
   },
   "INJUSDT": {
     "last_signal": "sell",
