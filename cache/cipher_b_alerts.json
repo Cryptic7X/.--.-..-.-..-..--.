@@ -200,8 +200,8 @@
     "last_alert_time": 1761945518.3167906
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761966831.366966
+    "last_signal": "sell",
+    "last_alert_time": 1762000838.9105506
   },
   "MUSDT": {
     "last_signal": "sell",
