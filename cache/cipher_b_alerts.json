@@ -8,8 +8,8 @@
     "last_alert_time": 1761933164.4801989
   },
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761889384.2786028
+    "last_signal": "buy",
+    "last_alert_time": 1761966830.9300632
   },
   "SUIUSDT": {
     "last_signal": "sell",
@@ -198,5 +198,9 @@
   "PUMPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761945518.3167906
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1761966831.366966
   }
 }
