@@ -188,8 +188,8 @@
     "last_alert_time": 1761933164.2328603
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761933165.0185323
+    "last_signal": "sell",
+    "last_alert_time": 1761988971.4697056
   },
   "AAVEUSDT": {
     "last_signal": "sell",
@@ -210,5 +210,9 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761972140.9298894
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761988970.916453
   }
 }
