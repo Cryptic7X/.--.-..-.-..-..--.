@@ -212,8 +212,8 @@
     "last_alert_time": 1761972140.9298894
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761988970.916453
+    "last_signal": "buy",
+    "last_alert_time": 1762010333.4526186
   },
   "ETHUSDT": {
     "last_signal": "sell",
