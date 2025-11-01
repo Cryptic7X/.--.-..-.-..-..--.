@@ -132,8 +132,8 @@
     "last_alert_time": 1761969018.3877997
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761906249.605367
+    "last_signal": "sell",
+    "last_alert_time": 1761989930.780736
   },
   "DOTUSDT": {
     "last_signal": "buy",
@@ -160,8 +160,8 @@
     "last_alert_time": 1761914782.940539
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761933165.0880187
+    "last_signal": "sell",
+    "last_alert_time": 1761989930.4055045
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,13 @@
   "CROUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761988970.916453
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761989929.4233327
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1761989931.122959
   }
 }
