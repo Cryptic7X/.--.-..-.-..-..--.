@@ -64,8 +64,8 @@
     "last_alert_time": 1761971057.8850534
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761890098.6453922
+    "last_signal": "buy",
+    "last_alert_time": 1762007980.1434617
   },
   "BEAMUSDT": {
     "last_signal": "buy",
@@ -92,8 +92,8 @@
     "last_alert_time": 1761986694.8679078
   },
   "PIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761914783.503863
+    "last_signal": "buy",
+    "last_alert_time": 1762007981.038898
   },
   "PENGUUSDT": {
     "last_signal": "buy",
