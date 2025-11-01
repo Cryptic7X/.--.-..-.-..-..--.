@@ -120,8 +120,8 @@
     "last_alert_time": 1761932484.176994
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761902692.6715732
+    "last_signal": "sell",
+    "last_alert_time": 1762005134.4060895
   },
   "SPXUSDT": {
     "last_signal": "buy",
