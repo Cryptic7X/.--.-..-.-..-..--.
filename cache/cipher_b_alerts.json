@@ -76,8 +76,8 @@
     "last_alert_time": 1761978632.4672577
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762096776.1020036
+    "last_signal": "sell",
+    "last_alert_time": 1762123227.2300618
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1762097911.2580554
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761981531.7152283
+    "last_signal": "sell",
+    "last_alert_time": 1762123225.9703922
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1762096775.9734497
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762096776.1070395
+    "last_signal": "sell",
+    "last_alert_time": 1762123227.1083534
   },
   "LDOUSDT": {
     "last_signal": "buy",
