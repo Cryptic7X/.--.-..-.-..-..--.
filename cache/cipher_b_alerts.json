@@ -120,8 +120,8 @@
     "last_alert_time": 1761932484.176994
   },
   "APTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762005134.4060895
+    "last_signal": "buy",
+    "last_alert_time": 1762097910.9709663
   },
   "SPXUSDT": {
     "last_signal": "buy",
@@ -140,12 +140,12 @@
     "last_alert_time": 1762096774.6478944
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761969019.3667617
+    "last_signal": "buy",
+    "last_alert_time": 1762097911.4689183
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761986695.0945976
+    "last_signal": "buy",
+    "last_alert_time": 1762097911.2580554
   },
   "SOLUSDT": {
     "last_signal": "buy",
