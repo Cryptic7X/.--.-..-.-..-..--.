@@ -40,8 +40,8 @@
     "last_alert_time": 1761889384.9384377
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761889385.06568
+    "last_signal": "buy",
+    "last_alert_time": 1762101828.5472746
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -64,8 +64,8 @@
     "last_alert_time": 1762053472.1972053
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762060869.382138
+    "last_signal": "buy",
+    "last_alert_time": 1762101827.4970655
   },
   "BEAMUSDT": {
     "last_signal": "buy",
