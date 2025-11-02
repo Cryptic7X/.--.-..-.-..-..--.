@@ -48,8 +48,8 @@
     "last_alert_time": 1762031844.649165
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761986695.2938666
+    "last_signal": "buy",
+    "last_alert_time": 1762080706.8399231
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1761981532.254124
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762060869.817036
+    "last_signal": "buy",
+    "last_alert_time": 1762080706.234635
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -128,8 +128,8 @@
     "last_alert_time": 1762031844.9325876
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762030305.2685914
+    "last_signal": "buy",
+    "last_alert_time": 1762080706.2025414
   },
   "INJUSDT": {
     "last_signal": "sell",
