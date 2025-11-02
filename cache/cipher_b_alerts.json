@@ -64,8 +64,8 @@
     "last_alert_time": 1762053472.1972053
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762007980.1434617
+    "last_signal": "sell",
+    "last_alert_time": 1762060869.382138
   },
   "BEAMUSDT": {
     "last_signal": "buy",
@@ -84,16 +84,16 @@
     "last_alert_time": 1761981532.254124
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761899366.341354
+    "last_signal": "sell",
+    "last_alert_time": 1762060869.817036
   },
   "WLDUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1761986694.8679078
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762007981.038898
+    "last_signal": "sell",
+    "last_alert_time": 1762060870.149539
   },
   "PENGUUSDT": {
     "last_signal": "buy",
