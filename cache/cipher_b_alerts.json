@@ -104,8 +104,8 @@
     "last_alert_time": 1762031844.8565736
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761985577.700281
+    "last_signal": "buy",
+    "last_alert_time": 1762057815.2010214
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
@@ -188,8 +188,8 @@
     "last_alert_time": 1761933164.2328603
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1761988971.4697056
+    "last_signal": "buy",
+    "last_alert_time": 1762057814.33638
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "GALAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762031845.1411119
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762057815.1325717
   }
 }
