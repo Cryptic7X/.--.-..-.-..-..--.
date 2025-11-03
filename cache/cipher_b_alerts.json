@@ -204,8 +204,8 @@
     "last_alert_time": 1762096775.1907117
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762181126.2776012
+    "last_signal": "buy",
+    "last_alert_time": 1762204819.2329664
   },
   "BTCUSDT": {
     "last_signal": "buy",
