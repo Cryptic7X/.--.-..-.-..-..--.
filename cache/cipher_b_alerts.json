@@ -68,8 +68,8 @@
     "last_alert_time": 1762101827.4970655
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762096776.2091973
+    "last_signal": "sell",
+    "last_alert_time": 1762220870.3385427
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -112,8 +112,8 @@
     "last_alert_time": 1762096776.1125488
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762053472.1847646
+    "last_signal": "sell",
+    "last_alert_time": 1762220870.4353123
   },
   "ASTERUSDT": {
     "last_signal": "buy",
