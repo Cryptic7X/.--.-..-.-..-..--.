@@ -76,8 +76,8 @@
     "last_alert_time": 1761978632.4672577
   },
   "JTOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762231535.076554
+    "last_signal": "buy",
+    "last_alert_time": 1762282499.2036343
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1762231534.645821
   },
   "DOTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762230383.4674323
+    "last_signal": "buy",
+    "last_alert_time": 1762282497.2632313
   },
   "IMXUSDT": {
     "last_signal": "buy",
