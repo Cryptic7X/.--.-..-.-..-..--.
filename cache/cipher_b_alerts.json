@@ -176,8 +176,8 @@
     "last_alert_time": 1762225951.1707053
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762230383.9640934
+    "last_signal": "buy",
+    "last_alert_time": 1762242845.091755
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
