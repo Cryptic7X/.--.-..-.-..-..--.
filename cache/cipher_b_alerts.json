@@ -208,8 +208,8 @@
     "last_alert_time": 1762249976.7660792
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762102512.8172107
+    "last_signal": "sell",
+    "last_alert_time": 1762356158.984348
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1762096775.9734497
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762144969.2556415
+    "last_signal": "sell",
+    "last_alert_time": 1762356161.1888318
   },
   "LDOUSDT": {
     "last_signal": "sell",
