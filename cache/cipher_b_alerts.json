@@ -136,8 +136,8 @@
     "last_alert_time": 1762289063.8021724
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762282497.2632313
+    "last_signal": "sell",
+    "last_alert_time": 1762386755.625133
   },
   "IMXUSDT": {
     "last_signal": "buy",
