@@ -36,8 +36,8 @@
     "last_alert_time": 1762230384.1670272
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762228154.0464058
+    "last_signal": "buy",
+    "last_alert_time": 1762338348.9825377
   },
   "SEIUSDT": {
     "last_signal": "buy",
