@@ -4,8 +4,8 @@
     "last_alert_time": 1762352592.5477746
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762096774.8920796
+    "last_signal": "sell",
+    "last_alert_time": 1762367567.9541109
   },
   "TRXUSDT": {
     "last_signal": "sell",
@@ -44,8 +44,8 @@
     "last_alert_time": 1762360371.4046915
   },
   "JUPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762083535.8293297
+    "last_signal": "sell",
+    "last_alert_time": 1762367569.0371966
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -64,8 +64,8 @@
     "last_alert_time": 1762352594.9268122
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762101827.4970655
+    "last_signal": "sell",
+    "last_alert_time": 1762367567.7489154
   },
   "BEAMUSDT": {
     "last_signal": "buy",
