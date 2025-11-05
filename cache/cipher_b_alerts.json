@@ -1,7 +1,7 @@
 {
   "BNBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762352592.5477746
+    "last_signal": "buy",
+    "last_alert_time": 1762379525.6138568
   },
   "AVAXUSDT": {
     "last_signal": "sell",
@@ -188,8 +188,8 @@
     "last_alert_time": 1762360370.5287333
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762327482.7492714
+    "last_signal": "buy",
+    "last_alert_time": 1762379526.3821933
   },
   "AAVEUSDT": {
     "last_signal": "sell",
