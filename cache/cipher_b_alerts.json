@@ -96,8 +96,8 @@
     "last_alert_time": 1762096775.3780925
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1761900610.7221825
+    "last_signal": "sell",
+    "last_alert_time": 1762349670.7537663
   },
   "CRVUSDT": {
     "last_signal": "buy",
