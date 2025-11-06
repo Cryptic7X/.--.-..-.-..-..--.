@@ -176,8 +176,8 @@
     "last_alert_time": 1762436020.8348129
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762436021.8074863
+    "last_signal": "sell",
+    "last_alert_time": 1762461842.5547433
   },
   "BNBUSDT": {
     "last_signal": "buy",
