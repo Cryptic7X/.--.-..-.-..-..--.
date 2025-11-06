@@ -20,8 +20,8 @@
     "last_alert_time": 1762393737.9259346
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762393738.0112834
+    "last_signal": "sell",
+    "last_alert_time": 1762439002.1251419
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1762410871.0002162
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762414850.6777468
+    "last_signal": "sell",
+    "last_alert_time": 1762439001.5941477
   },
   "OKBUSDT": {
     "last_signal": "buy",
