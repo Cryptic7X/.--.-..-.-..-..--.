@@ -154,5 +154,9 @@
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762426049.9108372
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762433283.2632735
   }
 }
