@@ -86,5 +86,9 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762393739.1226833
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762398984.1562014
   }
 }
