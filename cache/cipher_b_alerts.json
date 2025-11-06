@@ -138,5 +138,9 @@
   "NEARUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762414850.6777468
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762415560.0226235
   }
 }
