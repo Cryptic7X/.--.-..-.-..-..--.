@@ -142,5 +142,13 @@
   "OKBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762415560.0226235
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762424787.0847154
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762424787.0979602
   }
 }
