@@ -96,8 +96,8 @@
     "last_alert_time": 1762442740.918336
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762403700.6411772
+    "last_signal": "sell",
+    "last_alert_time": 1762446638.9633193
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -186,5 +186,21 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762442741.8486955
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762446637.9234958
+  },
+  "ONDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762446638.6663632
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762446639.2282314
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762446639.4677424
   }
 }
