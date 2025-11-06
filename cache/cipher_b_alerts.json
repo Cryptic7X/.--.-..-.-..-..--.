@@ -90,5 +90,13 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762398984.1562014
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762403700.3015132
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762403700.6411772
   }
 }
