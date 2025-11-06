@@ -210,5 +210,21 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762448355.6263723
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762450085.717912
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762450086.059139
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762450086.8258417
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762450086.9208179
   }
 }
