@@ -158,5 +158,25 @@
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762433283.2632735
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762436020.5898697
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762436020.6148887
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762436020.6289148
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762436020.8348129
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762436021.8074863
   }
 }
