@@ -202,5 +202,13 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762446639.4677424
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762448354.155765
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762448355.6263723
   }
 }
