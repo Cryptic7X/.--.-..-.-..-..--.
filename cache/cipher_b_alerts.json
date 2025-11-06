@@ -134,5 +134,9 @@
   "GALAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762410871.0002162
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762414850.6777468
   }
 }
