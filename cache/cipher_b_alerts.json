@@ -150,5 +150,9 @@
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762424787.0979602
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762426049.9108372
   }
 }
