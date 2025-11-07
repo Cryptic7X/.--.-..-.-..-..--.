@@ -200,8 +200,8 @@
     "last_alert_time": 1762480058.1298218
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762446639.4677424
+    "last_signal": "sell",
+    "last_alert_time": 1762485186.9069169
   },
   "SUIUSDT": {
     "last_signal": "buy",
