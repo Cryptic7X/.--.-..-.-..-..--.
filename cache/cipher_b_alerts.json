@@ -184,8 +184,8 @@
     "last_alert_time": 1762487423.3226562
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762442741.8486955
+    "last_signal": "sell",
+    "last_alert_time": 1762505812.6532285
   },
   "ETHUSDT": {
     "last_signal": "sell",
@@ -212,8 +212,8 @@
     "last_alert_time": 1762489582.957645
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762450085.717912
+    "last_signal": "sell",
+    "last_alert_time": 1762505811.3043594
   },
   "CROUSDT": {
     "last_signal": "sell",
