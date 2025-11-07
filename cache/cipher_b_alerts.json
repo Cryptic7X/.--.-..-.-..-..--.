@@ -52,8 +52,8 @@
     "last_alert_time": 1762487424.3056662
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762480057.9932096
+    "last_signal": "buy",
+    "last_alert_time": 1762512305.6330583
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
@@ -140,8 +140,8 @@
     "last_alert_time": 1762439001.5941477
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762487423.7578158
+    "last_signal": "buy",
+    "last_alert_time": 1762512304.9730299
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -188,16 +188,16 @@
     "last_alert_time": 1762505812.6532285
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762487423.274133
+    "last_signal": "buy",
+    "last_alert_time": 1762512304.5636692
   },
   "ONDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762487424.0113604
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762480058.1298218
+    "last_signal": "buy",
+    "last_alert_time": 1762512305.5827687
   },
   "ENSUSDT": {
     "last_signal": "sell",
