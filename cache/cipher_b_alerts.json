@@ -142,5 +142,13 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762540300.462344
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762541567.480718
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762541567.5632544
   }
 }
