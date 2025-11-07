@@ -158,5 +158,9 @@
   "HYPEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762546962.2018893
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762550213.754352
   }
 }
