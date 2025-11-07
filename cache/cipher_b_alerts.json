@@ -144,16 +144,16 @@
     "last_alert_time": 1762487423.7578158
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762487423.2818615
+    "last_signal": "buy",
+    "last_alert_time": 1762511096.762282
   },
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762424787.0979602
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762443944.3265986
+    "last_signal": "buy",
+    "last_alert_time": 1762511097.1413362
   },
   "ICPUSDT": {
     "last_signal": "sell",
