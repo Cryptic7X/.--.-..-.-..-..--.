@@ -1,7 +1,7 @@
 {
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762393737.3774664
+    "last_signal": "sell",
+    "last_alert_time": 1762489581.6951392
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -56,8 +56,8 @@
     "last_alert_time": 1762480057.9932096
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762393738.6801488
+    "last_signal": "sell",
+    "last_alert_time": 1762489582.6763725
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1762448354.155765
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762448355.6263723
+    "last_signal": "sell",
+    "last_alert_time": 1762489582.957645
   },
   "HYPEUSDT": {
     "last_signal": "buy",
