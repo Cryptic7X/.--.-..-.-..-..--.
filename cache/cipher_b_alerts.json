@@ -28,8 +28,8 @@
     "last_alert_time": 1762516337.7175279
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762516337.7932785
+    "last_signal": "sell",
+    "last_alert_time": 1762530842.440166
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -178,5 +178,13 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762522224.2798862
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762530842.4303591
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762530842.5314884
   }
 }
