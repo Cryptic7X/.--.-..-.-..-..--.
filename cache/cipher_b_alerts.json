@@ -106,5 +106,41 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762537983.5651467
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540298.467379
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540298.526076
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.0705178
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.1002913
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.303187
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.360334
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.6580162
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540299.9186606
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762540300.462344
   }
 }
