@@ -136,8 +136,8 @@
     "last_alert_time": 1762535976.5184743
   },
   "ADAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762522221.5977354
+    "last_signal": "sell",
+    "last_alert_time": 1762537276.7138731
   },
   "AVAXUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1762522223.8394773
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762522224.0665977
+    "last_signal": "sell",
+    "last_alert_time": 1762537278.2614093
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,13 @@
   "ENSUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762535977.98173
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762537276.9519625
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762537277.8486466
   }
 }
