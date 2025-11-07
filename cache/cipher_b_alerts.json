@@ -106,5 +106,17 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762516338.9525876
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762519548.1537063
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762519548.4338396
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762519549.119302
   }
 }
