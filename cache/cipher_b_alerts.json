@@ -182,5 +182,33 @@
   "XRPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762605653.4422245
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612785.9444437
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612786.0047517
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612786.2373748
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612786.3257215
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612786.8492386
+  },
+  "RAYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612788.1042318
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762612788.407805
   }
 }
