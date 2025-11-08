@@ -174,5 +174,13 @@
   "CRVUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762566129.724564
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762572989.9465075
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762572991.1937191
   }
 }
