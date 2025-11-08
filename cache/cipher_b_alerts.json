@@ -150,5 +150,13 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762584816.8421428
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762586376.04184
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762586376.1226788
   }
 }
