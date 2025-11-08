@@ -218,5 +218,9 @@
   "INJUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762613531.614034
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762619122.3138883
   }
 }
