@@ -4,8 +4,8 @@
     "last_alert_time": 1762583459.4519396
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762583459.5979378
+    "last_signal": "sell",
+    "last_alert_time": 1762642324.1163323
   },
   "JASMYUSDT": {
     "last_signal": "buy",
@@ -28,8 +28,8 @@
     "last_alert_time": 1762584815.028776
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584815.1099293
+    "last_signal": "sell",
+    "last_alert_time": 1762642322.405834
   },
   "HBARUSDT": {
     "last_signal": "buy",
