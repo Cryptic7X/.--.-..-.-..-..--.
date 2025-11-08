@@ -180,8 +180,8 @@
     "last_alert_time": 1762605653.4091985
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762605653.4422245
+    "last_signal": "sell",
+    "last_alert_time": 1762641592.9348714
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762620267.5333743
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762641592.952046
   }
 }
