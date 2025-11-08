@@ -136,8 +136,8 @@
     "last_alert_time": 1762584816.6023498
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.7022502
+    "last_signal": "sell",
+    "last_alert_time": 1762597245.4102635
   },
   "GALAUSDT": {
     "last_signal": "buy",
