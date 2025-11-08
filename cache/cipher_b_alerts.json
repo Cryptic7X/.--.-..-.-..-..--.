@@ -158,5 +158,9 @@
   "ATOMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762586376.1226788
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762588332.627341
   }
 }
