@@ -76,8 +76,8 @@
     "last_alert_time": 1762584815.8991845
   },
   "POLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762602731.4278944
+    "last_signal": "buy",
+    "last_alert_time": 1762613531.186412
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -210,5 +210,13 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762612788.407805
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762613530.7571929
+  },
+  "INJUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762613531.614034
   }
 }
