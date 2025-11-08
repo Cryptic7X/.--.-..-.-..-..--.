@@ -16,12 +16,12 @@
     "last_alert_time": 1762583459.7434032
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762583459.7618532
+    "last_signal": "sell",
+    "last_alert_time": 1762602732.1366186
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762583459.805904
+    "last_signal": "sell",
+    "last_alert_time": 1762602732.2387836
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -48,8 +48,8 @@
     "last_alert_time": 1762584815.5295646
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584815.6417913
+    "last_signal": "sell",
+    "last_alert_time": 1762602731.158858
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -76,8 +76,8 @@
     "last_alert_time": 1762584815.8991845
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584815.940341
+    "last_signal": "sell",
+    "last_alert_time": 1762602731.4278944
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1762584816.5502727
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.5576088
+    "last_signal": "sell",
+    "last_alert_time": 1762602731.8763633
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -170,5 +170,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762593623.8072665
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762602731.6247413
   }
 }
