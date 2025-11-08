@@ -88,8 +88,8 @@
     "last_alert_time": 1762584815.9904702
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.0810397
+    "last_signal": "sell",
+    "last_alert_time": 1762605654.5809095
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -144,8 +144,8 @@
     "last_alert_time": 1762584816.7598011
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.8355248
+    "last_signal": "sell",
+    "last_alert_time": 1762605655.3033953
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -174,5 +174,13 @@
   "SEIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762602731.6247413
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762605653.4091985
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762605653.4422245
   }
 }
