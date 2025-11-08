@@ -36,8 +36,8 @@
     "last_alert_time": 1762584815.3374941
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584815.3900962
+    "last_signal": "sell",
+    "last_alert_time": 1762601912.26703
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1762584816.301202
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.3310566
+    "last_signal": "sell",
+    "last_alert_time": 1762601912.5363133
   },
   "LDOUSDT": {
     "last_signal": "buy",
