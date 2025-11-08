@@ -36,8 +36,8 @@
     "last_alert_time": 1762584815.3374941
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762601912.26703
+    "last_signal": "buy",
+    "last_alert_time": 1762620266.893208
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -222,5 +222,17 @@
   "ENAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762619122.3138883
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762620266.2399259
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762620266.5723522
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1762620267.5333743
   }
 }
