@@ -212,8 +212,8 @@
     "last_alert_time": 1762612788.407805
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762613530.7571929
+    "last_signal": "sell",
+    "last_alert_time": 1762638730.786479
   },
   "INJUSDT": {
     "last_signal": "buy",
