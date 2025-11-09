@@ -170,5 +170,9 @@
   "UNIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762715766.7769732
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762717926.3890524
   }
 }
