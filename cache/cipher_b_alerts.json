@@ -174,5 +174,17 @@
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762717926.3890524
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762719716.960007
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762719718.6587682
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762719718.7876947
   }
 }
