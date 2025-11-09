@@ -186,5 +186,13 @@
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762719718.7876947
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762720809.9855335
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762720810.3373353
   }
 }
