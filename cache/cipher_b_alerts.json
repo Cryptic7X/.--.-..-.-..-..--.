@@ -162,5 +162,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762708625.4455051
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762712911.2149682
   }
 }
