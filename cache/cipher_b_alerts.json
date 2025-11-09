@@ -166,5 +166,9 @@
   "APTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762712911.2149682
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762715766.7769732
   }
 }
