@@ -150,5 +150,17 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762705495.4793825
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762708623.9976737
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762708624.2837985
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762708625.4455051
   }
 }
