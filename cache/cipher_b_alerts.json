@@ -88,8 +88,8 @@
     "last_alert_time": 1762584815.9904702
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762605654.5809095
+    "last_signal": "buy",
+    "last_alert_time": 1762662398.1132367
   },
   "PENGUUSDT": {
     "last_signal": "buy",
