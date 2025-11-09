@@ -44,8 +44,8 @@
     "last_alert_time": 1762584815.3964508
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762660551.3264875
+    "last_signal": "sell",
+    "last_alert_time": 1762695233.5206623
   },
   "NEARUSDT": {
     "last_signal": "sell",
