@@ -148,8 +148,8 @@
     "last_alert_time": 1762605655.3033953
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.8421428
+    "last_signal": "sell",
+    "last_alert_time": 1762676732.7592585
   },
   "ICPUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1762605653.4091985
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762660551.0350251
+    "last_signal": "sell",
+    "last_alert_time": 1762676730.790354
   },
   "DOGEUSDT": {
     "last_signal": "buy",
