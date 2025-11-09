@@ -16,8 +16,8 @@
     "last_alert_time": 1762583459.7434032
   },
   "BEAMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762602732.1366186
+    "last_signal": "buy",
+    "last_alert_time": 1762658144.469096
   },
   "BERAUSDT": {
     "last_signal": "sell",
@@ -136,8 +136,8 @@
     "last_alert_time": 1762584816.6023498
   },
   "SUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762597245.4102635
+    "last_signal": "buy",
+    "last_alert_time": 1762658144.325879
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -172,8 +172,8 @@
     "last_alert_time": 1762593623.8072665
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762602731.6247413
+    "last_signal": "buy",
+    "last_alert_time": 1762658143.7667246
   },
   "SOLUSDT": {
     "last_signal": "buy",
