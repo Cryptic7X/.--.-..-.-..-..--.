@@ -194,5 +194,9 @@
   "OKBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762720810.3373353
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762721536.7262442
   }
 }
