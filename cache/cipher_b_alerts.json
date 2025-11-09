@@ -112,8 +112,8 @@
     "last_alert_time": 1762584816.3433652
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762584816.4614859
+    "last_signal": "sell",
+    "last_alert_time": 1762677778.6534474
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -220,8 +220,8 @@
     "last_alert_time": 1762613531.614034
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762619122.3138883
+    "last_signal": "sell",
+    "last_alert_time": 1762677777.8363917
   },
   "ETHUSDT": {
     "last_signal": "buy",
