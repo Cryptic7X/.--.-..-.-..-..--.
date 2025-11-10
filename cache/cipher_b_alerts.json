@@ -120,8 +120,8 @@
     "last_alert_time": 1762705493.708044
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705493.8402228
+    "last_signal": "buy",
+    "last_alert_time": 1762763550.5048957
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1762760491.1111553
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762728048.251987
+    "last_signal": "buy",
+    "last_alert_time": 1762763550.7647772
   },
   "CAKEUSDT": {
     "last_signal": "sell",
