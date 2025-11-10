@@ -80,8 +80,8 @@
     "last_alert_time": 1762789435.4117472
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762773565.6840944
+    "last_signal": "sell",
+    "last_alert_time": 1762807567.1656122
   },
   "POLUSDT": {
     "last_signal": "buy",
