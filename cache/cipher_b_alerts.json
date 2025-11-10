@@ -64,8 +64,8 @@
     "last_alert_time": 1762705492.7731872
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705492.9641476
+    "last_signal": "buy",
+    "last_alert_time": 1762788335.1368082
   },
   "PUMPUSDT": {
     "last_signal": "sell",
@@ -164,8 +164,8 @@
     "last_alert_time": 1762708625.4455051
   },
   "APTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762712911.2149682
+    "last_signal": "buy",
+    "last_alert_time": 1762788335.3345897
   },
   "UNIUSDT": {
     "last_signal": "sell",
