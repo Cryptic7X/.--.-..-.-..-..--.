@@ -176,8 +176,8 @@
     "last_alert_time": 1762744893.8567412
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762719716.960007
+    "last_signal": "buy",
+    "last_alert_time": 1762792367.0551515
   },
   "PENGUUSDT": {
     "last_signal": "sell",
@@ -188,8 +188,8 @@
     "last_alert_time": 1762767124.2409456
   },
   "HBARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762720809.9855335
+    "last_signal": "buy",
+    "last_alert_time": 1762792367.3137126
   },
   "OKBUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1762763550.7647772
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762739587.3698516
+    "last_signal": "buy",
+    "last_alert_time": 1762792368.2418222
   },
   "PIUSDT": {
     "last_signal": "sell",
