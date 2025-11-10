@@ -210,5 +210,9 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1762728048.251987
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1762739587.3698516
   }
 }
