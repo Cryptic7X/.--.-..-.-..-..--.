@@ -1,7 +1,7 @@
 {
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762795507.2659328
+    "last_signal": "sell",
+    "last_alert_time": 1762816918.8522868
   },
   "SUSDT": {
     "last_signal": "buy",
@@ -160,8 +160,8 @@
     "last_alert_time": 1762795506.213814
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762795507.5012243
+    "last_signal": "sell",
+    "last_alert_time": 1762816919.0812838
   },
   "APTUSDT": {
     "last_signal": "buy",
