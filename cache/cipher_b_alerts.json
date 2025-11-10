@@ -48,8 +48,8 @@
     "last_alert_time": 1762795506.146642
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705492.497791
+    "last_signal": "buy",
+    "last_alert_time": 1762813330.4737506
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -92,8 +92,8 @@
     "last_alert_time": 1762795506.6671677
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705493.3561985
+    "last_signal": "buy",
+    "last_alert_time": 1762813330.7412589
   },
   "ATOMUSDT": {
     "last_signal": "sell",
