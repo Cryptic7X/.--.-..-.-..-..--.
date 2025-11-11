@@ -40,8 +40,8 @@
     "last_alert_time": 1762849835.5352647
   },
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762749653.161293
+    "last_signal": "buy",
+    "last_alert_time": 1762899699.7294662
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -68,8 +68,8 @@
     "last_alert_time": 1762892709.0051725
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705493.0036836
+    "last_signal": "buy",
+    "last_alert_time": 1762899700.0345995
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -196,8 +196,8 @@
     "last_alert_time": 1762789434.9935613
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762882986.9421499
+    "last_signal": "buy",
+    "last_alert_time": 1762899701.0332055
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1762763550.7647772
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762817993.3389366
+    "last_signal": "buy",
+    "last_alert_time": 1762899700.6484406
   },
   "PIUSDT": {
     "last_signal": "buy",
