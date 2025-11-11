@@ -136,8 +136,8 @@
     "last_alert_time": 1762842899.027628
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762840486.1047509
+    "last_signal": "sell",
+    "last_alert_time": 1762881618.8503673
   },
   "JUPUSDT": {
     "last_signal": "sell",
