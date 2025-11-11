@@ -120,8 +120,8 @@
     "last_alert_time": 1762849835.1835222
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762842899.0338645
+    "last_signal": "sell",
+    "last_alert_time": 1762882986.4159582
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1762789434.9935613
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762795507.419198
+    "last_signal": "sell",
+    "last_alert_time": 1762882986.9421499
   },
   "LTCUSDT": {
     "last_signal": "buy",
