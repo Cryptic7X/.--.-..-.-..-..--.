@@ -72,8 +72,8 @@
     "last_alert_time": 1762705493.0036836
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762789435.1753006
+    "last_signal": "sell",
+    "last_alert_time": 1762830960.1196153
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -152,8 +152,8 @@
     "last_alert_time": 1762795507.7135377
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762767123.1114657
+    "last_signal": "sell",
+    "last_alert_time": 1762830959.5481613
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1762784577.1606686
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762789435.1287973
+    "last_signal": "sell",
+    "last_alert_time": 1762830960.0671656
   },
   "MNTUSDT": {
     "last_signal": "buy",
