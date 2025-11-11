@@ -24,8 +24,8 @@
     "last_alert_time": 1762842898.1680388
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705492.0076134
+    "last_signal": "buy",
+    "last_alert_time": 1762878613.0887442
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -56,12 +56,12 @@
     "last_alert_time": 1762778945.9245427
   },
   "SOLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705492.7443142
+    "last_signal": "buy",
+    "last_alert_time": 1762878613.1998055
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705492.7731872
+    "last_signal": "buy",
+    "last_alert_time": 1762878613.3011622
   },
   "TAOUSDT": {
     "last_signal": "sell",
