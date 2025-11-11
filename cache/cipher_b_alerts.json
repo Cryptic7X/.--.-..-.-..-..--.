@@ -124,8 +124,8 @@
     "last_alert_time": 1762882986.4159582
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762705493.8819118
+    "last_signal": "buy",
+    "last_alert_time": 1762896011.741635
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1762853365.6817596
   },
   "LDOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762806434.3277402
+    "last_signal": "buy",
+    "last_alert_time": 1762896012.1814978
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -240,8 +240,8 @@
     "last_alert_time": 1762889957.6583562
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1762883666.349558
+    "last_signal": "buy",
+    "last_alert_time": 1762896011.507479
   },
   "AVAXUSDT": {
     "last_signal": "buy",
