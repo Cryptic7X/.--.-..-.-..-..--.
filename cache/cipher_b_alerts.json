@@ -60,8 +60,8 @@
     "last_alert_time": 1762932376.9888272
   },
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762878613.3011622
+    "last_signal": "sell",
+    "last_alert_time": 1762943177.584993
   },
   "TAOUSDT": {
     "last_signal": "sell",
