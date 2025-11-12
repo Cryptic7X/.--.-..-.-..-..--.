@@ -40,16 +40,16 @@
     "last_alert_time": 1762849835.5352647
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762899699.7294662
+    "last_signal": "sell",
+    "last_alert_time": 1762929287.8551779
   },
   "CROUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762849835.472289
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762813330.4737506
+    "last_signal": "sell",
+    "last_alert_time": 1762929287.8836513
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -236,8 +236,8 @@
     "last_alert_time": 1762840485.8848877
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762889957.6583562
+    "last_signal": "sell",
+    "last_alert_time": 1762929288.8468997
   },
   "SPXUSDT": {
     "last_signal": "buy",
