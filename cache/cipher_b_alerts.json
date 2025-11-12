@@ -100,8 +100,8 @@
     "last_alert_time": 1762968463.072065
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966709.0313244
+    "last_signal": "sell",
+    "last_alert_time": 1762987426.4373622
   },
   "SEIUSDT": {
     "last_signal": "buy",
