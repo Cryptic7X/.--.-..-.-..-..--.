@@ -156,8 +156,8 @@
     "last_alert_time": 1762885941.2748759
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762795506.213814
+    "last_signal": "sell",
+    "last_alert_time": 1762948337.165309
   },
   "BRETTUSDT": {
     "last_signal": "sell",
