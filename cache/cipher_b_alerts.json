@@ -132,8 +132,8 @@
     "last_alert_time": 1762842899.0212069
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762842899.027628
+    "last_signal": "sell",
+    "last_alert_time": 1762922852.8362284
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1762792367.3137126
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762789434.9935613
+    "last_signal": "sell",
+    "last_alert_time": 1762922851.9973335
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
