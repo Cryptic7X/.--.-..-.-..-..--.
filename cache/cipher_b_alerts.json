@@ -216,8 +216,8 @@
     "last_alert_time": 1762899700.6484406
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762889956.8778737
+    "last_signal": "sell",
+    "last_alert_time": 1762933323.2657354
   },
   "ETCUSDT": {
     "last_signal": "buy",
