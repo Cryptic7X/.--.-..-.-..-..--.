@@ -4,8 +4,8 @@
     "last_alert_time": 1762926899.8471239
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762728765.6001463
+    "last_signal": "sell",
+    "last_alert_time": 1762944492.33085
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -16,8 +16,8 @@
     "last_alert_time": 1762930640.9882975
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762789437.4277475
+    "last_signal": "sell",
+    "last_alert_time": 1762944492.6157749
   },
   "XRPUSDT": {
     "last_signal": "buy",
