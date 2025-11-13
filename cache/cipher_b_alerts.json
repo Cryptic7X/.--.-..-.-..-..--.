@@ -154,5 +154,25 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763017033.1361635
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763018763.9026875
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763018764.2141573
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763018764.7078145
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763018765.3920565
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763018765.6186588
   }
 }
