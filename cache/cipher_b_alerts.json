@@ -226,5 +226,13 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763060192.0330117
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763061658.5791678
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763061660.3700352
   }
 }
