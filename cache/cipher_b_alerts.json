@@ -20,8 +20,8 @@
     "last_alert_time": 1762944492.6157749
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762842898.1680388
+    "last_signal": "sell",
+    "last_alert_time": 1763008462.2848485
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -44,8 +44,8 @@
     "last_alert_time": 1762966708.9407024
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966708.3226721
+    "last_signal": "sell",
+    "last_alert_time": 1763008462.5891788
   },
   "WLFIUSDT": {
     "last_signal": "buy",
@@ -72,8 +72,8 @@
     "last_alert_time": 1762968462.6148827
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762968462.7686818
+    "last_signal": "sell",
+    "last_alert_time": 1763008462.8879008
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -88,16 +88,16 @@
     "last_alert_time": 1762968462.923243
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966708.9842978
+    "last_signal": "sell",
+    "last_alert_time": 1763008463.152476
   },
   "NEARUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1762965072.2455168
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762968463.072065
+    "last_signal": "sell",
+    "last_alert_time": 1763008463.3398993
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -120,8 +120,8 @@
     "last_alert_time": 1762849835.1835222
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762969391.248997
+    "last_signal": "sell",
+    "last_alert_time": 1763008463.6490686
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1762932379.1479757
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966709.8917542
+    "last_signal": "sell",
+    "last_alert_time": 1763008463.951166
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1762966709.2661881
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966708.2734952
+    "last_signal": "sell",
+    "last_alert_time": 1763008462.5771425
   },
   "OKBUSDT": {
     "last_signal": "sell",
@@ -232,8 +232,8 @@
     "last_alert_time": 1762930639.563358
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966709.2941432
+    "last_signal": "sell",
+    "last_alert_time": 1763008463.6158254
   },
   "ENSUSDT": {
     "last_signal": "buy",
