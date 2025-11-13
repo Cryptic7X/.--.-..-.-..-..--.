@@ -172,8 +172,8 @@
     "last_alert_time": 1763052693.5248725
   },
   "JTOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763018765.6186588
+    "last_signal": "buy",
+    "last_alert_time": 1763055838.9595692
   },
   "HYPEUSDT": {
     "last_signal": "sell",
@@ -218,5 +218,9 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763054504.115954
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763055839.1329908
   }
 }
