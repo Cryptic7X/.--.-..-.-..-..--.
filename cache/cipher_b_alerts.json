@@ -60,8 +60,8 @@
     "last_alert_time": 1762966707.9666798
   },
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966708.2206979
+    "last_signal": "sell",
+    "last_alert_time": 1763011383.5043433
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -132,8 +132,8 @@
     "last_alert_time": 1762966709.4994886
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762968463.5768788
+    "last_signal": "sell",
+    "last_alert_time": 1763011384.5729978
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -176,8 +176,8 @@
     "last_alert_time": 1762965072.6028557
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762966707.9446409
+    "last_signal": "sell",
+    "last_alert_time": 1763011383.2778783
   },
   "PENGUUSDT": {
     "last_signal": "buy",
