@@ -70,5 +70,89 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763015755.433228
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.7136836
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.738286
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.7594643
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.7670043
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.771839
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.789285
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.9214246
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.945606
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017031.9559484
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.0104825
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.2941363
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.414288
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.4636865
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.661961
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.6693997
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.6997468
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.9147131
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.939819
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017032.9692817
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017033.1158
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763017033.1361635
   }
 }
