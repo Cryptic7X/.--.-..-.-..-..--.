@@ -194,5 +194,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763038210.9394283
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763043804.727117
   }
 }
