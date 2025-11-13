@@ -234,5 +234,9 @@
   "ETHFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763061660.3700352
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763066666.573133
   }
 }
