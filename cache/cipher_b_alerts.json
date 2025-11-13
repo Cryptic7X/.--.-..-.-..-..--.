@@ -182,5 +182,9 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763019716.3386
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763022668.3544867
   }
 }
