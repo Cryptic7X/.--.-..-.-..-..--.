@@ -190,5 +190,9 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763029574.8759043
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763038210.9394283
   }
 }
