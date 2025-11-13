@@ -174,5 +174,13 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763018765.6186588
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763019715.7630699
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763019716.3386
   }
 }
