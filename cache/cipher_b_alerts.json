@@ -186,5 +186,9 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763022668.3544867
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763029574.8759043
   }
 }
