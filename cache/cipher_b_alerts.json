@@ -168,8 +168,8 @@
     "last_alert_time": 1762788335.3345897
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1762842897.687355
+    "last_signal": "sell",
+    "last_alert_time": 1763003834.9808257
   },
   "ICPUSDT": {
     "last_signal": "buy",
