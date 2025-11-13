@@ -184,8 +184,8 @@
     "last_alert_time": 1763052691.7675529
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763022668.3544867
+    "last_signal": "buy",
+    "last_alert_time": 1763054504.7759163
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -214,5 +214,9 @@
   "SPXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763052693.343837
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763054504.115954
   }
 }
