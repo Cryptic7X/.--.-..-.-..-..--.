@@ -8,8 +8,8 @@
     "last_alert_time": 1763058814.5580797
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763077926.9396768
+    "last_signal": "buy",
+    "last_alert_time": 1763097757.019325
   },
   "AVAXUSDT": {
     "last_signal": "buy",
@@ -242,5 +242,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763077212.739633
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763097757.4073684
   }
 }
