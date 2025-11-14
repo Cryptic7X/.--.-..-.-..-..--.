@@ -44,8 +44,8 @@
     "last_alert_time": 1763058815.0630555
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.1301415
+    "last_signal": "sell",
+    "last_alert_time": 1763151943.2460122
   },
   "ENAUSDT": {
     "last_signal": "sell",
