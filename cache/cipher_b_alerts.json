@@ -200,8 +200,8 @@
     "last_alert_time": 1763142137.1018686
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763092625.356765
+    "last_signal": "buy",
+    "last_alert_time": 1763148005.6302202
   },
   "CRVUSDT": {
     "last_signal": "buy",
