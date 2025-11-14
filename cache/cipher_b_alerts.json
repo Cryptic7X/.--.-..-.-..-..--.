@@ -36,8 +36,8 @@
     "last_alert_time": 1763058814.9176054
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.0153837
+    "last_signal": "sell",
+    "last_alert_time": 1763133663.1329713
   },
   "NEARUSDT": {
     "last_signal": "buy",
