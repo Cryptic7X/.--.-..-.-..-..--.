@@ -20,8 +20,8 @@
     "last_alert_time": 1763058814.625016
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058814.649475
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.7962208
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -56,12 +56,12 @@
     "last_alert_time": 1763127122.1638458
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.2621005
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.0038037
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.3115187
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.0578427
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1763058815.6044726
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.648669
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.3948946
   },
   "SEIUSDT": {
     "last_signal": "sell",
@@ -100,8 +100,8 @@
     "last_alert_time": 1763058815.9081306
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.9529924
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.6351128
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -132,8 +132,8 @@
     "last_alert_time": 1763090137.416408
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058816.5260704
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.9948635
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -152,8 +152,8 @@
     "last_alert_time": 1763060189.6294086
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763060189.6397634
+    "last_signal": "sell",
+    "last_alert_time": 1763140819.9618347
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -208,16 +208,16 @@
     "last_alert_time": 1763060191.3486545
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763060191.3945172
+    "last_signal": "sell",
+    "last_alert_time": 1763140821.6399574
   },
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763060191.6176875
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763060191.7412527
+    "last_signal": "sell",
+    "last_alert_time": 1763140822.039681
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
