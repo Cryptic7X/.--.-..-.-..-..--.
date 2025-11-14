@@ -84,8 +84,8 @@
     "last_alert_time": 1763058815.648669
   },
   "SEIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.656014
+    "last_signal": "sell",
+    "last_alert_time": 1763139095.7444086
   },
   "IMXUSDT": {
     "last_signal": "buy",
