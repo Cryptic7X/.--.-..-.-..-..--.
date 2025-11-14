@@ -48,12 +48,12 @@
     "last_alert_time": 1763058815.1301415
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.140574
+    "last_signal": "sell",
+    "last_alert_time": 1763090136.2589295
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.246001
+    "last_signal": "sell",
+    "last_alert_time": 1763090136.2869463
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -108,8 +108,8 @@
     "last_alert_time": 1763058815.960023
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058815.9918532
+    "last_signal": "sell",
+    "last_alert_time": 1763090136.9141676
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -128,8 +128,8 @@
     "last_alert_time": 1763058816.5077755
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763058816.5217793
+    "last_signal": "sell",
+    "last_alert_time": 1763090137.416408
   },
   "CFXUSDT": {
     "last_signal": "buy",
