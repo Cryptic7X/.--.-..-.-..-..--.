@@ -184,8 +184,8 @@
     "last_alert_time": 1763060190.3775036
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763060190.707164
+    "last_signal": "sell",
+    "last_alert_time": 1763137761.6379607
   },
   "IPUSDT": {
     "last_signal": "buy",
