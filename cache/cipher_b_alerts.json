@@ -148,8 +148,8 @@
     "last_alert_time": 1763198430.8764162
   },
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763198430.9155986
+    "last_signal": "sell",
+    "last_alert_time": 1763214724.3219209
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1763198431.3456411
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763198431.365932
+    "last_signal": "sell",
+    "last_alert_time": 1763214724.9579742
   },
   "WLDUSDT": {
     "last_signal": "buy",
