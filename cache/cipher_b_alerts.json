@@ -132,8 +132,8 @@
     "last_alert_time": 1763191154.4946878
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763193128.801069
+    "last_signal": "buy",
+    "last_alert_time": 1763228289.791611
   },
   "SPXUSDT": {
     "last_signal": "sell",
