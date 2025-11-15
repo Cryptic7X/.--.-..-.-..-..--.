@@ -102,5 +102,9 @@
   "SEIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763182552.9717908
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763184159.9536417
   }
 }
