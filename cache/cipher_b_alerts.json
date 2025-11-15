@@ -58,5 +58,37 @@
   "ASTERUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763176160.450512
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178379.674791
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178379.7123268
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178379.7783487
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178379.7909486
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178380.6556532
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178380.66175
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178380.7020128
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763178380.9629128
   }
 }
