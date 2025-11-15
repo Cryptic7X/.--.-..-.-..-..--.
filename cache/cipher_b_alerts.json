@@ -4,8 +4,8 @@
     "last_alert_time": 1763180755.4146194
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164333.7636323
+    "last_signal": "sell",
+    "last_alert_time": 1763216356.4540262
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -32,8 +32,8 @@
     "last_alert_time": 1763164334.0225852
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164334.0374029
+    "last_signal": "sell",
+    "last_alert_time": 1763216356.8780878
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -52,8 +52,8 @@
     "last_alert_time": 1763180755.853328
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164334.25806
+    "last_signal": "sell",
+    "last_alert_time": 1763216357.0829885
   },
   "ASTERUSDT": {
     "last_signal": "sell",
