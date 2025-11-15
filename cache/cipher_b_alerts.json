@@ -1,7 +1,7 @@
 {
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164333.7436361
+    "last_signal": "sell",
+    "last_alert_time": 1763180755.4146194
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -48,8 +48,8 @@
     "last_alert_time": 1763164334.195502
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164334.2536309
+    "last_signal": "sell",
+    "last_alert_time": 1763180755.853328
   },
   "BEAMUSDT": {
     "last_signal": "buy",
@@ -90,5 +90,9 @@
   "PENGUUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763178380.9629128
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763180754.481142
   }
 }
