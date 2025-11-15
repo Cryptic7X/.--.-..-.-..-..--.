@@ -1,7 +1,7 @@
 {
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763180755.4146194
+    "last_signal": "buy",
+    "last_alert_time": 1763241497.7616549
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
@@ -24,8 +24,8 @@
     "last_alert_time": 1763164333.9987757
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763191154.7936254
+    "last_signal": "buy",
+    "last_alert_time": 1763241498.0968113
   },
   "SUSDT": {
     "last_signal": "buy",
@@ -60,8 +60,8 @@
     "last_alert_time": 1763176160.450512
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763178379.674791
+    "last_signal": "buy",
+    "last_alert_time": 1763241496.1562753
   },
   "HYPEUSDT": {
     "last_signal": "sell",
@@ -104,8 +104,8 @@
     "last_alert_time": 1763182552.9717908
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763184159.9536417
+    "last_signal": "buy",
+    "last_alert_time": 1763241496.8454268
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -218,5 +218,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763236323.4784827
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763241497.5398378
   }
 }
