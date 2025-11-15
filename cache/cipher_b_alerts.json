@@ -214,5 +214,9 @@
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763232445.3377657
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763236323.4784827
   }
 }
