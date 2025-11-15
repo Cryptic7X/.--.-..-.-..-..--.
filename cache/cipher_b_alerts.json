@@ -106,5 +106,13 @@
   "NEARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763184159.9536417
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763188284.698865
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763188285.002943
   }
 }
