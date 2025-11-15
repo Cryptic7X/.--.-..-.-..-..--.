@@ -164,8 +164,8 @@
     "last_alert_time": 1763198431.1134224
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763198431.1351964
+    "last_signal": "sell",
+    "last_alert_time": 1763232445.4556231
   },
   "PUMPUSDT": {
     "last_signal": "buy",
@@ -210,5 +210,9 @@
   "SOLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763231326.0872579
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763232445.3377657
   }
 }
