@@ -94,5 +94,13 @@
   "UNIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763180754.481142
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763182552.957903
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763182552.9717908
   }
 }
