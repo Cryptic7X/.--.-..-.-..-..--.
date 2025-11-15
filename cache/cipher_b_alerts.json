@@ -124,8 +124,8 @@
     "last_alert_time": 1763191153.6121662
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763191154.261115
+    "last_signal": "buy",
+    "last_alert_time": 1763246384.4694319
   },
   "LDOUSDT": {
     "last_signal": "sell",
