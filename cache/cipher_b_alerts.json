@@ -8,8 +8,8 @@
     "last_alert_time": 1763164333.7636323
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164333.8120549
+    "last_signal": "sell",
+    "last_alert_time": 1763193129.2447906
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -130,5 +130,13 @@
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763191154.4946878
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763193128.801069
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763193129.22883
   }
 }
