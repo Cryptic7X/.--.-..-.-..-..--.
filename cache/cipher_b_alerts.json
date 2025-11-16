@@ -38,5 +38,33 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763290418.1989737
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291809.5143898
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291809.5338106
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291809.579162
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291810.3438892
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291810.7502875
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291811.411475
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763291811.7629147
   }
 }
