@@ -16,8 +16,8 @@
     "last_alert_time": 1763290417.141716
   },
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763290417.166315
+    "last_signal": "buy",
+    "last_alert_time": 1763304011.3027325
   },
   "CROUSDT": {
     "last_signal": "sell",
@@ -114,5 +114,13 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763302737.9976947
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763304011.8252897
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763304012.0182629
   }
 }
