@@ -210,5 +210,9 @@
   "WLFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763331626.6407173
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763332874.2973828
   }
 }
