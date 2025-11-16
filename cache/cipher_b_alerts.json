@@ -78,5 +78,9 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763296880.7142704
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763300074.326607
   }
 }
