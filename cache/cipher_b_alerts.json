@@ -66,5 +66,17 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763291811.7629147
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763296879.5810046
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763296880.2778988
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763296880.7142704
   }
 }
