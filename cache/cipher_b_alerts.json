@@ -40,8 +40,8 @@
     "last_alert_time": 1763290418.1989737
   },
   "HYPEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763291809.5143898
+    "last_signal": "buy",
+    "last_alert_time": 1763312173.5376818
   },
   "BNBUSDT": {
     "last_signal": "sell",
@@ -134,5 +134,13 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763311459.9624023
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763312173.7118597
+  },
+  "SPXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763312174.7115924
   }
 }
