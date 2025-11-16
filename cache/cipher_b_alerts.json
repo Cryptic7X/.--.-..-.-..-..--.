@@ -92,8 +92,8 @@
     "last_alert_time": 1763198431.58414
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763258074.7764068
+    "last_signal": "sell",
+    "last_alert_time": 1763274736.2594717
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1763182552.9717908
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763241496.8454268
+    "last_signal": "sell",
+    "last_alert_time": 1763274736.4925714
   },
   "APTUSDT": {
     "last_signal": "buy",
