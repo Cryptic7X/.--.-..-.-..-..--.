@@ -56,8 +56,8 @@
     "last_alert_time": 1763216357.0829885
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763176160.450512
+    "last_signal": "buy",
+    "last_alert_time": 1763258074.9747658
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -92,8 +92,8 @@
     "last_alert_time": 1763198431.58414
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763180754.481142
+    "last_signal": "buy",
+    "last_alert_time": 1763258074.7764068
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1763198431.3456411
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763214724.9579742
+    "last_signal": "buy",
+    "last_alert_time": 1763258075.1919675
   },
   "WLDUSDT": {
     "last_signal": "buy",
@@ -226,5 +226,13 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763245058.7257452
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763258074.6266642
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763258075.5000129
   }
 }
