@@ -206,5 +206,9 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763317785.3234687
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763331626.6407173
   }
 }
