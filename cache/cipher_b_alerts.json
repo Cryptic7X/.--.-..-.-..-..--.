@@ -86,5 +86,33 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763301132.3407698
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302736.3664258
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302736.5886889
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302737.3418076
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302737.7474394
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302737.7604923
+  },
+  "GALAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302737.9335446
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763302737.9976947
   }
 }
