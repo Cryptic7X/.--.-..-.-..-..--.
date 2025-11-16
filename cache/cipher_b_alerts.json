@@ -160,8 +160,8 @@
     "last_alert_time": 1763234145.692412
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763198431.1134224
+    "last_signal": "sell",
+    "last_alert_time": 1763265636.5139408
   },
   "OKBUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1763198432.0371468
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763199528.3429434
+    "last_signal": "sell",
+    "last_alert_time": 1763265636.1571643
   },
   "CROUSDT": {
     "last_signal": "buy",
