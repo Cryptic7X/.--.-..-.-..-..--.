@@ -64,8 +64,8 @@
     "last_alert_time": 1763291811.411475
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763291811.7629147
+    "last_signal": "buy",
+    "last_alert_time": 1763311461.4798396
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -126,5 +126,13 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763304730.8637402
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763311459.0115757
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763311459.9624023
   }
 }
