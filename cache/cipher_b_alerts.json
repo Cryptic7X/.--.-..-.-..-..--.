@@ -36,8 +36,8 @@
     "last_alert_time": 1763216356.8780878
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763164334.1679606
+    "last_signal": "sell",
+    "last_alert_time": 1763272429.4783666
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "IMXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763258075.5000129
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763272428.0393455
   }
 }
