@@ -174,5 +174,33 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763314777.2229707
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315511.3579102
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315512.1722016
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315512.2182627
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315512.4652805
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315512.5062938
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315512.587285
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763315513.2110398
   }
 }
