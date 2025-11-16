@@ -1,18 +1,42 @@
 {
   "SOLUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1763289709.0758667
+    "last_alert_time": 1763290416.9521236
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290416.9815972
   },
   "LINKUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1763289709.2824292
+    "last_alert_time": 1763290417.1317143
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290417.141716
   },
   "TRXUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1763289709.3587613
+    "last_alert_time": 1763290417.166315
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290417.2133555
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290417.4316664
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290417.6242607
   },
   "PIUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1763289709.9133332
+    "last_alert_time": 1763290417.684194
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763290418.1989737
   }
 }
