@@ -38,5 +38,65 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763352006.2463043
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354134.9357207
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354134.9573038
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354134.963639
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.0371375
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.1493998
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.2291563
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.3059404
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.4156854
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.555558
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.9203007
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354135.992256
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354136.1882029
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354136.2012815
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354136.2068975
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763354136.256981
   }
 }
