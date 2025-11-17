@@ -130,5 +130,9 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763362657.0140934
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763364430.4578233
   }
 }
