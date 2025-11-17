@@ -98,5 +98,21 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763354136.256981
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763355256.3916698
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763355256.4048913
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763355256.7035103
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763355256.8583791
   }
 }
