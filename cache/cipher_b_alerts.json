@@ -134,5 +134,21 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763364430.4578233
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763368380.960202
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763368381.392664
+  },
+  "FLOKIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763368381.5407264
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763368381.578972
   }
 }
