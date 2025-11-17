@@ -230,5 +230,9 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763412814.7837863
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763423542.5154688
   }
 }
