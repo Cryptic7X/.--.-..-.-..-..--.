@@ -166,5 +166,13 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763378426.131051
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763380347.83196
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763380347.9007592
   }
 }
