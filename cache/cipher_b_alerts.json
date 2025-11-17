@@ -8,8 +8,8 @@
     "last_alert_time": 1763313571.0453138
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763313571.1555486
+    "last_signal": "sell",
+    "last_alert_time": 1763344219.494599
   },
   "ENSUSDT": {
     "last_signal": "buy",
@@ -44,12 +44,12 @@
     "last_alert_time": 1763314774.8334405
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763314774.8637478
+    "last_signal": "sell",
+    "last_alert_time": 1763344218.010146
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763314774.9083774
+    "last_signal": "sell",
+    "last_alert_time": 1763344218.0527318
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1763314776.0786421
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763314776.1081035
+    "last_signal": "sell",
+    "last_alert_time": 1763344219.216743
   },
   "CAKEUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1763315511.3579102
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763315512.1722016
+    "last_signal": "sell",
+    "last_alert_time": 1763344218.7161207
   },
   "ETCUSDT": {
     "last_signal": "buy",
@@ -214,5 +214,9 @@
   "BTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763332874.2973828
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763344219.3555553
   }
 }
