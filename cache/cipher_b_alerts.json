@@ -174,5 +174,33 @@
   "UNIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763404570.5745602
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405704.9256935
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405705.2246063
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405705.5035915
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405705.7633653
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405705.7872145
+  },
+  "INJUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405705.8176315
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763405706.4176385
   }
 }
