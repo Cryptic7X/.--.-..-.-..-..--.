@@ -126,5 +126,9 @@
   "ETCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763361468.9478
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763362657.0140934
   }
 }
