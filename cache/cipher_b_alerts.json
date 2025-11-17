@@ -118,5 +118,13 @@
   "PENDLEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763357021.2656775
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763361468.4887202
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763361468.9478
   }
 }
