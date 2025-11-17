@@ -114,5 +114,9 @@
   "ONDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763355256.8583791
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763357021.2656775
   }
 }
