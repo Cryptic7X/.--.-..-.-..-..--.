@@ -150,5 +150,13 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763368381.578972
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763369922.6376653
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763369923.373244
   }
 }
