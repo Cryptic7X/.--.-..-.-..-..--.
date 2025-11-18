@@ -92,8 +92,8 @@
     "last_alert_time": 1763390786.0803246
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.107645
+    "last_signal": "sell",
+    "last_alert_time": 1763435680.8027847
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -200,8 +200,8 @@
     "last_alert_time": 1763405705.8176315
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763405706.4176385
+    "last_signal": "sell",
+    "last_alert_time": 1763435681.8732922
   },
   "ICPUSDT": {
     "last_signal": "sell",
