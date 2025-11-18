@@ -20,8 +20,8 @@
     "last_alert_time": 1763389398.3666456
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763389398.4049425
+    "last_signal": "sell",
+    "last_alert_time": 1763440074.517573
   },
   "BEAMUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1763405705.2246063
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763405705.5035915
+    "last_signal": "sell",
+    "last_alert_time": 1763440073.5222187
   },
   "ATOMUSDT": {
     "last_signal": "buy",
