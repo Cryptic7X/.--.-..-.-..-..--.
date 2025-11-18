@@ -60,8 +60,8 @@
     "last_alert_time": 1763390785.5606337
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390785.6385329
+    "last_signal": "sell",
+    "last_alert_time": 1763444598.533312
   },
   "LINKUSDT": {
     "last_signal": "buy",
@@ -120,8 +120,8 @@
     "last_alert_time": 1763390786.5326736
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.620291
+    "last_signal": "sell",
+    "last_alert_time": 1763444599.0512567
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1763390786.9407341
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.966644
+    "last_signal": "sell",
+    "last_alert_time": 1763444599.471359
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -216,8 +216,8 @@
     "last_alert_time": 1763411192.4536133
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763411192.8835797
+    "last_signal": "sell",
+    "last_alert_time": 1763444599.2679598
   },
   "SPXUSDT": {
     "last_signal": "buy",
