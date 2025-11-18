@@ -56,8 +56,8 @@
     "last_alert_time": 1763445297.333742
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390785.5606337
+    "last_signal": "sell",
+    "last_alert_time": 1763458248.6410973
   },
   "DOTUSDT": {
     "last_signal": "sell",
@@ -104,8 +104,8 @@
     "last_alert_time": 1763390786.3020842
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.3416562
+    "last_signal": "sell",
+    "last_alert_time": 1763458249.281548
   },
   "ONDOUSDT": {
     "last_signal": "buy",
