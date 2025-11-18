@@ -146,5 +146,9 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763494896.924273
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763495597.9499686
   }
 }
