@@ -116,8 +116,8 @@
     "last_alert_time": 1763390786.4310298
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.5326736
+    "last_signal": "sell",
+    "last_alert_time": 1763462905.7515888
   },
   "WLDUSDT": {
     "last_signal": "sell",
