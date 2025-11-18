@@ -142,5 +142,9 @@
   "DOTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763487883.750964
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763494896.924273
   }
 }
