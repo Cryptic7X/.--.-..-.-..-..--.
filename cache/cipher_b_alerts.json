@@ -118,5 +118,29 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763486843.8202817
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.1539564
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.1847765
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.2493973
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.479111
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.6524758
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763487883.750964
   }
 }
