@@ -100,8 +100,8 @@
     "last_alert_time": 1763461616.4248524
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.3020842
+    "last_signal": "sell",
+    "last_alert_time": 1763480808.6539888
   },
   "ENAUSDT": {
     "last_signal": "sell",
