@@ -152,8 +152,8 @@
     "last_alert_time": 1763390786.966644
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763390786.9934032
+    "last_signal": "sell",
+    "last_alert_time": 1763430497.804584
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "IPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763423542.5154688
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763430496.311823
   }
 }
