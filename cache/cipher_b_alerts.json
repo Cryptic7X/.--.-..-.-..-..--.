@@ -154,5 +154,9 @@
   "UNIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763516906.3077228
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763522052.0050213
   }
 }
