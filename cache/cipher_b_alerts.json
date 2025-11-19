@@ -18,5 +18,9 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763535408.9126914
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763537173.8988473
   }
 }
