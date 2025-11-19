@@ -28,8 +28,8 @@
     "last_alert_time": 1763486842.6561081
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763486842.6641524
+    "last_signal": "buy",
+    "last_alert_time": 1763516906.5917568
   },
   "ENAUSDT": {
     "last_signal": "sell",
@@ -52,8 +52,8 @@
     "last_alert_time": 1763486842.9482808
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763486842.9840877
+    "last_signal": "buy",
+    "last_alert_time": 1763516906.987358
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -150,5 +150,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763495597.9499686
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763516906.3077228
   }
 }
