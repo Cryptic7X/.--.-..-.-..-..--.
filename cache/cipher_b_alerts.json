@@ -38,5 +38,13 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763559237.3993175
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763562182.4288442
+  },
+  "SPXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763562182.8131135
   }
 }
