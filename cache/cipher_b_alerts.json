@@ -36,8 +36,8 @@
     "last_alert_time": 1763486842.6727824
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763486842.7695568
+    "last_signal": "buy",
+    "last_alert_time": 1763526489.1975298
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -64,8 +64,8 @@
     "last_alert_time": 1763504563.9144585
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763486843.2480018
+    "last_signal": "buy",
+    "last_alert_time": 1763526489.6358907
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -158,5 +158,17 @@
   "LINKUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763522052.0050213
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763526488.9614718
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763526489.3373837
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763526490.261877
   }
 }
