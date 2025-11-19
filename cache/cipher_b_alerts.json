@@ -34,5 +34,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763551213.4480116
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763559237.3993175
   }
 }
