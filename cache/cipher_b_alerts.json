@@ -36,8 +36,8 @@
     "last_alert_time": 1763573118.7770908
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574731.2398577
+    "last_signal": "sell",
+    "last_alert_time": 1763590909.730253
   },
   "PIUSDT": {
     "last_signal": "sell",
@@ -140,8 +140,8 @@
     "last_alert_time": 1763565891.7674768
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763569955.4643242
+    "last_signal": "sell",
+    "last_alert_time": 1763590907.9831812
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763579937.6916854
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763590908.9114044
   }
 }
