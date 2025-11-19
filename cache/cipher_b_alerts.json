@@ -132,8 +132,8 @@
     "last_alert_time": 1763487883.2493973
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763487883.479111
+    "last_signal": "buy",
+    "last_alert_time": 1763531706.989546
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -186,5 +186,9 @@
   "PIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763529804.4988933
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763531708.551385
   }
 }
