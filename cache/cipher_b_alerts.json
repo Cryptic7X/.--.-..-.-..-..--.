@@ -138,5 +138,9 @@
   "SEIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763565891.7674768
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763569955.4643242
   }
 }
