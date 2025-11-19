@@ -1,22 +1,22 @@
 {
-  "BERAUSDT": {
+  "TRXUSDT": {
     "last_signal": "buy",
-    "last_alert_time": 1763534062.2621512
-  }
-}  "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763534062.1694067
+    "last_alert_time": 1763535407.7144904
   },
-  "FARTCOINUSDT": {
+  "NEARUSDT": {
     "last_signal": "buy",
-    "last_alert_time": 1763534062.202244
+    "last_alert_time": 1763535407.9600194
   },
-  "BRETTUSDT": {
+  "TAOUSDT": {
     "last_signal": "buy",
-    "last_alert_time": 1763534062.237157
+    "last_alert_time": 1763535407.9660816
   },
-  "BEAMUSDT": {
+  "CFXUSDT": {
     "last_signal": "buy",
-    "last_alert_time": 1763534062.262062
+    "last_alert_time": 1763535408.8967488
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763535408.9126914
   }
 }
