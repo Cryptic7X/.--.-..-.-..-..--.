@@ -130,5 +130,13 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763563574.664951
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763565891.2502093
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763565891.7674768
   }
 }
