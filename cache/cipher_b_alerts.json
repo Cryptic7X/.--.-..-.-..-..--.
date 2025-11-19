@@ -174,5 +174,17 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763573118.7911904
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763574036.036169
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763574036.6710835
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763574037.1480389
   }
 }
