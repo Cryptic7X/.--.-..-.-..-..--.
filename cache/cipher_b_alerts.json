@@ -22,5 +22,9 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763537173.8988473
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763549246.0085745
   }
 }
