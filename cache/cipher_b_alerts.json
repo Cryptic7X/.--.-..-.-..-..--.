@@ -166,5 +166,17 @@
   "LINKUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763679136.7626064
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763680855.624893
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763680856.3600326
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763680857.1663632
   }
 }
