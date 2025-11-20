@@ -154,5 +154,9 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763663629.5066135
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763666562.431345
   }
 }
