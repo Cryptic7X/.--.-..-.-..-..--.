@@ -24,8 +24,8 @@
     "last_alert_time": 1763537173.8988473
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763573118.5180378
+    "last_signal": "sell",
+    "last_alert_time": 1763616397.2509358
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -204,8 +204,8 @@
     "last_alert_time": 1763574730.3070965
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574730.3605607
+    "last_signal": "sell",
+    "last_alert_time": 1763616396.9524555
   },
   "WLDUSDT": {
     "last_signal": "buy",
