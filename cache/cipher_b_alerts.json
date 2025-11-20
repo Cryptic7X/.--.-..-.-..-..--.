@@ -232,8 +232,8 @@
     "last_alert_time": 1763579936.8051789
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763579937.6501722
+    "last_signal": "sell",
+    "last_alert_time": 1763618134.1840072
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
