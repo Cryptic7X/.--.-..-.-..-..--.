@@ -108,8 +108,8 @@
     "last_alert_time": 1763563574.4078863
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563574.433557
+    "last_signal": "sell",
+    "last_alert_time": 1763646743.3401208
   },
   "WIFUSDT": {
     "last_signal": "sell",
