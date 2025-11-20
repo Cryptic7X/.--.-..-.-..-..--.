@@ -20,8 +20,8 @@
     "last_alert_time": 1763563574.7266986
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763537173.8988473
+    "last_signal": "sell",
+    "last_alert_time": 1763638781.6402357
   },
   "INJUSDT": {
     "last_signal": "sell",
