@@ -144,8 +144,8 @@
     "last_alert_time": 1763590907.9831812
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763596324.875052
+    "last_signal": "buy",
+    "last_alert_time": 1763621821.901007
   },
   "ETHUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1763616396.9524555
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574730.3794732
+    "last_signal": "sell",
+    "last_alert_time": 1763621822.183723
   },
   "ATOMUSDT": {
     "last_signal": "sell",
