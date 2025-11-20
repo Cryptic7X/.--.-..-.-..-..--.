@@ -28,8 +28,8 @@
     "last_alert_time": 1763573118.5180378
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763573117.8107085
+    "last_signal": "sell",
+    "last_alert_time": 1763610646.33674
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -128,8 +128,8 @@
     "last_alert_time": 1763563574.5994308
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563574.664951
+    "last_signal": "sell",
+    "last_alert_time": 1763610647.164514
   },
   "ENAUSDT": {
     "last_signal": "buy",
