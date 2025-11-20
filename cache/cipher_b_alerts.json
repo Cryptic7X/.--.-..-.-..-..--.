@@ -12,8 +12,8 @@
     "last_alert_time": 1763535407.9660816
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763535408.8967488
+    "last_signal": "sell",
+    "last_alert_time": 1763620475.684879
   },
   "JASMYUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1763574036.6710835
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574037.1480389
+    "last_signal": "sell",
+    "last_alert_time": 1763620474.9850836
   },
   "DOGEUSDT": {
     "last_signal": "sell",
