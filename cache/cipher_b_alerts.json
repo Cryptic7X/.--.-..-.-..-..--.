@@ -1,7 +1,7 @@
 {
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763592142.6214178
+    "last_signal": "buy",
+    "last_alert_time": 1763635640.6654088
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -44,16 +44,16 @@
     "last_alert_time": 1763562182.4288442
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763596325.6156209
+    "last_signal": "buy",
+    "last_alert_time": 1763635641.3200223
   },
   "BNBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763563573.1993651
   },
   "SOLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763608332.16686
+    "last_signal": "buy",
+    "last_alert_time": 1763635639.6732626
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -116,8 +116,8 @@
     "last_alert_time": 1763608333.77397
   },
   "RAYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763592144.2056706
+    "last_signal": "buy",
+    "last_alert_time": 1763635641.4346504
   },
   "ENSUSDT": {
     "last_signal": "buy",
