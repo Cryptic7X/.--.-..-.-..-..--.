@@ -100,8 +100,8 @@
     "last_alert_time": 1763563574.202051
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563574.2206855
+    "last_signal": "sell",
+    "last_alert_time": 1763617443.4267025
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -176,8 +176,8 @@
     "last_alert_time": 1763573118.7911904
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574036.036169
+    "last_signal": "sell",
+    "last_alert_time": 1763617441.9264798
   },
   "OKBUSDT": {
     "last_signal": "buy",
