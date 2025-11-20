@@ -84,8 +84,8 @@
     "last_alert_time": 1763596324.655318
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563573.5233068
+    "last_signal": "sell",
+    "last_alert_time": 1763612790.5967135
   },
   "PUMPUSDT": {
     "last_signal": "sell",
