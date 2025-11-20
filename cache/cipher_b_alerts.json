@@ -20,8 +20,8 @@
     "last_alert_time": 1763563574.7266986
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763638781.6402357
+    "last_signal": "buy",
+    "last_alert_time": 1763656384.8352802
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1763612790.5967135
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763594464.5861573
+    "last_signal": "buy",
+    "last_alert_time": 1763656384.4827483
   },
   "PENGUUSDT": {
     "last_signal": "sell",
