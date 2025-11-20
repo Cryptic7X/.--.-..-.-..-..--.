@@ -52,8 +52,8 @@
     "last_alert_time": 1763563573.1993651
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563573.2288818
+    "last_signal": "sell",
+    "last_alert_time": 1763608332.16686
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -68,16 +68,16 @@
     "last_alert_time": 1763592142.6164672
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563573.4386609
+    "last_signal": "sell",
+    "last_alert_time": 1763608332.4287674
   },
   "CROUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763563573.4683897
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563573.4773335
+    "last_signal": "sell",
+    "last_alert_time": 1763608332.4974728
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -92,8 +92,8 @@
     "last_alert_time": 1763594464.5861573
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563574.1538498
+    "last_signal": "sell",
+    "last_alert_time": 1763608333.3188086
   },
   "IMXUSDT": {
     "last_signal": "buy",
@@ -112,8 +112,8 @@
     "last_alert_time": 1763563574.433557
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763563574.4467301
+    "last_signal": "sell",
+    "last_alert_time": 1763608333.77397
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -160,8 +160,8 @@
     "last_alert_time": 1763573117.4612768
   },
   "JUPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763573118.2709165
+    "last_signal": "sell",
+    "last_alert_time": 1763608333.4830625
   },
   "CAKEUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1763574037.1480389
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574729.5513337
+    "last_signal": "sell",
+    "last_alert_time": 1763608332.1371963
   },
   "ADAUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1763574730.3794732
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763574730.5251877
+    "last_signal": "sell",
+    "last_alert_time": 1763608333.346566
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1763574731.2889144
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763577255.4387705
+    "last_signal": "sell",
+    "last_alert_time": 1763608333.3128366
   },
   "MNTUSDT": {
     "last_signal": "buy",
