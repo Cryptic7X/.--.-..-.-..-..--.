@@ -150,5 +150,9 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763661197.011946
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763663629.5066135
   }
 }
