@@ -52,8 +52,8 @@
     "last_alert_time": 1763729154.9705234
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661195.8428931
+    "last_signal": "sell",
+    "last_alert_time": 1763747576.534982
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -120,8 +120,8 @@
     "last_alert_time": 1763661196.531415
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.6429641
+    "last_signal": "sell",
+    "last_alert_time": 1763747577.4893804
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -132,8 +132,8 @@
     "last_alert_time": 1763661196.740875
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.7531185
+    "last_signal": "sell",
+    "last_alert_time": 1763747577.5294375
   },
   "SUSDT": {
     "last_signal": "buy",
