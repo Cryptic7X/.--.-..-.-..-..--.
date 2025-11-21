@@ -48,8 +48,8 @@
     "last_alert_time": 1763661195.7053323
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661195.8305762
+    "last_signal": "sell",
+    "last_alert_time": 1763702605.7788038
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -198,5 +198,13 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763700394.627981
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763702605.315879
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763702605.7922711
   }
 }
