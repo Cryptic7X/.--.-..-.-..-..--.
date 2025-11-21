@@ -172,8 +172,8 @@
     "last_alert_time": 1763697032.5719497
   },
   "PIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763680856.3600326
+    "last_signal": "buy",
+    "last_alert_time": 1763700395.4681914
   },
   "BEAMUSDT": {
     "last_signal": "sell",
@@ -194,5 +194,9 @@
   "OKBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763697033.135463
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763700394.627981
   }
 }
