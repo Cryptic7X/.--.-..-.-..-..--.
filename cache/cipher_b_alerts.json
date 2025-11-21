@@ -228,8 +228,8 @@
     "last_alert_time": 1763713936.716808
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763713936.890187
+    "last_signal": "sell",
+    "last_alert_time": 1763746886.0715916
   },
   "IPUSDT": {
     "last_signal": "buy",
