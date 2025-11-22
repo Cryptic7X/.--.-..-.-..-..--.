@@ -16,12 +16,12 @@
     "last_alert_time": 1763661195.2639253
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661195.3014064
+    "last_signal": "sell",
+    "last_alert_time": 1763854797.3945131
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661195.3277745
+    "last_signal": "sell",
+    "last_alert_time": 1763854797.3810523
   },
   "DOTUSDT": {
     "last_signal": "buy",
@@ -72,8 +72,8 @@
     "last_alert_time": 1763661196.0664122
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.2093823
+    "last_signal": "sell",
+    "last_alert_time": 1763854798.4726954
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1763853655.8554933
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.2648916
+    "last_signal": "sell",
+    "last_alert_time": 1763854798.6072168
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1763832069.677988
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.486186
+    "last_signal": "sell",
+    "last_alert_time": 1763854798.8378832
   },
   "CRVUSDT": {
     "last_signal": "buy",
@@ -128,16 +128,16 @@
     "last_alert_time": 1763853656.1686814
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.740875
+    "last_signal": "sell",
+    "last_alert_time": 1763854799.1133132
   },
   "CFXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763747577.5294375
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661196.7601943
+    "last_signal": "sell",
+    "last_alert_time": 1763854799.1432025
   },
   "GALAUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1763661196.8379104
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763661197.011946
+    "last_signal": "sell",
+    "last_alert_time": 1763854799.3314345
   },
   "WIFUSDT": {
     "last_signal": "sell",
