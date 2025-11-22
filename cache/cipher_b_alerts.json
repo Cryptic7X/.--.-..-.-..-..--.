@@ -4,8 +4,8 @@
     "last_alert_time": 1763660484.210441
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763660484.2171814
+    "last_signal": "sell",
+    "last_alert_time": 1763841130.309267
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1763713936.1754766
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763713936.1960166
+    "last_signal": "sell",
+    "last_alert_time": 1763841128.5932817
   },
   "TRXUSDT": {
     "last_signal": "buy",
