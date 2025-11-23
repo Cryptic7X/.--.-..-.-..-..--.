@@ -38,5 +38,57 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763873524.103415
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875323.5886164
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875323.6024673
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875323.6450956
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875323.6526592
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875323.8762457
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.0403948
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.125069
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.525331
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.765716
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.8152409
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.8585851
+  },
+  "GALAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875324.9881296
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763875325.0435808
   }
 }
