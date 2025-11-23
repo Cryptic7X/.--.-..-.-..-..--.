@@ -146,5 +146,13 @@
   "DOTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763922638.0906394
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763929498.4651675
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763929498.6749153
   }
 }
