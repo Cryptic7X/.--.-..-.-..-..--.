@@ -158,5 +158,9 @@
   "HYPEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763934737.1312373
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763936452.764699
   }
 }
