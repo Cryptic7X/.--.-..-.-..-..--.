@@ -102,5 +102,9 @@
   "KASUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763876531.669627
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763879550.6802013
   }
 }
