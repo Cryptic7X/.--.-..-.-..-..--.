@@ -90,5 +90,17 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763875325.0435808
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763876531.3848145
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763876531.434829
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763876531.669627
   }
 }
