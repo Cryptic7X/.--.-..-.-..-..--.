@@ -110,5 +110,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763883538.6629663
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763897901.9323115
   }
 }
