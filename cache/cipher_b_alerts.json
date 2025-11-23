@@ -130,5 +130,13 @@
   "OKBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763904770.4163415
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763911231.722879
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763911232.2781844
   }
 }
