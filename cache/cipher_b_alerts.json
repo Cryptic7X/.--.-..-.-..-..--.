@@ -138,5 +138,9 @@
   "PIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763911232.2781844
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763919600.488486
   }
 }
