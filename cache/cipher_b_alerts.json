@@ -154,5 +154,9 @@
   "SEIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763929498.6749153
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763934737.1312373
   }
 }
