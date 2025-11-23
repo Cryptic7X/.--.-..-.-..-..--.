@@ -118,5 +118,13 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763898726.4714367
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763903315.8196125
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763903317.5326514
   }
 }
