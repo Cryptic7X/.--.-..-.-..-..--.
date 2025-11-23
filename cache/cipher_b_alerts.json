@@ -126,5 +126,9 @@
   "PENDLEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763903317.5326514
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763904770.4163415
   }
 }
