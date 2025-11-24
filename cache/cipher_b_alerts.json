@@ -60,8 +60,8 @@
     "last_alert_time": 1763875323.8762457
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763875324.0403948
+    "last_signal": "buy",
+    "last_alert_time": 1763991317.5172284
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -100,8 +100,8 @@
     "last_alert_time": 1763980023.6580536
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763876531.669627
+    "last_signal": "buy",
+    "last_alert_time": 1763991318.3408532
   },
   "JASMYUSDT": {
     "last_signal": "buy",
