@@ -64,8 +64,8 @@
     "last_alert_time": 1763875324.0403948
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1763875324.125069
+    "last_signal": "buy",
+    "last_alert_time": 1763949389.891422
   },
   "PENGUUSDT": {
     "last_signal": "sell",
@@ -166,5 +166,9 @@
   "BNBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763937728.548683
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763949390.1356218
   }
 }
