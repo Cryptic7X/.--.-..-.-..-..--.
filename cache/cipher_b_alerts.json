@@ -46,5 +46,9 @@
   "KASUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764021170.2567983
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764022907.814394
   }
 }
