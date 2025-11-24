@@ -182,5 +182,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763973217.4592752
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1763976870.4965732
   }
 }
