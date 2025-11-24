@@ -26,5 +26,21 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764019316.9949746
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764020455.3820865
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764020455.6432443
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764020456.5064895
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764020456.5912092
   }
 }
