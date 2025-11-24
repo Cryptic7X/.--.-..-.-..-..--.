@@ -196,8 +196,8 @@
     "last_alert_time": 1763980023.0529914
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1763980023.4509997
+    "last_signal": "sell",
+    "last_alert_time": 1763994471.094128
   },
   "ETCUSDT": {
     "last_signal": "buy",
