@@ -78,5 +78,21 @@
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764013935.8587203
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764017677.2564306
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764017677.2691314
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764017677.787297
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764017677.9165993
   }
 }
