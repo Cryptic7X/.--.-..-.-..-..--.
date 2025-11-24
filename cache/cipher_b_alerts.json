@@ -178,5 +178,9 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1763958042.4590077
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763973217.4592752
   }
 }
