@@ -170,5 +170,13 @@
   "POLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1763949390.1356218
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763958042.1207404
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1763958042.4590077
   }
 }
