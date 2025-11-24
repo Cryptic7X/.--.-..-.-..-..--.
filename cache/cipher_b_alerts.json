@@ -42,5 +42,9 @@
   "WIFUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764020456.5912092
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764021170.2567983
   }
 }
