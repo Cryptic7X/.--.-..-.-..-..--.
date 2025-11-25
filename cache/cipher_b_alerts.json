@@ -38,5 +38,9 @@
   "IMXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764048246.86968
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764049475.357863
   }
 }
