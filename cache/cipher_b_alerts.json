@@ -108,8 +108,8 @@
     "last_alert_time": 1764055687.0547566
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764055687.06582
+    "last_signal": "sell",
+    "last_alert_time": 1764071561.177664
   },
   "BERAUSDT": {
     "last_signal": "buy",
