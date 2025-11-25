@@ -30,5 +30,13 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764045319.1980567
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764048246.3088531
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764048246.86968
   }
 }
