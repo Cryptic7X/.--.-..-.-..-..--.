@@ -234,5 +234,9 @@
   "INJUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764096950.030586
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764105892.7271569
   }
 }
