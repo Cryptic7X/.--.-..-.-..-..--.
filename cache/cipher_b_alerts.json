@@ -8,8 +8,8 @@
     "last_alert_time": 1764043177.3973353
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764043177.9925292
+    "last_signal": "sell",
+    "last_alert_time": 1764077752.8208587
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1764055686.3338213
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764055686.6892056
+    "last_signal": "sell",
+    "last_alert_time": 1764077753.223143
   },
   "WIFUSDT": {
     "last_signal": "buy",
@@ -218,5 +218,9 @@
   "CRVUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764074982.4228988
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764077753.1293364
   }
 }
