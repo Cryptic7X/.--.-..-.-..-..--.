@@ -112,8 +112,8 @@
     "last_alert_time": 1764071561.177664
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764055687.1060143
+    "last_signal": "sell",
+    "last_alert_time": 1764088312.1556716
   },
   "ADAUSDT": {
     "last_signal": "buy",
