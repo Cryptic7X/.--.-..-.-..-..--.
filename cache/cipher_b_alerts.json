@@ -222,5 +222,9 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764077753.1293364
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764078934.2550888
   }
 }
