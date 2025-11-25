@@ -138,5 +138,29 @@
   "LDOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764059539.7406907
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063183.9667332
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063183.9952114
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063184.0079298
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063184.646249
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063185.5838072
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764063185.6828265
   }
 }
