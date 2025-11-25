@@ -4,8 +4,8 @@
     "last_alert_time": 1764043177.352435
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764043177.3973353
+    "last_signal": "buy",
+    "last_alert_time": 1764085604.310257
   },
   "MUSDT": {
     "last_signal": "sell",
@@ -56,8 +56,8 @@
     "last_alert_time": 1764052750.899177
   },
   "PENDLEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764052751.2469594
+    "last_signal": "buy",
+    "last_alert_time": 1764085605.4967263
   },
   "BEAMUSDT": {
     "last_signal": "buy",
