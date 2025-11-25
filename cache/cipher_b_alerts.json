@@ -10,5 +10,25 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764043177.9925292
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764045317.609592
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764045317.6500185
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764045318.0398104
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764045318.443171
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764045319.1980567
   }
 }
