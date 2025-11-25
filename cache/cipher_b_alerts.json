@@ -50,5 +50,17 @@
   "ETCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764050172.915054
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764052750.899177
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764052751.2469594
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764052751.6378095
   }
 }
