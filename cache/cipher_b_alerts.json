@@ -128,8 +128,8 @@
     "last_alert_time": 1764059538.3165321
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764059538.983489
+    "last_signal": "sell",
+    "last_alert_time": 1764096949.3068273
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -230,5 +230,9 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764095715.8520288
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764096950.030586
   }
 }
