@@ -8,8 +8,8 @@
     "last_alert_time": 1764019316.1142535
   },
   "DOTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764019316.2526717
+    "last_signal": "buy",
+    "last_alert_time": 1764040640.1072881
   },
   "ENAUSDT": {
     "last_signal": "sell",
@@ -20,12 +20,12 @@
     "last_alert_time": 1764019316.7026713
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764019316.9095793
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.4868124
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764019316.9949746
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.5956466
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -62,5 +62,62 @@
   "HYPEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764028348.2574756
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040640.1722417
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040640.445263
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040640.4648926
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040640.7332563
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.0587552
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.1141355
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.2052786
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.235329
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.3587973
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.4087641
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.5660605
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.7075083
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.8771021
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764040641.8927138
   }
+}
 }
