@@ -42,5 +42,13 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764049475.357863
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764050172.1927772
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764050172.915054
   }
 }
