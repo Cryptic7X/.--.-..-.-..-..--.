@@ -206,5 +206,13 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764064420.9313402
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764066467.5546222
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764066468.3438795
   }
 }
