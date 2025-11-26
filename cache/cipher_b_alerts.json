@@ -208,16 +208,16 @@
     "last_alert_time": 1764064420.9313402
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764066467.5546222
+    "last_signal": "sell",
+    "last_alert_time": 1764177986.38428
   },
   "ATOMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764145908.8636727
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764152814.213741
+    "last_signal": "sell",
+    "last_alert_time": 1764177987.231936
   },
   "CAKEUSDT": {
     "last_signal": "buy",
