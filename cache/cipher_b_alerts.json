@@ -98,5 +98,9 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764185883.5039954
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764190338.922782
   }
 }
