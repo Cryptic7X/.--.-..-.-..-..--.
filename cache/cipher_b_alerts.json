@@ -52,8 +52,8 @@
     "last_alert_time": 1764131706.7190907
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764131706.9113429
+    "last_signal": "sell",
+    "last_alert_time": 1764149533.878662
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
