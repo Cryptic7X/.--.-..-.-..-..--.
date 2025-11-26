@@ -1,50 +1,26 @@
 {
-  "BNBUSDT": {
+  "EIGENUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764181809.1626403
-  },
-  "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.27901
-  },
-  "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.3086057
-  },
-  "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.3727696
-  },
-  "AAVEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.4571261
-  },
-  "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.5562007
-  },
-  "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.6318212
-  },
-  "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181809.7140398
-  },
-  "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181810.3547266
-  },
-  "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764181810.3717551
+    "last_alert_time": 1764183050.625053
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764181810.749824
+    "last_alert_time": 1764183050.6438322
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764183050.6488352
   },
   "BRETTUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764181810.855204
+    "last_alert_time": 1764183050.6731563
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764183050.6780624
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764183050.7126577
   }
 }
