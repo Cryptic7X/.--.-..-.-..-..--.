@@ -86,5 +86,17 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764184690.273757
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764185882.6281958
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764185883.1154206
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764185883.5039954
   }
 }
