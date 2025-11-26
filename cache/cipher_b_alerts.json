@@ -110,5 +110,9 @@
   "MNTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764195723.106819
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764197648.574816
   }
 }
