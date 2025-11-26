@@ -102,5 +102,13 @@
   "AVAXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764190338.922782
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764195722.5727713
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764195723.106819
   }
 }
