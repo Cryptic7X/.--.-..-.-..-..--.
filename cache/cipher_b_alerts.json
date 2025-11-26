@@ -212,8 +212,8 @@
     "last_alert_time": 1764066467.5546222
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764066468.3438795
+    "last_signal": "sell",
+    "last_alert_time": 1764145908.8636727
   },
   "CRVUSDT": {
     "last_signal": "sell",
