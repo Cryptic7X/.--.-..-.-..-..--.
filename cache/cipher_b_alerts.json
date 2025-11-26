@@ -22,5 +22,69 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764183050.7126577
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184688.7830024
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184688.8098664
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.0590763
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.0724304
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.3375783
+  },
+  "ONDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.4658077
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.5446017
+  },
+  "WLDUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.550082
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.5593002
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.735813
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.7439644
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.782999
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.795335
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184689.9232082
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184690.2572784
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764184690.273757
   }
 }
