@@ -56,8 +56,8 @@
     "last_alert_time": 1764131706.9113429
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764085605.4967263
+    "last_signal": "sell",
+    "last_alert_time": 1764147496.6672025
   },
   "BEAMUSDT": {
     "last_signal": "buy",
