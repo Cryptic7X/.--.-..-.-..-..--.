@@ -54,5 +54,9 @@
   "JUPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764217708.5286844
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764218894.0570264
   }
 }
