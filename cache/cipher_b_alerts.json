@@ -26,5 +26,21 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764213239.3790443
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764215539.478624
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764215540.0411065
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764215540.4713318
+  },
+  "BERAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764215540.7650554
   }
 }
