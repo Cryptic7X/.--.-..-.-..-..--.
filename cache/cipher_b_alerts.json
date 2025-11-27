@@ -160,8 +160,8 @@
     "last_alert_time": 1764262195.3161228
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250447.6198206
+    "last_signal": "sell",
+    "last_alert_time": 1764278413.064974
   },
   "IMXUSDT": {
     "last_signal": "sell",
