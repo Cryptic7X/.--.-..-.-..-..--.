@@ -40,8 +40,8 @@
     "last_alert_time": 1764215540.4713318
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764215540.7650554
+    "last_signal": "buy",
+    "last_alert_time": 1764239194.705165
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -94,5 +94,13 @@
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764235855.3802516
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764239193.0993142
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764239194.6127331
   }
 }
