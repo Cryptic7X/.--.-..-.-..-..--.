@@ -122,5 +122,25 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764243615.661868
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764244330.5926564
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764244331.9418352
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764244332.0067976
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764244332.052207
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764244332.3098042
   }
 }
