@@ -28,8 +28,8 @@
     "last_alert_time": 1764213239.3790443
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764233859.7464907
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.7805018
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1764233859.3152218
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764233859.3620284
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.215877
   },
   "ASTERUSDT": {
     "last_signal": "sell",
@@ -92,8 +92,8 @@
     "last_alert_time": 1764233860.009408
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764235855.3802516
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.6823602
   },
   "BTCUSDT": {
     "last_signal": "buy",
@@ -116,8 +116,8 @@
     "last_alert_time": 1764240465.865788
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764242427.97216
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.2587373
   },
   "BRETTUSDT": {
     "last_signal": "buy",
@@ -128,16 +128,16 @@
     "last_alert_time": 1764244330.5926564
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764244331.9418352
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.694283
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764244332.0067976
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764244332.052207
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.7552383
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
@@ -156,8 +156,8 @@
     "last_alert_time": 1764250447.3359458
   },
   "ADAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250447.3786507
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.3161228
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -194,5 +194,25 @@
   "WLFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764260934.7505355
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.3995516
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764262195.489586
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.5409834
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.9201717
+  },
+  "GALAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764262196.967278
   }
 }
