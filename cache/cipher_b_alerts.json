@@ -90,5 +90,9 @@
   "WLDUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764233860.009408
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764235855.3802516
   }
 }
