@@ -42,5 +42,45 @@
   "IMXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764286807.5058174
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287527.7606344
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.0796862
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.216155
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.3731813
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.4739027
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.6288521
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.6981957
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287528.7539096
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287529.3809168
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764287529.4039981
   }
 }
