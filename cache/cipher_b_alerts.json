@@ -60,8 +60,8 @@
     "last_alert_time": 1764218894.0570264
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764225558.606955
+    "last_signal": "sell",
+    "last_alert_time": 1764272298.3169694
   },
   "ETCUSDT": {
     "last_signal": "sell",
