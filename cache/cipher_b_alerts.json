@@ -142,5 +142,9 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764244332.3098042
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764247772.2059124
   }
 }
