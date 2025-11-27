@@ -32,8 +32,8 @@
     "last_alert_time": 1764233859.7464907
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764215540.0411065
+    "last_signal": "buy",
+    "last_alert_time": 1764257054.7558243
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -186,5 +186,9 @@
   "APTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764254726.6134918
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764257054.3226228
   }
 }
