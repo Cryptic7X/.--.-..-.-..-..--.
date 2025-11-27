@@ -124,8 +124,8 @@
     "last_alert_time": 1764243615.661868
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764244330.5926564
+    "last_signal": "sell",
+    "last_alert_time": 1764265995.913028
   },
   "CRVUSDT": {
     "last_signal": "sell",
@@ -234,5 +234,9 @@
   "SUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764263950.6951478
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764265997.0532558
   }
 }
