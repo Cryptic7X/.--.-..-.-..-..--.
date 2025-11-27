@@ -30,5 +30,17 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764285649.8500085
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764286806.9557009
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764286807.2540193
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764286807.5058174
   }
 }
