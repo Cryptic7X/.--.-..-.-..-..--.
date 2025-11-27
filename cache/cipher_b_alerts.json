@@ -44,8 +44,8 @@
     "last_alert_time": 1764239194.705165
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764217707.8697233
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.8298178
   },
   "IPUSDT": {
     "last_signal": "sell",
@@ -64,8 +64,8 @@
     "last_alert_time": 1764225558.606955
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764225559.1082222
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.7164538
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1764258155.3736334
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764233860.009408
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.8449905
   },
   "AAVEUSDT": {
     "last_signal": "sell",
@@ -108,8 +108,8 @@
     "last_alert_time": 1764240464.8365796
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764240465.123834
+    "last_signal": "sell",
+    "last_alert_time": 1764263950.100766
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -148,8 +148,8 @@
     "last_alert_time": 1764247772.2059124
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250447.3060696
+    "last_signal": "sell",
+    "last_alert_time": 1764263948.9381444
   },
   "ETHUSDT": {
     "last_signal": "buy",
@@ -164,16 +164,16 @@
     "last_alert_time": 1764250447.6198206
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250448.4297402
+    "last_signal": "sell",
+    "last_alert_time": 1764263950.1466613
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250448.7004974
+    "last_signal": "sell",
+    "last_alert_time": 1764263950.5297084
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764250448.92309
+    "last_signal": "sell",
+    "last_alert_time": 1764263950.771117
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -214,5 +214,25 @@
   "GALAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764262196.967278
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.157356
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.5129004
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.5240135
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764263949.8359404
+  },
+  "SUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764263950.6951478
   }
 }
