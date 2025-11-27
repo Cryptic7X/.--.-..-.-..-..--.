@@ -114,5 +114,9 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764240465.865788
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764242427.97216
   }
 }
