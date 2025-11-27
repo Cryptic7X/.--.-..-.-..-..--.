@@ -182,5 +182,9 @@
   "SOLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764251693.4458048
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764254726.6134918
   }
 }
