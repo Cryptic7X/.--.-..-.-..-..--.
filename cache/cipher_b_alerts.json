@@ -48,8 +48,8 @@
     "last_alert_time": 1764217707.8697233
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764217708.147529
+    "last_signal": "sell",
+    "last_alert_time": 1764243614.768626
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -118,5 +118,9 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764242427.97216
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764243615.661868
   }
 }
