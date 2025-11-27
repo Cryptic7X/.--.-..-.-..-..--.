@@ -42,5 +42,17 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764215540.7650554
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764217707.8697233
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764217708.147529
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764217708.5286844
   }
 }
