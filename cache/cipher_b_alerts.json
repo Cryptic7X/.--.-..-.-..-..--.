@@ -70,5 +70,9 @@
   "CFXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764225560.0070825
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764226743.876111
   }
 }
