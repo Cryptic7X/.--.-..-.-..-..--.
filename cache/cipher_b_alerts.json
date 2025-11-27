@@ -120,8 +120,8 @@
     "last_alert_time": 1764262196.2587373
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764243615.661868
+    "last_signal": "sell",
+    "last_alert_time": 1764268319.619256
   },
   "HYPEUSDT": {
     "last_signal": "sell",
