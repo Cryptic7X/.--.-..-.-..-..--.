@@ -28,8 +28,8 @@
     "last_alert_time": 1764213239.3790443
   },
   "MNTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764215539.478624
+    "last_signal": "buy",
+    "last_alert_time": 1764233859.7464907
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -74,5 +74,21 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764226743.876111
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764233859.3152218
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764233859.3620284
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764233859.787664
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764233860.009408
   }
 }
