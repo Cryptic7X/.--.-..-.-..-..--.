@@ -102,5 +102,17 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764239194.6127331
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764240464.8365796
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764240465.123834
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764240465.865788
   }
 }
