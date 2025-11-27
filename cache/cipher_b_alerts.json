@@ -190,5 +190,9 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764257054.3226228
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764260934.7505355
   }
 }
