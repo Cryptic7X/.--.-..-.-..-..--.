@@ -146,5 +146,9 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764345230.456529
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764350392.8331652
   }
 }
