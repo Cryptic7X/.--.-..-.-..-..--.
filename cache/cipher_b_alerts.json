@@ -4,8 +4,8 @@
     "last_alert_time": 1764299621.0077019
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764299621.2538693
+    "last_signal": "sell",
+    "last_alert_time": 1764322185.9486265
   },
   "UNIUSDT": {
     "last_signal": "buy",
@@ -20,8 +20,8 @@
     "last_alert_time": 1764299621.5560205
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764299621.561717
+    "last_signal": "sell",
+    "last_alert_time": 1764322186.1880317
   },
   "OKBUSDT": {
     "last_signal": "buy",
@@ -56,8 +56,8 @@
     "last_alert_time": 1764299622.1648567
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764299622.1708198
+    "last_signal": "sell",
+    "last_alert_time": 1764322186.9356456
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -96,8 +96,8 @@
     "last_alert_time": 1764299622.6998966
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764299622.7141216
+    "last_signal": "sell",
+    "last_alert_time": 1764322187.4963431
   },
   "JASMYUSDT": {
     "last_signal": "buy",
