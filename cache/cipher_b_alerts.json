@@ -122,5 +122,13 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764343505.595216
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764344496.6333394
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764344496.6979966
   }
 }
