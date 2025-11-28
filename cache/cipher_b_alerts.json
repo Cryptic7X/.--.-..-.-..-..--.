@@ -98,5 +98,21 @@
   "CROUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764341058.9831643
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764341742.8945785
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764341743.174316
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764341743.3269603
+  },
+  "WIFUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764341744.0945349
   }
 }
