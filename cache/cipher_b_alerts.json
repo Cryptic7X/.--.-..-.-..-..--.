@@ -130,5 +130,21 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764344496.6979966
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764345228.7426572
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764345229.861398
+  },
+  "FLOKIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764345230.1558414
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764345230.456529
   }
 }
