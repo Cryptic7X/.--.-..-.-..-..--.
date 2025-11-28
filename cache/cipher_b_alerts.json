@@ -106,5 +106,9 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764299622.8647478
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764308667.195636
   }
 }
