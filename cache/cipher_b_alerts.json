@@ -110,5 +110,13 @@
   "APTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764308667.195636
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764311926.3562908
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764311926.5269365
   }
 }
