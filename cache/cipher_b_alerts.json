@@ -150,5 +150,21 @@
   "CRVUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764350392.8331652
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764352354.6777656
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764352355.272873
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764352355.4325945
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764352355.8972576
   }
 }
