@@ -90,5 +90,9 @@
   "HYPEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764328803.2019308
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764339788.6043386
   }
 }
