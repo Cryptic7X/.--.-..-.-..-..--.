@@ -78,5 +78,13 @@
   "LDOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764323126.4595628
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764325554.5366971
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764325555.0715575
   }
 }
