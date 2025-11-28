@@ -178,5 +178,13 @@
   "ATOMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764354726.3515823
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764356076.7816517
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764356077.4843056
   }
 }
