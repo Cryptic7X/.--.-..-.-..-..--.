@@ -94,5 +94,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764339788.6043386
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764341058.9831643
   }
 }
