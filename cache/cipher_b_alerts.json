@@ -82,5 +82,25 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764287529.4039981
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764294470.1392539
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764294470.1719482
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764294470.1786716
+  },
+  "INJUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764294471.5825021
+  },
+  "RAYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764294471.8819335
   }
 }
