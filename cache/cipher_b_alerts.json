@@ -126,5 +126,13 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764314850.4932857
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764318744.007433
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764318744.2464113
   }
 }
