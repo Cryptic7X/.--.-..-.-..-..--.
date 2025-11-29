@@ -194,5 +194,13 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764372036.91739
+  },
+  "RAYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764386043.1058633
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764386043.361976
   }
 }
