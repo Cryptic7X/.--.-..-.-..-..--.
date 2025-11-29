@@ -90,5 +90,13 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764409929.2027528
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764411785.487044
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764411786.047808
   }
 }
