@@ -1,7 +1,7 @@
 {
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400939.2744186
+    "last_signal": "sell",
+    "last_alert_time": 1764420196.2171469
   },
   "PUMPUSDT": {
     "last_signal": "buy",
@@ -28,8 +28,8 @@
     "last_alert_time": 1764400940.1495798
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.1555831
+    "last_signal": "sell",
+    "last_alert_time": 1764420197.225097
   },
   "CAKEUSDT": {
     "last_signal": "buy",
@@ -110,5 +110,13 @@
   "ASTERUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764415076.087457
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764420196.7132454
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764420197.2710173
   }
 }
