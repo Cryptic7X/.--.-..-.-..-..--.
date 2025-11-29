@@ -184,8 +184,8 @@
     "last_alert_time": 1764356076.7816517
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764356077.4843056
+    "last_signal": "sell",
+    "last_alert_time": 1764393743.5228643
   },
   "TRXUSDT": {
     "last_signal": "sell",
