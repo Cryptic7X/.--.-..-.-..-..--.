@@ -16,8 +16,8 @@
     "last_alert_time": 1764400939.818078
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764400939.8771744
+    "last_signal": "buy",
+    "last_alert_time": 1764441061.6005876
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -28,8 +28,8 @@
     "last_alert_time": 1764433622.8342774
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764420197.225097
+    "last_signal": "buy",
+    "last_alert_time": 1764441061.8546205
   },
   "CAKEUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1764408162.025883
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764409253.681393
+    "last_signal": "buy",
+    "last_alert_time": 1764441062.5315948
   },
   "ENSUSDT": {
     "last_signal": "buy",
@@ -138,5 +138,21 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764434832.1358678
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764441060.9333196
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764441061.5692308
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764441062.220571
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764441062.4827254
   }
 }
