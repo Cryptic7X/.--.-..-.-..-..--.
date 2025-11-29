@@ -20,8 +20,8 @@
     "last_alert_time": 1764354726.1331754
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764323125.3043306
+    "last_signal": "buy",
+    "last_alert_time": 1764390441.6060343
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -202,5 +202,17 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764386043.361976
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764390441.8828773
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764390442.0155542
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764390442.0586865
   }
 }
