@@ -98,5 +98,13 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764411786.047808
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764412961.6450582
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764412962.2315352
   }
 }
