@@ -78,5 +78,9 @@
   "SPXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764406162.1220489
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764408162.025883
   }
 }
