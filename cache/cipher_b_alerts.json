@@ -54,5 +54,13 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764400940.727265
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764401942.5267308
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764401943.4848044
   }
 }
