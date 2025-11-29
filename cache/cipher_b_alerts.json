@@ -24,8 +24,8 @@
     "last_alert_time": 1764400940.0980341
   },
   "JUPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.1495798
+    "last_signal": "sell",
+    "last_alert_time": 1764433622.8342774
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -130,5 +130,9 @@
   "DOGEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764429687.3971207
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764433623.3791897
   }
 }
