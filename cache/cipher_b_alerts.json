@@ -62,5 +62,17 @@
   "WLDUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764401943.4848044
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764404951.0981565
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764404951.8703063
+  },
+  "GALAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764404952.4591045
   }
 }
