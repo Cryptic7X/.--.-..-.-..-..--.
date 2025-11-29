@@ -118,5 +118,9 @@
   "ETHFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764420197.2710173
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764422173.638234
   }
 }
