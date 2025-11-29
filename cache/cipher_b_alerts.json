@@ -190,5 +190,9 @@
   "FLOKIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764442467.2868853
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764443874.9064243
   }
 }
