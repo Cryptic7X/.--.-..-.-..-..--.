@@ -74,5 +74,9 @@
   "GALAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764404952.4591045
+  },
+  "SPXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764406162.1220489
   }
 }
