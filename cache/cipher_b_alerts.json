@@ -112,20 +112,20 @@
     "last_alert_time": 1764341743.3269603
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764341744.0945349
+    "last_signal": "buy",
+    "last_alert_time": 1764391589.5263045
   },
   "KASUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764343504.8394144
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764343505.595216
+    "last_signal": "buy",
+    "last_alert_time": 1764391589.746269
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764344496.6333394
+    "last_signal": "buy",
+    "last_alert_time": 1764391589.1935084
   },
   "SPXUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,9 @@
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764390442.0586865
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764391588.1756315
   }
 }
