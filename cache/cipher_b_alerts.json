@@ -122,5 +122,9 @@
   "CRVUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764422173.638234
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764423776.4850776
   }
 }
