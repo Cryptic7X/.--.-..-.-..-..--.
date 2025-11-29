@@ -106,5 +106,9 @@
   "CFXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764412962.2315352
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764415076.087457
   }
 }
