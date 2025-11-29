@@ -32,8 +32,8 @@
     "last_alert_time": 1764323125.4807074
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764354726.1714702
+    "last_signal": "sell",
+    "last_alert_time": 1764380845.068094
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -152,8 +152,8 @@
     "last_alert_time": 1764350392.8331652
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764352354.6777656
+    "last_signal": "sell",
+    "last_alert_time": 1764380844.7888467
   },
   "CAKEUSDT": {
     "last_signal": "buy",
