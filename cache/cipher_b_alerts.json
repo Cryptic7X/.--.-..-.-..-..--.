@@ -200,8 +200,8 @@
     "last_alert_time": 1764468056.2180023
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764468056.5228107
+    "last_signal": "sell",
+    "last_alert_time": 1764494477.6339471
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,9 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764482123.7207923
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764494478.1820707
   }
 }
