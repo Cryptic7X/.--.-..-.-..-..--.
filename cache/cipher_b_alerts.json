@@ -4,8 +4,8 @@
     "last_alert_time": 1764442466.1247187
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400939.6094394
+    "last_signal": "sell",
+    "last_alert_time": 1764496296.4478533
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -80,8 +80,8 @@
     "last_alert_time": 1764406162.1220489
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764408162.025883
+    "last_signal": "sell",
+    "last_alert_time": 1764496296.729736
   },
   "BERAUSDT": {
     "last_signal": "buy",
@@ -218,5 +218,9 @@
   "SUIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764494478.1820707
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764496295.6678019
   }
 }
