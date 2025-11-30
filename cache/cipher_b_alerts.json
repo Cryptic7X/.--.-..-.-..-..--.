@@ -210,5 +210,9 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764478406.183119
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764482123.7207923
   }
 }
