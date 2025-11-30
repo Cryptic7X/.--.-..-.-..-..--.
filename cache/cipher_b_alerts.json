@@ -112,16 +112,16 @@
     "last_alert_time": 1764415076.087457
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764420196.7132454
+    "last_signal": "buy",
+    "last_alert_time": 1764506549.3173811
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764474160.2691517
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764422173.638234
+    "last_signal": "buy",
+    "last_alert_time": 1764506550.5960548
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -226,5 +226,9 @@
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764502711.5373166
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764506549.9899464
   }
 }
