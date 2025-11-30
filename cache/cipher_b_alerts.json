@@ -36,8 +36,8 @@
     "last_alert_time": 1764468057.582922
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.4213235
+    "last_signal": "sell",
+    "last_alert_time": 1764510843.8959975
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -108,8 +108,8 @@
     "last_alert_time": 1764412962.2315352
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764415076.087457
+    "last_signal": "sell",
+    "last_alert_time": 1764510842.9644232
   },
   "XRPUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1764442467.0271692
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764442467.2868853
+    "last_signal": "sell",
+    "last_alert_time": 1764510843.8512506
   },
   "UNIUSDT": {
     "last_signal": "sell",
