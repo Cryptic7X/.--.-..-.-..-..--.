@@ -40,8 +40,8 @@
     "last_alert_time": 1764400940.4213235
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.4273615
+    "last_signal": "sell",
+    "last_alert_time": 1764495583.775627
   },
   "JTOUSDT": {
     "last_signal": "buy",
