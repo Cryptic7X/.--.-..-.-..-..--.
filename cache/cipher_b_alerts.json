@@ -196,8 +196,8 @@
     "last_alert_time": 1764492356.9805882
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764468056.2180023
+    "last_signal": "buy",
+    "last_alert_time": 1764539529.1417155
   },
   "TRXUSDT": {
     "last_signal": "sell",
