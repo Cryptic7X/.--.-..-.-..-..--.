@@ -12,8 +12,8 @@
     "last_alert_time": 1764400939.617184
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400939.818078
+    "last_signal": "sell",
+    "last_alert_time": 1764523158.028901
   },
   "MUSDT": {
     "last_signal": "sell",
