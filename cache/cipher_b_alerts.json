@@ -222,5 +222,9 @@
   "ADAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764496295.6678019
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764502711.5373166
   }
 }
