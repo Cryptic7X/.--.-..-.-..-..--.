@@ -100,8 +100,8 @@
     "last_alert_time": 1764411786.047808
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764412961.6450582
+    "last_signal": "sell",
+    "last_alert_time": 1764474159.7631264
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -116,8 +116,8 @@
     "last_alert_time": 1764420196.7132454
   },
   "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764420197.2710173
+    "last_signal": "buy",
+    "last_alert_time": 1764474160.2691517
   },
   "CRVUSDT": {
     "last_signal": "sell",
