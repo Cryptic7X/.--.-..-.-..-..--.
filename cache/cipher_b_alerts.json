@@ -132,8 +132,8 @@
     "last_alert_time": 1764429687.3971207
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764456120.404156
+    "last_signal": "sell",
+    "last_alert_time": 1764581899.0660665
   },
   "BTCUSDT": {
     "last_signal": "buy",
