@@ -168,8 +168,8 @@
     "last_alert_time": 1764468056.5040765
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764512403.5656567
+    "last_signal": "buy",
+    "last_alert_time": 1764610366.044866
   },
   "NEARUSDT": {
     "last_signal": "buy",
