@@ -20,8 +20,8 @@
     "last_alert_time": 1764501467.256595
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.0980341
+    "last_signal": "sell",
+    "last_alert_time": 1764588090.84877
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -204,8 +204,8 @@
     "last_alert_time": 1764494477.6339471
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764564886.7131243
+    "last_signal": "sell",
+    "last_alert_time": 1764588091.7222416
   },
   "ENAUSDT": {
     "last_signal": "buy",
