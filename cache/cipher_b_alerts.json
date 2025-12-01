@@ -52,8 +52,8 @@
     "last_alert_time": 1764400940.7079263
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.727265
+    "last_signal": "sell",
+    "last_alert_time": 1764623982.42518
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1764606808.0177498
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764442467.0271692
+    "last_signal": "sell",
+    "last_alert_time": 1764623981.973334
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
