@@ -1,7 +1,7 @@
 {
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764593459.8153646
+    "last_signal": "sell",
+    "last_alert_time": 1764625906.2394783
   },
   "PUMPUSDT": {
     "last_signal": "sell",
@@ -48,8 +48,8 @@
     "last_alert_time": 1764586294.2500522
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400940.7079263
+    "last_signal": "sell",
+    "last_alert_time": 1764625907.7555218
   },
   "BRETTUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1764441062.4827254
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764442465.8778825
+    "last_signal": "sell",
+    "last_alert_time": 1764625905.947307
   },
   "DOTUSDT": {
     "last_signal": "buy",
