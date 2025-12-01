@@ -136,8 +136,8 @@
     "last_alert_time": 1764456120.404156
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764434832.1358678
+    "last_signal": "buy",
+    "last_alert_time": 1764564885.1781056
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -204,8 +204,8 @@
     "last_alert_time": 1764494477.6339471
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764468058.0515606
+    "last_signal": "buy",
+    "last_alert_time": 1764564886.7131243
   },
   "ENAUSDT": {
     "last_signal": "buy",
