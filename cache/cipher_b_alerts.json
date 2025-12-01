@@ -80,8 +80,8 @@
     "last_alert_time": 1764512404.565511
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764496296.729736
+    "last_signal": "buy",
+    "last_alert_time": 1764561517.6648364
   },
   "BERAUSDT": {
     "last_signal": "buy",
@@ -192,8 +192,8 @@
     "last_alert_time": 1764510843.8512506
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764492356.9805882
+    "last_signal": "buy",
+    "last_alert_time": 1764561516.9786084
   },
   "ETHUSDT": {
     "last_signal": "buy",
