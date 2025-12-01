@@ -8,8 +8,8 @@
     "last_alert_time": 1764617610.4520652
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764400939.617184
+    "last_signal": "sell",
+    "last_alert_time": 1764629029.2180367
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -20,8 +20,8 @@
     "last_alert_time": 1764501467.256595
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764606808.0012007
+    "last_signal": "sell",
+    "last_alert_time": 1764629029.5396492
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -100,12 +100,12 @@
     "last_alert_time": 1764597412.5867233
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764541290.0252764
+    "last_signal": "sell",
+    "last_alert_time": 1764629029.33435
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764412962.2315352
+    "last_signal": "sell",
+    "last_alert_time": 1764629030.0404265
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1764627677.3924153
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764564885.1781056
+    "last_signal": "sell",
+    "last_alert_time": 1764629028.4993238
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -172,12 +172,12 @@
     "last_alert_time": 1764610366.044866
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764442466.4271533
+    "last_signal": "sell",
+    "last_alert_time": 1764629028.9835343
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764442466.6721416
+    "last_signal": "sell",
+    "last_alert_time": 1764629029.2310293
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -196,8 +196,8 @@
     "last_alert_time": 1764561516.9786084
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764539529.1417155
+    "last_signal": "sell",
+    "last_alert_time": 1764629028.4302258
   },
   "TRXUSDT": {
     "last_signal": "sell",
@@ -216,8 +216,8 @@
     "last_alert_time": 1764482123.7207923
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764606807.084647
+    "last_signal": "sell",
+    "last_alert_time": 1764629028.70658
   },
   "ADAUSDT": {
     "last_signal": "sell",
