@@ -84,8 +84,8 @@
     "last_alert_time": 1764561517.6648364
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764568565.4718773
+    "last_signal": "buy",
+    "last_alert_time": 1764608393.338674
   },
   "ENSUSDT": {
     "last_signal": "buy",
