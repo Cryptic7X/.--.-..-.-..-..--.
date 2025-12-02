@@ -34,5 +34,17 @@
   "PIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764640321.4401605
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764645666.574195
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764645667.242662
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764645667.6094809
   }
 }
