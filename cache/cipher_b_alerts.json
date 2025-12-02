@@ -70,5 +70,9 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764651554.300828
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764654420.8242471
   }
 }
