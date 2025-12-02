@@ -22,5 +22,17 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764661902.169489
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764664456.33631
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764664456.3823574
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764664456.83939
   }
 }
