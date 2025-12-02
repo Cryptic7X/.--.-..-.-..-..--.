@@ -26,5 +26,13 @@
   "WIFUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764633159.314082
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764640320.9775891
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764640321.4401605
   }
 }
