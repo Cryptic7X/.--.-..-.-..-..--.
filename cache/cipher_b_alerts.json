@@ -34,5 +34,25 @@
   "POLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764664456.83939
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764666054.7595675
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764666055.3345823
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764666055.8319793
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764666056.2774754
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764666056.3822768
   }
 }
