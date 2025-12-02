@@ -146,5 +146,9 @@
   "OKBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764685973.9180634
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764687394.4263086
   }
 }
