@@ -68,8 +68,8 @@
     "last_alert_time": 1764668484.9359398
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764668484.974956
+    "last_signal": "sell",
+    "last_alert_time": 1764685974.2714221
   },
   "ICPUSDT": {
     "last_signal": "buy",
@@ -142,5 +142,9 @@
   "PENDLEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764683893.4982743
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764685973.9180634
   }
 }
