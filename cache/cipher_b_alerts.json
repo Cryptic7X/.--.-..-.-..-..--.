@@ -1,34 +1,26 @@
 {
-  "CROUSDT": {
+  "DOTUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660655.149122
+    "last_alert_time": 1764661900.260051
   },
   "NEARUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660655.3896458
+    "last_alert_time": 1764661900.8133223
   },
   "PUMPUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660655.5506837
+    "last_alert_time": 1764661900.8325176
   },
-  "POLUSDT": {
+  "APTUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660655.805556
-  },
-  "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764660656.1071467
-  },
-  "ETHFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764660656.2659109
+    "last_alert_time": 1764661900.8391547
   },
   "JTOUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660656.542845
+    "last_alert_time": 1764661901.989088
   },
   "BEAMUSDT": {
     "last_signal": "sell",
-    "last_alert_time": 1764660656.5660505
+    "last_alert_time": 1764661902.169489
   }
 }
