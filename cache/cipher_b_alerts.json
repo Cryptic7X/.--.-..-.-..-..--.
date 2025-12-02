@@ -62,5 +62,13 @@
   "IMXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764650678.7224312
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764651554.1635766
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764651554.300828
   }
 }
