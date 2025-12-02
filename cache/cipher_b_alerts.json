@@ -20,8 +20,8 @@
     "last_alert_time": 1764689472.4897175
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764689472.5073624
+    "last_signal": "buy",
+    "last_alert_time": 1764710611.532223
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -84,8 +84,8 @@
     "last_alert_time": 1764690939.5356283
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764690939.547371
+    "last_signal": "buy",
+    "last_alert_time": 1764710611.0919068
   },
   "WLFIUSDT": {
     "last_signal": "sell",
