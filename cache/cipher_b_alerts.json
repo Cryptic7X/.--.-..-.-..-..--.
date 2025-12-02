@@ -52,8 +52,8 @@
     "last_alert_time": 1764666056.2774754
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764666056.3822768
+    "last_signal": "sell",
+    "last_alert_time": 1764682725.6863093
   },
   "DOGEUSDT": {
     "last_signal": "buy",
