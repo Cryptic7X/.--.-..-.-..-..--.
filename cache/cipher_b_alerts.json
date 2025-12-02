@@ -54,5 +54,13 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764648239.6824996
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764650677.656233
+  },
+  "IMXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764650678.7224312
   }
 }
