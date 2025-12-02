@@ -74,5 +74,9 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764668485.0324738
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764671458.2445936
   }
 }
