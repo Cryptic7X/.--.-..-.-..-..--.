@@ -138,5 +138,9 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764679889.8411105
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764683893.4982743
   }
 }
