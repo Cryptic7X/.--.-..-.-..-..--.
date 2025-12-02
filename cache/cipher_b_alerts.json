@@ -8,8 +8,8 @@
     "last_alert_time": 1764633158.5135272
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764633158.7316852
+    "last_signal": "buy",
+    "last_alert_time": 1764657421.688094
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -74,5 +74,21 @@
   "KASUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764654420.8242471
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764657421.1058407
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764657421.58115
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764657422.4036353
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764657422.4924889
   }
 }
