@@ -20,8 +20,8 @@
     "last_alert_time": 1764689472.4897175
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764710611.532223
+    "last_signal": "sell",
+    "last_alert_time": 1764743801.4815035
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -242,5 +242,9 @@
   "LTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764734538.0580282
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764743801.7250094
   }
 }
