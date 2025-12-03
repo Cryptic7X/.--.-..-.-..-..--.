@@ -64,8 +64,8 @@
     "last_alert_time": 1764690939.290369
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764773849.8579915
+    "last_signal": "sell",
+    "last_alert_time": 1764788350.4411614
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -168,8 +168,8 @@
     "last_alert_time": 1764693274.5370202
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764762126.733747
+    "last_signal": "sell",
+    "last_alert_time": 1764788350.9150033
   },
   "ENAUSDT": {
     "last_signal": "sell",
