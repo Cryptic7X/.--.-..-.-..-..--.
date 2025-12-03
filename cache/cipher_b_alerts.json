@@ -20,8 +20,8 @@
     "last_alert_time": 1764689472.4897175
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764766313.9763908
+    "last_signal": "sell",
+    "last_alert_time": 1764798715.5163498
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -56,8 +56,8 @@
     "last_alert_time": 1764689472.8179615
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764762126.1088426
+    "last_signal": "sell",
+    "last_alert_time": 1764798714.7392762
   },
   "BNBUSDT": {
     "last_signal": "sell",
@@ -76,8 +76,8 @@
     "last_alert_time": 1764690939.3431587
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764759096.81707
+    "last_signal": "sell",
+    "last_alert_time": 1764798714.9848273
   },
   "HBARUSDT": {
     "last_signal": "buy",
