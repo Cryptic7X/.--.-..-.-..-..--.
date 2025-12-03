@@ -84,8 +84,8 @@
     "last_alert_time": 1764690939.5356283
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764710611.0919068
+    "last_signal": "sell",
+    "last_alert_time": 1764745170.9008298
   },
   "WLFIUSDT": {
     "last_signal": "sell",
