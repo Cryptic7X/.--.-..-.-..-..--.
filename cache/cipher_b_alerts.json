@@ -196,8 +196,8 @@
     "last_alert_time": 1764793702.8616674
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764760900.1028867
+    "last_signal": "sell",
+    "last_alert_time": 1764796845.3168993
   },
   "SEIUSDT": {
     "last_signal": "buy",
