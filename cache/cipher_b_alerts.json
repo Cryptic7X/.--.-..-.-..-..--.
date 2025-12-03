@@ -12,8 +12,8 @@
     "last_alert_time": 1764689472.307599
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764689472.3958662
+    "last_signal": "buy",
+    "last_alert_time": 1764773851.3814201
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -64,8 +64,8 @@
     "last_alert_time": 1764690939.290369
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764690939.320641
+    "last_signal": "buy",
+    "last_alert_time": 1764773849.8579915
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -212,8 +212,8 @@
     "last_alert_time": 1764693275.4306421
   },
   "CAKEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764693275.466178
+    "last_signal": "buy",
+    "last_alert_time": 1764773851.1738105
   },
   "CRVUSDT": {
     "last_signal": "sell",
@@ -244,7 +244,7 @@
     "last_alert_time": 1764734538.0580282
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764743801.7250094
+    "last_signal": "buy",
+    "last_alert_time": 1764773851.0131607
   }
 }
