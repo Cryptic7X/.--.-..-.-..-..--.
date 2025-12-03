@@ -12,8 +12,8 @@
     "last_alert_time": 1764689472.307599
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764773851.3814201
+    "last_signal": "sell",
+    "last_alert_time": 1764787008.0375385
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -124,8 +124,8 @@
     "last_alert_time": 1764690940.0402396
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764737011.4057512
+    "last_signal": "sell",
+    "last_alert_time": 1764787007.9717426
   },
   "CFXUSDT": {
     "last_signal": "sell",
