@@ -238,5 +238,9 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764693276.036817
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764734538.0580282
   }
 }
