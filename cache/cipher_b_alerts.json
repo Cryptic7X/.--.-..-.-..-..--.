@@ -192,8 +192,8 @@
     "last_alert_time": 1764837395.000615
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764793702.8616674
+    "last_signal": "buy",
+    "last_alert_time": 1764862354.571402
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1764826222.8589923
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764693275.8969188
+    "last_signal": "buy",
+    "last_alert_time": 1764862355.1811254
   },
   "JTOUSDT": {
     "last_signal": "sell",
