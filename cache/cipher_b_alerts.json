@@ -236,8 +236,8 @@
     "last_alert_time": 1764770280.2068417
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764800595.36463
+    "last_signal": "sell",
+    "last_alert_time": 1764831550.6015701
   },
   "LTCUSDT": {
     "last_signal": "sell",
