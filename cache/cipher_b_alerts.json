@@ -96,8 +96,8 @@
     "last_alert_time": 1764690939.7166514
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764690939.7732534
+    "last_signal": "buy",
+    "last_alert_time": 1764834985.1049514
   },
   "PUMPUSDT": {
     "last_signal": "buy",
@@ -240,8 +240,8 @@
     "last_alert_time": 1764831550.6015701
   },
   "LTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764734538.0580282
+    "last_signal": "buy",
+    "last_alert_time": 1764834984.5530865
   },
   "KASUSDT": {
     "last_signal": "sell",
