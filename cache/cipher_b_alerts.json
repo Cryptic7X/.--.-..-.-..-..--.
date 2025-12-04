@@ -180,8 +180,8 @@
     "last_alert_time": 1764693274.8584986
   },
   "ETCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764693274.9912045
+    "last_signal": "buy",
+    "last_alert_time": 1764827499.18935
   },
   "POLUSDT": {
     "last_signal": "sell",
