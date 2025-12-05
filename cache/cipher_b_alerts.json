@@ -174,5 +174,17 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764948342.711964
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764955605.728739
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764955605.7888882
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764955606.1264777
   }
 }
