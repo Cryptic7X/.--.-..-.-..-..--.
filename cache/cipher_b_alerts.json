@@ -166,5 +166,13 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764945946.0424235
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764948342.136725
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764948342.711964
   }
 }
