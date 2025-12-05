@@ -186,5 +186,13 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764955606.1264777
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764956643.9614606
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764956644.1933105
   }
 }
