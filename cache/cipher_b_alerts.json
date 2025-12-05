@@ -20,8 +20,8 @@
     "last_alert_time": 1764848501.5541537
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764798715.5163498
+    "last_signal": "buy",
+    "last_alert_time": 1764912595.2823472
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -200,8 +200,8 @@
     "last_alert_time": 1764837395.2457643
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764801878.0676908
+    "last_signal": "buy",
+    "last_alert_time": 1764912595.5530024
   },
   "ATOMUSDT": {
     "last_signal": "buy",
