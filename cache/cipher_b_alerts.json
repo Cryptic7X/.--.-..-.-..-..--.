@@ -26,5 +26,37 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764938963.7159486
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.0233858
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.0609436
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.0940757
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.2887638
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.5567942
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.693825
+  },
+  "ONDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.7390177
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764944693.959225
   }
 }
