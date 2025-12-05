@@ -68,12 +68,12 @@
     "last_alert_time": 1764830212.4197283
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764690939.3358002
+    "last_signal": "buy",
+    "last_alert_time": 1764930346.1274097
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764904887.006001
+    "last_signal": "buy",
+    "last_alert_time": 1764930346.136915
   },
   "TRXUSDT": {
     "last_signal": "sell",
@@ -160,8 +160,8 @@
     "last_alert_time": 1764873451.2877452
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764904887.3324337
+    "last_signal": "buy",
+    "last_alert_time": 1764930346.438775
   },
   "AAVEUSDT": {
     "last_signal": "sell",
@@ -236,8 +236,8 @@
     "last_alert_time": 1764904888.7608156
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764904888.7885988
+    "last_signal": "buy",
+    "last_alert_time": 1764930347.8893638
   },
   "LTCUSDT": {
     "last_signal": "buy",
