@@ -194,5 +194,17 @@
   "JUPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764956644.1933105
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764957325.7508116
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764957325.9214947
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764957326.8774567
   }
 }
