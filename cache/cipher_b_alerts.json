@@ -206,5 +206,9 @@
   "SEIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1764957326.8774567
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764966422.9021263
   }
 }
