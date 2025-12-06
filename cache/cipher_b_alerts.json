@@ -24,8 +24,8 @@
     "last_alert_time": 1765034468.630379
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764938963.7159486
+    "last_signal": "sell",
+    "last_alert_time": 1765039637.133545
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -44,8 +44,8 @@
     "last_alert_time": 1764996312.019997
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764944693.5567942
+    "last_signal": "sell",
+    "last_alert_time": 1765039635.9676702
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -200,8 +200,8 @@
     "last_alert_time": 1765024999.2170053
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764957325.9214947
+    "last_signal": "sell",
+    "last_alert_time": 1765039635.6242418
   },
   "SEIUSDT": {
     "last_signal": "sell",
