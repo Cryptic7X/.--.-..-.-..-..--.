@@ -230,5 +230,9 @@
   "SPXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765002765.661812
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765004113.9891787
   }
 }
