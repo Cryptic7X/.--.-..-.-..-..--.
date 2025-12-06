@@ -40,8 +40,8 @@
     "last_alert_time": 1764944693.0940757
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764944693.2887638
+    "last_signal": "sell",
+    "last_alert_time": 1764996312.019997
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1764985592.6106331
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764948342.711964
+    "last_signal": "sell",
+    "last_alert_time": 1764996312.34841
   },
   "DOGEUSDT": {
     "last_signal": "sell",
