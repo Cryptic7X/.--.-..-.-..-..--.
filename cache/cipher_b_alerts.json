@@ -32,8 +32,8 @@
     "last_alert_time": 1764944693.0233858
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764944693.0609436
+    "last_signal": "sell",
+    "last_alert_time": 1764995193.4287431
   },
   "BNBUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1764945945.0051599
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.0714483
+    "last_signal": "sell",
+    "last_alert_time": 1764995194.2566311
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1764945945.1543427
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.3048391
+    "last_signal": "sell",
+    "last_alert_time": 1764995194.4946163
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -132,8 +132,8 @@
     "last_alert_time": 1764945945.4476368
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.6120212
+    "last_signal": "sell",
+    "last_alert_time": 1764995194.7762375
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -218,5 +218,13 @@
   "IMXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764992966.6639366
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764995194.2292995
+  },
+  "JASMYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1764995195.1051636
   }
 }
