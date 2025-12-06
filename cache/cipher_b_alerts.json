@@ -92,8 +92,8 @@
     "last_alert_time": 1764945944.6946056
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945944.7740474
+    "last_signal": "sell",
+    "last_alert_time": 1765000505.5247478
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -112,8 +112,8 @@
     "last_alert_time": 1764985593.4284575
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.1543427
+    "last_signal": "sell",
+    "last_alert_time": 1765000505.7614672
   },
   "PENGUUSDT": {
     "last_signal": "sell",
