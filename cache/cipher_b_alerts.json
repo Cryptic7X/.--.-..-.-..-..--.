@@ -128,8 +128,8 @@
     "last_alert_time": 1765041533.249015
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.4476368
+    "last_signal": "sell",
+    "last_alert_time": 1765047241.4200912
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
