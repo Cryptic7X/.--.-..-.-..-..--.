@@ -88,8 +88,8 @@
     "last_alert_time": 1764945944.6372392
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945944.6946056
+    "last_signal": "sell",
+    "last_alert_time": 1765002764.5480692
   },
   "ENAUSDT": {
     "last_signal": "sell",
@@ -226,5 +226,9 @@
   "JASMYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764995195.1051636
+  },
+  "SPXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765002765.661812
   }
 }
