@@ -8,8 +8,8 @@
     "last_alert_time": 1764938963.3225927
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764938963.4208634
+    "last_signal": "sell",
+    "last_alert_time": 1765026994.2642136
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -100,8 +100,8 @@
     "last_alert_time": 1764945944.7995799
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.0051599
+    "last_signal": "sell",
+    "last_alert_time": 1765026993.4584951
   },
   "POLUSDT": {
     "last_signal": "sell",
