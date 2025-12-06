@@ -172,8 +172,8 @@
     "last_alert_time": 1765012964.593709
   },
   "PUMPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764996312.34841
+    "last_signal": "buy",
+    "last_alert_time": 1765065119.5768855
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -240,8 +240,8 @@
     "last_alert_time": 1765012964.8286157
   },
   "RAYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765034468.4970534
+    "last_signal": "buy",
+    "last_alert_time": 1765065120.480535
   },
   "AAVEUSDT": {
     "last_signal": "sell",
