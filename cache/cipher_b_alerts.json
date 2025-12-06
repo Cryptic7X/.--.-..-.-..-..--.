@@ -16,8 +16,8 @@
     "last_alert_time": 1764992966.9799156
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764938963.5803049
+    "last_signal": "sell",
+    "last_alert_time": 1765016577.6355636
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -180,8 +180,8 @@
     "last_alert_time": 1765012964.55428
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764955605.7888882
+    "last_signal": "sell",
+    "last_alert_time": 1765016577.11635
   },
   "MNTUSDT": {
     "last_signal": "buy",
