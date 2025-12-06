@@ -64,8 +64,8 @@
     "last_alert_time": 1765034466.6810355
   },
   "ADAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945944.1294093
+    "last_signal": "sell",
+    "last_alert_time": 1765041532.3051648
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1765028564.2536364
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.415068
+    "last_signal": "sell",
+    "last_alert_time": 1765041533.249015
   },
   "LDOUSDT": {
     "last_signal": "buy",
