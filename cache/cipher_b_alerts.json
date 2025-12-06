@@ -210,5 +210,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1764966422.9021263
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1764990723.8242955
   }
 }
