@@ -120,8 +120,8 @@
     "last_alert_time": 1764995194.4946163
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1764992966.5340872
+    "last_signal": "buy",
+    "last_alert_time": 1765028564.2536364
   },
   "INJUSDT": {
     "last_signal": "buy",
