@@ -4,8 +4,8 @@
     "last_alert_time": 1765034468.1971538
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764938963.3225927
+    "last_signal": "sell",
+    "last_alert_time": 1765092066.5900652
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1764985594.2208087
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765061617.0698676
+    "last_signal": "sell",
+    "last_alert_time": 1765092066.9783854
   },
   "BEAMUSDT": {
     "last_signal": "buy",
