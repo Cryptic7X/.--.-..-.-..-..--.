@@ -24,8 +24,8 @@
     "last_alert_time": 1765104774.444823
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765120831.9313416
+    "last_signal": "sell",
+    "last_alert_time": 1765135065.8125105
   },
   "BTCUSDT": {
     "last_signal": "sell",
@@ -128,8 +128,8 @@
     "last_alert_time": 1765133630.3508675
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765120831.5221095
+    "last_signal": "sell",
+    "last_alert_time": 1765135065.2432127
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -152,8 +152,8 @@
     "last_alert_time": 1764945945.838867
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765102908.8981197
+    "last_signal": "sell",
+    "last_alert_time": 1765135065.7903864
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
@@ -240,8 +240,8 @@
     "last_alert_time": 1765133629.1912258
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765065120.480535
+    "last_signal": "sell",
+    "last_alert_time": 1765135065.5164342
   },
   "AAVEUSDT": {
     "last_signal": "buy",
