@@ -60,8 +60,8 @@
     "last_alert_time": 1765102907.8035715
   },
   "DOTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765034466.6810355
+    "last_signal": "buy",
+    "last_alert_time": 1765106269.135409
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1765102908.8981197
   },
   "FARTCOINUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765092066.9783854
+    "last_signal": "buy",
+    "last_alert_time": 1765106270.9111245
   },
   "BEAMUSDT": {
     "last_signal": "buy",
