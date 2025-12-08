@@ -38,5 +38,49 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765179337.1199784
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180352.5114357
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180352.5332544
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180352.5477467
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180352.572092
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180353.1325803
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180353.2279477
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765180353.4466558
+  },
+  "LDOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180353.7645936
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180353.91035
+  },
+  "CFXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180354.0907724
+  },
+  "BERAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765180354.3363352
   }
 }
