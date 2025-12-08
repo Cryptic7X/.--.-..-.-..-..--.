@@ -108,8 +108,8 @@
     "last_alert_time": 1765186707.052071
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765186707.0907164
+    "last_signal": "buy",
+    "last_alert_time": 1765208729.6309025
   },
   "POLUSDT": {
     "last_signal": "sell",
@@ -206,5 +206,9 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765201014.0830212
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765208728.9814236
   }
 }
