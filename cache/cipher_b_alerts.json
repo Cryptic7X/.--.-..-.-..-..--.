@@ -1,7 +1,7 @@
 {
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765149615.9919436
+    "last_signal": "sell",
+    "last_alert_time": 1765171569.1331015
   },
   "CRVUSDT": {
     "last_signal": "buy",
@@ -44,8 +44,8 @@
     "last_alert_time": 1765132255.3858175
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765150778.7859674
+    "last_signal": "sell",
+    "last_alert_time": 1765171568.3719885
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1765102907.222952
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765097236.8021007
+    "last_signal": "sell",
+    "last_alert_time": 1765171568.3511899
   },
   "ENAUSDT": {
     "last_signal": "sell",
@@ -104,8 +104,8 @@
     "last_alert_time": 1765133629.9457495
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765120831.1680288
+    "last_signal": "sell",
+    "last_alert_time": 1765171568.6539185
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -132,8 +132,8 @@
     "last_alert_time": 1765135065.2432127
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765086797.0621374
+    "last_signal": "sell",
+    "last_alert_time": 1765171569.1880143
   },
   "PENDLEUSDT": {
     "last_signal": "sell",
@@ -148,8 +148,8 @@
     "last_alert_time": 1765133630.636457
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945945.838867
+    "last_signal": "sell",
+    "last_alert_time": 1765171569.4432178
   },
   "JTOUSDT": {
     "last_signal": "buy",
@@ -160,8 +160,8 @@
     "last_alert_time": 1765106270.9111245
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765086087.3796585
+    "last_signal": "sell",
+    "last_alert_time": 1765171569.6311173
   },
   "BERAUSDT": {
     "last_signal": "buy",
@@ -220,8 +220,8 @@
     "last_alert_time": 1765150779.251827
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765120831.1407757
+    "last_signal": "sell",
+    "last_alert_time": 1765171568.6673722
   },
   "JASMYUSDT": {
     "last_signal": "buy",
