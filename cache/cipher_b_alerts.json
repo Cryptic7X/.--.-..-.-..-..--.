@@ -16,8 +16,8 @@
     "last_alert_time": 1765179336.370139
   },
   "SEIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765179336.3826728
+    "last_signal": "buy",
+    "last_alert_time": 1765223528.6725392
   },
   "INJUSDT": {
     "last_signal": "sell",
