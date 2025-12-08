@@ -202,5 +202,9 @@
   "RAYUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765189828.7022622
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765201014.0830212
   }
 }
