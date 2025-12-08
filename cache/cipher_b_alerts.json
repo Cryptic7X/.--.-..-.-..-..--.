@@ -44,8 +44,8 @@
     "last_alert_time": 1765180352.5114357
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765180352.5332544
+    "last_signal": "buy",
+    "last_alert_time": 1765205441.1577137
   },
   "ADAUSDT": {
     "last_signal": "sell",
