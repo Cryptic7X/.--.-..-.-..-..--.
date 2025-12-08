@@ -218,5 +218,9 @@
   "IMXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765211559.9148083
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765215012.2246523
   }
 }
