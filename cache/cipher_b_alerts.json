@@ -52,20 +52,20 @@
     "last_alert_time": 1765169213.6455913
   },
   "ONDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765150778.8292618
+    "last_signal": "sell",
+    "last_alert_time": 1765177313.3456507
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765102907.8035715
+    "last_signal": "sell",
+    "last_alert_time": 1765177313.4717607
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765149614.6231763
+    "last_signal": "sell",
+    "last_alert_time": 1765177312.7045875
   },
   "ADAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765147990.4723365
+    "last_signal": "sell",
+    "last_alert_time": 1765177312.74435
   },
   "HYPEUSDT": {
     "last_signal": "buy",
@@ -84,8 +84,8 @@
     "last_alert_time": 1765133629.91361
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765102907.222952
+    "last_signal": "sell",
+    "last_alert_time": 1765177313.0133874
   },
   "OKBUSDT": {
     "last_signal": "sell",
@@ -188,8 +188,8 @@
     "last_alert_time": 1765078985.6555572
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765102907.8245063
+    "last_signal": "sell",
+    "last_alert_time": 1765177313.5789738
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -204,8 +204,8 @@
     "last_alert_time": 1765133629.0785499
   },
   "SEIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765120831.3906295
+    "last_signal": "sell",
+    "last_alert_time": 1765177313.6434703
   },
   "MUSDT": {
     "last_signal": "buy",
