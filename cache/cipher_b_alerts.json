@@ -44,8 +44,8 @@
     "last_alert_time": 1765180352.5114357
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765205441.1577137
+    "last_signal": "sell",
+    "last_alert_time": 1765232561.9686513
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -230,5 +230,9 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765225644.86662
+  },
+  "SUIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765232562.2959917
   }
 }
