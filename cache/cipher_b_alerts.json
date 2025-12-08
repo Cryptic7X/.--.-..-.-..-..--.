@@ -226,5 +226,9 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765222777.0168486
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765225644.86662
   }
 }
