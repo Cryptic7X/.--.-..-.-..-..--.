@@ -48,8 +48,8 @@
     "last_alert_time": 1765150778.7859674
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765147991.1344473
+    "last_signal": "sell",
+    "last_alert_time": 1765169213.6455913
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -96,8 +96,8 @@
     "last_alert_time": 1765133629.7529125
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1764945944.7995799
+    "last_signal": "sell",
+    "last_alert_time": 1765169213.6099856
   },
   "ETCUSDT": {
     "last_signal": "sell",
