@@ -56,8 +56,8 @@
     "last_alert_time": 1765180352.572092
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765180353.1325803
+    "last_signal": "buy",
+    "last_alert_time": 1765211559.258409
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -84,8 +84,8 @@
     "last_alert_time": 1765180354.3363352
   },
   "SOLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765182918.352667
+    "last_signal": "buy",
+    "last_alert_time": 1765211558.5744448
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1765186707.4065514
   },
   "LINKUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765186707.4955013
+    "last_signal": "buy",
+    "last_alert_time": 1765211558.7846773
   },
   "BNBUSDT": {
     "last_signal": "sell",
@@ -128,8 +128,8 @@
     "last_alert_time": 1765187770.09732
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765187770.3780925
+    "last_signal": "buy",
+    "last_alert_time": 1765211558.8094308
   },
   "CROUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1765187771.9436522
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765189827.5047917
+    "last_signal": "buy",
+    "last_alert_time": 1765211558.888074
   },
   "AAVEUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1765189828.3752868
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765189828.5802824
+    "last_signal": "buy",
+    "last_alert_time": 1765211559.959506
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -210,5 +210,13 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765208728.9814236
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765211559.6224117
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765211559.9148083
   }
 }
