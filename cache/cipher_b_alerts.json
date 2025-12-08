@@ -182,5 +182,25 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765187771.9436522
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765189827.5047917
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765189827.8104494
+  },
+  "JUPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765189828.3752868
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765189828.5802824
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765189828.7022622
   }
 }
