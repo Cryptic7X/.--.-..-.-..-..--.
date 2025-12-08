@@ -98,5 +98,25 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765182920.0354717
+  },
+  "DOTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765186706.5514147
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765186707.052071
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765186707.0907164
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765186707.4065514
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765186707.4955013
   }
 }
