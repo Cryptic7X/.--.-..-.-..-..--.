@@ -136,8 +136,8 @@
     "last_alert_time": 1765222775.723067
   },
   "WLFIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765187770.4128058
+    "last_signal": "buy",
+    "last_alert_time": 1765279343.089008
   },
   "HBARUSDT": {
     "last_signal": "sell",
@@ -176,8 +176,8 @@
     "last_alert_time": 1765187771.7407544
   },
   "JASMYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765187771.7668147
+    "last_signal": "buy",
+    "last_alert_time": 1765279344.8962271
   },
   "BEAMUSDT": {
     "last_signal": "buy",
