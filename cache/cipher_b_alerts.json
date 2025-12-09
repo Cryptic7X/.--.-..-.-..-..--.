@@ -76,8 +76,8 @@
     "last_alert_time": 1765180353.91035
   },
   "CFXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765180354.0907724
+    "last_signal": "buy",
+    "last_alert_time": 1765259212.6791656
   },
   "BERAUSDT": {
     "last_signal": "sell",
@@ -156,8 +156,8 @@
     "last_alert_time": 1765187770.9094281
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765187771.2089405
+    "last_signal": "buy",
+    "last_alert_time": 1765259212.2302477
   },
   "PENGUUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1765252929.1619735
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765189828.3752868
+    "last_signal": "buy",
+    "last_alert_time": 1765259212.3133218
   },
   "SPXUSDT": {
     "last_signal": "buy",
