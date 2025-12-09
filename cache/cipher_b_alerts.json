@@ -180,8 +180,8 @@
     "last_alert_time": 1765279344.8962271
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765222777.1576376
+    "last_signal": "sell",
+    "last_alert_time": 1765288657.5137022
   },
   "UNIUSDT": {
     "last_signal": "sell",
