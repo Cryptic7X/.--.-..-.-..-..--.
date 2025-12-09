@@ -12,12 +12,12 @@
     "last_alert_time": 1765179336.09113
   },
   "ATOMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765252929.8322432
+    "last_signal": "sell",
+    "last_alert_time": 1765287485.722393
   },
   "SEIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765223528.6725392
+    "last_signal": "sell",
+    "last_alert_time": 1765287485.761707
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -28,8 +28,8 @@
     "last_alert_time": 1765179336.8315964
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765252930.2584932
+    "last_signal": "sell",
+    "last_alert_time": 1765287486.055984
   },
   "GALAUSDT": {
     "last_signal": "sell",
@@ -52,8 +52,8 @@
     "last_alert_time": 1765180352.5477467
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765263595.6016476
+    "last_signal": "sell",
+    "last_alert_time": 1765287484.5880444
   },
   "TAOUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1765265463.6258223
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765237245.4833477
+    "last_signal": "sell",
+    "last_alert_time": 1765287486.2953105
   },
   "DOTUSDT": {
     "last_signal": "sell",
@@ -132,8 +132,8 @@
     "last_alert_time": 1765211558.8094308
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765222775.723067
+    "last_signal": "sell",
+    "last_alert_time": 1765287484.9360774
   },
   "WLFIUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1765222777.1576376
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765211558.888074
+    "last_signal": "sell",
+    "last_alert_time": 1765287484.9049554
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -200,8 +200,8 @@
     "last_alert_time": 1765211559.959506
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765222776.9689267
+    "last_signal": "sell",
+    "last_alert_time": 1765287486.0660465
   },
   "TRXUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1765208728.9814236
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765211559.6224117
+    "last_signal": "sell",
+    "last_alert_time": 1765287485.6073012
   },
   "IMXUSDT": {
     "last_signal": "buy",
@@ -238,5 +238,9 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765252928.8991823
+  },
+  "CRVUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765287486.083157
   }
 }
