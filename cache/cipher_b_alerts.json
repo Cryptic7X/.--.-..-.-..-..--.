@@ -80,8 +80,8 @@
     "last_alert_time": 1765259212.6791656
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765180354.3363352
+    "last_signal": "buy",
+    "last_alert_time": 1765265464.0151777
   },
   "SOLUSDT": {
     "last_signal": "buy",
@@ -92,8 +92,8 @@
     "last_alert_time": 1765182919.013341
   },
   "PENDLEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765182919.8029861
+    "last_signal": "buy",
+    "last_alert_time": 1765265463.6258223
   },
   "EIGENUSDT": {
     "last_signal": "buy",
