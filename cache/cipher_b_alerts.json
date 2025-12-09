@@ -4,8 +4,8 @@
     "last_alert_time": 1765179336.0087035
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765222776.2279956
+    "last_signal": "sell",
+    "last_alert_time": 1765299574.12077
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -164,8 +164,8 @@
     "last_alert_time": 1765187771.2146971
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765252930.0759523
+    "last_signal": "sell",
+    "last_alert_time": 1765299574.6892679
   },
   "ENSUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1765201014.0830212
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765208728.9814236
+    "last_signal": "sell",
+    "last_alert_time": 1765299573.804453
   },
   "ICPUSDT": {
     "last_signal": "sell",
