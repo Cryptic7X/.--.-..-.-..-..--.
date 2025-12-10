@@ -118,5 +118,13 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765359282.097916
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765360526.4479136
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765360526.8309748
   }
 }
