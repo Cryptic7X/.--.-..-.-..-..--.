@@ -126,5 +126,9 @@
   "CAKEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765360526.8309748
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765365689.1202662
   }
 }
