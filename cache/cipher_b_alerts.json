@@ -86,5 +86,37 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765357165.371953
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359280.3394713
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.314345
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.448936
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.5871668
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.5997856
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.8580892
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359281.9558246
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765359282.097916
   }
 }
