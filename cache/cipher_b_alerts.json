@@ -174,5 +174,9 @@
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765391703.5495718
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765393136.920695
   }
 }
