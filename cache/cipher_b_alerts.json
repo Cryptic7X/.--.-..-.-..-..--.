@@ -132,8 +132,8 @@
     "last_alert_time": 1765399823.0976434
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765366912.3101556
+    "last_signal": "sell",
+    "last_alert_time": 1765403121.5544856
   },
   "BNBUSDT": {
     "last_signal": "sell",
