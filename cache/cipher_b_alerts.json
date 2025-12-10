@@ -60,8 +60,8 @@
     "last_alert_time": 1765301419.297135
   },
   "POLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301419.380568
+    "last_signal": "buy",
+    "last_alert_time": 1765348664.5783699
   },
   "WLDUSDT": {
     "last_signal": "buy",
