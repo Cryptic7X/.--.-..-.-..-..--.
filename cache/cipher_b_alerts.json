@@ -130,5 +130,9 @@
   "SOLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765365689.1202662
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765366912.3101556
   }
 }
