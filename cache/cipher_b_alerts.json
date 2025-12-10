@@ -1,7 +1,7 @@
 {
   "LTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301418.4942236
+    "last_signal": "buy",
+    "last_alert_time": 1765339663.8818932
   },
   "XRPUSDT": {
     "last_signal": "buy",
@@ -174,5 +174,13 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765331698.9915872
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765339663.2202146
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765339664.6308467
   }
 }
