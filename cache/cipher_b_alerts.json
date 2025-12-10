@@ -64,8 +64,8 @@
     "last_alert_time": 1765301419.380568
   },
   "WLDUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301419.4165246
+    "last_signal": "buy",
+    "last_alert_time": 1765341994.5921245
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -182,5 +182,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765339664.6308467
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765341994.1178243
   }
 }
