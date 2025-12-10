@@ -54,5 +54,33 @@
   "GALAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765353356.7965004
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355708.1591136
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355708.6926327
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355708.7575948
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355709.0012705
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355709.0428767
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355709.5012348
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765355709.565784
   }
 }
