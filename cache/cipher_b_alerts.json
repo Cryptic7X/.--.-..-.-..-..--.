@@ -84,8 +84,8 @@
     "last_alert_time": 1765355709.565784
   },
   "SPXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765357165.371953
+    "last_signal": "buy",
+    "last_alert_time": 1765384446.148638
   },
   "XRPUSDT": {
     "last_signal": "buy",
@@ -150,5 +150,13 @@
   "OKBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765382159.836868
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765384445.415001
+  },
+  "SEIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765384445.8711245
   }
 }
