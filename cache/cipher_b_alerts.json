@@ -4,20 +4,20 @@
     "last_alert_time": 1765301418.4942236
   },
   "XRPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301418.5007868
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.3503385
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301418.513821
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.361701
   },
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765301418.5565598
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301418.676666
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.385726
   },
   "SUIUSDT": {
     "last_signal": "sell",
@@ -32,8 +32,8 @@
     "last_alert_time": 1765301418.7872453
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301418.8692725
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.7879612
   },
   "MNTUSDT": {
     "last_signal": "sell",
@@ -80,16 +80,16 @@
     "last_alert_time": 1765301419.690089
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301419.7026815
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.5078824
   },
   "JUPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765301419.7142992
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765301419.761027
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.5196183
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -142,5 +142,37 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765318961.352511
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.3735867
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.6172328
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331697.8576162
+  },
+  "ONDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.200572
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.2089102
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.7505279
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.7985911
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765331698.9915872
   }
 }
