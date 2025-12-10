@@ -82,5 +82,9 @@
   "CFXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765355709.565784
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765357165.371953
   }
 }
