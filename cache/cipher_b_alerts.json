@@ -28,8 +28,8 @@
     "last_alert_time": 1765418191.8007808
   },
   "TAOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418191.830777
+    "last_signal": "sell",
+    "last_alert_time": 1765461632.051653
   },
   "PUMPUSDT": {
     "last_signal": "buy",
@@ -132,8 +132,8 @@
     "last_alert_time": 1765418192.7837892
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.7958343
+    "last_signal": "sell",
+    "last_alert_time": 1765461633.0919564
   },
   "JASMYUSDT": {
     "last_signal": "buy",
