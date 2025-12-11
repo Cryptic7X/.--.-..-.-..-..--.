@@ -1,7 +1,7 @@
 {
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418191.5588381
+    "last_signal": "sell",
+    "last_alert_time": 1765479638.634037
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1765418192.4854264
   },
   "CAKEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.4953334
+    "last_signal": "sell",
+    "last_alert_time": 1765479639.85375
   },
   "ETHFIUSDT": {
     "last_signal": "buy",
@@ -160,8 +160,8 @@
     "last_alert_time": 1765424271.937648
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765424271.967697
+    "last_signal": "sell",
+    "last_alert_time": 1765479638.9807248
   },
   "LINKUSDT": {
     "last_signal": "buy",
