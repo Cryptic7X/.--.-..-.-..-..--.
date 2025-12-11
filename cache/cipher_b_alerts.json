@@ -176,8 +176,8 @@
     "last_alert_time": 1765424272.2220683
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765424272.8524268
+    "last_signal": "sell",
+    "last_alert_time": 1765448979.3161552
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -198,5 +198,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765443594.8766327
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765448978.9962459
   }
 }
