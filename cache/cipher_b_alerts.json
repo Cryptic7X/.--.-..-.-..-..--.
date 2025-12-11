@@ -190,5 +190,9 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765426882.6576982
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765439586.5371068
   }
 }
