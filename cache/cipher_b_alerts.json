@@ -32,8 +32,8 @@
     "last_alert_time": 1765461632.051653
   },
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418191.8373942
+    "last_signal": "sell",
+    "last_alert_time": 1765481534.172205
   },
   "APTUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1765418192.747082
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.778089
+    "last_signal": "sell",
+    "last_alert_time": 1765481535.3017042
   },
   "GALAUSDT": {
     "last_signal": "buy",
@@ -226,5 +226,9 @@
   "DOGEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765471339.348652
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765481533.556761
   }
 }
