@@ -222,5 +222,9 @@
   "AVAXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765467032.9671059
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765471339.348652
   }
 }
