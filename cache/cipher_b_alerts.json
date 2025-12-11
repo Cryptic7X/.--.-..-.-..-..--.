@@ -56,8 +56,8 @@
     "last_alert_time": 1765418192.0699823
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.2412071
+    "last_signal": "sell",
+    "last_alert_time": 1765468700.297684
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -188,8 +188,8 @@
     "last_alert_time": 1765424273.1422403
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765426882.6576982
+    "last_signal": "sell",
+    "last_alert_time": 1765468700.7513044
   },
   "HYPEUSDT": {
     "last_signal": "buy",
