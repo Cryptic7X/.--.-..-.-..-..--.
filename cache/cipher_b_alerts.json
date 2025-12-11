@@ -186,5 +186,9 @@
   "SEIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765424273.1422403
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765426882.6576982
   }
 }
