@@ -214,5 +214,13 @@
   "ASTERUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765460519.5727456
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765467032.73471
+  },
+  "AVAXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765467032.9671059
   }
 }
