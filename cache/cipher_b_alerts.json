@@ -206,5 +206,9 @@
   "DOTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765450350.1615775
+  },
+  "SPXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765457605.6848047
   }
 }
