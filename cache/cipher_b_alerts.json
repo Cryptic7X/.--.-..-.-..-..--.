@@ -72,16 +72,16 @@
     "last_alert_time": 1765418192.3031511
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.4127078
+    "last_signal": "sell",
+    "last_alert_time": 1765460520.1326628
   },
   "JUPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765418192.4181604
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765418192.4722583
+    "last_signal": "sell",
+    "last_alert_time": 1765460521.3917992
   },
   "LDOUSDT": {
     "last_signal": "buy",
@@ -210,5 +210,9 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765457605.6848047
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765460519.5727456
   }
 }
