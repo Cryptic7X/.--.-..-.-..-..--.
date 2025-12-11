@@ -150,5 +150,41 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765418192.9911058
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424271.9268181
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424271.937648
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424271.967697
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424272.1551483
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424272.2100708
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424272.2220683
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424272.8524268
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424273.0104878
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765424273.1422403
   }
 }
