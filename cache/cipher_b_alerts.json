@@ -192,8 +192,8 @@
     "last_alert_time": 1765468700.7513044
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765439586.5371068
+    "last_signal": "sell",
+    "last_alert_time": 1765478136.4332764
   },
   "MUSDT": {
     "last_signal": "sell",
