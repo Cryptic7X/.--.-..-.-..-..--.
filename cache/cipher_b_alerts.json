@@ -212,8 +212,8 @@
     "last_alert_time": 1765560162.885045
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765560162.9593756
+    "last_signal": "sell",
+    "last_alert_time": 1765583540.0006363
   },
   "BERAUSDT": {
     "last_signal": "sell",
