@@ -186,5 +186,37 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765558241.468843
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560161.1163714
+  },
+  "LINKUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560161.3389595
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560162.0718694
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560162.2490864
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560162.2568483
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560162.885045
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560162.9593756
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765560163.0912294
   }
 }
