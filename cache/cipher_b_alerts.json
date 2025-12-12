@@ -180,8 +180,8 @@
     "last_alert_time": 1765448979.3161552
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765491876.4002144
+    "last_signal": "buy",
+    "last_alert_time": 1765533329.9922209
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -204,8 +204,8 @@
     "last_alert_time": 1765448978.9962459
   },
   "DOTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765491875.2052443
+    "last_signal": "buy",
+    "last_alert_time": 1765533328.897645
   },
   "SPXUSDT": {
     "last_signal": "sell",
