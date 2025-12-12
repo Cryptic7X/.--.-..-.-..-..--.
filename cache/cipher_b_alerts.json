@@ -32,8 +32,8 @@
     "last_alert_time": 1765557007.0382926
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765557007.0601838
+    "last_signal": "sell",
+    "last_alert_time": 1765582854.1093132
   },
   "CFXUSDT": {
     "last_signal": "sell",
@@ -120,8 +120,8 @@
     "last_alert_time": 1765558240.4162645
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.4227543
+    "last_signal": "sell",
+    "last_alert_time": 1765582852.9655242
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -226,5 +226,9 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765576312.6542583
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765582852.7205582
   }
 }
