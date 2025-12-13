@@ -238,5 +238,9 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765607805.9863062
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765621386.959324
   }
 }
