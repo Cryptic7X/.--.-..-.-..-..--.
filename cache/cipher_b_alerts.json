@@ -160,8 +160,8 @@
     "last_alert_time": 1765581837.0029042
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.9843452
+    "last_signal": "sell",
+    "last_alert_time": 1765653463.3749406
   },
   "ATOMUSDT": {
     "last_signal": "sell",
