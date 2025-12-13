@@ -60,16 +60,16 @@
     "last_alert_time": 1765557007.3712382
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.7963715
+    "last_signal": "sell",
+    "last_alert_time": 1765617774.2142816
   },
   "DOGEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.818646
+    "last_signal": "sell",
+    "last_alert_time": 1765617774.70149
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.8355646
+    "last_signal": "sell",
+    "last_alert_time": 1765617774.202045
   },
   "XRPUSDT": {
     "last_signal": "sell",
@@ -80,12 +80,12 @@
     "last_alert_time": 1765601671.712006
   },
   "ADAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.865219
+    "last_signal": "sell",
+    "last_alert_time": 1765617774.1837273
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.9017546
+    "last_signal": "sell",
+    "last_alert_time": 1765617774.2078345
   },
   "AVAXUSDT": {
     "last_signal": "sell",
@@ -168,8 +168,8 @@
     "last_alert_time": 1765581837.231215
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558241.0358186
+    "last_signal": "sell",
+    "last_alert_time": 1765617775.2235835
   },
   "JUPUSDT": {
     "last_signal": "sell",
