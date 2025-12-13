@@ -8,8 +8,8 @@
     "last_alert_time": 1765600491.4990532
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765557006.7598295
+    "last_signal": "sell",
+    "last_alert_time": 1765603472.1869433
   },
   "CRVUSDT": {
     "last_signal": "sell",
@@ -20,8 +20,8 @@
     "last_alert_time": 1765581837.5990586
   },
   "SPXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765557006.9731905
+    "last_signal": "sell",
+    "last_alert_time": 1765603472.200156
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -192,8 +192,8 @@
     "last_alert_time": 1765581836.1789129
   },
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765560161.3389595
+    "last_signal": "sell",
+    "last_alert_time": 1765603471.2303665
   },
   "WLDUSDT": {
     "last_signal": "sell",
