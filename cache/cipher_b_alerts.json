@@ -4,8 +4,8 @@
     "last_alert_time": 1765600491.4864237
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765600491.4990532
+    "last_signal": "buy",
+    "last_alert_time": 1765637620.3956203
   },
   "LDOUSDT": {
     "last_signal": "sell",
@@ -60,8 +60,8 @@
     "last_alert_time": 1765557007.3712382
   },
   "BTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765617774.2142816
+    "last_signal": "buy",
+    "last_alert_time": 1765637619.1121182
   },
   "DOGEUSDT": {
     "last_signal": "sell",
@@ -172,8 +172,8 @@
     "last_alert_time": 1765617775.2235835
   },
   "JUPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765595907.9923697
+    "last_signal": "buy",
+    "last_alert_time": 1765637620.4022942
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -208,8 +208,8 @@
     "last_alert_time": 1765560162.2568483
   },
   "JTOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765600492.027157
+    "last_signal": "buy",
+    "last_alert_time": 1765637621.4597464
   },
   "BEAMUSDT": {
     "last_signal": "sell",
