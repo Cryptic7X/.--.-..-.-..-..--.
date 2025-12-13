@@ -76,8 +76,8 @@
     "last_alert_time": 1765595906.3257313
   },
   "LTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765601671.712006
+    "last_signal": "buy",
+    "last_alert_time": 1765635636.744562
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -124,8 +124,8 @@
     "last_alert_time": 1765623305.205706
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.443688
+    "last_signal": "sell",
+    "last_alert_time": 1765635637.3158853
   },
   "TAOUSDT": {
     "last_signal": "sell",
