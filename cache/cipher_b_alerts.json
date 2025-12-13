@@ -120,8 +120,8 @@
     "last_alert_time": 1765601672.187386
   },
   "OKBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765582852.9655242
+    "last_signal": "buy",
+    "last_alert_time": 1765607806.4459033
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "BNBUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765600490.3301256
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765607805.9863062
   }
 }
