@@ -44,8 +44,8 @@
     "last_alert_time": 1765557007.157365
   },
   "GALAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765581837.771183
+    "last_signal": "buy",
+    "last_alert_time": 1765662728.6042266
   },
   "EIGENUSDT": {
     "last_signal": "buy",
@@ -64,8 +64,8 @@
     "last_alert_time": 1765637619.1121182
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765617774.70149
+    "last_signal": "buy",
+    "last_alert_time": 1765662727.0366507
   },
   "SOLUSDT": {
     "last_signal": "sell",
@@ -212,8 +212,8 @@
     "last_alert_time": 1765654709.0839152
   },
   "BEAMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765583540.0006363
+    "last_signal": "buy",
+    "last_alert_time": 1765662728.7382612
   },
   "BERAUSDT": {
     "last_signal": "sell",
