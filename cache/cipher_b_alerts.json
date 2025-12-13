@@ -208,8 +208,8 @@
     "last_alert_time": 1765560162.2568483
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765637621.4597464
+    "last_signal": "sell",
+    "last_alert_time": 1765654709.0839152
   },
   "BEAMUSDT": {
     "last_signal": "sell",
