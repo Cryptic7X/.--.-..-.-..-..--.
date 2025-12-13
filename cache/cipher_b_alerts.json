@@ -88,8 +88,8 @@
     "last_alert_time": 1765558239.9017546
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.1054845
+    "last_signal": "sell",
+    "last_alert_time": 1765598384.9364681
   },
   "SUIUSDT": {
     "last_signal": "sell",
