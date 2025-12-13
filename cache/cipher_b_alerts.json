@@ -76,8 +76,8 @@
     "last_alert_time": 1765595906.3257313
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558239.8565538
+    "last_signal": "sell",
+    "last_alert_time": 1765601671.712006
   },
   "ADAUSDT": {
     "last_signal": "buy",
@@ -116,8 +116,8 @@
     "last_alert_time": 1765595907.190559
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.4162645
+    "last_signal": "sell",
+    "last_alert_time": 1765601672.187386
   },
   "OKBUSDT": {
     "last_signal": "sell",
