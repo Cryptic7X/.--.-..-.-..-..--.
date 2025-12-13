@@ -236,11 +236,15 @@
     "last_alert_time": 1765600490.3301256
   },
   "HYPEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765607805.9863062
+    "last_signal": "sell",
+    "last_alert_time": 1765629879.5579662
   },
   "PIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765621386.959324
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765629880.0040436
   }
 }
