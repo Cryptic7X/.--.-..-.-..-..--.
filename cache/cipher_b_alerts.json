@@ -1,11 +1,11 @@
 {
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765557006.7267547
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.4864237
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765557006.738347
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.4990532
   },
   "LDOUSDT": {
     "last_signal": "buy",
@@ -100,8 +100,8 @@
     "last_alert_time": 1765558240.1352398
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.1456368
+    "last_signal": "sell",
+    "last_alert_time": 1765600490.7590206
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -140,16 +140,16 @@
     "last_alert_time": 1765558240.5070338
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.6957426
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.0254397
   },
   "ETCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765595907.582622
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.7434397
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.1639903
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1765581837.543772
   },
   "WIFUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558241.468843
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.7767835
   },
   "DOTUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1765560161.3389595
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765560162.0718694
+    "last_signal": "sell",
+    "last_alert_time": 1765600491.214841
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -208,8 +208,8 @@
     "last_alert_time": 1765560162.2568483
   },
   "JTOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765560162.885045
+    "last_signal": "sell",
+    "last_alert_time": 1765600492.027157
   },
   "BEAMUSDT": {
     "last_signal": "sell",
@@ -230,5 +230,9 @@
   "WLFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765582852.7205582
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765600490.3301256
   }
 }
