@@ -136,8 +136,8 @@
     "last_alert_time": 1765558240.4923499
   },
   "ENAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.5070338
+    "last_signal": "sell",
+    "last_alert_time": 1765615803.1720595
   },
   "APTUSDT": {
     "last_signal": "sell",
