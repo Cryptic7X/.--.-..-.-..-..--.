@@ -134,5 +134,9 @@
   "ADAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765720555.6709173
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765724028.1241603
   }
 }
