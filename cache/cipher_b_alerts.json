@@ -98,5 +98,13 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765695417.6450546
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765697158.3854513
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765697159.0610948
   }
 }
