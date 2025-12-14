@@ -110,5 +110,9 @@
   "PIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765698017.2520878
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765702203.478451
   }
 }
