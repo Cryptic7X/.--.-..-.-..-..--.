@@ -130,5 +130,25 @@
   "DOGEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765709046.6120095
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709761.8167996
+  },
+  "ONDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709762.6258054
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709762.7059815
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709762.9966612
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709763.4951584
   }
 }
