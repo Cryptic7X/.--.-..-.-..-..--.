@@ -178,5 +178,13 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765726852.5794795
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765727562.3646646
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765727562.4512916
   }
 }
