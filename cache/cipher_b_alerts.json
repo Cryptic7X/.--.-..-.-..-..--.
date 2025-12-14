@@ -126,5 +126,9 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765716294.1854386
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765719850.4771626
   }
 }
