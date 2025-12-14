@@ -146,5 +146,37 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765725724.9795349
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726850.9131575
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726850.9304497
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726851.6965806
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726851.7765727
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726851.9695451
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726852.0249372
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726852.3797615
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765726852.5794795
   }
 }
