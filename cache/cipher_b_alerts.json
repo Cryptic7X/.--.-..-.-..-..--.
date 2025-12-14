@@ -218,5 +218,13 @@
   "ETHUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765754463.5387936
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765756335.4319072
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765756335.5747435
   }
 }
