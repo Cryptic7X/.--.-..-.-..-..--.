@@ -96,12 +96,12 @@
     "last_alert_time": 1765595906.6414778
   },
   "TRXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.1352398
+    "last_signal": "sell",
+    "last_alert_time": 1765683923.5534997
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765631867.0876029
+    "last_signal": "sell",
+    "last_alert_time": 1765683923.5597863
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -212,8 +212,8 @@
     "last_alert_time": 1765654709.0839152
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765662728.7382612
+    "last_signal": "sell",
+    "last_alert_time": 1765683925.0853138
   },
   "BERAUSDT": {
     "last_signal": "sell",
