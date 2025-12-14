@@ -198,5 +198,9 @@
   "BNBUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765734792.5065331
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765737117.107389
   }
 }
