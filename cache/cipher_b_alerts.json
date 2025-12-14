@@ -150,5 +150,9 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765709763.4951584
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765711185.7891295
   }
 }
