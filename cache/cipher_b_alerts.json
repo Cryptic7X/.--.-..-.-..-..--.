@@ -114,5 +114,9 @@
   "TRXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765702203.478451
+  },
+  "CFXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765704207.3592439
   }
 }
