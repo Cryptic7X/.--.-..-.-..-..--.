@@ -74,5 +74,25 @@
   "RAYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765691194.8083005
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765694067.7257054
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765694068.1051822
+  },
+  "IPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765694068.1140862
+  },
+  "ATOMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765694068.244215
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765694068.4743114
   }
 }
