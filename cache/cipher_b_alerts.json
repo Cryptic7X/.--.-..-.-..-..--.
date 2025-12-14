@@ -72,8 +72,8 @@
     "last_alert_time": 1765617774.202045
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765648326.4811945
+    "last_signal": "sell",
+    "last_alert_time": 1765677723.8628392
   },
   "LTCUSDT": {
     "last_signal": "buy",
@@ -108,8 +108,8 @@
     "last_alert_time": 1765580160.4196906
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765558240.1637669
+    "last_signal": "sell",
+    "last_alert_time": 1765677724.1893826
   },
   "AAVEUSDT": {
     "last_signal": "sell",
