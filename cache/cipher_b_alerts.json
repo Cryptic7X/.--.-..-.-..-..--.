@@ -106,5 +106,9 @@
   "SEIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765697159.0610948
+  },
+  "PIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765698017.2520878
   }
 }
