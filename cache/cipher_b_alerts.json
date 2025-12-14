@@ -140,8 +140,8 @@
     "last_alert_time": 1765724028.1241603
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765725724.293032
+    "last_signal": "buy",
+    "last_alert_time": 1765747248.4205072
   },
   "BRETTUSDT": {
     "last_signal": "buy",
