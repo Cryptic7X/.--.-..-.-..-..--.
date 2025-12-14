@@ -186,5 +186,9 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765727562.4512916
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765729661.9881546
   }
 }
