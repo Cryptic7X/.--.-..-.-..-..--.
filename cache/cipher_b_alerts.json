@@ -126,5 +126,9 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765707793.812231
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765709046.6120095
   }
 }
