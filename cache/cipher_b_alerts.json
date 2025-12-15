@@ -156,8 +156,8 @@
     "last_alert_time": 1765726850.9304497
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726851.6965806
+    "last_signal": "sell",
+    "last_alert_time": 1765777365.1042259
   },
   "IPUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1765727562.3646646
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765727562.4512916
+    "last_signal": "sell",
+    "last_alert_time": 1765777364.5221775
   },
   "TAOUSDT": {
     "last_signal": "buy",
