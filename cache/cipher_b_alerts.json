@@ -68,8 +68,8 @@
     "last_alert_time": 1765813889.2902927
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765813889.2962992
+    "last_signal": "sell",
+    "last_alert_time": 1765842934.368008
   },
   "PENDLEUSDT": {
     "last_signal": "buy",
@@ -104,8 +104,8 @@
     "last_alert_time": 1765813889.6601121
   },
   "BEAMUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765813889.8124928
+    "last_signal": "sell",
+    "last_alert_time": 1765842934.8355768
   },
   "BERAUSDT": {
     "last_signal": "buy",
