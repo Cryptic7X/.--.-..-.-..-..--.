@@ -230,5 +230,9 @@
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765778192.6151056
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765794642.4221652
   }
 }
