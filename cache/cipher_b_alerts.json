@@ -104,8 +104,8 @@
     "last_alert_time": 1765716293.3180313
   },
   "CFXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765716293.3561583
+    "last_signal": "sell",
+    "last_alert_time": 1765773825.8272996
   },
   "GALAUSDT": {
     "last_signal": "buy",
@@ -224,8 +224,8 @@
     "last_alert_time": 1765756335.4319072
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765756335.5747435
+    "last_signal": "sell",
+    "last_alert_time": 1765773824.6819077
   },
   "BERAUSDT": {
     "last_signal": "buy",
