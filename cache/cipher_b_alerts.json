@@ -216,8 +216,8 @@
     "last_alert_time": 1765750876.6568377
   },
   "ETHUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765754463.5387936
+    "last_signal": "sell",
+    "last_alert_time": 1765792022.8357878
   },
   "SUIUSDT": {
     "last_signal": "buy",
