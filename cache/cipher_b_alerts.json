@@ -40,8 +40,8 @@
     "last_alert_time": 1765716292.5670116
   },
   "PIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765716292.6202533
+    "last_signal": "sell",
+    "last_alert_time": 1765778191.7408369
   },
   "POLUSDT": {
     "last_signal": "buy",
@@ -52,8 +52,8 @@
     "last_alert_time": 1765716292.6940408
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765716292.6996887
+    "last_signal": "sell",
+    "last_alert_time": 1765778191.1924565
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -68,8 +68,8 @@
     "last_alert_time": 1765716292.9535408
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765716292.961975
+    "last_signal": "sell",
+    "last_alert_time": 1765778192.1273344
   },
   "LDOUSDT": {
     "last_signal": "buy",
@@ -152,20 +152,20 @@
     "last_alert_time": 1765726850.9131575
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726850.9304497
+    "last_signal": "sell",
+    "last_alert_time": 1765778191.4746249
   },
   "APTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765777365.1042259
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726851.7765727
+    "last_signal": "sell",
+    "last_alert_time": 1765778191.7472014
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726851.9695451
+    "last_signal": "sell",
+    "last_alert_time": 1765778191.9044812
   },
   "PENGUUSDT": {
     "last_signal": "buy",
@@ -176,8 +176,8 @@
     "last_alert_time": 1765726852.3797615
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726852.5794795
+    "last_signal": "sell",
+    "last_alert_time": 1765778192.428235
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -204,8 +204,8 @@
     "last_alert_time": 1765737117.107389
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765741900.0964742
+    "last_signal": "sell",
+    "last_alert_time": 1765778192.5853317
   },
   "KASUSDT": {
     "last_signal": "buy",
@@ -228,7 +228,7 @@
     "last_alert_time": 1765773824.6819077
   },
   "BERAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765763971.5492744
+    "last_signal": "sell",
+    "last_alert_time": 1765778192.6151056
   }
 }
