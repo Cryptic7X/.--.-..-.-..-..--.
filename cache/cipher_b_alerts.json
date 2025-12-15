@@ -1,7 +1,7 @@
 {
   "LINKUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765716291.9937398
+    "last_signal": "sell",
+    "last_alert_time": 1765796283.2546697
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -168,8 +168,8 @@
     "last_alert_time": 1765778191.9044812
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765726852.0249372
+    "last_signal": "sell",
+    "last_alert_time": 1765796284.2084777
   },
   "WIFUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1765732771.1707468
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765734792.5065331
+    "last_signal": "sell",
+    "last_alert_time": 1765796282.9834282
   },
   "ASTERUSDT": {
     "last_signal": "buy",
