@@ -132,8 +132,8 @@
     "last_alert_time": 1765816551.5657635
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765816551.572673
+    "last_signal": "sell",
+    "last_alert_time": 1765868501.6797926
   },
   "HBARUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1765816552.7445548
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765816552.7551208
+    "last_signal": "sell",
+    "last_alert_time": 1765868503.1214
   },
   "EIGENUSDT": {
     "last_signal": "buy",
