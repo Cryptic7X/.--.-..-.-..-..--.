@@ -226,5 +226,9 @@
   "ETHUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765862930.9045932
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765870485.8427012
   }
 }
