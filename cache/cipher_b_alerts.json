@@ -84,8 +84,8 @@
     "last_alert_time": 1765902851.3476176
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765813889.5362463
+    "last_signal": "sell",
+    "last_alert_time": 1765906861.986822
   },
   "CFXUSDT": {
     "last_signal": "buy",
@@ -200,8 +200,8 @@
     "last_alert_time": 1765818193.1426125
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765818193.195696
+    "last_signal": "sell",
+    "last_alert_time": 1765906861.2357755
   },
   "MUSDT": {
     "last_signal": "buy",
