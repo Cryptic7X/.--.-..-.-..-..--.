@@ -32,8 +32,8 @@
     "last_alert_time": 1765813888.7248712
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765813888.7534645
+    "last_signal": "sell",
+    "last_alert_time": 1765925723.4602094
   },
   "ATOMUSDT": {
     "last_signal": "buy",
