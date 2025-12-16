@@ -204,8 +204,8 @@
     "last_alert_time": 1765818193.195696
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765818193.3133225
+    "last_signal": "buy",
+    "last_alert_time": 1765856380.0769947
   },
   "FARTCOINUSDT": {
     "last_signal": "buy",
