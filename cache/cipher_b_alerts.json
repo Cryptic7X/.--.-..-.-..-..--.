@@ -140,8 +140,8 @@
     "last_alert_time": 1765816551.584889
   },
   "WLFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765816551.5993578
+    "last_signal": "sell",
+    "last_alert_time": 1765904548.0457284
   },
   "AAVEUSDT": {
     "last_signal": "buy",
@@ -212,8 +212,8 @@
     "last_alert_time": 1765885448.825214
   },
   "ICPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765820438.5917277
+    "last_signal": "sell",
+    "last_alert_time": 1765904548.7063158
   },
   "XRPUSDT": {
     "last_signal": "buy",
