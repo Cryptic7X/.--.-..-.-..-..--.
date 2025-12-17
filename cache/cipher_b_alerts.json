@@ -102,5 +102,17 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765953477.9190595
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765962093.8275554
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765962094.0921633
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765962094.135802
   }
 }
