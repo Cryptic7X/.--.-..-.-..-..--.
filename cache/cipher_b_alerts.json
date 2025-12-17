@@ -20,8 +20,8 @@
     "last_alert_time": 1765813888.4580243
   },
   "ENAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765889639.958785
+    "last_signal": "buy",
+    "last_alert_time": 1765936293.7289214
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -220,8 +220,8 @@
     "last_alert_time": 1765825257.252645
   },
   "TRXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765892447.2937288
+    "last_signal": "buy",
+    "last_alert_time": 1765936293.366898
   },
   "ETHUSDT": {
     "last_signal": "buy",
