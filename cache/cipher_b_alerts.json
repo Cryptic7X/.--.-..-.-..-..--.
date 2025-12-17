@@ -114,5 +114,33 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765962094.135802
+  },
+  "ONDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964524.575944
+  },
+  "ETCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964524.5986311
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964524.7272859
+  },
+  "IMXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964524.9181883
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964525.1786458
+  },
+  "JTOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964525.4694629
+  },
+  "BRETTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765964525.5163567
   }
 }
