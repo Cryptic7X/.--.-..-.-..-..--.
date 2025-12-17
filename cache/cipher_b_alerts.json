@@ -142,5 +142,29 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765964525.5163567
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965407.4328523
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965407.4400625
+  },
+  "NEARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965408.0837474
+  },
+  "APTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965408.2955992
+  },
+  "LDOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965408.9351394
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765965409.1997707
   }
 }
