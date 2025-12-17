@@ -150,5 +150,13 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765994079.5390189
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765996643.6936862
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765996644.3367782
   }
 }
