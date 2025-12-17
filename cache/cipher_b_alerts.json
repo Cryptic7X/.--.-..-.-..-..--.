@@ -146,5 +146,9 @@
   "INJUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765987034.7089589
+  },
+  "MUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765994079.5390189
   }
 }
