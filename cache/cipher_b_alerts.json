@@ -166,5 +166,13 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765999859.9550183
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766001140.262591
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766001141.3469281
   }
 }
