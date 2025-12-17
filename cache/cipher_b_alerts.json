@@ -1,11 +1,11 @@
 {
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950440.5528033
+    "last_signal": "sell",
+    "last_alert_time": 1765983488.7800415
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950440.7451348
+    "last_signal": "sell",
+    "last_alert_time": 1765983488.9626925
   },
   "LINKUSDT": {
     "last_signal": "buy",
@@ -16,8 +16,8 @@
     "last_alert_time": 1765950440.7672358
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950440.789412
+    "last_signal": "sell",
+    "last_alert_time": 1765983488.997426
   },
   "CROUSDT": {
     "last_signal": "buy",
@@ -48,8 +48,8 @@
     "last_alert_time": 1765981913.727919
   },
   "PENGUUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950441.5397258
+    "last_signal": "sell",
+    "last_alert_time": 1765983489.8135118
   },
   "SEIUSDT": {
     "last_signal": "buy",
@@ -60,8 +60,8 @@
     "last_alert_time": 1765950441.5908868
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950441.6120715
+    "last_signal": "sell",
+    "last_alert_time": 1765983489.8962476
   },
   "CAKEUSDT": {
     "last_signal": "buy",
@@ -72,8 +72,8 @@
     "last_alert_time": 1765950441.7873306
   },
   "FLOKIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765950441.8401053
+    "last_signal": "sell",
+    "last_alert_time": 1765983490.0512626
   },
   "RAYUSDT": {
     "last_signal": "buy",
@@ -198,5 +198,13 @@
   "ATOMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1765981913.9041348
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765983488.7575207
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765983488.8296976
   }
 }
