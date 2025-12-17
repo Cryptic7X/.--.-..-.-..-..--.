@@ -8,8 +8,8 @@
     "last_alert_time": 1765886133.6290786
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765858903.544907
+    "last_signal": "sell",
+    "last_alert_time": 1765944391.0461917
   },
   "NEARUSDT": {
     "last_signal": "sell",
@@ -28,8 +28,8 @@
     "last_alert_time": 1765889640.0861773
   },
   "IPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1765813888.7248712
+    "last_signal": "sell",
+    "last_alert_time": 1765944391.365404
   },
   "POLUSDT": {
     "last_signal": "sell",
