@@ -174,5 +174,9 @@
   "WLFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765967579.5263314
+  },
+  "MNTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765968995.0059354
   }
 }
