@@ -178,5 +178,13 @@
   "MNTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765968995.0059354
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1765975969.8854365
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765975970.7700803
   }
 }
