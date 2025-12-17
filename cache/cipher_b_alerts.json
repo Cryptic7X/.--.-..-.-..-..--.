@@ -166,5 +166,13 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765965409.1997707
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765967579.2361567
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765967579.5263314
   }
 }
