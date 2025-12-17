@@ -86,5 +86,21 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1765950442.1500785
+  },
+  "KASUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765953477.2050748
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765953477.630931
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765953477.8203933
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1765953477.9190595
   }
 }
