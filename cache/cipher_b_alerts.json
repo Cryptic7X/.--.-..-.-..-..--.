@@ -178,5 +178,33 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766068419.2324412
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069849.1952271
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069849.2023802
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069849.2676382
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069849.5729535
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069849.6798937
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069850.13171
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766069850.3766735
   }
 }
