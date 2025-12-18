@@ -176,8 +176,8 @@
     "last_alert_time": 1766001141.3469281
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766003322.7594182
+    "last_signal": "sell",
+    "last_alert_time": 1766046852.5655947
   },
   "ASTERUSDT": {
     "last_signal": "buy",
