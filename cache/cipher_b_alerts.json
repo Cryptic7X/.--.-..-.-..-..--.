@@ -14,5 +14,13 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766057031.1779883
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766058145.8634424
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766058146.1653628
   }
 }
