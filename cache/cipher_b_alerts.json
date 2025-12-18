@@ -34,5 +34,21 @@
   "NEARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766079568.3877754
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766082974.41677
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766082974.6611965
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766082975.213043
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766082975.3010259
   }
 }
