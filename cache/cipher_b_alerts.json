@@ -54,5 +54,9 @@
   "TAOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766086043.1494658
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766087579.3503172
   }
 }
