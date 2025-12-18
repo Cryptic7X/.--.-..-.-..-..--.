@@ -222,5 +222,13 @@
   "BEAMUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766039896.570036
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766055371.9336064
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766055372.4492507
   }
 }
