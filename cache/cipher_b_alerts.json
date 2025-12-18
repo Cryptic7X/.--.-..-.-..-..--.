@@ -116,8 +116,8 @@
     "last_alert_time": 1765999859.5076303
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765987034.3642952
+    "last_signal": "buy",
+    "last_alert_time": 1766022724.4257247
   },
   "FLOKIUSDT": {
     "last_signal": "sell",
@@ -182,5 +182,9 @@
   "ASTERUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766011538.003911
+  },
+  "ADAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766022723.2257185
   }
 }
