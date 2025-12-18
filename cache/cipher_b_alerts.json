@@ -22,5 +22,9 @@
   "CROUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766058146.1653628
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766058862.8217742
   }
 }
