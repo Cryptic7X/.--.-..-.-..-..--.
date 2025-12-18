@@ -34,5 +34,9 @@
   "WLDUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766062268.3766112
+  },
+  "ICPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766065112.391503
   }
 }
