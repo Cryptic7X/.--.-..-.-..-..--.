@@ -52,8 +52,8 @@
     "last_alert_time": 1765987033.5614948
   },
   "APTUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765987033.6910691
+    "last_signal": "buy",
+    "last_alert_time": 1766036887.2767246
   },
   "ONDOUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1765987034.1451917
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1765987034.150014
+    "last_signal": "buy",
+    "last_alert_time": 1766036887.8030245
   },
   "CRVUSDT": {
     "last_signal": "sell",
