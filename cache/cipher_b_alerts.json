@@ -50,5 +50,9 @@
   "JUPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766082975.3010259
+  },
+  "TAOUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766086043.1494658
   }
 }
