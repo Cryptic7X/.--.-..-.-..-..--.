@@ -182,5 +182,13 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766090592.3701658
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766091314.644205
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766091315.4772573
   }
 }
