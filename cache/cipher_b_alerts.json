@@ -28,8 +28,8 @@
     "last_alert_time": 1765987033.3407083
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766039895.6661606
+    "last_signal": "sell",
+    "last_alert_time": 1766048461.2498522
   },
   "SUIUSDT": {
     "last_signal": "buy",
