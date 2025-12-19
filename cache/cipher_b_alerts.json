@@ -112,8 +112,8 @@
     "last_alert_time": 1766119656.0766747
   },
   "POLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766090591.5823963
+    "last_signal": "sell",
+    "last_alert_time": 1766161855.6800745
   },
   "KASUSDT": {
     "last_signal": "sell",
