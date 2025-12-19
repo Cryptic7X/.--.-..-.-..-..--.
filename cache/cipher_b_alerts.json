@@ -152,8 +152,8 @@
     "last_alert_time": 1766119656.6542487
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766090592.0587428
+    "last_signal": "sell",
+    "last_alert_time": 1766180487.2234976
   },
   "WIFUSDT": {
     "last_signal": "sell",
