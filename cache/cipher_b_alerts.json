@@ -16,8 +16,8 @@
     "last_alert_time": 1766130710.3031123
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766090590.5215502
+    "last_signal": "sell",
+    "last_alert_time": 1766148561.7329648
   },
   "LTCUSDT": {
     "last_signal": "sell",
@@ -76,8 +76,8 @@
     "last_alert_time": 1766119655.6886756
   },
   "ASTERUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766090591.1381521
+    "last_signal": "sell",
+    "last_alert_time": 1766148562.3214443
   },
   "TAOUSDT": {
     "last_signal": "buy",
@@ -234,5 +234,9 @@
   "DOGEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766133239.3921607
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766148562.313962
   }
 }
