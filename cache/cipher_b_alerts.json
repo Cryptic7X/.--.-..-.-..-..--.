@@ -144,8 +144,8 @@
     "last_alert_time": 1766119656.5294435
   },
   "CRVUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766119656.628989
+    "last_signal": "buy",
+    "last_alert_time": 1766144481.116655
   },
   "SPXUSDT": {
     "last_signal": "sell",
