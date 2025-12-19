@@ -206,5 +206,9 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766119656.915647
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766126189.137963
   }
 }
