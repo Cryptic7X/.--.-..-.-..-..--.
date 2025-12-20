@@ -120,8 +120,8 @@
     "last_alert_time": 1766119656.257992
   },
   "PENGUUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766159207.2331126
+    "last_signal": "buy",
+    "last_alert_time": 1766215432.5733883
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -184,8 +184,8 @@
     "last_alert_time": 1766119656.9442606
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766091314.644205
+    "last_signal": "sell",
+    "last_alert_time": 1766215432.5110822
   },
   "JASMYUSDT": {
     "last_signal": "sell",
