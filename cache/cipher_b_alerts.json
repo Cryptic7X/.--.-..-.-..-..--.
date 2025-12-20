@@ -52,8 +52,8 @@
     "last_alert_time": 1766133239.742593
   },
   "CROUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766159206.3572419
+    "last_signal": "buy",
+    "last_alert_time": 1766252437.7394311
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -144,8 +144,8 @@
     "last_alert_time": 1766220596.2858183
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766200672.4495027
+    "last_signal": "sell",
+    "last_alert_time": 1766252438.8271375
   },
   "SPXUSDT": {
     "last_signal": "sell",
