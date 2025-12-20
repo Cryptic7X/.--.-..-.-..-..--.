@@ -4,24 +4,24 @@
     "last_alert_time": 1766159207.8950522
   },
   "BERAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766136820.898241
+    "last_signal": "buy",
+    "last_alert_time": 1766208224.2100747
   },
   "SOLUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766121935.8327138
   },
   "ADAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766130710.3031123
+    "last_signal": "buy",
+    "last_alert_time": 1766208222.1093488
   },
   "DOTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766148561.7329648
   },
   "LTCUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766119655.1753833
+    "last_signal": "buy",
+    "last_alert_time": 1766208222.1372576
   },
   "BNBUSDT": {
     "last_signal": "sell",
@@ -108,8 +108,8 @@
     "last_alert_time": 1766206498.666722
   },
   "WLDUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766119656.0766747
+    "last_signal": "buy",
+    "last_alert_time": 1766208223.2808583
   },
   "POLUSDT": {
     "last_signal": "sell",
