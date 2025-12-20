@@ -216,8 +216,8 @@
     "last_alert_time": 1766129443.8587742
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766130710.6142895
+    "last_signal": "buy",
+    "last_alert_time": 1766195348.679514
   },
   "APTUSDT": {
     "last_signal": "sell",
@@ -232,8 +232,8 @@
     "last_alert_time": 1766130712.303081
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766133239.3921607
+    "last_signal": "buy",
+    "last_alert_time": 1766195348.340401
   },
   "NEARUSDT": {
     "last_signal": "sell",
