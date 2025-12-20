@@ -68,8 +68,8 @@
     "last_alert_time": 1766119655.5045085
   },
   "MNTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766090591.0045927
+    "last_signal": "sell",
+    "last_alert_time": 1766244103.790368
   },
   "OKBUSDT": {
     "last_signal": "sell",
