@@ -104,8 +104,8 @@
     "last_alert_time": 1766151298.3047993
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766151298.4547315
+    "last_signal": "buy",
+    "last_alert_time": 1766206498.666722
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -160,8 +160,8 @@
     "last_alert_time": 1766203179.6216576
   },
   "FLOKIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766119656.6856172
+    "last_signal": "buy",
+    "last_alert_time": 1766206499.104362
   },
   "RAYUSDT": {
     "last_signal": "sell",
