@@ -1,7 +1,7 @@
 {
   "PUMPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326870.6905942
+    "last_signal": "sell",
+    "last_alert_time": 1766361175.0406785
   },
   "ENAUSDT": {
     "last_signal": "buy",
@@ -48,8 +48,8 @@
     "last_alert_time": 1766326871.1911898
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.2315924
+    "last_signal": "sell",
+    "last_alert_time": 1766361175.5826027
   },
   "JUPUSDT": {
     "last_signal": "buy",
@@ -112,8 +112,8 @@
     "last_alert_time": 1766326871.7506592
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.828924
+    "last_signal": "sell",
+    "last_alert_time": 1766361176.2671227
   },
   "BEAMUSDT": {
     "last_signal": "buy",
