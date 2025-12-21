@@ -96,8 +96,8 @@
     "last_alert_time": 1766130711.8830476
   },
   "ETCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766241724.351836
+    "last_signal": "sell",
+    "last_alert_time": 1766312628.963874
   },
   "PIUSDT": {
     "last_signal": "buy",
@@ -136,8 +136,8 @@
     "last_alert_time": 1766265596.7282956
   },
   "SEIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766251134.0075445
+    "last_signal": "sell",
+    "last_alert_time": 1766312629.1815116
   },
   "CAKEUSDT": {
     "last_signal": "sell",
