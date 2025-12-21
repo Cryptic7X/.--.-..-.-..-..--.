@@ -64,8 +64,8 @@
     "last_alert_time": 1766129443.2995837
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766271204.218095
+    "last_signal": "sell",
+    "last_alert_time": 1766313872.5137923
   },
   "MNTUSDT": {
     "last_signal": "buy",
