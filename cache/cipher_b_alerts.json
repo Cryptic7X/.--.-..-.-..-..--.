@@ -214,5 +214,9 @@
   "JTOUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766328145.8477154
+  },
+  "TRXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766337574.9936428
   }
 }
