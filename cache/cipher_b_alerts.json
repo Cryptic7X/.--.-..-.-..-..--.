@@ -104,8 +104,8 @@
     "last_alert_time": 1766238908.9743705
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766222581.5310214
+    "last_signal": "buy",
+    "last_alert_time": 1766305803.556627
   },
   "WLDUSDT": {
     "last_signal": "sell",
@@ -188,8 +188,8 @@
     "last_alert_time": 1766251133.9195879
   },
   "JASMYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766130712.1917489
+    "last_signal": "buy",
+    "last_alert_time": 1766305804.2405763
   },
   "ETHUSDT": {
     "last_signal": "sell",
