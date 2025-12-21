@@ -52,8 +52,8 @@
     "last_alert_time": 1766133239.742593
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766252437.7394311
+    "last_signal": "sell",
+    "last_alert_time": 1766309012.6499617
   },
   "UNIUSDT": {
     "last_signal": "sell",
@@ -168,8 +168,8 @@
     "last_alert_time": 1766151298.9736822
   },
   "ENSUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766240436.0953853
+    "last_signal": "sell",
+    "last_alert_time": 1766309013.8377278
   },
   "SUSDT": {
     "last_signal": "sell",
