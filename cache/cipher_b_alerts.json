@@ -10,5 +10,53 @@
   "FARTCOINUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766407840.9433877
+  },
+  "ETHUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410602.9600747
+  },
+  "DOGEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410602.996722
+  },
+  "HBARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.2269619
+  },
+  "CROUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.264326
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.2701023
+  },
+  "TAOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.5581503
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.8353028
+  },
+  "POLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410603.841427
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410604.1113672
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410604.2327967
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410604.7146444
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766410604.7247343
   }
 }
