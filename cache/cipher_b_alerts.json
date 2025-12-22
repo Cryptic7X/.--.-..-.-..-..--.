@@ -230,5 +230,9 @@
   "HYPEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766392501.137603
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766396323.1041136
   }
 }
