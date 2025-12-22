@@ -12,8 +12,8 @@
     "last_alert_time": 1766407840.9433877
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766410602.9600747
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.0697646
   },
   "DOGEUSDT": {
     "last_signal": "sell",
@@ -36,8 +36,8 @@
     "last_alert_time": 1766410603.5581503
   },
   "PIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766410603.8353028
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.4914773
   },
   "POLUSDT": {
     "last_signal": "sell",
@@ -88,8 +88,8 @@
     "last_alert_time": 1766414864.318893
   },
   "IPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766417186.542707
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.330101
   },
   "ATOMUSDT": {
     "last_signal": "sell",
@@ -118,5 +118,33 @@
   "ICPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766431483.4892254
+  },
+  "BTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435235.4818413
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.0266154
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.6815166
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435236.7563472
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435237.0721614
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435237.0978177
+  },
+  "RAYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766435237.1085353
   }
 }
