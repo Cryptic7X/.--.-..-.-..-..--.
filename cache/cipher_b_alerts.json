@@ -144,8 +144,8 @@
     "last_alert_time": 1766328143.9965076
   },
   "BTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766328144.01595
+    "last_signal": "sell",
+    "last_alert_time": 1766399424.885612
   },
   "LINKUSDT": {
     "last_signal": "buy",
