@@ -8,8 +8,8 @@
     "last_alert_time": 1766326870.7336261
   },
   "APTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326870.7472653
+    "last_signal": "sell",
+    "last_alert_time": 1766386936.1137736
   },
   "ONDOUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1766328144.5274491
   },
   "OKBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766328144.5503426
+    "last_signal": "sell",
+    "last_alert_time": 1766386936.0272908
   },
   "SOLUSDT": {
     "last_signal": "buy",
