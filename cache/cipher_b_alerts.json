@@ -154,5 +154,17 @@
   "CFXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766436381.7788556
+  },
+  "LTCUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766438488.774127
+  },
+  "UNIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766438489.072558
+  },
+  "ENSUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766438490.3847523
   }
 }
