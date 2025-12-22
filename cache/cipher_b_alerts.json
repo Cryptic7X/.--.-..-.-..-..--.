@@ -108,8 +108,8 @@
     "last_alert_time": 1766389972.5403945
   },
   "JASMYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.7506592
+    "last_signal": "sell",
+    "last_alert_time": 1766392503.1105742
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
@@ -160,8 +160,8 @@
     "last_alert_time": 1766328144.237785
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766328144.25009
+    "last_signal": "sell",
+    "last_alert_time": 1766392501.3983848
   },
   "CROUSDT": {
     "last_signal": "sell",
@@ -220,11 +220,15 @@
     "last_alert_time": 1766337574.9936428
   },
   "MUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766357689.6842916
+    "last_signal": "buy",
+    "last_alert_time": 1766392502.2459116
   },
   "ETHUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766368874.1797602
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766392501.137603
   }
 }
