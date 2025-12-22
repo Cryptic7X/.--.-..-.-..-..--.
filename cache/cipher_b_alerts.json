@@ -102,5 +102,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766418362.9464798
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766421056.6041734
   }
 }
