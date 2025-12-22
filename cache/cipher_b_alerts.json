@@ -94,5 +94,13 @@
   "ATOMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766417186.7354426
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766418362.0114777
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766418362.9464798
   }
 }
