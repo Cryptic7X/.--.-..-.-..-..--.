@@ -166,5 +166,9 @@
   "ENSUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766438490.3847523
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766439661.5012386
   }
 }
