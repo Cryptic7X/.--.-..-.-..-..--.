@@ -106,5 +106,9 @@
   "EIGENUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766421056.6041734
+  },
+  "APTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766422684.5045376
   }
 }
