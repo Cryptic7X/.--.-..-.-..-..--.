@@ -74,5 +74,17 @@
   "SUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766413656.8382988
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766414863.7914283
+  },
+  "OKBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766414864.28852
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766414864.318893
   }
 }
