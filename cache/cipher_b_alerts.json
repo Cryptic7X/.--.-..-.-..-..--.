@@ -86,5 +86,13 @@
   "NEARUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766414864.318893
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766417186.542707
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766417186.7354426
   }
 }
