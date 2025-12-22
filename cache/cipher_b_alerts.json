@@ -76,8 +76,8 @@
     "last_alert_time": 1766326871.5050826
   },
   "RAYUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.5574358
+    "last_signal": "sell",
+    "last_alert_time": 1766389972.4829998
   },
   "FLOKIUSDT": {
     "last_signal": "buy",
@@ -96,16 +96,16 @@
     "last_alert_time": 1766388938.1063552
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.7090907
+    "last_signal": "sell",
+    "last_alert_time": 1766389972.513127
   },
   "EIGENUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.7137983
+    "last_signal": "sell",
+    "last_alert_time": 1766389972.5665572
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766326871.7177236
+    "last_signal": "sell",
+    "last_alert_time": 1766389972.5403945
   },
   "JASMYUSDT": {
     "last_signal": "buy",
@@ -172,8 +172,8 @@
     "last_alert_time": 1766328144.461785
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766328144.4932265
+    "last_signal": "sell",
+    "last_alert_time": 1766389971.413822
   },
   "AAVEUSDT": {
     "last_signal": "buy",
