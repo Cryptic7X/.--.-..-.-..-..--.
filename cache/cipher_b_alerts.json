@@ -174,5 +174,9 @@
   "ASTERUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766454998.530748
+  },
+  "PENDLEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766461221.1113327
   }
 }
