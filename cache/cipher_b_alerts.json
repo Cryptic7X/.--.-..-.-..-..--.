@@ -142,5 +142,13 @@
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766497082.9371712
+  },
+  "ETHUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766500221.180519
+  },
+  "ENAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766500221.652814
   }
 }
