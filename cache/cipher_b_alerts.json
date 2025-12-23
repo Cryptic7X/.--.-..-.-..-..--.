@@ -168,8 +168,8 @@
     "last_alert_time": 1766438490.3847523
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766439661.5012386
+    "last_signal": "sell",
+    "last_alert_time": 1766465835.869228
   },
   "ASTERUSDT": {
     "last_signal": "sell",
@@ -190,5 +190,9 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766463869.5164518
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766465835.5961585
   }
 }
