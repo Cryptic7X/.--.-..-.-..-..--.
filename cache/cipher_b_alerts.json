@@ -194,5 +194,9 @@
   "HYPEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766465835.5961585
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766467958.4860198
   }
 }
