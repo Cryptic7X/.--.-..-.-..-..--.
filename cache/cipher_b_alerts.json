@@ -194,5 +194,17 @@
   "BERAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766503585.875023
+  },
+  "BNBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766504772.2847862
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766504772.5220892
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766504774.5163333
   }
 }
