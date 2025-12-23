@@ -110,5 +110,13 @@
   "ICPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766478854.8142827
+  },
+  "HYPEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766482788.1187315
+  },
+  "PUMPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766482788.6719158
   }
 }
