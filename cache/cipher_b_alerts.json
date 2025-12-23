@@ -178,5 +178,17 @@
   "PENDLEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766461221.1113327
+  },
+  "HBARUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766463868.2678053
+  },
+  "MUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766463868.8546398
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766463869.5164518
   }
 }
