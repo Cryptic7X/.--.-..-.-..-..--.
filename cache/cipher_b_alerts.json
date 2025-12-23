@@ -170,5 +170,9 @@
   "AAVEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766439661.5012386
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766454998.530748
   }
 }
