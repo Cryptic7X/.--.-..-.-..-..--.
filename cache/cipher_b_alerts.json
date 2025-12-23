@@ -90,5 +90,21 @@
   "BRETTUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766473323.762674
+  },
+  "SOLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766475336.708462
+  },
+  "DOTUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766475336.7177703
+  },
+  "ASTERUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766475337.2757914
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766475339.0125706
   }
 }
