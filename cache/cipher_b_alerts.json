@@ -106,5 +106,9 @@
   "SUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766475339.0125706
+  },
+  "ICPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766478854.8142827
   }
 }
