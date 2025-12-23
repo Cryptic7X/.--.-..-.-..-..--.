@@ -118,5 +118,9 @@
   "PUMPUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766482788.6719158
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766483697.5630958
   }
 }
