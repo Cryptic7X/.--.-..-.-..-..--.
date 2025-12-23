@@ -206,5 +206,9 @@
   "ETHFIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766504774.5163333
+  },
+  "TRXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766507526.4147918
   }
 }
