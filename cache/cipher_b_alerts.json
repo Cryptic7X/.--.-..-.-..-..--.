@@ -150,5 +150,49 @@
   "ENAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766500221.652814
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503584.4588206
+  },
+  "WLFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503584.710972
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.178421
+  },
+  "PENGUUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.3426774
+  },
+  "JUPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.3885508
+  },
+  "SPXUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.5550468
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.6203167
+  },
+  "EIGENUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.7989087
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.8554943
+  },
+  "BEAMUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.8666177
+  },
+  "BERAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766503585.875023
   }
 }
