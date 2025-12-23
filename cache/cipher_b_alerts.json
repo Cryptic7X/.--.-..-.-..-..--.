@@ -138,5 +138,9 @@
   "MUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766490838.5576031
+  },
+  "AAVEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766497082.9371712
   }
 }
