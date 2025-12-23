@@ -4,8 +4,8 @@
     "last_alert_time": 1766473322.2326202
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473322.2413104
+    "last_signal": "sell",
+    "last_alert_time": 1766524941.8195524
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -36,8 +36,8 @@
     "last_alert_time": 1766473322.9167047
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.077511
+    "last_signal": "sell",
+    "last_alert_time": 1766524942.5944574
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -210,5 +210,9 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766507526.4147918
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766524943.2046094
   }
 }
