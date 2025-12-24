@@ -4,8 +4,8 @@
     "last_alert_time": 1766473322.2326202
   },
   "AVAXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766549443.7743347
+    "last_signal": "sell",
+    "last_alert_time": 1766577160.3344986
   },
   "MNTUSDT": {
     "last_signal": "buy",
@@ -92,8 +92,8 @@
     "last_alert_time": 1766575316.1244123
   },
   "SOLUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766475336.708462
+    "last_signal": "sell",
+    "last_alert_time": 1766577160.130856
   },
   "DOTUSDT": {
     "last_signal": "buy",
