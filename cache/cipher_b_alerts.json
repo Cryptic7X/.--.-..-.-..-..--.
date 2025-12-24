@@ -36,8 +36,8 @@
     "last_alert_time": 1766473322.9167047
   },
   "KASUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766546819.9800885
+    "last_signal": "sell",
+    "last_alert_time": 1766575315.5787692
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -88,8 +88,8 @@
     "last_alert_time": 1766558321.572102
   },
   "BRETTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.762674
+    "last_signal": "sell",
+    "last_alert_time": 1766575316.1244123
   },
   "SOLUSDT": {
     "last_signal": "buy",
@@ -124,8 +124,8 @@
     "last_alert_time": 1766483697.5630958
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766485660.0262196
+    "last_signal": "sell",
+    "last_alert_time": 1766575316.0842764
   },
   "UNIUSDT": {
     "last_signal": "buy",
