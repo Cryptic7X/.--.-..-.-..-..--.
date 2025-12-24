@@ -234,5 +234,9 @@
   "LTCUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766558319.7220795
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766609102.121799
   }
 }
