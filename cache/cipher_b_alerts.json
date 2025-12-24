@@ -48,8 +48,8 @@
     "last_alert_time": 1766583257.3750608
   },
   "LDOUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.1915019
+    "last_signal": "sell",
+    "last_alert_time": 1766597054.17716
   },
   "INJUSDT": {
     "last_signal": "sell",
@@ -80,8 +80,8 @@
     "last_alert_time": 1766594100.8908665
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.6338744
+    "last_signal": "sell",
+    "last_alert_time": 1766597055.3529992
   },
   "JASMYUSDT": {
     "last_signal": "buy",
@@ -204,8 +204,8 @@
     "last_alert_time": 1766504772.5220892
   },
   "ETHFIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766504774.5163333
+    "last_signal": "sell",
+    "last_alert_time": 1766597055.0705588
   },
   "TRXUSDT": {
     "last_signal": "buy",
