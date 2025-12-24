@@ -36,8 +36,8 @@
     "last_alert_time": 1766473322.9167047
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766524942.5944574
+    "last_signal": "buy",
+    "last_alert_time": 1766546819.9800885
   },
   "ATOMUSDT": {
     "last_signal": "buy",
@@ -214,5 +214,17 @@
   "JTOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766524943.2046094
+  },
+  "XRPUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766546818.9938862
+  },
+  "SUIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766546819.2528198
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766546820.0072453
   }
 }
