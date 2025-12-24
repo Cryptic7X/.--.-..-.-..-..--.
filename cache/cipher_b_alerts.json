@@ -44,8 +44,8 @@
     "last_alert_time": 1766473323.09813
   },
   "IMXUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.128557
+    "last_signal": "sell",
+    "last_alert_time": 1766541298.9630916
   },
   "LDOUSDT": {
     "last_signal": "buy",
@@ -128,8 +128,8 @@
     "last_alert_time": 1766485660.0262196
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766487030.970121
+    "last_signal": "sell",
+    "last_alert_time": 1766541298.1118796
   },
   "IPUSDT": {
     "last_signal": "buy",
