@@ -90,5 +90,13 @@
   "SUIUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766705031.8903494
+  },
+  "DOGEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766706793.4836373
+  },
+  "WIFUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766706794.740669
   }
 }
