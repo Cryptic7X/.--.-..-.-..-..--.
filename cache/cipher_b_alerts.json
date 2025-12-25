@@ -50,5 +50,17 @@
   "BRETTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766681864.8768265
+  },
+  "HYPEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766683555.8317375
+  },
+  "PUMPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766683556.4842293
+  },
+  "UNIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766683556.7357237
   }
 }
