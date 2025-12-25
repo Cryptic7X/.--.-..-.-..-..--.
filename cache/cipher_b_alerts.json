@@ -242,5 +242,9 @@
   "ADAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766634032.859269
+  },
+  "PIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766648030.8513527
   }
 }
