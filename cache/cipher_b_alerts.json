@@ -110,5 +110,9 @@
   "MUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766672611.6608102
+  },
+  "CAKEUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766674587.1065066
   }
 }
