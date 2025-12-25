@@ -74,5 +74,9 @@
   "WLFIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766692326.5670395
+  },
+  "ETHFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766694419.553359
   }
 }
