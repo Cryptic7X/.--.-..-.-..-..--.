@@ -152,8 +152,8 @@
     "last_alert_time": 1766583257.4218488
   },
   "DOGEUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766618691.798665
+    "last_signal": "buy",
+    "last_alert_time": 1766651577.4735336
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -232,8 +232,8 @@
     "last_alert_time": 1766594099.8747976
   },
   "LTCUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766558319.7220795
+    "last_signal": "sell",
+    "last_alert_time": 1766651577.4493432
   },
   "BTCUSDT": {
     "last_signal": "sell",
