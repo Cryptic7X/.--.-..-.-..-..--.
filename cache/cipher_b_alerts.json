@@ -114,5 +114,9 @@
   "CAKEUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766674587.1065066
+  },
+  "ETHFIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766676442.0281403
   }
 }
