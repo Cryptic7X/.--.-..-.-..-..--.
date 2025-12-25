@@ -76,16 +76,16 @@
     "last_alert_time": 1766583257.6914146
   },
   "CFXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766594100.8908665
+    "last_signal": "buy",
+    "last_alert_time": 1766655133.833229
   },
   "GALAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766597055.3529992
   },
   "JASMYUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766618692.9570036
+    "last_signal": "buy",
+    "last_alert_time": 1766655134.0372546
   },
   "BRETTUSDT": {
     "last_signal": "sell",
@@ -144,8 +144,8 @@
     "last_alert_time": 1766634033.1797981
   },
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766618691.3163698
+    "last_signal": "buy",
+    "last_alert_time": 1766655132.30945
   },
   "ENAUSDT": {
     "last_signal": "sell",
