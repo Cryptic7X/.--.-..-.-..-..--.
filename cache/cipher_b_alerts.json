@@ -6,5 +6,49 @@
   "TRXUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766680419.43105
+  },
+  "SOLUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.3565035
+  },
+  "XRPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.389542
+  },
+  "LTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.3972878
+  },
+  "LINKUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.593913
+  },
+  "AVAXUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.6228576
+  },
+  "NEARUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681863.8593507
+  },
+  "KASUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681864.3208802
+  },
+  "RAYUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681864.6406534
+  },
+  "ENSUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681864.673513
+  },
+  "JTOUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681864.829018
+  },
+  "BRETTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766681864.8768265
   }
 }
