@@ -68,8 +68,8 @@
     "last_alert_time": 1766583257.6788168
   },
   "PENDLEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473323.4942708
+    "last_signal": "sell",
+    "last_alert_time": 1766640734.648353
   },
   "ENSUSDT": {
     "last_signal": "sell",
@@ -200,8 +200,8 @@
     "last_alert_time": 1766636662.3597941
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766504772.5220892
+    "last_signal": "sell",
+    "last_alert_time": 1766640733.0427582
   },
   "ETHFIUSDT": {
     "last_signal": "sell",
