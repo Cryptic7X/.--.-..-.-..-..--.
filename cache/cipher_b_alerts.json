@@ -16,8 +16,8 @@
     "last_alert_time": 1766618691.7349434
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766473322.557909
+    "last_signal": "sell",
+    "last_alert_time": 1766634033.3764389
   },
   "TAOUSDT": {
     "last_signal": "sell",
@@ -96,8 +96,8 @@
     "last_alert_time": 1766577160.130856
   },
   "DOTUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766475336.7177703
+    "last_signal": "sell",
+    "last_alert_time": 1766634032.9390748
   },
   "ASTERUSDT": {
     "last_signal": "sell",
@@ -140,8 +140,8 @@
     "last_alert_time": 1766609819.1903331
   },
   "AAVEUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766497082.9371712
+    "last_signal": "sell",
+    "last_alert_time": 1766634033.1797981
   },
   "ETHUSDT": {
     "last_signal": "sell",
@@ -238,5 +238,9 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766609102.121799
+  },
+  "ADAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766634032.859269
   }
 }
