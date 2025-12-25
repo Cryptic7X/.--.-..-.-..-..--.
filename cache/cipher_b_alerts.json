@@ -62,5 +62,9 @@
   "UNIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766683556.7357237
+  },
+  "BERAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766685269.7568839
   }
 }
