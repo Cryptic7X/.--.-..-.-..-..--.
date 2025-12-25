@@ -70,5 +70,9 @@
   "TAOUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766690583.9924364
+  },
+  "WLFIUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766692326.5670395
   }
 }
