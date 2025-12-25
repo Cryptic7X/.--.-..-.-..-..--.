@@ -120,8 +120,8 @@
     "last_alert_time": 1766627811.464287
   },
   "CROUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766483697.5630958
+    "last_signal": "sell",
+    "last_alert_time": 1766636662.6137826
   },
   "CRVUSDT": {
     "last_signal": "sell",
@@ -196,8 +196,8 @@
     "last_alert_time": 1766580621.1327174
   },
   "BNBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766598837.9178615
+    "last_signal": "buy",
+    "last_alert_time": 1766636662.3597941
   },
   "HBARUSDT": {
     "last_signal": "buy",
