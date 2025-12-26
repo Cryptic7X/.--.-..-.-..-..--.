@@ -88,8 +88,8 @@
     "last_alert_time": 1766746049.2863908
   },
   "SUIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766705031.8903494
+    "last_signal": "sell",
+    "last_alert_time": 1766785244.3956366
   },
   "DOGEUSDT": {
     "last_signal": "buy",
@@ -202,5 +202,9 @@
   "DOTUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766784072.640231
+  },
+  "BEAMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766785246.443749
   }
 }
