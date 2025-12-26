@@ -110,5 +110,9 @@
   "ENAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766732442.4309034
+  },
+  "POLUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766741503.9598577
   }
 }
