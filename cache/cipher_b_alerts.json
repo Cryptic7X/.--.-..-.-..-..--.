@@ -24,12 +24,12 @@
     "last_alert_time": 1766681863.593913
   },
   "AVAXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766681863.6228576
+    "last_signal": "buy",
+    "last_alert_time": 1766764523.6800208
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766681863.8593507
+    "last_signal": "buy",
+    "last_alert_time": 1766764524.5657957
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -100,16 +100,16 @@
     "last_alert_time": 1766756086.0331218
   },
   "BNBUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766732441.9798417
+    "last_signal": "buy",
+    "last_alert_time": 1766764523.4462192
   },
   "AAVEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766732442.20634
   },
   "ENAUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766732442.4309034
+    "last_signal": "buy",
+    "last_alert_time": 1766764523.9927208
   },
   "POLUSDT": {
     "last_signal": "sell",
@@ -120,8 +120,8 @@
     "last_alert_time": 1766746048.9494379
   },
   "HBARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766748085.9409204
+    "last_signal": "buy",
+    "last_alert_time": 1766764523.7310896
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -174,5 +174,17 @@
   "JASMYUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766763807.044703
+  },
+  "WLDUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766764524.4129684
+  },
+  "SEIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766764524.678755
+  },
+  "GALAUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766764525.1510508
   }
 }
