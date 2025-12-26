@@ -80,8 +80,8 @@
     "last_alert_time": 1766694419.553359
   },
   "ICPUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766699582.2875571
+    "last_signal": "buy",
+    "last_alert_time": 1766770953.726025
   },
   "MUSDT": {
     "last_signal": "sell",
@@ -190,5 +190,9 @@
   "CRVUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766767788.35286
+  },
+  "FARTCOINUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766770954.495113
   }
 }
