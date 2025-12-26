@@ -84,8 +84,8 @@
     "last_alert_time": 1766699582.2875571
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766701368.8165097
+    "last_signal": "sell",
+    "last_alert_time": 1766746049.2863908
   },
   "SUIUSDT": {
     "last_signal": "buy",
@@ -114,5 +114,9 @@
   "POLUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766741503.9598577
+  },
+  "ASTERUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766746048.9494379
   }
 }
