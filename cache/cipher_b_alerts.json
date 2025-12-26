@@ -186,5 +186,9 @@
   "GALAUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766764525.1510508
+  },
+  "CRVUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766767788.35286
   }
 }
