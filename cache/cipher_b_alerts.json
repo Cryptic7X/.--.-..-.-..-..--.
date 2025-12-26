@@ -154,5 +154,17 @@
   "CAKEUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766757314.6234658
+  },
+  "ETCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766759040.4936655
+  },
+  "PENDLEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766759041.1890683
+  },
+  "EIGENUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766759041.403369
   }
 }
