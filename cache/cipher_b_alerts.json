@@ -98,5 +98,17 @@
   "WIFUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766706794.740669
+  },
+  "BNBUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766732441.9798417
+  },
+  "AAVEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766732442.20634
+  },
+  "ENAUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766732442.4309034
   }
 }
