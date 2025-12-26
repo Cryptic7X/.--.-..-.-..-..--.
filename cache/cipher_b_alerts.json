@@ -194,5 +194,9 @@
   "FARTCOINUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766770954.495113
+  },
+  "MNTUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766781801.7339845
   }
 }
