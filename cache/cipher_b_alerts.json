@@ -60,16 +60,16 @@
     "last_alert_time": 1766683556.4842293
   },
   "UNIUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766683556.7357237
+    "last_signal": "buy",
+    "last_alert_time": 1766763805.9508746
   },
   "BERAUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766685269.7568839
   },
   "TAOUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766690583.9924364
+    "last_signal": "buy",
+    "last_alert_time": 1766763805.788661
   },
   "WLFIUSDT": {
     "last_signal": "sell",
@@ -166,5 +166,13 @@
   "EIGENUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766759041.403369
+  },
+  "CROUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766763805.3796356
+  },
+  "JASMYUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766763807.044703
   }
 }
