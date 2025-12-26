@@ -146,5 +146,13 @@
   "SPXUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766756085.3551962
+  },
+  "INJUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766757314.6008847
+  },
+  "CAKEUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766757314.6234658
   }
 }
