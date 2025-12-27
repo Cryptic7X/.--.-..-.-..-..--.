@@ -28,8 +28,8 @@
     "last_alert_time": 1766824248.9571664
   },
   "NEARUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766810753.6582093
+    "last_signal": "buy",
+    "last_alert_time": 1766825797.2727883
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -210,5 +210,9 @@
   "IPUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766800433.7235155
+  },
+  "BTCUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766825796.8537505
   }
 }
