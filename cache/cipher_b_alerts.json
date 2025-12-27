@@ -226,5 +226,9 @@
   "ATOMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766839594.6035314
+  },
+  "OKBUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766846590.6463516
   }
 }
