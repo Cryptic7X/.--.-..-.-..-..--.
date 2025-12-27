@@ -234,5 +234,9 @@
   "PIUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766848926.4537141
+  },
+  "PENGUUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766852924.7679205
   }
 }
