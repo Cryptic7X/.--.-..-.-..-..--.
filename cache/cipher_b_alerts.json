@@ -148,8 +148,8 @@
     "last_alert_time": 1766756085.3551962
   },
   "INJUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766834514.310928
+    "last_signal": "sell",
+    "last_alert_time": 1766867192.247339
   },
   "CAKEUSDT": {
     "last_signal": "sell",
