@@ -28,8 +28,8 @@
     "last_alert_time": 1766764523.6800208
   },
   "NEARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766764524.5657957
+    "last_signal": "sell",
+    "last_alert_time": 1766810753.6582093
   },
   "KASUSDT": {
     "last_signal": "sell",
@@ -176,8 +176,8 @@
     "last_alert_time": 1766763807.044703
   },
   "WLDUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766764524.4129684
+    "last_signal": "sell",
+    "last_alert_time": 1766810754.0818992
   },
   "SEIUSDT": {
     "last_signal": "sell",
