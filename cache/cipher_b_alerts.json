@@ -100,8 +100,8 @@
     "last_alert_time": 1766756086.0331218
   },
   "BNBUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766764523.4462192
+    "last_signal": "sell",
+    "last_alert_time": 1766821288.0377293
   },
   "AAVEUSDT": {
     "last_signal": "sell",
@@ -192,8 +192,8 @@
     "last_alert_time": 1766767788.35286
   },
   "FARTCOINUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766770954.495113
+    "last_signal": "sell",
+    "last_alert_time": 1766821289.8004718
   },
   "MNTUSDT": {
     "last_signal": "sell",
