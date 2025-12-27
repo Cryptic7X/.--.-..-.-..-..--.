@@ -40,8 +40,8 @@
     "last_alert_time": 1766681864.6406534
   },
   "ENSUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766681864.673513
+    "last_signal": "buy",
+    "last_alert_time": 1766833002.4502842
   },
   "JTOUSDT": {
     "last_signal": "sell",
@@ -112,8 +112,8 @@
     "last_alert_time": 1766805943.4294863
   },
   "POLUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766756084.91633
+    "last_signal": "buy",
+    "last_alert_time": 1766833001.9597428
   },
   "ASTERUSDT": {
     "last_signal": "buy",
@@ -164,8 +164,8 @@
     "last_alert_time": 1766759041.1890683
   },
   "EIGENUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766759041.403369
+    "last_signal": "buy",
+    "last_alert_time": 1766833002.6394386
   },
   "CROUSDT": {
     "last_signal": "sell",
