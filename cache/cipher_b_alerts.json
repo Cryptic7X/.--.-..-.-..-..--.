@@ -32,8 +32,8 @@
     "last_alert_time": 1766825797.2727883
   },
   "KASUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766681864.3208802
+    "last_signal": "buy",
+    "last_alert_time": 1766831018.305099
   },
   "RAYUSDT": {
     "last_signal": "sell",
@@ -116,8 +116,8 @@
     "last_alert_time": 1766756084.91633
   },
   "ASTERUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766746048.9494379
+    "last_signal": "buy",
+    "last_alert_time": 1766831017.4948068
   },
   "HBARUSDT": {
     "last_signal": "buy",
