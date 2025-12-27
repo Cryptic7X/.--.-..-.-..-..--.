@@ -12,8 +12,8 @@
     "last_alert_time": 1766681863.3565035
   },
   "XRPUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766766537.110473
+    "last_signal": "sell",
+    "last_alert_time": 1766868255.3706884
   },
   "LTCUSDT": {
     "last_signal": "sell",
@@ -84,8 +84,8 @@
     "last_alert_time": 1766805943.9792504
   },
   "MUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766843541.1294334
+    "last_signal": "sell",
+    "last_alert_time": 1766868257.0562088
   },
   "SUIUSDT": {
     "last_signal": "sell",
