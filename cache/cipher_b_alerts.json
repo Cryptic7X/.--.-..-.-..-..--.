@@ -60,8 +60,8 @@
     "last_alert_time": 1766683556.4842293
   },
   "UNIUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766763805.9508746
+    "last_signal": "sell",
+    "last_alert_time": 1766800433.0709803
   },
   "BERAUSDT": {
     "last_signal": "sell",
@@ -206,5 +206,9 @@
   "BEAMUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766785246.443749
+  },
+  "IPUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766800433.7235155
   }
 }
