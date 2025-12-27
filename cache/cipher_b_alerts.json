@@ -188,8 +188,8 @@
     "last_alert_time": 1766855996.3753352
   },
   "CRVUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766767788.35286
+    "last_signal": "sell",
+    "last_alert_time": 1766858013.1021078
   },
   "FARTCOINUSDT": {
     "last_signal": "sell",
