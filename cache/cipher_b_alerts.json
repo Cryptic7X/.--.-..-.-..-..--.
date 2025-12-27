@@ -1,7 +1,7 @@
 {
   "ETHUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766760342.3277225
+    "last_signal": "buy",
+    "last_alert_time": 1766855993.3038378
   },
   "TRXUSDT": {
     "last_signal": "buy",
@@ -184,8 +184,8 @@
     "last_alert_time": 1766808464.1614728
   },
   "GALAUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766764525.1510508
+    "last_signal": "sell",
+    "last_alert_time": 1766855996.3753352
   },
   "CRVUSDT": {
     "last_signal": "buy",
@@ -220,8 +220,8 @@
     "last_alert_time": 1766834514.573955
   },
   "SUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766834514.7070847
+    "last_signal": "sell",
+    "last_alert_time": 1766855995.7085893
   },
   "ATOMUSDT": {
     "last_signal": "sell",
