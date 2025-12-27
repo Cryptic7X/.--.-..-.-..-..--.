@@ -96,8 +96,8 @@
     "last_alert_time": 1766805942.8042736
   },
   "WIFUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766756086.0331218
+    "last_signal": "buy",
+    "last_alert_time": 1766834514.5819867
   },
   "BNBUSDT": {
     "last_signal": "sell",
@@ -132,8 +132,8 @@
     "last_alert_time": 1766756084.689165
   },
   "IMXUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766756085.1675658
+    "last_signal": "buy",
+    "last_alert_time": 1766834514.8183632
   },
   "JUPUSDT": {
     "last_signal": "sell",
@@ -148,8 +148,8 @@
     "last_alert_time": 1766756085.3551962
   },
   "INJUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766757314.6008847
+    "last_signal": "buy",
+    "last_alert_time": 1766834514.310928
   },
   "CAKEUSDT": {
     "last_signal": "sell",
@@ -204,8 +204,8 @@
     "last_alert_time": 1766784072.640231
   },
   "BEAMUSDT": {
-    "last_signal": "sell",
-    "last_alert_time": 1766785246.443749
+    "last_signal": "buy",
+    "last_alert_time": 1766834515.4151387
   },
   "IPUSDT": {
     "last_signal": "sell",
@@ -214,5 +214,13 @@
   "BTCUSDT": {
     "last_signal": "sell",
     "last_alert_time": 1766825796.8537505
+  },
+  "FLOKIUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766834514.573955
+  },
+  "SUSDT": {
+    "last_signal": "buy",
+    "last_alert_time": 1766834514.7070847
   }
 }
