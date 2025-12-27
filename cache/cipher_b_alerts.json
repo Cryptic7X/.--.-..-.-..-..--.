@@ -120,8 +120,8 @@
     "last_alert_time": 1766831017.4948068
   },
   "HBARUSDT": {
-    "last_signal": "buy",
-    "last_alert_time": 1766764523.7310896
+    "last_signal": "sell",
+    "last_alert_time": 1766839593.7090874
   },
   "ADAUSDT": {
     "last_signal": "sell",
@@ -222,5 +222,9 @@
   "SUSDT": {
     "last_signal": "buy",
     "last_alert_time": 1766834514.7070847
+  },
+  "ATOMUSDT": {
+    "last_signal": "sell",
+    "last_alert_time": 1766839594.6035314
   }
 }
